@@ -158,3 +158,24 @@ Stage Summary:
   • Livraison offerte sur packs de 2 et 3
   • Paiement 3x sans frais sur packs (dès 60€)
 - Aucune erreur — prêt pour livraison
+
+---
+Task ID: 5
+Agent: Main (Super Z)
+Task: Renommer la marque "Trico" en "GatoPouch" partout dans la landing page
+
+Work Log:
+- Replace_all "Trico" → "GatoPouch" dans landing-page.tsx (33 occurrences)
+- Replace_all "Trico" → "GatoPouch" dans layout.tsx (7 occurrences : titre, description, OpenGraph, Twitter)
+- Mis à jour description SEO pour cohérence : "Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte" (au lieu de l'ancienne mention "-29% dès 49€")
+- Vérification agent-browser :
+  • Page title : "GatoPouch — Le sweat porte-chat qui garde votre chat contre vous, mains libres" ✓
+  • Header contient "GatoPouch" ✓
+  • Footer contient "GatoPouch" ✓
+  • Noms de packs : "Enfilez le GatoPouch | 1 GatoPouch | Pack de 2 GatoPouch | Pack de 3 GatoPouch" ✓
+- 0 occurrence de "Trico" restante ✓
+
+Stage Summary:
+- Marque renommée partout en "GatoPouch"
+- Métadonnées SEO cohérentes avec les vrais prix
+- Aucune régression — page toujours fonctionnelle

@@ -15,9 +15,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Trico — Le sweat porte-chat qui garde votre chat contre vous, mains libres",
+  title: "GatoPouch — Le sweat porte-chat qui garde votre chat contre vous, mains libres",
   description:
-    "Le Trico est le sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous, mains libres. Câlins sans fin, à la maison comme en balade. Offre de lancement -29%, livraison offerte dès 49€.",
+    "Le GatoPouch est le sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous, mains libres. Câlins sans fin, à la maison comme en balade. Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte.",
   keywords: [
     "sweat porte-chat",
     "sweat chat",
@@ -25,23 +25,23 @@ export const metadata: Metadata = {
     "poche chat",
     "portable chat",
     "vêtement chat",
-    "Trico",
+    "GatoPouch",
     "sweat polaire chat",
     "cadeau amoureux chats",
   ],
-  authors: [{ name: "Trico" }],
+  authors: [{ name: "GatoPouch" }],
   openGraph: {
-    title: "Trico — Le sweat porte-chat pour câlins mains libres",
+    title: "GatoPouch — Le sweat porte-chat pour câlins mains libres",
     description:
       "Sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous. -29% au lancement, livraison offerte dès 49€.",
     url: "https://trico.fr",
-    siteName: "Trico",
+    siteName: "GatoPouch",
     type: "website",
     images: ["/images/trico-hero.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trico — Le sweat porte-chat pour câlins mains libres",
+    title: "GatoPouch — Le sweat porte-chat pour câlins mains libres",
     description:
       "Sweat polaire avec poche ventrale pour porter votre chat contre vous. -29% au lancement.",
   },

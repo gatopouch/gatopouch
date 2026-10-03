@@ -114,7 +114,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
   }, []);
 
   const navLinks = [
-    { href: "#produit", label: "Le Trico" },
+    { href: "#produit", label: "Le GatoPouch" },
     { href: "#benefices", label: "Bénéfices" },
     { href: "#avis", label: "Avis" },
     { href: "#faq", label: "FAQ" },
@@ -152,7 +152,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-display font-bold text-lg md:text-xl text-cinnamon-900">
-                  Trico
+                  GatoPouch
                 </span>
                 <span className="text-[10px] md:text-xs text-cinnamon-700 -mt-1 hidden sm:block">
                   Sweat Porte-Chat
@@ -279,7 +279,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
 
             {/* Subtitle */}
             <p className="text-cinnamon-700 text-lg md:text-xl mb-7 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Le Trico est le sweat à capuche en polaire avec poche ventrale
+              Le GatoPouch est le sweat à capuche en polaire avec poche ventrale
               pour votre chat. Gardez-le tout contre vous, mains libres, à la
               maison comme en balade. Le bonheur partagé, en mouvement.
             </p>
@@ -316,7 +316,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
               >
                 <span className="flex items-center gap-2">
                   <Shirt className="w-5 h-5" />
-                  Je commande mon Trico
+                  Je commande mon GatoPouch
                 </span>
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -376,7 +376,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/images/trico-hero.png"
-                    alt="Femme portant son chat dans le sweat Trico, moment complice"
+                    alt="Femme portant son chat dans le sweat GatoPouch, moment complice"
                     className="w-full h-auto object-cover aspect-[1344/768]"
                   />
                 </div>
@@ -523,7 +523,7 @@ function Benefits() {
             <span className="text-peach-500">cocon partagé</span>
           </h2>
           <p className="text-cinnamon-700 text-lg leading-relaxed">
-            Le Trico a été pensé avec des comportementalistes félins et des
+            Le GatoPouch a été pensé avec des comportementalistes félins et des
             designers textile. Chaque détail répond à un besoin : rapprocher
             votre chat de vous, en toute sécurité, en toutes circonstances.
           </p>
@@ -563,7 +563,7 @@ function HowItWorks() {
   const steps = [
     {
       number: "01",
-      title: "Enfilez le Trico",
+      title: "Enfilez le GatoPouch",
       desc: "Comme un sweat à capuche classique. La polaire épaisse vous enveloppe de douceur. Ajustez le capuchon à votre guise avec les cordons.",
     },
     {
@@ -598,7 +598,7 @@ function HowItWorks() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/trico-howitworks.png"
-                alt="Femme télétravaillant avec son chat dans le sweat Trico"
+                alt="Femme télétravaillant avec son chat dans le sweat GatoPouch"
                 className="w-full h-auto object-cover aspect-[1344/768]"
               />
             </div>
@@ -717,7 +717,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/trico-showcase.png"
-                alt="Trico Sweat Porte-Chat — homme caressant son chat à travers la poche"
+                alt="GatoPouch Sweat Porte-Chat — homme caressant son chat à travers la poche"
                 className="w-full h-auto object-cover aspect-[1344/768]"
               />
             </div>
@@ -747,7 +747,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               <span className="text-peach-500">votre chat</span>
             </h2>
             <p className="text-cinnamon-700 text-lg leading-relaxed mb-7">
-              Chaque détail du Trico a été sélectionné pour le confort de votre
+              Chaque détail du GatoPouch a été sélectionné pour le confort de votre
               chat et le vôtre. De la polaire épaisse à l&apos;ouverture
               élastiquée sécurisante, tout est pensé pour des heures de câlins
               sans stress.
@@ -871,7 +871,7 @@ function Testimonials() {
       cat: "Mochi, British Shorthair, 3 ans",
       image: "/images/testimonial-1.png",
       rating: 5,
-      text: "En télétravail, Mochi me réclamait sans cesse ou marchait sur le clavier. Avec le Trico, il est blotti contre moi pendant 4h d'affilée, je peux travailler sereinement. C'est devenu son endroit préféré de la maison. Le meilleur achat pour ma vie pro !",
+      text: "En télétravail, Mochi me réclamait sans cesse ou marchait sur le clavier. Avec le GatoPouch, il est blotti contre moi pendant 4h d'affilée, je peux travailler sereinement. C'est devenu son endroit préféré de la maison. Le meilleur achat pour ma vie pro !",
     },
     {
       name: "Thomas L.",
@@ -879,7 +879,7 @@ function Testimonials() {
       cat: "Pixel, chat noir, 5 ans",
       image: "/images/testimonial-2.png",
       rating: 5,
-      text: "Pixel est un chat très câlin mais envahissant. Le Trico a changé notre relation : je le porte partout, il ronronne, et j'ai mes deux bras pour mes activités. La polaire est ultra douce, on sent la qualité. Et lavé 3 fois, il est nickel.",
+      text: "Pixel est un chat très câlin mais envahissant. Le GatoPouch a changé notre relation : je le porte partout, il ronronne, et j'ai mes deux bras pour mes activités. La polaire est ultra douce, on sent la qualité. Et lavé 3 fois, il est nickel.",
     },
     {
       name: "Madeleine R.",
@@ -887,7 +887,7 @@ function Testimonials() {
       cat: "Gribouille, Calico, 9 ans",
       image: "/images/testimonial-3.png",
       rating: 5,
-      text: "À 9 ans, Gribouille est devenue très collante. Le Trico me permet de la garder contre moi quand je cuisine, lis, travaille. Elle est heureuse et moi aussi. Mon petit-fils me l'a offert pour mon anniversaire, c'est le cadeau le plus touchant reçu.",
+      text: "À 9 ans, Gribouille est devenue très collante. Le GatoPouch me permet de la garder contre moi quand je cuisine, lis, travaille. Elle est heureuse et moi aussi. Mon petit-fils me l'a offert pour mon anniversaire, c'est le cadeau le plus touchant reçu.",
     },
   ];
   return (
@@ -895,7 +895,7 @@ function Testimonials() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Ils ont adopté le Trico
+            Ils ont adopté le GatoPouch
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
             Ce que les amoureux de chats{" "}
@@ -988,7 +988,7 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             </Badge>
 
             <h2 className="font-display font-extrabold text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
-              Pack de 3 Trico — économisez 34,98€
+              Pack de 3 GatoPouch — économisez 34,98€
             </h2>
             <p className="text-cream-50/90 text-lg md:text-xl max-w-2xl mx-auto mb-8">
               Le meilleur deal : 3 sweats à 129,99€ au lieu de 164,97€. Idéal
@@ -1048,19 +1048,19 @@ function FAQ() {
   const faqs = [
     {
       q: "Mon chat n'aime pas être porté, s'y habituera-t-il ?",
-      a: "La grande majorité des chats s'habitue en 2 à 5 séances courtes (5 min au début). L'astuce : placez une friandise dans la poche, laissez-le explorer à son rythme. L'élastique de l'ouverture ne le comprime pas, il se sent en sécurité. 92% de nos clients rapportent que leur chat réclame le Trico après une semaine !",
+      a: "La grande majorité des chats s'habitue en 2 à 5 séances courtes (5 min au début). L'astuce : placez une friandise dans la poche, laissez-le explorer à son rythme. L'élastique de l'ouverture ne le comprime pas, il se sent en sécurité. 92% de nos clients rapportent que leur chat réclame le GatoPouch après une semaine !",
     },
     {
       q: "Quelles tailles sont disponibles ?",
-      a: "Le Trico existe en 5 tailles : S, M, L, XL, XXL. Pour choisir, prenez votre tour de poitrine habituel. Si vous êtes entre deux tailles, prenez la plus grande pour plus de confort et de liberté de mouvement pour votre chat. Un guide des tailles détaillé est envoyé après commande.",
+      a: "Le GatoPouch existe en 5 tailles : S, M, L, XL, XXL. Pour choisir, prenez votre tour de poitrine habituel. Si vous êtes entre deux tailles, prenez la plus grande pour plus de confort et de liberté de mouvement pour votre chat. Un guide des tailles détaillé est envoyé après commande.",
     },
     {
       q: "Convient à tous les chats, quel poids ?",
-      a: "Le Trico convient aux chats de 2,5 kg à 7 kg. La poche renforcée et l'élastique ont été testés pour soutenir jusqu'à 8 kg sans déformation. Pour les chats au-delà de 7 kg (Maine Coon), nous recommandons la taille XL ou XXL et des sessions plus courtes (le poids peut être inconfortable).",
+      a: "Le GatoPouch convient aux chats de 2,5 kg à 7 kg. La poche renforcée et l'élastique ont été testés pour soutenir jusqu'à 8 kg sans déformation. Pour les chats au-delà de 7 kg (Maine Coon), nous recommandons la taille XL ou XXL et des sessions plus courtes (le poids peut être inconfortable).",
     },
     {
       q: "Lavable en machine ?",
-      a: "Oui ! Le Trico se lave en machine à 30° cycle doux, essorage 600 tr/min maximum. Pas de sèche-linge (le sherpa peut boulocher). Faites sécher à plat à l'air libre. La polaire garde sa douceur, sa couleur et sa forme lavage après lavage. Recommandé une fois par semaine.",
+      a: "Oui ! Le GatoPouch se lave en machine à 30° cycle doux, essorage 600 tr/min maximum. Pas de sèche-linge (le sherpa peut boulocher). Faites sécher à plat à l'air libre. La polaire garde sa douceur, sa couleur et sa forme lavage après lavage. Recommandé une fois par semaine.",
     },
     {
       q: "Est-ce que ça ne risque pas de blesser mon chat ?",
@@ -1068,11 +1068,11 @@ function FAQ() {
     },
     {
       q: "Quels sont les délais de livraison ?",
-      a: "Votre Trico est expédié sous 24h ouvrées depuis notre entrepôt en France. Comptez 48h à 72h pour la livraison via Colissimo en France métropolitaine. Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 49€ d'achat (donc le Trico seul est livré gratuitement !).",
+      a: "Votre GatoPouch est expédié sous 24h ouvrées depuis notre entrepôt en France. Comptez 48h à 72h pour la livraison via Colissimo en France métropolitaine. Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 49€ d'achat (donc le GatoPouch seul est livré gratuitement !).",
     },
     {
       q: "Quelle matière ? Est-ce bien chaud ?",
-      a: "Le Trico est en polaire sherpa épaisse 300g/m², ultra-douce et bien chaude. Idéale pour l'automne, l'hiver, le printemps frais et les bureaux climatisés. Le tissu est respirant : ni vous ni votre chat ne transpirez. Le sherpa est durable, résistant aux accrocs des griffes (avec une tape moderate, votre chat comprend vite).",
+      a: "Le GatoPouch est en polaire sherpa épaisse 300g/m², ultra-douce et bien chaude. Idéale pour l'automne, l'hiver, le printemps frais et les bureaux climatisés. Le tissu est respirant : ni vous ni votre chat ne transpirez. Le sherpa est durable, résistant aux accrocs des griffes (avec une tape moderate, votre chat comprend vite).",
     },
     {
       q: "Puis-je payer en plusieurs fois ?",
@@ -1140,7 +1140,7 @@ function Newsletter() {
     toast({
       title: "Merci !",
       description:
-        "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille Trico !",
+        "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille GatoPouch !",
     });
     setEmail("");
   };
@@ -1165,7 +1165,7 @@ function Newsletter() {
                 Code -10% à l&apos;inscription
               </Badge>
               <h2 className="font-display font-extrabold text-3xl md:text-4xl leading-tight mb-4">
-                Rejoignez la famille Trico
+                Rejoignez la famille GatoPouch
               </h2>
               <p className="text-cream-50/80 text-base md:text-lg leading-relaxed">
                 Conseils d&apos;adaption du chat, offres exclusives,
@@ -1220,7 +1220,7 @@ function Footer() {
                 <PawPrint className="w-5 h-5 text-cream-50" />
               </div>
               <span className="font-display font-bold text-lg text-cream-50">
-                Trico
+                GatoPouch
               </span>
             </div>
             <p className="text-sm leading-relaxed">
@@ -1237,7 +1237,7 @@ function Footer() {
             <ul className="space-y-2.5 text-sm">
               <li>
                 <a href="#produit" className="hover:text-peach-300 transition-colors">
-                  Le Trico
+                  Le GatoPouch
                 </a>
               </li>
               <li>
@@ -1308,7 +1308,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-cream-50/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-cream-50/60">
-          <p>© 2025 Trico. Tous droits réservés. Fait en France.</p>
+          <p>© 2025 GatoPouch. Tous droits réservés. Fait en France.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-peach-300 transition-colors">
               Mentions légales
@@ -1332,7 +1332,7 @@ function Footer() {
 function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
   const packs = [
     {
-      name: "1 Trico",
+      name: "1 GatoPouch",
       subtitle: "Découverte",
       quantity: "1 sweat",
       price: "54,99€",
@@ -1349,7 +1349,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
       badge: null,
     },
     {
-      name: "Pack de 2 Trico",
+      name: "Pack de 2 GatoPouch",
       subtitle: "Recommandé",
       quantity: "2 sweats",
       price: "94,98€",
@@ -1366,7 +1366,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
       badge: "Recommandé",
     },
     {
-      name: "Pack de 3 Trico",
+      name: "Pack de 3 GatoPouch",
       subtitle: "Meilleure offre",
       quantity: "3 sweats",
       price: "129,99€",
@@ -1392,11 +1392,11 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
             Choisis ton pack
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-            Plus vous prenez de Trico,{" "}
+            Plus vous prenez de GatoPouch,{" "}
             <span className="text-peach-500">plus vous économisez</span>
           </h2>
           <p className="text-cinnamon-700 text-lg leading-relaxed">
-            Offrez un Trico à votre moitié, votre sœur ou votre meilleure amie
+            Offrez un GatoPouch à votre moitié, votre sœur ou votre meilleure amie
             amoureuse de chats. Ou gardez-en plusieurs pour varier les
             couleurs selon les saisons et vos humeurs.
           </p>
@@ -1529,7 +1529,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
         <div className="mt-10 md:mt-12 text-center">
           <p className="text-cinnamon-700 text-sm mb-4">
             Tous les packs sont personnalisables : couleur et taille
-            indépendantes pour chaque Trico.
+            indépendantes pour chaque GatoPouch.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
@@ -1561,7 +1561,7 @@ export default function LandingPage() {
     toast({
       title: "Redirection vers la boutique...",
       description:
-        "Vous allez être redirigé vers la commande du Trico Sweat Porte-Chat.",
+        "Vous allez être redirigé vers la commande du GatoPouch Sweat Porte-Chat.",
     });
     setTimeout(() => {
       window.open("https://kim2ts-ct.myshopify.com/", "_blank");
