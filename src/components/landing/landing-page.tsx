@@ -377,7 +377,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   <img
                     src="/images/trico-hero.png"
                     alt="Femme portant son chat dans le sweat GatoPouch, moment complice"
-                    className="w-full h-auto object-cover aspect-[1344/1229]"
+                    className="w-full h-auto object-cover aspect-[1344/1598]"
                   />
                 </div>
               </div>
@@ -599,7 +599,7 @@ function HowItWorks() {
               <img
                 src="/images/trico-howitworks.png"
                 alt="Femme télétravaillant avec son chat dans le sweat GatoPouch"
-                className="w-full h-auto object-cover aspect-[1344/1229]"
+                className="w-full h-auto object-cover aspect-[1344/1598]"
               />
             </div>
             {/* Stat overlay */}
@@ -718,7 +718,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               <img
                 src="/images/trico-showcase.png"
                 alt="GatoPouch Sweat Porte-Chat — homme caressant son chat à travers la poche"
-                className="w-full h-auto object-cover aspect-[1344/1229]"
+                className="w-full h-auto object-cover aspect-[1344/1598]"
               />
             </div>
             <motion.div
@@ -927,7 +927,7 @@ function Testimonials() {
               transition={{ delay: i * 0.1 }}
               className="bg-cream-50 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-cinnamon-900/5 border border-cinnamon-900/5 transition-all flex flex-col"
             >
-              <div className="relative h-[410px] overflow-hidden">
+              <div className="relative h-[533px] overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={t.image}
