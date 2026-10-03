@@ -440,7 +440,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
    ========================================================================= */
 function TrustBadges() {
   const badges = [
-    { icon: Truck, label: "Livraison 6-12j", sub: "Partout en France" },
+    { icon: Truck, label: "Livraison 6-12j", sub: "Partout en Europe" },
     { icon: Shield, label: "Paiement sécurisé", sub: "CB, PayPal, Apple Pay" },
     { icon: RefreshCw, label: "Satisfait ou remboursé", sub: "Sous 30 jours" },
     { icon: Headphones, label: "Service client", sub: "Lun-Ven, 9h-18h" },
