@@ -49,3 +49,58 @@ Stage Summary:
 - Animations Framer Motion + design warm (cream/peach/cinnamon)
 - Liens CTA redirigent vers https://kim2ts-ct.myshopify.com/
 - Aucune erreur runtime — prêt pour livraison
+
+---
+Task ID: 3
+Agent: Main (Super Z)
+Task: Refonte complète de la landing page après analyse des vraies captures écran du produit
+
+Work Log:
+- User a fourni 3 captures d'écran de sa boutique Shopify montrant le VRAI produit
+- Analyse VLM (z-ai vision) sur les 3 captures : produit = "Trico avec Pouche Pour les Chat"
+- Découverte : c'est un SWEAT À CAPUCHE EN POLAIRE avec poche ventrale pour porter son chat
+  (pas un coffret de jouets comme imaginé à tort en tâche 2)
+- Caractéristiques produit identifiées :
+  • Polaire sherpa épaisse (300g/m²)
+  • Poche kangourou ventrale avec ouverture circulaire renforcée élastiquée
+  • Cordon coulissant sous la poche pour ajuster la taille d'ouverture
+  • Poches latérales zippées
+  • Capuchon réglable avec embouts métalliques
+  • Patch cuir/simili-cuir signature bas-gauche
+  • 2 coloris : vert kaki/olive + rouge brique
+- Copié les 3 captures utilisateur vers /public/images/ (trico-hero, trico-showcase, trico-howitworks)
+- Généré 3 visuels IA complémentaires pour témoignages (femme en balade, homme lecture, jeune femme télétravail)
+- Supprimé les 6 anciennes images (PurrfectPlay)
+- Refondu landing-page.tsx complet (~1100 lignes) avec nouveau storytelling :
+  • Header : "Trico — Sweat Porte-Chat" + CTA 49,90€ (au lieu de 29,90€)
+  • Hero : "Le sweat qui porte votre chat contre vous" + image VRAIE capture écran
+  • Benefits : 6 cartes adaptées (câlins mains libres, polaire premium, sécurité, télétravail, lavable, cadeau)
+  • How it works : 4 étapes (enfiler, inviter chat, ajuster cordon, savourer)
+  • Product showcase : 6 features détaillées + bloc coloris (kaki/brique) + bloc tailles (S-XXL)
+  • Testimonials : 3 témoignages adaptés au produit (télétravail, balade, cadeau)
+  • Flash offer : -29% au lieu de -30% + livraison dès 49€ (donc Trico livré gratuit)
+  • FAQ : 8 questions adaptées (chat réticent, tailles, lavage, poids max 7-8kg, sécurité, livraison, matière, paiement 3x)
+  • Newsletter + Footer : nom "Trico" partout
+- Mis à jour layout.tsx : métadonnées SEO FR avec titre "Trico — Le sweat porte-chat qui garde votre chat contre vous, mains libres"
+- Lint : 0 erreurs, 4 warnings non-bloquants (eslint-disable directives inutiles)
+- Vérification agent-browser complète :
+  • Page se charge avec nouveau titre ✓
+  • H1 affiche "Le sweat qui porte votre chat contre vous" ✓
+  • 3 CTA avec prix 49,90€ visibles ✓
+  • Header contient bien "Trico" ✓
+  • Toutes les 6 images chargent (naturalWidth > 0) ✓
+  • Accordéon FAQ fonctionne ✓
+  • Menu mobile s'ouvre ✓
+  • Responsive mobile (390x844) et desktop (1440x900) ✓
+  • Aucune erreur console critique ✓
+
+Stage Summary:
+- Landing page refondue et alignée sur le VRAI produit "Trico Sweat Porte-Chat"
+- Toutes les sections adaptées au produit sweat porte-chat
+- 3 vraies photos utilisateur intégrées (hero, showcase, how it works)
+- 3 visuels IA complémentaires générés pour témoignages
+- Prix retenu : 49,90€ (au lieu de 69,90€) — promo -29% au lancement
+- Offres : livraison offerte dès 49€, satisfait ou remboursé 30j, paiement 3x dès 60€
+- Marque utilisée partout : "Trico"
+- Aucune erreur — prêt pour livraison
+- Note : prix/offres à ajuster par l'user une fois qu'il aura son vrai Shopify

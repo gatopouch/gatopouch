@@ -15,33 +15,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "PurrfectPlay Kit — Le coffret interactif qui éveille l'instinct de chasseur de votre chat",
+  title: "Trico — Le sweat porte-chat qui garde votre chat contre vous, mains libres",
   description:
-    "Offrez à votre chat des heures de jeu et de bonheur. Le PurrfectPlay Kit réunit 4 jouets interactifs premium qui stimulent son instinct naturel. Offre de lancement -30% + livraison offerte dès 39€.",
+    "Le Trico est le sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous, mains libres. Câlins sans fin, à la maison comme en balade. Offre de lancement -29%, livraison offerte dès 49€.",
   keywords: [
-    "jouet pour chat",
-    "kit interactif chat",
-    "jouet électronique chat",
-    "plume pour chat",
-    "cadeau chat",
-    "accessoires chat",
-    "PurrfectPlay",
+    "sweat porte-chat",
+    "sweat chat",
+    "hoodie chat",
+    "poche chat",
+    "portable chat",
+    "vêtement chat",
+    "Trico",
+    "sweat polaire chat",
+    "cadeau amoureux chats",
   ],
-  authors: [{ name: "PurrfectPlay" }],
+  authors: [{ name: "Trico" }],
   openGraph: {
-    title: "PurrfectPlay Kit — Le coffret qui fait bondir de joie votre chat",
+    title: "Trico — Le sweat porte-chat pour câlins mains libres",
     description:
-      "4 jouets interactifs premium pour réveiller l'instinct de chasseur de votre chat. -30% au lancement, livraison offerte dès 39€.",
-    url: "https://purrfectplay.fr",
-    siteName: "PurrfectPlay",
+      "Sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous. -29% au lancement, livraison offerte dès 49€.",
+    url: "https://trico.fr",
+    siteName: "Trico",
     type: "website",
-    images: ["/images/hero-cat.png"],
+    images: ["/images/trico-hero.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PurrfectPlay Kit — Le coffret qui fait bondir de joie votre chat",
+    title: "Trico — Le sweat porte-chat pour câlins mains libres",
     description:
-      "4 jouets interactifs premium pour réveiller l'instinct de chasseur de votre chat. -30% au lancement.",
+      "Sweat polaire avec poche ventrale pour porter votre chat contre vous. -29% au lancement.",
   },
 };
 

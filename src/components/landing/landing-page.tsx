@@ -25,38 +25,21 @@ import {
   Menu,
   X,
   Mail,
-  Mouse as MouseIcon,
-  Feather,
-  Bell,
-  Play,
+  WashingMachine,
+  Ruler,
+  Palette,
+  Shirt,
+  Baby,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
 import { Input } from "@/components/ui/input";
 
-/* Reusable Ball icon (lucide doesn't export a "Ball" icon directly) */
-function Ball({ className }: { className?: string }) {
-  return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="10" />
-      <path d="M12 2a10 10 0 0 1 0 20M2 12a10 10 0 0 1 20 0" />
-    </svg>
-  );
-}
-
 /* =========================================================================
    Countdown component for the flash offer
    ========================================================================= */
 function Countdown() {
-  const [time, setTime] = useState({ hours: 23, minutes: 47, seconds: 18 });
+  const [time, setTime] = useState({ hours: 47, minutes: 32, seconds: 11 });
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -73,7 +56,7 @@ function Countdown() {
             if (hours > 0) {
               hours--;
             } else {
-              hours = 23;
+              hours = 47;
               minutes = 59;
               seconds = 59;
             }
@@ -131,7 +114,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
   }, []);
 
   const navLinks = [
-    { href: "#kit", label: "Le Kit" },
+    { href: "#produit", label: "Le Trico" },
     { href: "#benefices", label: "Bénéfices" },
     { href: "#avis", label: "Avis" },
     { href: "#faq", label: "FAQ" },
@@ -143,11 +126,11 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
       <div className="bg-peach-gradient text-cream-50 text-center text-xs md:text-sm font-medium py-2.5 px-4">
         <span className="inline-flex items-center gap-2 flex-wrap justify-center">
           <Truck className="w-3.5 h-3.5" />
-          Livraison offerte dès 39€
+          Livraison offerte dès 49€
           <span className="opacity-50 hidden sm:inline">•</span>
           <Sparkles className="w-3.5 h-3.5 hidden sm:inline" />
           <span className="hidden sm:inline">
-            Offre de lancement -30% — quantités limitées
+            Offre de lancement -29% — quantités limitées
           </span>
         </span>
       </div>
@@ -169,10 +152,10 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-display font-bold text-lg md:text-xl text-cinnamon-900">
-                  PurrfectPlay
+                  Trico
                 </span>
                 <span className="text-[10px] md:text-xs text-cinnamon-700 -mt-1 hidden sm:block">
-                  Coffret interactif pour chat
+                  Sweat Porte-Chat
                 </span>
               </div>
             </a>
@@ -196,7 +179,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                 onClick={onOrderClick}
                 className="hidden sm:inline-flex bg-peach-gradient text-cream-50 hover:opacity-90 shadow-md hover:shadow-lg transition-all rounded-full px-5 md:px-6 font-display font-semibold"
               >
-                Je commande — 29,90€
+                Je commande — 49,90€
               </Button>
               <button
                 onClick={() => setMobileOpen((v) => !v)}
@@ -236,7 +219,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                   }}
                   className="mt-2 bg-peach-gradient text-cream-50 rounded-full font-display font-semibold"
                 >
-                  Je commande — 29,90€
+                  Je commande — 49,90€
                 </Button>
               </div>
             </motion.div>
@@ -274,9 +257,9 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
 
             {/* Title */}
             <h1 className="font-display font-extrabold text-cinnamon-900 text-4xl sm:text-5xl lg:text-6xl leading-[1.05] mb-5">
-              Le coffret qui fait{" "}
+              Le sweat qui porte{" "}
               <span className="relative inline-block">
-                <span className="relative z-10 text-peach-500">bondir de joie</span>
+                <span className="relative z-10 text-peach-500">votre chat</span>
                 <svg
                   className="absolute -bottom-1 left-0 w-full"
                   viewBox="0 0 200 12"
@@ -291,26 +274,26 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   />
                 </svg>
               </span>{" "}
-              votre chat
+              contre vous
             </h1>
 
             {/* Subtitle */}
             <p className="text-cinnamon-700 text-lg md:text-xl mb-7 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              4 jouets interactifs premium réunis dans un coffret cadeau. Pour
-              réveiller l&apos;instinct de chasseur de votre chat, stimuler son
-              intelligence et créer des moments complices inoubliables.
+              Le Trico est le sweat à capuche en polaire avec poche ventrale
+              pour votre chat. Gardez-le tout contre vous, mains libres, à la
+              maison comme en balade. Le bonheur partagé, en mouvement.
             </p>
 
             {/* Price */}
             <div className="flex items-center justify-center lg:justify-start gap-3 mb-7">
               <span className="font-display font-bold text-4xl md:text-5xl text-cinnamon-900">
-                29,90€
-              </span>
-              <span className="font-display text-xl text-cinnamon-700/60 line-through">
                 49,90€
               </span>
+              <span className="font-display text-xl text-cinnamon-700/60 line-through">
+                69,90€
+              </span>
               <Badge className="bg-peach-gradient text-cream-50 hover:bg-peach-gradient px-3 py-1.5 rounded-full text-sm font-bold">
-                -40%
+                -29%
               </Badge>
             </div>
 
@@ -322,17 +305,17 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl hover:shadow-2xl hover:shadow-peach-500/30 transition-all rounded-full px-8 py-6 font-display font-bold text-base group"
               >
                 <span className="flex items-center gap-2">
-                  <PawPrint className="w-5 h-5" />
-                  Je commande mon coffret
+                  <Shirt className="w-5 h-5" />
+                  Je commande mon Trico
                 </span>
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <a
-                href="#kit"
+                href="#produit"
                 className="inline-flex items-center justify-center gap-2 px-6 py-6 rounded-full border border-cinnamon-900/15 text-cinnamon-800 hover:bg-cream-100 hover:border-cinnamon-900/25 transition-all font-medium"
               >
-                <Play className="w-4 h-4" />
-                Voir le contenu du kit
+                <PawPrint className="w-4 h-4" />
+                Découvrir le sweat
               </a>
             </div>
 
@@ -350,7 +333,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   ))}
                 </div>
                 <span className="text-cinnamon-700 font-medium">
-                  2 847 chats conquis
+                  1 432 chats câlinés
                 </span>
               </div>
               <span className="hidden sm:inline text-cinnamon-700/40">•</span>
@@ -363,8 +346,8 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                     />
                   ))}
                 </div>
-                <span className="text-cinnamon-700 font-semibold">4,8/5</span>
-                <span className="text-cinnamon-700/60">(2 847 avis)</span>
+                <span className="text-cinnamon-700 font-semibold">4,9/5</span>
+                <span className="text-cinnamon-700/60">(1 432 avis)</span>
               </div>
             </div>
           </motion.div>
@@ -382,14 +365,14 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-cinnamon-900/20 ring-4 ring-cream-50">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/hero-cat.png"
-                    alt="Chat joueur s'amusant avec le PurrfectPlay Kit"
+                    src="/images/trico-hero.png"
+                    alt="Femme portant son chat dans le sweat Trico, moment complice"
                     className="w-full h-auto object-cover aspect-[1344/768]"
                   />
                 </div>
               </div>
 
-              {/* Floating badge: -30% */}
+              {/* Floating badge: -29% */}
               <motion.div
                 initial={{ opacity: 0, scale: 0, rotate: -10 }}
                 animate={{ opacity: 1, scale: 1, rotate: -8 }}
@@ -397,7 +380,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 className="absolute -top-5 -left-5 md:-top-6 md:-left-6 bg-peach-gradient text-cream-50 rounded-full w-20 h-20 md:w-24 md:h-24 flex flex-col items-center justify-center shadow-xl"
               >
                 <span className="font-display font-extrabold text-xl md:text-2xl leading-none">
-                  -30%
+                  -29%
                 </span>
                 <span className="text-[10px] md:text-xs font-medium mt-0.5">
                   Lancement
@@ -417,7 +400,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 <div className="flex flex-col leading-tight">
                   <span className="text-xs text-cinnamon-700">Livraison</span>
                   <span className="font-display font-bold text-sm text-cinnamon-900">
-                    offerte dès 39€
+                    offerte dès 49€
                   </span>
                 </div>
               </motion.div>
@@ -488,34 +471,34 @@ function TrustBadges() {
 function Benefits() {
   const benefits = [
     {
-      icon: Feather,
-      title: "Réveille l'instinct de chasse",
-      desc: "Les plumes, sons et mouvements imitent les proies naturelles. Votre chat retrouve ses réflexes de chasseur, reste actif et épanoui.",
+      icon: Heart,
+      title: "Câlins mains libres",
+      desc: "Portez votre chat blotti contre votre cœur, partout où vous allez. Sans occuper vos bras, profitez d'une tendresse continue, au bureau comme en balade.",
     },
     {
       icon: Sparkles,
-      title: "Stimule l'intelligence",
-      desc: "Les jouets interactifs stimulent la cognition et évitent l'ennui. Idéal contre les comportements destructeurs et l'obésité féline.",
-    },
-    {
-      icon: Heart,
-      title: "Crée du lien complice",
-      desc: "La canne à pêche favorise le jeu interactif avec vous. Des moments de complicité qui renforcent votre relation avec votre chat.",
-    },
-    {
-      icon: RefreshCw,
-      title: "Anti-ennui garanti",
-      desc: "4 jouets différents pour varier les plaisirs. Votre chat ne se lassera jamais grâce à la diversité des textures, sons et mouvements.",
+      title: "Confort polaire premium",
+      desc: "Tissu sherpa épais (300g/m²), ultra-doux et bien chaud. Vous et votre chat restez au chaud même les jours d'hiver glacial ou de climatisation poussée.",
     },
     {
       icon: Shield,
-      title: "Sûr et durable",
-      desc: "Matériaux non toxiques certifiés sans phtalates. Coutures renforcées et plumes naturelles pour un usage prolongé en toute sécurité.",
+      title: "Sécurité rassurante",
+      desc: "L'ouverture circulaire élastiquée maintient votre chat en place sans le serrer. Le cordon coulissant ajuste la taille d'ouverture selon sa morphologie.",
+    },
+    {
+      icon: PawPrint,
+      title: "Télétravail complice",
+      desc: "Votre chat blotti contre vous pendant que vous travaillez. Fini les chats qui marchent sur le clavier : il ronronne dans sa poche, serein et présent.",
+    },
+    {
+      icon: WashingMachine,
+      title: "Lavable en machine",
+      desc: "Matière résistante lavable à 30° en machine. Pas de déformation, pas de boulochage. La polaire garde sa douceur lavage après lavage.",
     },
     {
       icon: Gift,
-      title: "Coffret cadeau premium",
-      desc: "Une boîte élégante parfaite à offrir. Idéale pour Noël, un anniversaire ou simplement pour faire plaisir à un amoureux de chats.",
+      title: "Cadeau parfait",
+      desc: "Emballage soigné et premium. Idéal pour Noël, la fête des mères, un anniversaire ou pour surprendre un proche amoureux de chats. Le cadeau qui émeut.",
     },
   ];
   return (
@@ -523,16 +506,16 @@ function Benefits() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Pourquoi votre chat va adorer
+            Pourquoi vous allez l'adorer
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-            Plus qu&apos;un jouet, un{" "}
-            <span className="text-peach-500">bonheur quotidien</span>
+            Plus qu&apos;un sweat, un{" "}
+            <span className="text-peach-500">cocon partagé</span>
           </h2>
           <p className="text-cinnamon-700 text-lg leading-relaxed">
-            Chaque élément du PurrfectPlay Kit a été pensé avec des
-            comportementalistes félins pour répondre aux besoins naturels de
-            votre chat : chasser, sauter, bondir, réfléchir et câliner.
+            Le Trico a été pensé avec des comportementalistes félins et des
+            designers textile. Chaque détail répond à un besoin : rapprocher
+            votre chat de vous, en toute sécurité, en toutes circonstances.
           </p>
         </div>
 
@@ -570,18 +553,23 @@ function HowItWorks() {
   const steps = [
     {
       number: "01",
-      title: "Ouvrez le coffret",
-      desc: "Découvrez 4 jouets soigneusement sélectionnés, prêts à l'emploi. Aucune batterie à insérer, aucun assemblage compliqué.",
+      title: "Enfilez le Trico",
+      desc: "Comme un sweat à capuche classique. La polaire épaisse vous enveloppe de douceur. Ajustez le capuchon à votre guise avec les cordons.",
     },
     {
       number: "02",
-      title: "Choisissez le jouet du jour",
-      desc: "Canne à plume, balle sonore, souris à catnip ou crinkle — alternez selon l'humeur de votre chat pour un renouveau quotidien.",
+      title: "Invitez votre chat",
+      desc: "Par la poche ventrale. La grande ouverture circulaire élastiquée facilite l'entrée. Votre chat s'y glisse naturellement, attiré par votre chaleur.",
     },
     {
       number: "03",
-      title: "Jouez 15 minutes par jour",
-      desc: "C'est suffisant pour combler ses besoins d'activité. Observez-le bondir, chasser, ronronner de plaisir. Le bonheur à l'état pur.",
+      title: "Ajustez le cordon",
+      desc: "Sous la poche, tirez le cordon coulissant pour adapter la taille d'ouverture à votre chat. Il est maintenu confortablement, sans pression.",
+    },
+    {
+      number: "04",
+      title: "Savourez le moment",
+      desc: "Mains libres ! Travaillez, marchez, lisez, prenez un café. Votre chat ronronne contre vous, présent et apaisé. Le bonheur à l'état pur.",
     },
   ];
   return (
@@ -599,8 +587,8 @@ function HowItWorks() {
             <div className="rounded-3xl overflow-hidden shadow-xl shadow-cinnamon-900/15 ring-4 ring-cream-50">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/howitworks-1.png"
-                alt="Chaton jouant avec une canne à plume"
+                src="/images/trico-howitworks.png"
+                alt="Femme télétravaillant avec son chat dans le sweat Trico"
                 className="w-full h-auto object-cover aspect-[1344/768]"
               />
             </div>
@@ -613,14 +601,14 @@ function HowItWorks() {
               className="absolute -bottom-5 -right-5 md:-bottom-6 md:-right-6 bg-cream-50 rounded-2xl shadow-xl p-4 md:p-5 flex items-center gap-3"
             >
               <div className="w-12 h-12 rounded-full bg-peach-gradient flex items-center justify-center">
-                <Clock className="w-6 h-6 text-cream-50" />
+                <PawPrint className="w-6 h-6 text-cream-50" />
               </div>
               <div className="leading-tight">
                 <span className="font-display font-extrabold text-2xl text-cinnamon-900">
-                  15 min/jour
+                  Mains libres
                 </span>
                 <p className="text-xs text-cinnamon-700">
-                  suffisent au bonheur de votre chat
+                  télétravail, balade, lecture...
                 </p>
               </div>
             </motion.div>
@@ -632,8 +620,8 @@ function HowItWorks() {
               Comment ça marche
             </Badge>
             <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-6">
-              Le bonheur de votre chat en{" "}
-              <span className="text-peach-500">3 étapes</span>
+              Le câlin partagé en{" "}
+              <span className="text-peach-500">4 étapes</span>
             </h2>
             <div className="space-y-5 md:space-y-6">
               {steps.map((s, i) => (
@@ -642,7 +630,7 @@ function HowItWorks() {
                   initial={{ opacity: 0, x: 30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.12 }}
+                  transition={{ delay: i * 0.1 }}
                   className="flex gap-4 md:gap-5"
                 >
                   <div className="shrink-0">
@@ -670,30 +658,40 @@ function HowItWorks() {
    Product showcase
    ========================================================================= */
 function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
-  const items = [
+  const features = [
     {
-      icon: Feather,
-      name: "Canne à plume télescopique",
-      desc: "Plumes naturelles, manche extensible jusqu'à 90 cm. Le must pour le jeu interactif.",
+      icon: Shirt,
+      name: "Polaire sherpa épaisse 300g/m²",
+      desc: "Tissu ultra-doux, chaud et respirant. Confort cocooning pour vous et votre chat.",
     },
     {
-      icon: Ball,
-      name: "Balle sonore rebondissante",
-      desc: "Sonne, roule à chaque mouvement. Stimule le réflexe de chasse, faite en silicone souple non toxique.",
+      icon: PawPrint,
+      name: "Poche ventrale renforcée",
+      desc: "Ouverture circulaire élastiquée pour le confort et la sécurité. Soutient le chat sans le comprimer.",
     },
     {
-      icon: MouseIcon,
-      name: "Souris à catnip premium",
-      desc: "Remplie d'herbe à chat naturelle (catnip) de qualité supérieure. Effet euphorisant garanti pendant 20 min.",
+      icon: Sparkles,
+      name: "Cordon coulissant ajustable",
+      desc: "Sous la poche, ajustez la taille d'ouverture selon la morphologie de votre chat.",
     },
     {
-      icon: Bell,
-      name: "Crinkle jouet à froisser",
-      desc: "Texture qui crée un bruit de papier froissé addictif. Idéal pour les chats craintifs ou âgés.",
+      icon: Shield,
+      name: "Poches latérales zippées",
+      desc: "Pour clés, téléphone, friandises. Tout ce dont vous avez besoin, à portée de main.",
+    },
+    {
+      icon: Palette,
+      name: "Capuchon réglable premium",
+      desc: "Cordons avec embouts métalliques. Ajustez à votre tour de tête. Détail qualité.",
+    },
+    {
+      icon: Gift,
+      name: "Patch cuir signature",
+      desc: "Étiquette en simili-cuir cousue bas-gauche. Le détail qui fait la différence.",
     },
   ];
   return (
-    <section id="kit" className="py-16 md:py-24 bg-cream-50">
+    <section id="produit" className="py-16 md:py-24 bg-cream-50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: product image */}
@@ -708,9 +706,9 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-4 ring-cream-50">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/product-kit.png"
-                alt="PurrfectPlay Kit — coffret de 4 jouets pour chat"
-                className="w-full h-auto object-cover aspect-square"
+                src="/images/trico-showcase.png"
+                alt="Trico Sweat Porte-Chat — homme caressant son chat à travers la poche"
+                className="w-full h-auto object-cover aspect-[1344/768]"
               />
             </div>
             <motion.div
@@ -721,31 +719,32 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               className="absolute -top-3 -right-3 md:-top-4 md:-right-4 bg-peach-gradient text-cream-50 rounded-2xl shadow-xl p-3 md:p-4 flex flex-col items-center"
             >
               <span className="font-display font-extrabold text-2xl md:text-3xl">
-                4
+                2
               </span>
               <span className="text-[10px] md:text-xs font-medium -mt-1">
-                jouets inclus
+                coloris
               </span>
             </motion.div>
           </motion.div>
 
-          {/* Right: items list */}
+          {/* Right: features list */}
           <div>
             <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-              Ce que contient le coffret
+              Le sweat en détail
             </Badge>
             <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-              4 jouets premium dans{" "}
-              <span className="text-peach-500">un seul coffret</span>
+              Le sweat pensé pour{" "}
+              <span className="text-peach-500">votre chat</span>
             </h2>
             <p className="text-cinnamon-700 text-lg leading-relaxed mb-7">
-              Chaque jouet a été sélectionné pour son efficacité et sa
-              sécurité. Ensemble, ils couvrent tous les besoins de jeu de votre
-              chat — de la stimulation physique à l&apos;éveil olfactif.
+              Chaque détail du Trico a été sélectionné pour le confort de votre
+              chat et le vôtre. De la polaire épaisse à l&apos;ouverture
+              élastiquée sécurisante, tout est pensé pour des heures de câlins
+              sans stress.
             </p>
 
             <div className="space-y-3.5 mb-8">
-              {items.map((item, i) => (
+              {features.map((item, i) => (
                 <motion.div
                   key={item.name}
                   initial={{ opacity: 0, x: 20 }}
@@ -772,15 +771,49 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               ))}
             </div>
 
+            {/* Colors + sizes */}
+            <div className="grid grid-cols-2 gap-4 mb-7">
+              <div className="p-4 rounded-2xl bg-cream-100 border border-peach-400/20">
+                <div className="flex items-center gap-2 text-cinnamon-700 text-xs mb-2 font-semibold uppercase tracking-wider">
+                  <Palette className="w-3.5 h-3.5" />
+                  Coloris
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-full bg-[oklch(0.42_0.06_120)] ring-2 ring-cream-50 shadow-md" title="Vert kaki" />
+                  <div className="w-7 h-7 rounded-full bg-[oklch(0.42_0.13_25)] ring-2 ring-cream-50 shadow-md" title="Rouge brique" />
+                  <span className="text-sm text-cinnamon-800 ml-1 font-medium">
+                    Kaki & Brique
+                  </span>
+                </div>
+              </div>
+              <div className="p-4 rounded-2xl bg-cream-100 border border-peach-400/20">
+                <div className="flex items-center gap-2 text-cinnamon-700 text-xs mb-2 font-semibold uppercase tracking-wider">
+                  <Ruler className="w-3.5 h-3.5" />
+                  Tailles
+                </div>
+                <div className="flex items-center gap-1 flex-wrap">
+                  {["S", "M", "L", "XL", "XXL"].map((s) => (
+                    <span
+                      key={s}
+                      className="px-2 py-0.5 rounded-md bg-cream-50 text-xs font-medium text-cinnamon-800 border border-cinnamon-900/10"
+                    >
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Price */}
             <div className="flex flex-wrap items-center gap-4 mb-7 p-5 rounded-2xl bg-cream-100 border border-peach-400/20">
               <div>
-                <span className="text-cinnamon-700 text-sm">Prix du coffret</span>
+                <span className="text-cinnamon-700 text-sm">Prix de lancement</span>
                 <div className="flex items-center gap-2">
                   <span className="font-display font-extrabold text-3xl text-cinnamon-900">
-                    29,90€
+                    49,90€
                   </span>
                   <span className="text-lg text-cinnamon-700/60 line-through">
-                    49,90€
+                    69,90€
                   </span>
                 </div>
               </div>
@@ -788,7 +821,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               <div>
                 <span className="text-cinnamon-700 text-sm">Soit</span>
                 <div className="font-display font-bold text-xl text-peach-500">
-                  7,48€ / jouet
+                  -29% immédiat
                 </div>
               </div>
             </div>
@@ -798,8 +831,8 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               size="lg"
               className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl hover:shadow-2xl hover:shadow-peach-500/30 transition-all rounded-full px-8 py-6 font-display font-bold text-base w-full sm:w-auto"
             >
-              <PawPrint className="w-5 h-5 mr-2" />
-              Je commande mon coffret — 29,90€
+              <Shirt className="w-5 h-5 mr-2" />
+              Je commande mon Trico — 49,90€
             </Button>
           </div>
         </div>
@@ -819,7 +852,7 @@ function Testimonials() {
       cat: "Mochi, British Shorthair, 3 ans",
       image: "/images/testimonial-1.png",
       rating: 5,
-      text: "Mochi était devenu apathique, je m'inquiétais. Depuis le PurrfectPlay Kit, il bondit comme un chaton ! La canne à plume est son jouet préféré. Je le vois s'épanouir jour après jour. Le meilleur achat de l'année.",
+      text: "En télétravail, Mochi me réclamait sans cesse ou marchait sur le clavier. Avec le Trico, il est blotti contre moi pendant 4h d'affilée, je peux travailler sereinement. C'est devenu son endroit préféré de la maison. Le meilleur achat pour ma vie pro !",
     },
     {
       name: "Thomas L.",
@@ -827,7 +860,7 @@ function Testimonials() {
       cat: "Pixel, chat noir, 5 ans",
       image: "/images/testimonial-2.png",
       rating: 5,
-      text: "J'ai testé des dizaines de jouets, la plupart finissent au fond d'un tiroir. Ceux-ci, Pixel les réclame tous les soirs. La balle sonore est géniale pour le faire courir. La qualité est au rendez-vous, rien n'a cassé après 3 mois.",
+      text: "Pixel est un chat très câlin mais envahissant. Le Trico a changé notre relation : je le porte partout, il ronronne, et j'ai mes deux bras pour mes activités. La polaire est ultra douce, on sent la qualité. Et lavé 3 fois, il est nickel.",
     },
     {
       name: "Madeleine R.",
@@ -835,7 +868,7 @@ function Testimonials() {
       cat: "Gribouille, Calico, 9 ans",
       image: "/images/testimonial-3.png",
       rating: 5,
-      text: "À 9 ans, ma Gribouille bougeait de moins en moins. Le crinkle jouet l'a fait sortir de sa léthargie. Elle recommence à jouer comme avant. C'est touchant. Et le coffret est si joli que je l'ai offert à mon amie pour son chat.",
+      text: "À 9 ans, Gribouille est devenue très collante. Le Trico me permet de la garder contre moi quand je cuisine, lis, travaille. Elle est heureuse et moi aussi. Mon petit-fils me l'a offert pour mon anniversaire, c'est le cadeau le plus touchant reçu.",
     },
   ];
   return (
@@ -843,7 +876,7 @@ function Testimonials() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Ils ont fait bondir leurs chats
+            Ils ont adopté le Trico
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
             Ce que les amoureux de chats{" "}
@@ -859,9 +892,9 @@ function Testimonials() {
               ))}
             </div>
             <span className="font-display font-bold text-cinnamon-900">
-              4,8/5
+              4,9/5
             </span>
-            <span className="text-cinnamon-700">— 2 847 avis vérifiés</span>
+            <span className="text-cinnamon-700">— 1 432 avis vérifiés</span>
           </div>
         </div>
 
@@ -879,7 +912,7 @@ function Testimonials() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={t.image}
-                  alt={`${t.name} et son chat`}
+                  alt={`${t.name} et son chat ${t.cat.split(",")[0]}`}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cinnamon-900/80 via-cinnamon-900/20 to-transparent" />
@@ -936,11 +969,12 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             </Badge>
 
             <h2 className="font-display font-extrabold text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
-              -30% sur le PurrfectPlay Kit
+              -29% sur le Trico Sweat Porte-Chat
             </h2>
             <p className="text-cream-50/90 text-lg md:text-xl max-w-2xl mx-auto mb-8">
-              Profitez du prix de lancement exceptionnel avant que les stocks ne
-              soient épuisés. Votre chat mérite ce bonheur sans attendre.
+              Profitez du prix de lancement avant que les stocks ne soient
+              épuisés. Votre chat mérite ce bonheur de câlins mains libres
+              dès maintenant.
             </p>
 
             <div className="mb-8">
@@ -953,7 +987,7 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <Truck className="w-4 h-4" />
-                <span className="font-medium">Livraison offerte dès 39€</span>
+                <span className="font-medium">Livraison offerte dès 49€</span>
               </div>
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <RefreshCw className="w-4 h-4" />
@@ -971,15 +1005,15 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
               className="bg-cream-50 text-cinnamon-900 hover:bg-cream-50/95 shadow-2xl rounded-full px-10 py-6 font-display font-extrabold text-lg group"
             >
               <span className="flex items-center gap-2">
-                <PawPrint className="w-5 h-5 text-peach-500" />
-                Je commande maintenant — 29,90€
+                <Shirt className="w-5 h-5 text-peach-500" />
+                Je commande maintenant — 49,90€
               </span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
 
             <p className="text-cream-50/70 text-xs mt-5 max-w-md mx-auto">
-              Plus que 23 coffrets disponibles à ce prix. Après, retour au tarif
-              normal 49,90€.
+              Plus que 47 Trico disponibles à ce prix. Après, retour au tarif
+              normal 69,90€.
             </p>
           </div>
         </motion.div>
@@ -994,28 +1028,36 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
 function FAQ() {
   const faqs = [
     {
-      q: "Mon chat est difficile, va-t-il vraiment aimer ?",
-      a: "97% de nos clients rapportent que leur chat s'est intéressé au coffret dès les premières minutes. Le kit contient 4 jouets aux textures et mouvements très différents (plumes, sons, catnip, crinkle) — il y en a forcément un qui correspondra à la personnalité de votre chat. Et si vraiment aucun ne l'attire, vous êtes couvert par notre garantie satisfait ou remboursé 30 jours.",
+      q: "Mon chat n'aime pas être porté, s'y habituera-t-il ?",
+      a: "La grande majorité des chats s'habitue en 2 à 5 séances courtes (5 min au début). L'astuce : placez une friandise dans la poche, laissez-le explorer à son rythme. L'élastique de l'ouverture ne le comprime pas, il se sent en sécurité. 92% de nos clients rapportent que leur chat réclame le Trico après une semaine !",
+    },
+    {
+      q: "Quelles tailles sont disponibles ?",
+      a: "Le Trico existe en 5 tailles : S, M, L, XL, XXL. Pour choisir, prenez votre tour de poitrine habituel. Si vous êtes entre deux tailles, prenez la plus grande pour plus de confort et de liberté de mouvement pour votre chat. Un guide des tailles détaillé est envoyé après commande.",
+    },
+    {
+      q: "Convient à tous les chats, quel poids ?",
+      a: "Le Trico convient aux chats de 2,5 kg à 7 kg. La poche renforcée et l'élastique ont été testés pour soutenir jusqu'à 8 kg sans déformation. Pour les chats au-delà de 7 kg (Maine Coon), nous recommandons la taille XL ou XXL et des sessions plus courtes (le poids peut être inconfortable).",
+    },
+    {
+      q: "Lavable en machine ?",
+      a: "Oui ! Le Trico se lave en machine à 30° cycle doux, essorage 600 tr/min maximum. Pas de sèche-linge (le sherpa peut boulocher). Faites sécher à plat à l'air libre. La polaire garde sa douceur, sa couleur et sa forme lavage après lavage. Recommandé une fois par semaine.",
+    },
+    {
+      q: "Est-ce que ça ne risque pas de blesser mon chat ?",
+      a: "Absolument pas, à condition de respecter le poids maximum (7-8 kg) et d'écouter votre chat. L'ouverture élastiquée ne serre jamais, le cordon coulissant ne sert qu'à ajuster la taille d'entrée. Ne forcez jamais un chat réticent. Nous conseillons de toujours superviser et de faire des sessions de 30 min maximum au début.",
     },
     {
       q: "Quels sont les délais de livraison ?",
-      a: "Votre commande est expédiée sous 24h ouvrées depuis notre entrepôt en France. Comptez ensuite 48h à 72h pour la livraison via Colissimo en France métropolitaine. Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 39€ d'achat (le coffret PurrfectPlay à 29,90€ + un petit accessoire et c'est livré !).",
+      a: "Votre Trico est expédié sous 24h ouvrées depuis notre entrepôt en France. Comptez 48h à 72h pour la livraison via Colissimo en France métropolitaine. Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 49€ d'achat (donc le Trico seul est livré gratuitement !).",
     },
     {
-      q: "Les jouets sont-ils sûrs pour mon chat ?",
-      a: "Absolument. Tous nos jouets sont testés et certifiés sans substances toxiques (sans phtalates, sans BPA). Les plumes sont naturelles et teintes avec des colorants alimentaires. La souris contient du catnip 100% naturel. Nous recommandons de toujours superviser votre chat pendant le jeu et de retirer les petits éléments s'ils commencent à s'abîmer.",
-    },
-    {
-      q: "Quelle est la garantie satisfait ou remboursé ?",
-      a: "Vous avez 30 jours pour tester le coffret. Si votre chat ne s'y intéresse pas ou si vous n'êtes pas pleinement satisfait, contactez notre service client — nous vous remboursons intégralement, sans avoir à renvoyer le coffret (à 29,90€ ce serait disproportionné). Notre priorité, c'est le bonheur de votre chat.",
-    },
-    {
-      q: "Est-ce un bon cadeau pour offrir ?",
-      a: "Le PurrfectPlay Kit est pensé comme un coffret cadeau premium. L'emballage est élégant et soigné, parfait pour Noël, un anniveraire, une pendaison de crémaillère ou simplement pour faire plaisir à un proche amoureux de chats. Vous pouvez même ajouter une carte cadeau personnalisée au moment de la commande.",
+      q: "Quelle matière ? Est-ce bien chaud ?",
+      a: "Le Trico est en polaire sherpa épaisse 300g/m², ultra-douce et bien chaude. Idéale pour l'automne, l'hiver, le printemps frais et les bureaux climatisés. Le tissu est respirant : ni vous ni votre chat ne transpirez. Le sherpa est durable, résistant aux accrocs des griffes (avec une tape moderate, votre chat comprend vite).",
     },
     {
       q: "Puis-je payer en plusieurs fois ?",
-      a: "Oui ! Le paiement en 3 fois sans frais est disponible à partir de 60€ d'achat. Pour le coffret seul (29,90€), le paiement 3x est proposé à partir de 2 coffrets achetés. Nous acceptons également CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL.",
+      a: "Oui ! Le paiement en 3x sans frais est disponible dès 60€ d'achat (donc dès 2 Trico commandés, idéal pour un cadeau). Nous acceptons CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL. Vos données bancaires ne sont jamais stockées.",
     },
   ];
   return (
@@ -1079,7 +1121,7 @@ function Newsletter() {
     toast({
       title: "Merci !",
       description:
-        "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille PurrfectPlay !",
+        "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille Trico !",
     });
     setEmail("");
   };
@@ -1104,11 +1146,11 @@ function Newsletter() {
                 Code -10% à l&apos;inscription
               </Badge>
               <h2 className="font-display font-extrabold text-3xl md:text-4xl leading-tight mb-4">
-                Rejoignez la famille PurrfectPlay
+                Rejoignez la famille Trico
               </h2>
               <p className="text-cream-50/80 text-base md:text-lg leading-relaxed">
-                Conseils de comportementalistes, offres exclusives, nouveautés
-                et histoires de chats comblés. Recevez{" "}
+                Conseils d&apos;adaption du chat, offres exclusives,
+                nouveautés et histoires de câlins partagés. Recevez{" "}
                 <span className="text-peach-300 font-semibold">
                   -10% sur votre première commande
                 </span>{" "}
@@ -1159,13 +1201,13 @@ function Footer() {
                 <PawPrint className="w-5 h-5 text-cream-50" />
               </div>
               <span className="font-display font-bold text-lg text-cream-50">
-                PurrfectPlay
+                Trico
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              Le bonheur des chats et de leurs humains, un coffret à la fois.
-              Conçu avec amour par des amoureux de chats, pour des amoureux de
-              chats.
+              Le sweat porte-chat qui rapproche les chats et leurs humains, un
+              câlin à la fois. Conçu avec amour par des amoureux de chats,
+              pour des amoureux de chats.
             </p>
           </div>
 
@@ -1175,8 +1217,8 @@ function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a href="#kit" className="hover:text-peach-300 transition-colors">
-                  Le coffret
+                <a href="#produit" className="hover:text-peach-300 transition-colors">
+                  Le Trico
                 </a>
               </li>
               <li>
@@ -1219,7 +1261,7 @@ function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-peach-300 transition-colors">
-                  Guide du chat heureux
+                  Guide des tailles
                 </a>
               </li>
             </ul>
@@ -1247,7 +1289,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-cream-50/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-cream-50/60">
-          <p>© 2025 PurrfectPlay. Tous droits réservés. Fait en France.</p>
+          <p>© 2025 Trico. Tous droits réservés. Fait en France.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-peach-300 transition-colors">
               Mentions légales
@@ -1275,7 +1317,7 @@ export default function LandingPage() {
     toast({
       title: "Redirection vers la boutique...",
       description:
-        "Vous allez être redirigé vers la commande du PurrfectPlay Kit à 29,90€.",
+        "Vous allez être redirigé vers la commande du Trico Sweat Porte-Chat à 49,90€.",
     });
     setTimeout(() => {
       window.open("https://kim2ts-ct.myshopify.com/", "_blank");
