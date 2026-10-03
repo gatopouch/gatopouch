@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "GatoPouch — Le sweat porte-chat pour câlins mains libres",
     description:
-      "Sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous. -29% au lancement, livraison offerte dès 49€.",
+      "Sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous. Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte dès 69€.",
     url: "https://trico.fr",
     siteName: "GatoPouch",
     type: "website",

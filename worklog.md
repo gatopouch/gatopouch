@@ -205,3 +205,32 @@ Stage Summary:
 - Seuil livraison offerte : 69€ (au lieu de 49€ / 54,99€)
 - Délai livraison : 6 à 12 jours (au lieu de 48h)
 - 0 régression — prêt pour livraison
+
+---
+Task ID: 7
+Agent: Main (Super Z)
+Task: Corriger "49€" restant dans badge flottant + agrandir images de 60% en hauteur
+
+Work Log:
+- User a fourni une capture montrant un badge flottant "Livraison / offerte dès 49€" sur l'image hero
+- Correction du badge flottant hero (ligne 413) : "offerte dès 49€" → "offerte dès 69€"
+- Correction métadonnée OpenGraph layout.tsx (ligne 36) : description passée de "-29% au lancement, livraison offerte dès 49€" à "Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte dès 69€"
+- Agrandissement de 60% en hauteur de toutes les images paysage :
+  • Hero image : aspect-[1344/768] (ratio 0.571) → aspect-[1344/1229] (ratio 0.915) — 60% plus grand ✓
+  • Product showcase image : aspect-[1344/768] → aspect-[1344/1229] ✓
+  • How it works image : aspect-[1344/768] → aspect-[1344/1229] ✓
+- Agrandissement de 60% en hauteur des images témoignages :
+  • Hauteur fixe : h-64 (256px) → h-[410px] ✓
+- Vérification agent-browser après reload :
+  • "49€" : plus aucune mention erronée (reste uniquement "47,49€ / sweat" = calcul légitime Pack de 2 / 2 sweats) ✓
+  • Hero image : ratio rendu 0.914 (vs 0.571 avant) ✓
+  • Product showcase image : ratio rendu 0.914 ✓
+  • How it works image : ratio rendu 0.914 ✓
+  • Testimonial images : 410px de haut (vs 256px avant = +60%) ✓
+- Lint : 0 erreur ✓
+
+Stage Summary:
+- Badge flottant hero corrigé : "offerte dès 69€"
+- Métadonnée OpenGraph cohérente
+- Toutes les images agrandies de 60% en hauteur (paysages + témoignages)
+- Aucune régression — prêt pour livraison
