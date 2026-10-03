@@ -17,7 +17,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "GatoPouch — Le sweat porte-chat qui garde votre chat contre vous, mains libres",
   description:
-    "Le GatoPouch est le sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous, mains libres. Câlins sans fin, à la maison comme en balade. Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte.",
+    "Le GatoPouch est le sweat à capuche en polaire avec poche ventrale pour porter votre chat contre vous, mains libres. Câlins sans fin, à la maison comme en balade. Dès 54,99€, Pack de 2 recommandé 94,98€, livraison offerte dès 69€ (livraison 6 à 12 jours).",
   keywords: [
     "sweat porte-chat",
     "sweat chat",

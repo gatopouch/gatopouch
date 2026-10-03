@@ -126,7 +126,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
       <div className="bg-peach-gradient text-cream-50 text-center text-xs md:text-sm font-medium py-2.5 px-4">
         <span className="inline-flex items-center gap-2 flex-wrap justify-center">
           <Truck className="w-3.5 h-3.5" />
-          Livraison offerte dès 54,99€
+          Livraison offerte dès 69€
           <span className="opacity-50 hidden sm:inline">•</span>
           <Sparkles className="w-3.5 h-3.5 hidden sm:inline" />
           <span className="hidden sm:inline">
@@ -440,7 +440,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
    ========================================================================= */
 function TrustBadges() {
   const badges = [
-    { icon: Truck, label: "Livraison 48h", sub: "Partout en France" },
+    { icon: Truck, label: "Livraison 6-12j", sub: "Partout en France" },
     { icon: Shield, label: "Paiement sécurisé", sub: "CB, PayPal, Apple Pay" },
     { icon: RefreshCw, label: "Satisfait ou remboursé", sub: "Sous 30 jours" },
     { icon: Headphones, label: "Service client", sub: "Lun-Ven, 9h-18h" },
@@ -1068,7 +1068,7 @@ function FAQ() {
     },
     {
       q: "Quels sont les délais de livraison ?",
-      a: "Votre GatoPouch est expédié sous 24h ouvrées depuis notre entrepôt en France. Comptez 48h à 72h pour la livraison via Colissimo en France métropolitaine. Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 49€ d'achat (donc le GatoPouch seul est livré gratuitement !).",
+      a: "Votre GatoPouch est expédié sous 24h ouvrées depuis notre entrepôt. Comptez ensuite 6 à 12 jours pour la livraison (selon votre pays et la période). Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 69€ d'achat — atteint automatiquement dès le Pack de 2 à 94,98€ (donc les packs sont toujours livrés gratuitement !).",
     },
     {
       q: "Quelle matière ? Est-ce bien chaud ?",
@@ -1342,7 +1342,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
       features: [
         "Choix de la couleur parmi 7 coloris",
         "Choix de la taille (S à 3XL)",
-        "Livraison standard 48h",
+        "Livraison en 6 à 12 jours",
         "Satisfait ou remboursé 30j",
       ],
       highlighted: false,
@@ -1538,7 +1538,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
             </div>
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
               <Truck className="w-3.5 h-3.5 text-peach-500" />
-              Expédié sous 24h
+              Expédié sous 24h · livré en 6-12j
             </div>
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
               <RefreshCw className="w-3.5 h-3.5 text-peach-500" />
@@ -1564,7 +1564,7 @@ export default function LandingPage() {
         "Vous allez être redirigé vers la commande du GatoPouch Sweat Porte-Chat.",
     });
     setTimeout(() => {
-      window.open("https://kim2ts-ct.myshopify.com/", "_blank");
+      window.open("https://gatopouch.com/products/sudadera-con-bolsillo-para-gato-sherpa-ultra-suave", "_blank");
     }, 800);
   };
 

@@ -179,3 +179,29 @@ Stage Summary:
 - Marque renommée partout en "GatoPouch"
 - Métadonnées SEO cohérentes avec les vrais prix
 - Aucune régression — page toujours fonctionnelle
+
+---
+Task ID: 6
+Agent: Main (Super Z)
+Task: Changer URL de commande + livraison offerte dès 69€ + délais 6-12 jours
+
+Work Log:
+- URL checkout mise à jour : "https://kim2ts-ct.myshopify.com/" → "https://gatopouch.com/products/sudadera-con-bolsillo-para-gato-sherpa-ultra-suave"
+- Barre annonce : "Livraison offerte dès 54,99€" → "Livraison offerte dès 69€"
+- Trust badge : "Livraison 48h / Partout en France" → "Livraison 6-12j / Partout en France"
+- Pack 1 features : "Livraison standard 48h" → "Livraison en 6 à 12 jours"
+- Bandeau réassurance packs : "Expédié sous 24h" → "Expédié sous 24h · livré en 6-12j"
+- FAQ livraison : "expédié sous 24h en France... 48h à 72h via Colissimo... dès 49€" → "expédié sous 24h... 6 à 12 jours... dès 69€ (atteint dès Pack de 2 à 94,98€ — packs toujours livrés gratuitement)"
+- Métadonnée SEO description : ajout "(livraison 6 à 12 jours)"
+- Vérification agent-browser :
+  • 4 CTA "Je commande" présents ✓
+  • "69€" visible dans la page ✓
+  • "6-12 jours" / "6 à 12 jours" visible ✓
+  • Plus aucune mention de "48h" ✓
+  • Lint : 0 erreur ✓
+
+Stage Summary:
+- Lien checkout redirige désormais vers https://gatopouch.com/products/sudadera-con-bolsillo-para-gato-sherpa-ultra-suave
+- Seuil livraison offerte : 69€ (au lieu de 49€ / 54,99€)
+- Délai livraison : 6 à 12 jours (au lieu de 48h)
+- 0 régression — prêt pour livraison
