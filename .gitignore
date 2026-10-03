@@ -54,3 +54,6 @@ server.log
 /skills/
 # Allow .env.example (template, no secrets)
 !.env.example
+
+# Secrets (never push these)
+.secrets/
