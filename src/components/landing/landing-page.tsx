@@ -25,6 +25,11 @@ import {
   Menu,
   X,
   Mail,
+  Phone,
+  MessageCircle,
+  MapPin,
+  Globe,
+  Loader2,
   WashingMachine,
   Ruler,
   Palette,
@@ -34,6 +39,13 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
 import { Input } from "@/components/ui/input";
+import {
+  ContactModal,
+  PrivacyPolicyModal,
+  TermsModal,
+  ReturnsModal,
+  ShippingModal,
+} from "./modals";
 
 /* =========================================================================
    Countdown component for the flash offer
@@ -171,6 +183,11 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                   {link.label}
                 </a>
               ))}
+              <ContactModal>
+                <button className="px-4 py-2 rounded-full text-cinnamon-800 hover:bg-peach-300/30 hover:text-cinnamon-900 transition-colors font-medium text-sm">
+                  Contact
+                </button>
+              </ContactModal>
             </nav>
 
             {/* CTA + mobile menu button */}
@@ -212,6 +229,14 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                     {link.label}
                   </a>
                 ))}
+                <ContactModal>
+                  <button
+                    onClick={() => setMobileOpen(false)}
+                    className="w-full text-left px-4 py-3 rounded-xl text-cinnamon-800 hover:bg-peach-300/30 font-medium"
+                  >
+                    Contact
+                  </button>
+                </ContactModal>
                 <Button
                   onClick={() => {
                     setMobileOpen(false);
@@ -1126,8 +1151,9 @@ function FAQ() {
 function Newsletter() {
   const { toast } = useToast();
   const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       toast({
@@ -1137,12 +1163,34 @@ function Newsletter() {
       });
       return;
     }
-    toast({
-      title: "Merci !",
-      description:
-        "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille GatoPouch !",
-    });
-    setEmail("");
+    setLoading(true);
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, source: "landing" }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.ok) {
+        throw new Error(data.error || "Erreur d'envoi");
+      }
+      toast({
+        title: "Merci !",
+        description: data.message,
+      });
+      setEmail("");
+    } catch (err) {
+      toast({
+        title: "Erreur d'envoi",
+        description:
+          err instanceof Error
+            ? err.message
+            : "Veuillez réessayer ou nous écrire à contact@gatopouch.com",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -1190,10 +1238,20 @@ function Newsletter() {
               </div>
               <Button
                 type="submit"
+                disabled={loading}
                 className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl rounded-full h-14 font-display font-bold text-base"
               >
-                <Gift className="w-5 h-5 mr-2" />
-                Recevoir mon code -10%
+                {loading ? (
+                  <>
+                    <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                    Inscription en cours...
+                  </>
+                ) : (
+                  <>
+                    <Gift className="w-5 h-5 mr-2" />
+                    Recevoir mon code -10%
+                  </>
+                )}
               </Button>
               <p className="text-cream-50/60 text-xs text-center mt-1">
                 Pas de spam. Désinscription en 1 clic. RGPD friendly.
@@ -1228,6 +1286,23 @@ function Footer() {
               câlin à la fois. Conçu avec amour par des amoureux de chats,
               pour des amoureux de chats.
             </p>
+            <div className="mt-4 text-xs text-cream-50/60 space-y-1">
+              <p className="flex items-start gap-2">
+                <MapPin className="w-3.5 h-3.5 mt-0.5 text-peach-400 shrink-0" />
+                <span>Calle Almería 83, 29018 Málaga, España</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <Globe className="w-3.5 h-3.5 text-peach-400 shrink-0" />
+                <a
+                  href="https://www.gatopouch.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-peach-300 transition-colors"
+                >
+                  www.gatopouch.com
+                </a>
+              </p>
+            </div>
           </div>
 
           <div>
@@ -1246,6 +1321,11 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#packs" className="hover:text-peach-300 transition-colors">
+                  Packs & tarifs
+                </a>
+              </li>
+              <li>
                 <a href="#avis" className="hover:text-peach-300 transition-colors">
                   Avis clients
                 </a>
@@ -1260,28 +1340,54 @@ function Footer() {
 
           <div>
             <h4 className="font-display font-semibold text-cream-50 mb-4 text-sm uppercase tracking-wider">
-              Aide
+              Contact
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a href="#" className="hover:text-peach-300 transition-colors">
-                  Suivi de commande
+                <a
+                  href="mailto:contact@gatopouch.com"
+                  className="hover:text-peach-300 transition-colors flex items-center gap-2"
+                >
+                  <Mail className="w-3.5 h-3.5 text-peach-400" />
+                  contact@gatopouch.com
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-peach-300 transition-colors">
-                  Livraison & retours
+                <a
+                  href="mailto:support@gatopouch.com"
+                  className="hover:text-peach-300 transition-colors flex items-center gap-2"
+                >
+                  <Mail className="w-3.5 h-3.5 text-peach-400" />
+                  support@gatopouch.com
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-peach-300 transition-colors">
-                  Nous contacter
+                <a
+                  href="tel:+34670040447"
+                  className="hover:text-peach-300 transition-colors flex items-center gap-2"
+                >
+                  <Phone className="w-3.5 h-3.5 text-peach-400" />
+                  +34 670 04 04 47
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-peach-300 transition-colors">
-                  Guide des tailles
+                <a
+                  href="https://wa.me/34670040447"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-peach-300 transition-colors flex items-center gap-2"
+                >
+                  <MessageCircle className="w-3.5 h-3.5 text-peach-400" />
+                  WhatsApp
                 </a>
+              </li>
+              <li className="pt-2">
+                <ContactModal>
+                  <button className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-peach-gradient text-cream-50 hover:opacity-90 transition-all text-xs font-display font-semibold">
+                    <Mail className="w-3.5 h-3.5" />
+                    Formulaire de contact
+                  </button>
+                </ContactModal>
               </li>
             </ul>
           </div>
@@ -1293,7 +1399,7 @@ function Footer() {
             <p className="text-sm mb-4">
               Rejoignez 18 000 amoureux de chats sur Instagram.
             </p>
-            <div className="flex gap-3 flex-wrap">
+            <div className="flex gap-3 flex-wrap mb-6">
               {["Instagram", "TikTok", "Pinterest"].map((social) => (
                 <a
                   key={social}
@@ -1304,21 +1410,33 @@ function Footer() {
                 </a>
               ))}
             </div>
+            <h4 className="font-display font-semibold text-cream-50 mb-3 text-sm uppercase tracking-wider">
+              Pages légales
+            </h4>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <PrivacyPolicyModal />
+              </li>
+              <li>
+                <TermsModal />
+              </li>
+              <li>
+                <ReturnsModal />
+              </li>
+              <li>
+                <ShippingModal />
+              </li>
+            </ul>
           </div>
         </div>
 
         <div className="border-t border-cream-50/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-cream-50/60">
-          <p>© 2025 GatoPouch. Tous droits réservés. Fait en France.</p>
-          <div className="flex gap-4">
-            <a href="#" className="hover:text-peach-300 transition-colors">
-              Mentions légales
-            </a>
-            <a href="#" className="hover:text-peach-300 transition-colors">
-              CGV
-            </a>
-            <a href="#" className="hover:text-peach-300 transition-colors">
-              Confidentialité
-            </a>
+          <p>© 2025 GatoPouch. Tous droits réservés. Basé à Málaga, España.</p>
+          <div className="flex flex-wrap gap-4">
+            <PrivacyPolicyModal />
+            <TermsModal />
+            <ReturnsModal />
+            <ShippingModal />
           </div>
         </div>
       </div>

@@ -30,3 +30,23 @@ model Post {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String?
+  message   String
+  phone     String?
+  status    String   @default("new") // new | sent | failed
+  createdAt DateTime @default(now())
+}
+
+model NewsletterSubscription {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  source    String   @default("landing") // landing | popup | partner
+  status    String   @default("active") // active | unsubscribed
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

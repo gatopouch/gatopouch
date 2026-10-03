@@ -234,3 +234,51 @@ Stage Summary:
 - Métadonnée OpenGraph cohérente
 - Toutes les images agrandies de 60% en hauteur (paysages + témoignages)
 - Aucune régression — prêt pour livraison
+
+---
+Task ID: 8
+Agent: Main (Super Z)
+Task: Ajouter infos contact, page Contact, formulaire newsletter, pages légales
+
+Work Log:
+- Schéma Prisma mis à jour : ajout modèles ContactSubmission + NewsletterSubscription
+- db:push exécuté avec succès
+- 2 routes API créées :
+  • /api/contact — POST {name, email, phone?, subject?, message} → valide, stocke en DB, envoie à contact@gatopouch.com (placeholder SMTP commenté), retourne OK + ID
+  • /api/newsletter — POST {email, source?} → valide, upsert en DB, envoie à newsletter@gatopouch.com (placeholder SMTP), retourne OK + ID
+- Nouveau fichier src/components/landing/modals.tsx créé avec :
+  • ContactModal : formulaire (nom, email, téléphone, sujet, message) + infos contact (contact@, support@, téléphone, WhatsApp, adresse Malaga, site partenaire)
+  • LegalModal (générique) + 4 modales légales avec contenu original adapté au business GatoPouch (Espagne) :
+    - PrivacyPolicyModal : RGPD + LOPDGDD espagnole + AEPD
+    - TermsModal : "Términos y Condiciones" en espagnol (adapté)
+    - ReturnsModal : "Política de Devoluciones" — 30 jours, procédure détaillée
+    - ShippingModal : "Política de Envíos" — 6-12 jours, Europe, douane UK/CH
+- landing-page.tsx modifié :
+  • Imports ajoutés (modals + icônes Phone/MessageCircle/MapPin/Globe/Loader2)
+  • Nav desktop : ajout lien "Contact" (ContactModal trigger)
+  • Nav mobile : ajout lien "Contact" (ContactModal trigger)
+  • Newsletter form : handleSubmit modifié pour appeler /api/newsletter avec loading state + bouton désactivé
+  • Footer refondu : 4 colonnes (Produit / Contact / Suivez-nous + Pages légales)
+    - Colonne Contact : contact@gatopouch.com, support@gatopouch.com, téléphone, WhatsApp, bouton "Formulaire de contact" (ContactModal)
+    - Colonne footer brand : adresse Calle Almería 83, Malaga + lien www.gatopouch.com
+    - Section légale bas : 4 modales (Privacy, Terms, Returns, Shipping)
+- Lint : 0 erreur (après correction typo ${message.trim()()})
+- Vérification agent-browser :
+  • Nav contient "Contact" ✓
+  • Footer contient : contact@gatopouch.com ✓, support@gatopouch.com ✓, +34 670 04 04 47 ✓, WhatsApp ✓, Calle Almería 83 ✓, www.gatopouch.com ✓
+  • Footer contient les 4 pages légales ✓
+  • Click sur "Contact" ouvre la modale ✓
+  • Modale contient : formulaire + email field + contact@gatopouch.com + téléphone + WhatsApp + adresse ✓
+  • Modale Privacy Policy s'ouvre avec contenu RGPD + AEPD + GatoPouch + Málaga ✓
+- Tests API curl :
+  • POST /api/contact avec données valides → 200 OK + ID + message de confirmation ✓
+  • POST /api/newsletter avec email valide → 200 OK + ID + message -10% ✓
+  • POST /api/contact avec données invalides → 400 + erreur validation ✓
+
+Stage Summary:
+- Page Contact opérationnelle : formulaire qui poste vers /api/contact → stocke en DB + envoie à contact@gatopouch.com (en prod via Resend/Nodemailer)
+- Newsletter opérationnelle : formulaire qui poste vers /api/newsletter → stocke en DB + envoie à newsletter@gatopouch.com (en prod)
+- 4 pages légales créées avec contenu original adapté au business espagnol (RGPD + LOPDGDD + AEPD)
+- Toutes les infos contact visibles : 2 emails, téléphone, WhatsApp, adresse Malaga, site partenaire
+- Architecture prête pour prod : il suffit de configurer un service d'envoi email (Resend / Nodemailer / SendGrid) dans /api/contact et /api/newsletter (commentaires TODO déjà en place)
+- Aucune régression — prêt pour livraison
