@@ -1410,23 +1410,6 @@ function Footer() {
                 </a>
               ))}
             </div>
-            <h4 className="font-display font-semibold text-cream-50 mb-3 text-sm uppercase tracking-wider">
-              Pages légales
-            </h4>
-            <ul className="space-y-2 text-xs">
-              <li>
-                <PrivacyPolicyModal />
-              </li>
-              <li>
-                <TermsModal />
-              </li>
-              <li>
-                <ReturnsModal />
-              </li>
-              <li>
-                <ShippingModal />
-              </li>
-            </ul>
           </div>
         </div>
 
