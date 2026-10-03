@@ -104,3 +104,57 @@ Stage Summary:
 - Marque utilisée partout : "Trico"
 - Aucune erreur — prêt pour livraison
 - Note : prix/offres à ajuster par l'user une fois qu'il aura son vrai Shopify
+
+---
+Task ID: 4
+Agent: Main (Super Z)
+Task: Intégrer les vrais prix, couleurs, tailles et packs fournis par l'utilisateur
+
+Work Log:
+- User a fourni une nouvelle capture d'écran avec les vraies infos produits
+- Analyse VLM (z-ai vision) — extraction exhaustive :
+  • 7 COULEURS : Vert militaire, Rose poudré, Rouge vif, Vert menthe, Bleu marine, Beige crème, Noir
+  • 6 TAILLES : S, M, L, XL, 2XL, 3XL
+  • 3 PACKS avec prix exacts :
+    - 1 sweat : €54,99 (pas de réduction)
+    - Pack de 2 : €94,98 (au lieu de €109,98) → économise €15 + livraison offerte — RECOMMANDÉ
+    - Pack de 3 : €129,99 (au lieu de €164,97) → économise €34,98 + livraison offerte
+- Modifié header CTA : "Je commande — 49,90€" → "54,99€"
+- Modifié barre annonce : "Offre de lancement -29%" → "Pack de 2 recommandé — économisez 15€"
+- Modifié Hero price block : "49,90€ / 69,90€ / -29%" → "Dès 54,99€" + badge "Pack de 2 recommandé 94,98€"
+- Modifié Hero badge flottant : "-29% Lancement" → "-15€ Pack de 2"
+- Ajouté second CTA dans Hero : "Voir les packs & économies" qui scroll vers #packs
+- Modifié ProductShowcase colors block : 2 coloris (kaki/brique) → 7 coloris (cercles couleur avec titles)
+- Modifié ProductShowcase sizes block : "S, M, L, XL, XXL" → "S, M, L, XL, 2XL, 3XL"
+- Modifié ProductShowcase "2 coloris" badge → "7 coloris"
+- Modifié ProductShowcase price block : "49,90€ / 69,90€ / -29% immédiat" → "Prix unitaire 54,99€ | Pack de 2 (recommandé) 94,98€"
+- Ajouté second CTA dans ProductShowcase : "Voir les 3 packs" avec icône Gift
+- NOUVELLE SECTION PacksSection (#packs) entre ProductShowcase et Testimonials :
+  • 3 cartes côte à côte avec design mis en avant sur Pack de 2
+  • Pack 1 : 54,99€, Découverte, livraison standard
+  • Pack 2 : 94,98€ (au lieu de 109,98€), RECOMMANDÉ (badge), livraison offerte, paiement 3x
+  • Pack 3 : 129,99€ (au lieu de 164,97€), MEILLEURE OFFRE (badge), livraison offerte, paiement 3x
+  • Chaque carte : header, prix, économie affichée, prix unitaire, 4 features checkées, CTA
+  • Bandeau de réassurance en bas (paiement sécurisé, expédition 24h, remboursé 30j)
+- Modifié FlashOffer : "-29% sur le Trico Sweat Porte-Chat / 49,90€ / 69,90€" → "Pack de 3 Trico — économisez 34,98€ / 129,99€ / 164,97€"
+- Modifié FAQ paiement 3x : "dès 60€ (donc dès 2 Trico)" → "Pack de 2 à 94,98€ en 3× 31,66€, Pack de 3 à 129,99€ en 3× 43,33€"
+- Modifié toast redirection : enlevé "à 49,90€" (gardé générique vu les 3 packs)
+- Lint : 0 erreurs, 4 warnings non-bloquants
+- Vérification agent-browser complète :
+  • 7 couleurs affichées (Vert militaire, Rose poudré, Rouge vif, Vert menthe, Bleu marine, Beige crème, Noir) ✓
+  • 6 tailles affichées (S, M, L, XL, 2XL, 3XL) ✓
+  • 3 packs visibles (1 Trico, Pack de 2 Trico, Pack de 3 Trico) ✓
+  • Prix visibles partout : 54,99€, 94,98€, 109,98€, 47,49€/sweat, etc. ✓
+  • 3 CTA buttons with prices ✓
+  • Responsive desktop (1440x900) ✓
+  • Responsive mobile (390x844) ✓
+  • Aucune erreur console (juste warning metadataBase inoffensif)
+
+Stage Summary:
+- Landing page désormais alignée avec les vraies specs produit :
+  • Prix : €54,99 (unité) | €94,98 (Pack 2, -15€) | €129,99 (Pack 3, -34,98€)
+  • 7 couleurs + 6 tailles
+  • 3 packs mis en avant avec Pack de 2 comme RECOMMANDÉ
+  • Livraison offerte sur packs de 2 et 3
+  • Paiement 3x sans frais sur packs (dès 60€)
+- Aucune erreur — prêt pour livraison

@@ -126,11 +126,11 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
       <div className="bg-peach-gradient text-cream-50 text-center text-xs md:text-sm font-medium py-2.5 px-4">
         <span className="inline-flex items-center gap-2 flex-wrap justify-center">
           <Truck className="w-3.5 h-3.5" />
-          Livraison offerte dès 49€
+          Livraison offerte dès 54,99€
           <span className="opacity-50 hidden sm:inline">•</span>
           <Sparkles className="w-3.5 h-3.5 hidden sm:inline" />
           <span className="hidden sm:inline">
-            Offre de lancement -29% — quantités limitées
+            Pack de 2 recommandé — économisez 15€
           </span>
         </span>
       </div>
@@ -179,7 +179,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                 onClick={onOrderClick}
                 className="hidden sm:inline-flex bg-peach-gradient text-cream-50 hover:opacity-90 shadow-md hover:shadow-lg transition-all rounded-full px-5 md:px-6 font-display font-semibold"
               >
-                Je commande — 49,90€
+                Je commande — 54,99€
               </Button>
               <button
                 onClick={() => setMobileOpen((v) => !v)}
@@ -219,7 +219,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                   }}
                   className="mt-2 bg-peach-gradient text-cream-50 rounded-full font-display font-semibold"
                 >
-                  Je commande — 49,90€
+                  Je commande — 54,99€
                 </Button>
               </div>
             </motion.div>
@@ -285,16 +285,26 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
             </p>
 
             {/* Price */}
-            <div className="flex items-center justify-center lg:justify-start gap-3 mb-7">
-              <span className="font-display font-bold text-4xl md:text-5xl text-cinnamon-900">
-                49,90€
-              </span>
-              <span className="font-display text-xl text-cinnamon-700/60 line-through">
-                69,90€
-              </span>
-              <Badge className="bg-peach-gradient text-cream-50 hover:bg-peach-gradient px-3 py-1.5 rounded-full text-sm font-bold">
-                -29%
-              </Badge>
+            <div className="flex flex-col items-center lg:items-start gap-3 mb-7">
+              <div className="flex items-center gap-3">
+                <span className="text-cinnamon-700 text-sm font-medium uppercase tracking-wider">
+                  Dès
+                </span>
+                <span className="font-display font-extrabold text-5xl md:text-6xl text-cinnamon-900">
+                  54,99€
+                </span>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 text-sm">
+                <Badge className="bg-peach-gradient text-cream-50 hover:bg-peach-gradient px-3 py-1.5 rounded-full text-xs font-bold">
+                  Pack de 2 recommandé
+                </Badge>
+                <span className="text-cinnamon-700">
+                  <span className="font-display font-bold text-cinnamon-900">
+                    94,98€
+                  </span>{" "}
+                  · économise 15€ + livraison offerte
+                </span>
+              </div>
             </div>
 
             {/* CTAs */}
@@ -311,11 +321,11 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <a
-                href="#produit"
+                href="#packs"
                 className="inline-flex items-center justify-center gap-2 px-6 py-6 rounded-full border border-cinnamon-900/15 text-cinnamon-800 hover:bg-cream-100 hover:border-cinnamon-900/25 transition-all font-medium"
               >
-                <PawPrint className="w-4 h-4" />
-                Découvrir le sweat
+                <Gift className="w-4 h-4" />
+                Voir les packs & économies
               </a>
             </div>
 
@@ -372,7 +382,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 </div>
               </div>
 
-              {/* Floating badge: -29% */}
+              {/* Floating badge: -15€ */}
               <motion.div
                 initial={{ opacity: 0, scale: 0, rotate: -10 }}
                 animate={{ opacity: 1, scale: 1, rotate: -8 }}
@@ -380,10 +390,10 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 className="absolute -top-5 -left-5 md:-top-6 md:-left-6 bg-peach-gradient text-cream-50 rounded-full w-20 h-20 md:w-24 md:h-24 flex flex-col items-center justify-center shadow-xl"
               >
                 <span className="font-display font-extrabold text-xl md:text-2xl leading-none">
-                  -29%
+                  -15€
                 </span>
                 <span className="text-[10px] md:text-xs font-medium mt-0.5">
-                  Lancement
+                  Pack de 2
                 </span>
               </motion.div>
 
@@ -719,7 +729,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
               className="absolute -top-3 -right-3 md:-top-4 md:-right-4 bg-peach-gradient text-cream-50 rounded-2xl shadow-xl p-3 md:p-4 flex flex-col items-center"
             >
               <span className="font-display font-extrabold text-2xl md:text-3xl">
-                2
+                7
               </span>
               <span className="text-[10px] md:text-xs font-medium -mt-1">
                 coloris
@@ -778,24 +788,26 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
                   <Palette className="w-3.5 h-3.5" />
                   Coloris
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-7 h-7 rounded-full bg-[oklch(0.42_0.06_120)] ring-2 ring-cream-50 shadow-md" title="Vert kaki" />
-                  <div className="w-7 h-7 rounded-full bg-[oklch(0.42_0.13_25)] ring-2 ring-cream-50 shadow-md" title="Rouge brique" />
-                  <span className="text-sm text-cinnamon-800 ml-1 font-medium">
-                    Kaki & Brique
-                  </span>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <div className="w-8 h-8 rounded-full bg-[#4A5D23] ring-2 ring-cream-50 shadow-md" title="Vert militaire" />
+                  <div className="w-8 h-8 rounded-full bg-[#E8B4C4] ring-2 ring-cream-50 shadow-md" title="Rose poudré" />
+                  <div className="w-8 h-8 rounded-full bg-[#C8102E] ring-2 ring-cream-50 shadow-md" title="Rouge vif" />
+                  <div className="w-8 h-8 rounded-full bg-[#A8D5BA] ring-2 ring-cream-50 shadow-md" title="Vert menthe" />
+                  <div className="w-8 h-8 rounded-full bg-[#1B2838] ring-2 ring-cream-50 shadow-md" title="Bleu marine" />
+                  <div className="w-8 h-8 rounded-full bg-[#E8D9C0] ring-2 ring-cream-50 shadow-md" title="Beige crème" />
+                  <div className="w-8 h-8 rounded-full bg-[#1A1A1A] ring-2 ring-cream-50 shadow-md" title="Noir" />
                 </div>
               </div>
               <div className="p-4 rounded-2xl bg-cream-100 border border-peach-400/20">
                 <div className="flex items-center gap-2 text-cinnamon-700 text-xs mb-2 font-semibold uppercase tracking-wider">
                   <Ruler className="w-3.5 h-3.5" />
-                  Tailles
+                  6 tailles
                 </div>
-                <div className="flex items-center gap-1 flex-wrap">
-                  {["S", "M", "L", "XL", "XXL"].map((s) => (
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {["S", "M", "L", "XL", "2XL", "3XL"].map((s) => (
                     <span
                       key={s}
-                      className="px-2 py-0.5 rounded-md bg-cream-50 text-xs font-medium text-cinnamon-800 border border-cinnamon-900/10"
+                      className="px-2.5 py-1 rounded-md bg-cream-50 text-xs font-medium text-cinnamon-800 border border-cinnamon-900/10"
                     >
                       {s}
                     </span>
@@ -807,33 +819,40 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
             {/* Price */}
             <div className="flex flex-wrap items-center gap-4 mb-7 p-5 rounded-2xl bg-cream-100 border border-peach-400/20">
               <div>
-                <span className="text-cinnamon-700 text-sm">Prix de lancement</span>
-                <div className="flex items-center gap-2">
+                <span className="text-cinnamon-700 text-sm">Prix unitaire</span>
+                <div className="flex items-baseline gap-2">
                   <span className="font-display font-extrabold text-3xl text-cinnamon-900">
-                    49,90€
-                  </span>
-                  <span className="text-lg text-cinnamon-700/60 line-through">
-                    69,90€
+                    54,99€
                   </span>
                 </div>
               </div>
               <div className="h-12 w-px bg-cinnamon-900/15" />
               <div>
-                <span className="text-cinnamon-700 text-sm">Soit</span>
+                <span className="text-cinnamon-700 text-sm">Pack de 2 (recommandé)</span>
                 <div className="font-display font-bold text-xl text-peach-500">
-                  -29% immédiat
+                  94,98€
                 </div>
+                <span className="text-xs text-cinnamon-700/70">économie 15€ + livraison offerte</span>
               </div>
             </div>
 
-            <Button
-              onClick={onOrderClick}
-              size="lg"
-              className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl hover:shadow-2xl hover:shadow-peach-500/30 transition-all rounded-full px-8 py-6 font-display font-bold text-base w-full sm:w-auto"
-            >
-              <Shirt className="w-5 h-5 mr-2" />
-              Je commande mon Trico — 49,90€
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Button
+                onClick={onOrderClick}
+                size="lg"
+                className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl hover:shadow-2xl hover:shadow-peach-500/30 transition-all rounded-full px-8 py-6 font-display font-bold text-base flex-1"
+              >
+                <Shirt className="w-5 h-5 mr-2" />
+                Je commande — 54,99€
+              </Button>
+              <a
+                href="#packs"
+                className="inline-flex items-center justify-center gap-2 px-6 py-6 rounded-full border-2 border-peach-400/40 text-cinnamon-800 hover:bg-peach-300/20 transition-all font-display font-semibold"
+              >
+                <Gift className="w-5 h-5" />
+                Voir les 3 packs
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -969,12 +988,12 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             </Badge>
 
             <h2 className="font-display font-extrabold text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
-              -29% sur le Trico Sweat Porte-Chat
+              Pack de 3 Trico — économisez 34,98€
             </h2>
             <p className="text-cream-50/90 text-lg md:text-xl max-w-2xl mx-auto mb-8">
-              Profitez du prix de lancement avant que les stocks ne soient
-              épuisés. Votre chat mérite ce bonheur de câlins mains libres
-              dès maintenant.
+              Le meilleur deal : 3 sweats à 129,99€ au lieu de 164,97€. Idéal
+              pour équiper toute la famille ou offrir en cadeau. Livraison
+              offerte et économies garanties.
             </p>
 
             <div className="mb-8">
@@ -987,7 +1006,7 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <Truck className="w-4 h-4" />
-                <span className="font-medium">Livraison offerte dès 49€</span>
+                <span className="font-medium">Livraison offerte</span>
               </div>
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <RefreshCw className="w-4 h-4" />
@@ -1005,15 +1024,15 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
               className="bg-cream-50 text-cinnamon-900 hover:bg-cream-50/95 shadow-2xl rounded-full px-10 py-6 font-display font-extrabold text-lg group"
             >
               <span className="flex items-center gap-2">
-                <Shirt className="w-5 h-5 text-peach-500" />
-                Je commande maintenant — 49,90€
+                <Gift className="w-5 h-5 text-peach-500" />
+                Je commande le Pack de 3 — 129,99€
               </span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
 
             <p className="text-cream-50/70 text-xs mt-5 max-w-md mx-auto">
-              Plus que 47 Trico disponibles à ce prix. Après, retour au tarif
-              normal 69,90€.
+              Plus que 47 packs disponibles à ce prix. Après, retour au tarif
+              normal 164,97€.
             </p>
           </div>
         </motion.div>
@@ -1057,7 +1076,7 @@ function FAQ() {
     },
     {
       q: "Puis-je payer en plusieurs fois ?",
-      a: "Oui ! Le paiement en 3x sans frais est disponible dès 60€ d'achat (donc dès 2 Trico commandés, idéal pour un cadeau). Nous acceptons CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL. Vos données bancaires ne sont jamais stockées.",
+      a: "Oui ! Le paiement en 3x sans frais est disponible dès 60€ d'achat. Le Pack de 2 à 94,98€ peut être payé en 3x 31,66€, et le Pack de 3 à 129,99€ en 3x 43,33€. Idéal pour offrir en cadeau sans avancer tout le budget. Nous acceptons CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL. Vos données bancaires ne sont jamais stockées.",
     },
   ];
   return (
@@ -1308,6 +1327,231 @@ function Footer() {
 }
 
 /* =========================================================================
+   Packs Section — Choose your pack
+   ========================================================================= */
+function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
+  const packs = [
+    {
+      name: "1 Trico",
+      subtitle: "Découverte",
+      quantity: "1 sweat",
+      price: "54,99€",
+      oldPrice: null,
+      saving: null,
+      perUnit: "54,99€ / sweat",
+      features: [
+        "Choix de la couleur parmi 7 coloris",
+        "Choix de la taille (S à 3XL)",
+        "Livraison standard 48h",
+        "Satisfait ou remboursé 30j",
+      ],
+      highlighted: false,
+      badge: null,
+    },
+    {
+      name: "Pack de 2 Trico",
+      subtitle: "Recommandé",
+      quantity: "2 sweats",
+      price: "94,98€",
+      oldPrice: "109,98€",
+      saving: "Économisez 15€",
+      perUnit: "47,49€ / sweat",
+      features: [
+        "Couleur et taille personnalisables pour chaque sweat",
+        "Livraison OFFERTE",
+        "Le plus populaire — idéal pour cadeau",
+        "Paiement 3x sans frais (3× 31,66€)",
+      ],
+      highlighted: true,
+      badge: "Recommandé",
+    },
+    {
+      name: "Pack de 3 Trico",
+      subtitle: "Meilleure offre",
+      quantity: "3 sweats",
+      price: "129,99€",
+      oldPrice: "164,97€",
+      saving: "Économisez 34,98€",
+      perUnit: "43,33€ / sweat",
+      features: [
+        "Couleur et taille personnalisables pour chaque sweat",
+        "Livraison OFFERTE",
+        "Économie maximale — 21% de réduction",
+        "Paiement 3x sans frais (3× 43,33€)",
+      ],
+      highlighted: false,
+      badge: "Meilleure offre",
+    },
+  ];
+
+  return (
+    <section id="packs" className="py-16 md:py-24 bg-cream-100">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+          <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
+            Choisis ton pack
+          </Badge>
+          <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
+            Plus vous prenez de Trico,{" "}
+            <span className="text-peach-500">plus vous économisez</span>
+          </h2>
+          <p className="text-cinnamon-700 text-lg leading-relaxed">
+            Offrez un Trico à votre moitié, votre sœur ou votre meilleure amie
+            amoureuse de chats. Ou gardez-en plusieurs pour varier les
+            couleurs selon les saisons et vos humeurs.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 md:gap-7 items-stretch">
+          {packs.map((pack, i) => (
+            <motion.div
+              key={pack.name}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className={`relative flex flex-col rounded-3xl p-6 md:p-8 transition-all ${
+                pack.highlighted
+                  ? "bg-cinnamon-900 text-cream-50 shadow-2xl shadow-cinnamon-900/30 md:-translate-y-4 ring-4 ring-peach-400"
+                  : "bg-cream-50 text-cinnamon-900 shadow-md hover:shadow-xl border border-cinnamon-900/5"
+              }`}
+            >
+              {/* Badge */}
+              {pack.badge && (
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-peach-gradient text-cream-50 px-4 py-1.5 rounded-full text-xs font-bold shadow-lg whitespace-nowrap">
+                  {pack.badge}
+                </div>
+              )}
+
+              {/* Header */}
+              <div className="text-center mb-6">
+                <div
+                  className={`text-xs font-semibold uppercase tracking-wider mb-2 ${
+                    pack.highlighted ? "text-peach-300" : "text-cinnamon-700"
+                  }`}
+                >
+                  {pack.subtitle}
+                </div>
+                <h3 className="font-display font-extrabold text-2xl md:text-3xl mb-1">
+                  {pack.name}
+                </h3>
+                <p
+                  className={`text-sm ${
+                    pack.highlighted
+                      ? "text-cream-50/70"
+                      : "text-cinnamon-700/70"
+                  }`}
+                >
+                  {pack.quantity}
+                </p>
+              </div>
+
+              {/* Price */}
+              <div className="text-center mb-6">
+                <div className="flex items-baseline justify-center gap-2">
+                  <span className="font-display font-extrabold text-4xl md:text-5xl">
+                    {pack.price}
+                  </span>
+                  {pack.oldPrice && (
+                    <span
+                      className={`text-lg line-through ${
+                        pack.highlighted
+                          ? "text-cream-50/50"
+                          : "text-cinnamon-700/50"
+                      }`}
+                    >
+                      {pack.oldPrice}
+                    </span>
+                  )}
+                </div>
+                {pack.saving && (
+                  <div
+                    className={`inline-block mt-2 px-3 py-1 rounded-full text-xs font-bold ${
+                      pack.highlighted
+                        ? "bg-peach-400/30 text-peach-300"
+                        : "bg-peach-300/40 text-cinnamon-800"
+                    }`}
+                  >
+                    {pack.saving}
+                  </div>
+                )}
+                <p
+                  className={`text-xs mt-2 ${
+                    pack.highlighted
+                      ? "text-cream-50/60"
+                      : "text-cinnamon-700/60"
+                  }`}
+                >
+                  {pack.perUnit}
+                </p>
+              </div>
+
+              {/* Features */}
+              <ul className="space-y-3 mb-8 flex-1">
+                {pack.features.map((feature, j) => (
+                  <li key={j} className="flex items-start gap-2.5 text-sm">
+                    <Check
+                      className={`w-4 h-4 mt-0.5 shrink-0 ${
+                        pack.highlighted ? "text-peach-300" : "text-peach-500"
+                      }`}
+                    />
+                    <span
+                      className={
+                        pack.highlighted
+                          ? "text-cream-50/90"
+                          : "text-cinnamon-800"
+                      }
+                    >
+                      {feature}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              {/* CTA */}
+              <Button
+                onClick={onOrderClick}
+                size="lg"
+                className={`w-full rounded-full py-5 font-display font-bold text-sm ${
+                  pack.highlighted
+                    ? "bg-peach-gradient text-cream-50 hover:opacity-90 shadow-lg"
+                    : "bg-cream-100 text-cinnamon-900 hover:bg-cream-200 border border-cinnamon-900/10"
+                }`}
+              >
+                {pack.highlighted ? "Choisir ce pack" : "Sélectionner"}
+                <ChevronRight className="w-4 h-4 ml-1" />
+              </Button>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Bottom reassurance */}
+        <div className="mt-10 md:mt-12 text-center">
+          <p className="text-cinnamon-700 text-sm mb-4">
+            Tous les packs sont personnalisables : couleur et taille
+            indépendantes pour chaque Trico.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
+              <Shield className="w-3.5 h-3.5 text-peach-500" />
+              Paiement 100% sécurisé
+            </div>
+            <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
+              <Truck className="w-3.5 h-3.5 text-peach-500" />
+              Expédié sous 24h
+            </div>
+            <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
+              <RefreshCw className="w-3.5 h-3.5 text-peach-500" />
+              Remboursé sous 30j
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* =========================================================================
    MAIN LandingPage component — composes everything
    ========================================================================= */
 export default function LandingPage() {
@@ -1317,7 +1561,7 @@ export default function LandingPage() {
     toast({
       title: "Redirection vers la boutique...",
       description:
-        "Vous allez être redirigé vers la commande du Trico Sweat Porte-Chat à 49,90€.",
+        "Vous allez être redirigé vers la commande du Trico Sweat Porte-Chat.",
     });
     setTimeout(() => {
       window.open("https://kim2ts-ct.myshopify.com/", "_blank");
@@ -1332,6 +1576,7 @@ export default function LandingPage() {
       <Benefits />
       <HowItWorks />
       <ProductShowcase onOrderClick={handleOrder} />
+      <PacksSection onOrderClick={handleOrder} />
       <Testimonials />
       <FlashOffer onOrderClick={handleOrder} />
       <FAQ />
