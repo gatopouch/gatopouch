@@ -42,7 +42,7 @@ export default async function BlogIndexPage({
 
   const localeCode = { fr: "fr-FR", en: "en-US", es: "es-ES", de: "de-DE", it: "it-IT" }[locale as string] || "fr-FR";
 
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <main className="min-h-screen bg-cream-50">

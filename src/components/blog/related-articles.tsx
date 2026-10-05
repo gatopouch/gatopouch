@@ -24,7 +24,7 @@ export function RelatedArticles({
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {articles.map((article, i) => {
-          const href = `/${locale === "fr" ? "" : locale}/blog/${article.slug}`;
+          const href = `/${locale}/blog/${article.slug}`;
           return (
             <motion.div
               key={article.slug}

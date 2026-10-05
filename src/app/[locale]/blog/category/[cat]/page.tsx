@@ -59,7 +59,7 @@ export default async function BlogCategoryPage({
   const catName = category.name[locale as "fr" | "en" | "es" | "de" | "it"] || category.name.fr;
   const catDesc = category.description[locale as "fr" | "en" | "es" | "de" | "it"] || category.description.fr;
 
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <main className="min-h-screen bg-cream-50">

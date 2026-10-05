@@ -37,7 +37,7 @@ export async function generateMetadata({
   // Hreflang alternates for SEO — tells Google about all language versions
   const alternates: Record<string, string> = {};
   for (const loc of routing.locales) {
-    alternates[loc] = `https://www.gatopouch.shop${loc === routing.defaultLocale ? "" : `/${loc}`}`;
+    alternates[loc] = `https://www.gatopouch.shop/${loc}`;
   }
 
   return {
@@ -46,13 +46,13 @@ export async function generateMetadata({
     keywords: t.raw("keywords") as string[],
     authors: [{ name: "GatoPouch" }],
     alternates: {
-      canonical: `https://www.gatopouch.shop${locale === routing.defaultLocale ? "" : `/${locale}`}`,
+      canonical: `https://www.gatopouch.shop/${locale}`,
       languages: alternates,
     },
     openGraph: {
       title: t("ogTitle"),
       description: t("ogDescription"),
-      url: `https://www.gatopouch.shop${locale === routing.defaultLocale ? "" : `/${locale}`}`,
+      url: `https://www.gatopouch.shop/${locale}`,
       siteName: "GatoPouch",
       type: "website",
       locale: locale === "en" ? "en_US" : locale === "es" ? "es_ES" : locale === "de" ? "de_DE" : locale === "it" ? "it_IT" : "fr_FR",

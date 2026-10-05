@@ -30,7 +30,7 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug, locale as "fr" | "en" | "es" | "de" | "it");
   if (!article) return {};
 
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return {
     title: article.frontmatter.title,
@@ -72,7 +72,7 @@ export default async function BlogArticlePage({
     year: "numeric",
   });
 
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
   const blogHref = `${prefix}/blog`;
   const catHref = `${prefix}/blog/category/${article.categorySlug}`;
 

@@ -21,7 +21,7 @@ export function SiteHeader() {
   const tBrand = useTranslations("brand");
 
   const locale = useLocale();
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);

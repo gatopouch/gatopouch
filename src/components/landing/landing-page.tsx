@@ -139,7 +139,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
   ];
 
   const locale = useLocale();
-  const blogHref = `/${locale === "fr" ? "" : locale}/blog`;
+  const blogHref = `/${locale}/blog`;
 
   return (
     <>

@@ -29,7 +29,7 @@ export default async function BlogLayout({
 function BlogFooter({ locale }: { locale: string }) {
   // This is a server component, so we can't use useTranslations here
   // We'll use a simple static footer that links back to the main site
-  const prefix = locale === "fr" ? "" : `/${locale}`;
+  const prefix = `/${locale}`;
   const copyright = "© 2025 GatoPouch. Tous droits réservés. Basé à Málaga, España.";
 
   return (

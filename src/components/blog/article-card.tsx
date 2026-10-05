@@ -11,7 +11,7 @@ export function ArticleCard({ article, locale }: { article: BlogArticle; locale:
     { day: "numeric", month: "long", year: "numeric" }
   );
 
-  const href = `/${locale === "fr" ? "" : locale}/blog/${article.slug}`;
+  const href = `/${locale}/blog/${article.slug}`;
 
   return (
     <motion.div
