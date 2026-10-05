@@ -1,30 +1,440 @@
 {
   "metadata": {
-    "title": "GatoPouch — La felpa portagatto che tiene il tuo gatto vicino a te, mani libere",
-    "description": "GatoPouch è la felpa in pile con tasca ventrale per portare il tuo gatto vicino a te, mani libere. Cocole infinite, a casa o in passeggiata. Da 54,99€, Pack di 2 consigliato 94,98€, spedizione gratuita da 69€ (consegna 6-12 giorni).",
+    "title": "GatoPouch — Il felpa per trasportare il gatto contro di te, mani libere",
+    "description": "Il GatoPouch è la felpa in pile con tasca frontale per portare il tuo gatto contro di te, mani libere. Abbraci infiniti, a casa come in giro. A partire da 54,99€, Pacco da 2 raccomandato a 94,98€, spedizione gratuita da 69€ (spedizione 6-12 giorni).",
     "keywords": [
-      "felpa portagatto",
+      "felpa per trasportare gatto",
       "felpa gatto",
       "hoodie gatto",
       "tasca gatto",
-      "portatile gatto",
-      "abbigliamento gatto",
+      "trasportabile gatto",
+      "vestito gatto",
       "GatoPouch",
-      "felpa in pile gatto",
-      "regalo amanti gatti"
+      "felpa pile gatto",
+      "regalo per amanti dei gatti"
     ],
-    "ogTitle": "GatoPouch — La felpa portagatto per coccole mani libere",
-    "ogDescription": "Felpa in pile con tasca ventrale per portare il tuo gatto vicino a te. Da 54,99€, Pack di 2 consigliato 94,98€, spedizione gratuita da 69€."
+    "ogTitle": "GatoPouch — La felpa per abbracciare il gatto a mani libere",
+    "ogDescription": "Felpa in pile con tasca frontale per portare il tuo gatto contro di te. A partire da 54,99€, Pacco da 2 raccomandato a 94,98€, spedizione gratuita da 69€."
   },
-  "Nav": {
+  "announcement": {
+    "freeShipping": "Spedizione gratuita da 69€",
+    "promo": "Pack da 2 raccomandato — risparmia 15€"
+  },
+  "nav": {
     "produit": "Il GatoPouch",
     "benefices": "Benefici",
     "avis": "Recensioni",
     "faq": "FAQ",
-    "contact": "Contatto"
+    "contact": "Contatti"
+  },
+  "brand": {
+    "name": "GatoPouch",
+    "tagline": "Porta Gatto"
+  },
+  "cta": {
+    "orderNow": "Ordina ora — 54,99€",
+    "orderMyGatoPouch": "Ordina il mio GatoPouch",
+    "viewPacks": "Scopri i pacchetti e gli sconti",
+    "discoverProduct": "Scopri il felpa",
+    "viewThreePacks": "Scopri i 3 pacchetti"
+  },
+  "hero": {
+    "badge": "Offerta lancio — quantità limitate",
+    "title1": "Il felpe che porta",
+    "titleHighlight": "il tuo gatto",
+    "title2": "contro di te",
+    "subtitle": "Il GatoPouch è la felpa con cappuccio in pile con tasca ventrale per il tuo gatto. Tienilo tutto contro di te, mani libere, a casa come in passeggiata. La felicità condivisa, in movimento.",
+    "fromPrice": "Da",
+    "price": "54,99€",
+    "packBadge": "Pack da 2 raccomandato",
+    "packPrice": "94,98€",
+    "packSavings": "risparmi 15€ + spedizione gratuita",
+    "socialProofCats": "1 432 coccole a gatti",
+    "socialProofRating": "4,9/5",
+    "socialProofReviews": "(1 432 recensioni)",
+    "floatingBadge15": "-15€",
+    "floatingBadgePack2": "Pack da 2",
+    "floatingBadgeSatisfaction": "Soddisfatto o rimborsato"
+  },
+  "trustBadges": {
+    "shipping": {
+      "label": "Spedizione 6-12g",
+      "sub": "In tutta Europa"
+    },
+    "payment": {
+      "label": "Pagamento sicuro",
+      "sub": "CB, PayPal, Apple Pay"
+    },
+    "refund": {
+      "label": "Soddisfatti o rimborsati",
+      "sub": "Entro 30 giorni"
+    },
+    "support": {
+      "label": "Servizio clienti",
+      "sub": "Lun-Ven, 9h-18h"
+    }
+  },
+  "benefits": {
+    "badge": "Perché amerai questo prodotto",
+    "title1": "Più di un maglione, un",
+    "titleHighlight": "cocon condiviso",
+    "intro": "Il GatoPouch è stato pensato con comportamentalisti felini e designer tessili. Ogni dettaglio risponde a un bisogno: avvicinare il tuo gatto a te, in tutta sicurezza, in ogni circostanza.",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Abbracci a mani libere",
+        "desc": "Porta il tuo gato rannicchiato contro il cuore, ovunque tu vada. Senza occupare le braccia, goditi un'affettività continua, in ufficio come in giro."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Comfort premium in peluche",
+        "desc": "Tessuto sherpa spesso (300g/m²), ultra-morbido e molto caldo. Tu e il tuo gatto rimarrete al caldo anche nei giorni d'inverno gelidi o con l'aria condizionata al massimo."
+      },
+      {
+        "icon": "Shield",
+        "title": "Sicurezza rassicurante",
+        "desc": "L'apertura circolare elastica mantiene il tuo gatto al suo posto senza stringerlo. Il cordino a scorrimento regola la dimensione dell'apertura in base alla sua corporatura."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Complice dello smart working",
+        "desc": "Il tuo gato rannicchiato contro di te mentre lavori. Addio ai gatti che camminano sulla tastiera: ronrona nella sua tasca, sereno e presente."
+      },
+      {
+        "icon": "WashingMachine",
+        "title": "Lavabile in lavatrice",
+        "desc": "Materiale resistente lavabile in lavatrice a 30°. Nessuna deformazione, nessun pilling. Il peluche mantiene la sua morbidezza lavaggio dopo lavaggio."
+      },
+      {
+        "icon": "Gift",
+        "title": "Il regalo perfetto",
+        "desc": "Imballaggio curato e premium. Ideale per Natale, la Festa della Mamma, un compleanno o per sorprendere un caro amante dei gatti. Il regalo che emoziona."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Come funziona",
+    "title1": "L'abbraccio condiviso in",
+    "titleHighlight": "4 passaggi",
+    "statTitle": "Mani libere",
+    "statSubtitle": "lavoro da casa, passeggiate, lettura...",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Indossa il GatoPouch",
+        "desc": "Come un classico cappuccio in pile. Il pile spesso ti avvolge di morbidezza. Regola il cappuccio a tuo piacimento con i lacci."
+      },
+      {
+        "number": "02",
+        "title": "Invita il tuo gatto",
+        "desc": "Attraverso la tasca frontale. La grande apertura circolare elastica facilita l'ingresso. Il tuo gatto si infila naturalmente, attratto dal tuo calore."
+      },
+      {
+        "number": "03",
+        "title": "Regola il cordoncino",
+        "desc": "Sotto la tasca, tira il cordino scorrevole per adattare la dimensione dell'apertura al tuo gatto. È mantenuto comodamente, senza pressione."
+      },
+      {
+        "number": "04",
+        "title": "Goditi il momento",
+        "desc": "Mani libere! Lavora, cammina, leggi, prenditi un caffè. Il tuo gatto ronrona contro di te, presente e sereno. La pura felicità."
+      }
+    ]
+  },
+  "productShowcase": {
+    "badge": "Il dettaglio del sweat",
+    "title1": "Lo sweat pensato per",
+    "titleHighlight": "il tuo gatto",
+    "intro": "Ogni dettaglio del GatoPouch è stato scelto per il comfort del tuo gatto e il tuo. Dalla felpa spessa all'apertura elastica di sicurezza, tutto è pensato per ore di coccole senza stress.",
+    "colorisBadge": "7 colori disponibili",
+    "taillesBadge": "6 taglie disponibili",
+    "features": [
+      {
+        "icon": "Shirt",
+        "name": "Felpa sherpa spessa 300g/m²",
+        "desc": "Tessuto ultra morbido, caldo e traspirabile. Comfort avvolgente per te e il tuo gatto."
+      },
+      {
+        "icon": "PawPrint",
+        "name": "Pancia con tasca rinforzata",
+        "desc": "Apertura circolare elastica per comfort e sicurezza. Sostiene il gatto senza comprimerlo."
+      },
+      {
+        "icon": "Sparkles",
+        "name": "Cordino di regolazione a scorrimento",
+        "desc": "Sotto la tasca, regola la dimensione dell'apertura in base alla morfologia del tuo gatto."
+      },
+      {
+        "icon": "Shield",
+        "name": "Tasche laterali con zip",
+        "desc": "Per chiavi, telefono, leccornie. Tutto ciò che ti serve, a portata di mano."
+      },
+      {
+        "icon": "Palette",
+        "name": "Cappuccio premium regolabile",
+        "desc": "Cordoni con terminali metallici. Regola in base alla circonferenza della tua testa. Dettaglio di qualità."
+      },
+      {
+        "icon": "Gift",
+        "name": "Patch in cuoio firmato",
+        "desc": "Etichetta in ecopelle cucita in basso a sinistra. Il dettaglio che fa la differenza."
+      }
+    ],
+    "priceLabel": "Prezzo unitario",
+    "priceValue": "54,99€",
+    "packLabel": "Confezione da 2 (raccomandato)",
+    "packValue": "94,98€",
+    "packSavings": "risparmio 15€ + spedizione gratuita"
+  },
+  "packs": {
+    "badge": "Scegli il tuo pack",
+    "title1": "Più GatoPouch prendi,",
+    "titleHighlight": "più risparmi",
+    "intro": "Regala un GatoPouch al tuo partner, alla tua sorella o alla tua migliore amica che ama i gatti. O ne tieni diversi per variare i colori a seconda delle stagioni e dei tuoi umori.",
+    "items": [
+      {
+        "name": "1 GatoPouch",
+        "subtitle": "Scoperta",
+        "quantity": "1 felpa",
+        "price": "54,99€",
+        "perUnit": "54,99€ / felpa",
+        "features": [
+          "Scelta del colore tra 7 colori",
+          "Scelta della taglia (S a 3XL)",
+          "Spedizione in 6-12 giorni",
+          "Soddisfatto o rimborsato 30gg"
+        ],
+        "cta": "Seleziona"
+      },
+      {
+        "name": "Pack di 2 GatoPouch",
+        "subtitle": "Consigliato",
+        "quantity": "2 felpe",
+        "price": "94,98€",
+        "oldPrice": "109,98€",
+        "saving": "Risparmi 15€",
+        "perUnit": "47,49€ / felpa",
+        "features": [
+          "Colore e taglia personalizzabili per ogni felpa",
+          "Spedizione GRATUITA",
+          "Il più popolare — perfetto per regalo",
+          "Pagamento 3x senza costi (3× 31,66€)"
+        ],
+        "cta": "Scegli questo pack",
+        "badge": "Consigliato"
+      },
+      {
+        "name": "Pack di 3 GatoPouch",
+        "subtitle": "Migliore offerta",
+        "quantity": "3 felpe",
+        "price": "129,99€",
+        "oldPrice": "164,97€",
+        "saving": "Risparmi 34,98€",
+        "perUnit": "43,33€ / felpa",
+        "features": [
+          "Colore e taglia personalizzabili per ogni felpa",
+          "Spedizione GRATUITA",
+          "Risparmio massimo — sconto 21%",
+          "Pagamento 3x senza costi (3× 43,33€)"
+        ],
+        "cta": "Seleziona",
+        "badge": "Migliore offerta"
+      }
+    ],
+    "bottomNote": "Tutti i pack sono personalizzabili: colore e taglia indipendenti per ogni GatoPouch.",
+    "reassurance": {
+      "securePayment": "Pagamento 100% sicuro",
+      "fastShipping": "Spedito in 24h · consegnato in 6-12gg",
+      "moneyBack": "Rimborsato in 30gg"
+    }
+  },
+  "testimonials": {
+    "badge": "Hanno adottato il GatoPouch",
+    "title1": "Cosa dicono gli amanti dei gatti",
+    "titleHighlight": "in merito",
+    "rating": "4,9/5",
+    "reviews": "1 432 recensioni verificate",
+    "verifiedPurchase": "Acquisto verificato",
+    "items": [
+      {
+        "name": "Camille D.",
+        "location": "Lione",
+        "cat": "Mochi, British Shorthair, 3 anni",
+        "rating": 5,
+        "text": "Lavorando da casa, Mochi mi chiedeva costantemente attenzione o camminava sulla tastiera. Con il GatoPouch, si accoccola contro di me per 4 ore di fila, posso lavorare con serenità. È diventato il suo posto preferito di casa. L'acquisto migliore per la mia vita professionale!"
+      },
+      {
+        "name": "Thomas L.",
+        "location": "Bordeaux",
+        "cat": "Pixel, gatto nero, 5 anni",
+        "rating": 5,
+        "text": "Pixel è un gatto molto affettuoso ma invadente. Il GatoPouch ha cambiato il nostro rapporto: lo porto ovunque, ronrona, e ho entrambe le mani libere per le mie attività. Il pile è ultra morbido, si sente la qualità. E dopo 3 lavaggi, è ancora come nuovo."
+      },
+      {
+        "name": "Madeleine R.",
+        "location": "Nantes",
+        "cat": "Gribouille, Calico, 9 anni",
+        "rating": 5,
+        "text": "A 9 anni, Gribouille è diventata molto attaccata. Il GatoPouch mi permette di tenerla con me quando cucino, leggo, lavoro. Lei è felice e anche io. mio nipote me lo ha regalato per il mio compleanno, è il regalo più toccante che abbia mai ricevuto."
+      }
+    ]
+  },
+  "flashOffer": {
+    "badge": "Offerta di lancio limitata",
+    "title": "Pack di 3 GatoPouch — risparmia 34,98€",
+    "description": "L'offerta migliore: 3 felpe a 129,99€ invece di 164,97€. Perfetto per equipaggiare tutta la famiglia o da regalare. Spedizione gratuita e risparmi garantiti.",
+    "countdownLabel": "L'offerta termina tra",
+    "hoursLabel": "Ore",
+    "minutesLabel": "Minuti",
+    "secondsLabel": "Secondi",
+    "badges": {
+      "freeShipping": "Spedizione gratuita",
+      "moneyBack": "Soddisfatto o rimborsato 30gg",
+      "payment3x": "Pagamento 3x senza interessi"
+    },
+    "cta": "Ordino il Pack di 3 — 129,99€",
+    "urgency": "Solo 47 pack disponibili a questo prezzo. Doppi, rientrerà nel prezzo normale di 164,97€."
+  },
+  "faq": {
+    "badge": "Domande frequenti",
+    "title1": "Tutto ciò che vuoi",
+    "titleHighlight": "sapere",
+    "items": [
+      {
+        "q": "Il mio gatto non ama essere portato, si abituerà?",
+        "a": "La stragrande maggioranza dei gatti si abitua in 2-5 sessioni brevi (5 minuti all'inizio). Il trucco: metti una caramella nella tasca, lascialo esplorare al suo ritmo. L'elastico dell'apertura non lo comprime, si sente al sicuro. Il 92% dei nostri clienti ci riferisce che il proprio gatto chiede il GatoPouch dopo una settimana!"
+      },
+      {
+        "q": "Quali taglie sono disponibili?",
+        "a": "Il GatoPouch esiste in 5 taglie: S, M, L, XL, 2XL, 3XL. Per scegliere, prendi la tua misura di seno abituale. Se sei tra due taglie, prendi la più grande per più comfort e libertà di movimento per il tuo gatto. Una guida alle taglie dettagliata viene inviata dopo l'ordine."
+      },
+      {
+        "q": "Adatto a tutti i gatti, qual è il peso?",
+        "a": "Il GatoPouch è adatto ai gatti da 2,5 kg a 7 kg. La tasca rinforzata e l'elastico sono stati testati per sostenere fino a 8 kg senza deformarsi. Per i gatti oltre i 7 kg (Maine Coon), raccomandiamo la taglia XL o XXL e sessioni più brevi (il peso può essere scomodo)."
+      },
+      {
+        "q": "Lavabile in lavatrice?",
+        "a": "Sì! Il GatoPouch si lava in lavatrice a 30° ciclo delicato, centrifuga massima 600 giri/min. Non asciugare in asciugatrice (il sherpa può formare palline). Lascia asciugare all'aria aperta. Il pile mantiene la sua morbidezza, colore e forma lavaggio dopo lavaggio. Raccomandato una volta a settimana."
+      },
+      {
+        "q": "Non rischia di ferire il mio gatto?",
+        "a": "Assolutamente no, a patto di rispettare il peso massimo (7-8 kg) e di ascoltare il tuo gatto. L'apertura elastica non stringe mai, il cordoncio scorrevole serve solo per regolare la dimensione d'ingresso. Non forzare mai un gatto restio. Consigliamo di supervisionare sempre e di fare sessioni di massimo 30 minuti all'inizio."
+      },
+      {
+        "q": "Quali sono i tempi di spedizione?",
+        "a": "Il tuo GatoPouch viene spedito entro 24 ore lavorative dal nostro magazzino. Poi conta 6-12 giorni per la consegna (a seconda del tuo paese e del periodo). Un numero di tracciamento ti viene inviato via email non appena viene spedito. La spedizione è gratuita da 69€ di acquisto — raggiunto automaticamente già dal Pack da 2 a 94,98€ (quindi i pack sono sempre spediti gratuitamente!)."
+      },
+      {
+        "q": "Di quale materiale? È davvero caldo?",
+        "a": "Il GatoPouch è in pile sherpa spesso 300g/m², ultra-morbido e molto caldo. Ideale per autunno, inverno, primavera fresca e uffici climatizzati. Il tessuto è traspirante: né tu né il tuo gatto sudate. Lo sherpa è resistente, resistente ai graffi degli artigli (con una moderata ammonizione, il tuo gatto capisce presto)."
+      },
+      {
+        "q": "Posso pagare a rate?",
+        "a": "Sì! Il pagamento in 3x senza interessi è disponibile da 60€ di acquisto. Il Pack da 2 a 94,98€ può essere pagato in 3x da 31,66€, e il Pack da 3 a 129,99€ in 3x da 43,33€. Ideale per fare un regalo senza sborsare tutto il budget. Accettiamo carte di credito, PayPal, Apple Pay e Google Pay tramite una connessione sicura SSL. I tuoi dati bancari non vengono mai memorizzati."
+      }
+    ]
+  },
+  "newsletter": {
+    "badge": "Codice -10% all'iscrizione",
+    "title": "Unisciti alla famiglia GatoPouch",
+    "description": "Consigli per l'adattamento del gatto, offerte esclusive, novità e storie di gatti felici. Ricevi",
+    "discountHighlight": "-10% sul tuo primo ordine",
+    "descriptionEnd": "adesso.",
+    "placeholder": "la tua@email.com",
+    "button": "Ricevi il mio codice -10%",
+    "disclaimer": "Niente spam. Cancellazione in 1 clic. Rispettiamo il RGPD.",
+    "toastSuccess": "Grazie!",
+    "toastSuccessDesc": "Il tuo codice -10% è in arrivo nella tua casella di posta. Benvenuto nella famiglia GatoPouch!",
+    "toastError": "Errore di invio",
+    "toastErrorDesc": "Per favore riprova o scrivici a contact@gatopouch.com",
+    "toastInvalid": "Ops, email non valida",
+    "toastInvalidDesc": "Per favore inserisci un indirizzo email valido.",
+    "loadingText": "Iscrizione in corso..."
+  },
+  "footer": {
+    "brandDescription": "Il felpa porta-gatto avvicina i gatti e i loro umani, un abbraccio alla volta. Progettato con amore da amanti dei gatti, per amanti dei gatti.",
+    "partnerSite": "www.gatopouch.com",
+    "address": "Calle Almería 83, 29018 Málaga, España",
+    "columns": {
+      "product": {
+        "title": "Prodotto",
+        "links": {
+          "produit": "Il GatoPouch",
+          "benefices": "Benefici",
+          "packs": "Pacchetti e tariffe",
+          "avis": "Recensioni dei clienti",
+          "faq": "FAQ"
+        }
+      },
+      "contact": {
+        "title": "Contatto",
+        "contactEmail": "contact@gatopouch.com",
+        "supportEmail": "support@gatopouch.com",
+        "phone": "+34 670 04 04 47",
+        "whatsapp": "WhatsApp",
+        "formButton": "Modulo di contatto"
+      },
+      "follow": {
+        "title": "Seguici",
+        "intro": "Unisciti a 18 000 amanti dei gatti su Instagram.",
+        "legalTitle": "Pagine legali"
+      }
+    },
+    "copyright": "© 2025 GatoPouch. Tutti i diritti riservati. Con sede a Málaga, España."
+  },
+  "contactModal": {
+    "title": "Contatta GatoPouch",
+    "description": "Hai una domanda sul GatoPouch, il tuo ordine o una richiesta di partnership? Scrivici, rispondiamo entro 24-48 ore lavorative.",
+    "formTitle": "Dati di contatto",
+    "fields": {
+      "name": "Nome *",
+      "namePlaceholder": "Camille Dubois",
+      "email": "E-mail *",
+      "emailPlaceholder": "camille@email.com",
+      "phone": "Telefono",
+      "phonePlaceholder": "+34 670 04 04 47",
+      "subject": "Oggetto",
+      "subjectPlaceholder": "Domanda ordine / Assistenza / Partnership...",
+      "message": "Messaggio *",
+      "messagePlaceholder": "Buongiorno, vorrei sapere se il GatoPouch è adatto per un gatto di 7 kg..."
+    },
+    "submitButton": "Invia messaggio",
+    "loadingText": "Invio in corso...",
+    "contactInfo": {
+      "contactEmailLabel": "contact@gatopouch.com",
+      "contactEmailSub": "Domande prodotto & ordine",
+      "supportEmailLabel": "support@gatopouch.com",
+      "supportEmailSub": "Supporto tecnico assistenza",
+      "phoneLabel": "+34 670 04 04 47",
+      "phoneSub": "Lun-Ven, 9h-18h (CET)",
+      "whatsappLabel": "WhatsApp",
+      "whatsappSub": "+34 670 04 04 47 — risposta rapida",
+      "addressLabel": "Calle Almería 83",
+      "addressSub": "29018 Málaga, España",
+      "siteLabel": "www.gatopouch.com",
+      "siteSub": "Sito partner ufficiale"
+    },
+    "toastSuccess": "Messaggio inviato!",
+    "toastError": "Errore durante l'invio"
+  },
+  "legalModals": {
+    "legalModals": {
+      "privacy": {
+        "trigger": "Privacy"
+      },
+      "terms": {
+        "trigger": "Termini e Condizioni"
+      },
+      "returns": {
+        "trigger": "Politica di Reso"
+      },
+      "shipping": {
+        "trigger": "Politica di Spedizione"
+      }
+    }
   },
   "Common": {
-    "orderNow": "Ordina ora — 54,99€",
-    "loading": "Caricamento..."
+    "loading": "Caricamento...",
+    "europeShipping": "In tutta Europa"
   }
 }

@@ -1,30 +1,438 @@
 {
   "metadata": {
-    "title": "GatoPouch — The cat-carrying hoodie that keeps your cat close, hands-free",
-    "description": "GatoPouch is the polar fleece hoodie with a ventral pouch for carrying your cat close to you, hands-free. Endless cuddles, at home or on walks. From 54,99€, recommended Pack of 2 at 94,98€, free shipping from 69€ (delivery 6 to 12 days).",
+    "title": "GatoPouch — The cat-wearing hoodie that keeps your cat against you, hands-free",
+    "description": "The GatoPouch is the fleece hoodie with a front pouch for wearing your cat against you, hands-free. Endless cuddles, at home or on the go. From 54.99€, Pack of 2 recommended 94.98€, free shipping from 69€ (delivery 6 to 12 days).",
     "keywords": [
-      "cat-carrying hoodie",
+      "cat-wearing hoodie",
       "cat hoodie",
-      "cat pouch hoodie",
+      "cat hoodie",
+      "cat pouch",
       "cat carrier",
-      "wearable cat carrier",
       "cat clothing",
       "GatoPouch",
-      "polar fleece cat hoodie",
-      "gift for cat lovers"
+      "fleece cat hoodie",
+      "cat lover gift"
     ],
-    "ogTitle": "GatoPouch — The cat-carrying hoodie for hands-free cuddles",
-    "ogDescription": "Polar fleece hoodie with ventral pouch to carry your cat close to you. From 54,99€, recommended Pack of 2 at 94,98€, free shipping from 69€."
+    "ogTitle": "GatoPouch — The cat-wearing hoodie for hands-free cuddles",
+    "ogDescription": "Fleece hoodie with a front pouch for wearing your cat against you. From 54.99€, Pack of 2 recommended 94.98€, free shipping from 69€."
   },
-  "Nav": {
+  "announcement": {
+    "freeShipping": "Free shipping on orders over €69",
+    "promo": "Recommended 2-pack — save €15"
+  },
+  "nav": {
     "produit": "The GatoPouch",
     "benefices": "Benefits",
     "avis": "Reviews",
     "faq": "FAQ",
     "contact": "Contact"
   },
+  "brand": {
+    "name": "GatoPouch",
+    "tagline": "Cat Carrier Sweater"
+  },
+  "cta": {
+    "orderNow": "I order — €54.99",
+    "orderMyGatoPouch": "I order my GatoPouch",
+    "viewPacks": "View packs & savings",
+    "discoverProduct": "Discover the sweatshirt",
+    "viewThreePacks": "View the 3 packs"
+  },
+  "hero": {
+    "badge": "Launch offer — limited quantities",
+    "title1": "The hoodie that carries",
+    "titleHighlight": "your cat",
+    "title2": "against you",
+    "subtitle": "The GatoPouch is the fleece hoodie with a front pouch for your cat. Keep them close to you, hands-free, at home or on the go. Shared happiness, on the move.",
+    "fromPrice": "From",
+    "price": "54.99€",
+    "packBadge": "Pack of 2 recommended",
+    "packPrice": "94.98€",
+    "packSavings": "save 15€ + free shipping",
+    "socialProofCats": "1 432 cats cuddled",
+    "socialProofRating": "4.9/5",
+    "socialProofReviews": "(1 432 reviews)",
+    "floatingBadge15": "-15€",
+    "floatingBadgePack2": "Pack of 2",
+    "floatingBadgeSatisfaction": "Satisfaction guaranteed"
+  },
+  "trustBadges": {
+    "shipping": {
+      "label": "Delivery 6-12 days",
+      "sub": "All across Europe"
+    },
+    "payment": {
+      "label": "Secure payment",
+      "sub": "CB, PayPal, Apple Pay"
+    },
+    "refund": {
+      "label": "Satisfaction guaranteed",
+      "sub": "Within 30 days"
+    },
+    "support": {
+      "label": "Customer service",
+      "sub": "Mon-Fri, 9am-6pm"
+    }
+  },
+  "benefits": {
+    "badge": "Why you'll love it",
+    "title1": "More than a sweatshirt, a",
+    "titleHighlight": "shared cocoon",
+    "intro": "The GatoPouch was designed with feline behaviorists and textile designers. Every detail is crafted to meet a need: to bring your cat closer to you, safely, in any situation.",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Hands-Free Cuddles",
+        "desc": "Carry your cat snuggled against your heart, wherever you go. Without using your arms, enjoy continuous cuddles, at the office or on a walk."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Premium Polar Fleece Comfort",
+        "desc": "Thick sherpa fabric (300g/m²), ultra-soft and very warm. You and your cat stay warm even on freezing winter days or with strong air conditioning."
+      },
+      {
+        "icon": "Shield",
+        "title": "Reassuring Security",
+        "desc": "The elasticated circular opening keeps your cat securely in place without constriction. The sliding cord adjusts the opening size to fit their body shape."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "The Perfect WFH Buddy",
+        "desc": "Your cat snuggled against you while you work. No more cats walking on the keyboard: they purr away in their pocket, calm and present."
+      },
+      {
+        "icon": "WashingMachine",
+        "title": "Machine Washable",
+        "desc": "Durable material, machine washable at 30°C. No shrinkage, no pilling. The fleece stays soft wash after wash."
+      },
+      {
+        "icon": "Gift",
+        "title": "The Perfect Gift",
+        "desc": "Careful and premium packaging. Ideal for Christmas, Mother's Day, a birthday, or to surprise a fellow cat lover. The gift that tugs at the heartstrings."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "How it works",
+    "title1": "Shared cuddles in",
+    "titleHighlight": "4 steps",
+    "statTitle": "Hands-free",
+    "statSubtitle": "work from home, walks, reading...",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Put on the GatoPouch",
+        "desc": "Just like a classic hoodie. The thick fleece wraps you in softness. Adjust the hood as you like with the drawstrings."
+      },
+      {
+        "number": "02",
+        "title": "Invite your cat",
+        "desc": "Through the front pocket. The large circular elastic opening makes it easy for them to enter. Your cat slips in naturally, drawn to your warmth."
+      },
+      {
+        "number": "03",
+        "title": "Adjust the drawstring",
+        "desc": "Under the pocket, pull the sliding drawstring to adjust the opening size for your cat. They are held comfortably, with no pressure."
+      },
+      {
+        "number": "04",
+        "title": "Savor the moment",
+        "desc": "Hands-free! Work, walk, read, have a coffee. Your cat is purring against you, present and calm. Pure happiness."
+      }
+    ]
+  },
+  "productShowcase": {
+    "badge": "The sweatshirt in detail",
+    "title1": "The sweatshirt designed for",
+    "titleHighlight": "your cat",
+    "intro": "Every detail of the GatoPouch has been selected for the comfort of your cat and yours. From the thick fleece to the secure elasticated opening, everything is designed for hours of stress-free cuddles.",
+    "colorisBadge": "7 colors available",
+    "taillesBadge": "6 sizes available",
+    "features": [
+      {
+        "icon": "Shirt",
+        "name": "Thick 300g/m² sherpa fleece",
+        "desc": "Ultra-soft, warm, and breathable fabric. Cocooning comfort for you and your cat."
+      },
+      {
+        "icon": "PawPrint",
+        "name": "Reinforced belly pouch",
+        "desc": "Circular elasticated opening for comfort and security. Supports the cat without compressing them."
+      },
+      {
+        "icon": "Sparkles",
+        "name": "Adjustable drawstring cord",
+        "desc": "Under the pouch, adjust the opening size to your cat's body shape."
+      },
+      {
+        "icon": "Shield",
+        "name": "Side zippered pockets",
+        "desc": "For keys, phone, treats. Everything you need, right at your fingertips."
+      },
+      {
+        "icon": "Palette",
+        "name": "Premium adjustable hood",
+        "desc": "Cords with metal tips. Adjust to your head circumference. A quality detail."
+      },
+      {
+        "icon": "Gift",
+        "name": "Signature leather patch",
+        "desc": "Faux leather label sewn on the bottom left. The detail that makes all the difference."
+      }
+    ],
+    "priceLabel": "Unit price",
+    "priceValue": "54,99€",
+    "packLabel": "Pack of 2 (recommended)",
+    "packValue": "94,98€",
+    "packSavings": "save 15€ + free delivery"
+  },
+  "packs": {
+    "badge": "Choose your pack",
+    "title1": "The more GatoPouch you take,",
+    "titleHighlight": "the more you save",
+    "intro": "Offer a GatoPouch to your better half, sister, or best friend who's a cat lover. Or keep several to vary the colors with the seasons and your moods.",
+    "items": [
+      {
+        "name": "1 GatoPouch",
+        "subtitle": "Discovery",
+        "quantity": "1 sweat",
+        "price": "54,99€",
+        "perUnit": "54,99€ / sweat",
+        "features": [
+          "Choose from 7 colors",
+          "Choose your size (S to 3XL)",
+          "Delivery in 6 to 12 days",
+          "30-day money-back guarantee"
+        ],
+        "cta": "Select"
+      },
+      {
+        "name": "Pack of 2 GatoPouch",
+        "subtitle": "Recommended",
+        "quantity": "2 sweats",
+        "price": "94,98€",
+        "oldPrice": "109,98€",
+        "saving": "Save 15€",
+        "perUnit": "47,49€ / sweat",
+        "features": [
+          "Customizable color and size for each sweat",
+          "FREE Delivery",
+          "Most popular — perfect for gifting",
+          "3x interest-free payment (3× 31,66€)"
+        ],
+        "cta": "Choose this pack",
+        "badge": "Recommended"
+      },
+      {
+        "name": "Pack of 3 GatoPouch",
+        "subtitle": "Best offer",
+        "quantity": "3 sweats",
+        "price": "129,99€",
+        "oldPrice": "164,97€",
+        "saving": "Save 34,98€",
+        "perUnit": "43,33€ / sweat",
+        "features": [
+          "Customizable color and size for each sweat",
+          "FREE Delivery",
+          "Maximum savings — 21% off",
+          "3x interest-free payment (3× 43,33€)"
+        ],
+        "cta": "Select",
+        "badge": "Best offer"
+      }
+    ],
+    "bottomNote": "All packs are customizable: independent color and size for each GatoPouch.",
+    "reassurance": {
+      "securePayment": "100% Secure Payment",
+      "fastShipping": "Shipped within 24h · delivered in 6-12 days",
+      "moneyBack": "Refunded within 30 days"
+    }
+  },
+  "testimonials": {
+    "badge": "They've adopted the GatoPouch",
+    "title1": "What cat lovers",
+    "titleHighlight": "are saying",
+    "rating": "4.9/5",
+    "reviews": "1,432 verified reviews",
+    "verifiedPurchase": "Verified Purchase",
+    "items": [
+      {
+        "name": "Camille D.",
+        "location": "Lyon",
+        "cat": "Mochi, British Shorthair, 3 years old",
+        "rating": 5,
+        "text": "While working from home, Mochi constantly demanded attention or walked across my keyboard. With the GatoPouch, he snuggles against me for 4 hours straight, so I can work peacefully. It's become his favorite spot in the house. The best purchase for my professional life!"
+      },
+      {
+        "name": "Thomas L.",
+        "location": "Bordeaux",
+        "cat": "Pixel, black cat, 5 years old",
+        "rating": 5,
+        "text": "Pixel is a very affectionate but clingy cat. The GatoPouch has changed our relationship: I carry him everywhere, he purrs, and I have both arms free for my activities. The fleece is ultra-soft, you can feel the quality. And after 3 washes, it's still perfect."
+      },
+      {
+        "name": "Madeleine R.",
+        "location": "Nantes",
+        "cat": "Gribouille, Calico, 9 years old",
+        "rating": 5,
+        "text": "At 9 years old, Gribouille has become very clingy. The GatoPouch lets me keep her close to me when I cook, read, or work. She's happy, and so am I. My grandson gave it to me for my birthday, it's the most touching gift I've ever received."
+      }
+    ]
+  },
+  "flashOffer": {
+    "badge": "Limited Launch Offer",
+    "title": "Pack of 3 GatoPouch — Save 34,98€",
+    "description": "The best deal: 3 sweatshirts for 129,99€ instead of 164,97€. Perfect for equipping the whole family or as a gift. Free delivery and guaranteed savings.",
+    "countdownLabel": "Offer ends in",
+    "hoursLabel": "Hours",
+    "minutesLabel": "Minutes",
+    "secondsLabel": "Seconds",
+    "badges": {
+      "freeShipping": "Free Shipping",
+      "moneyBack": "30-Day Satisfaction Guarantee",
+      "payment3x": "3 Interest-Free Payments"
+    },
+    "cta": "Order the Pack of 3 — 129,99€",
+    "urgency": "Only 47 packs left at this price. After that, back to the regular price of 164,97€."
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title1": "Everything you want",
+    "titleHighlight": "to know",
+    "items": [
+      {
+        "q": "My cat doesn't like being carried, will it get used to it?",
+        "a": "The vast majority of cats get used to it in 2 to 5 short sessions (5 minutes at first). The trick: place a treat in the pocket and let them explore at their own pace. The elastic opening doesn't constrict them, they feel secure. 92% of our customers report that their cat asks for the GatoPouch after a week!"
+      },
+      {
+        "q": "What sizes are available?",
+        "a": "The GatoPouch comes in 5 sizes: S, M, L, XL, 2XL, 3XL. To choose, take your usual chest measurement. If you're between two sizes, choose the larger one for more comfort and freedom of movement for your cat. A detailed size guide is sent after ordering."
+      },
+      {
+        "q": "Suitable for all cats, what weight?",
+        "a": "The GatoPouch is suitable for cats from 2.5 kg to 7 kg. The reinforced pocket and elastic have been tested to support up to 8 kg without deformation. For cats over 7 kg (Maine Coon), we recommend the XL or XXL size and shorter sessions (the weight can be uncomfortable)."
+      },
+      {
+        "q": "Machine washable?",
+        "a": "Yes! The GatoPouch is machine washable at 30°C on a gentle cycle, maximum spin 600 rpm. No tumble dryer (the sherpa can pill). Dry flat in the open air. The fleece stays soft, its color and shape wash after wash. Recommended once a week."
+      },
+      {
+        "q": "Could this hurt my cat?",
+        "a": "Absolutely not, as long as you respect the maximum weight (7-8 kg) and listen to your cat. The elastic opening never tightens, the drawstring cord is only used to adjust the entry size. Never force a reluctant cat. We recommend always supervising and keeping initial sessions to a maximum of 30 minutes."
+      },
+      {
+        "q": "What are the delivery times?",
+        "a": "Your GatoPouch is shipped within 24 business hours from our warehouse. Then allow 6 to 12 days for delivery (depending on your country and the period). A tracking number is sent to you by email upon shipment. Delivery is free on orders of €69 or more — automatically reached with the Pack of 2 at €94.98 (so the packs are always delivered for free!)."
+      },
+      {
+        "q": "What material? Is it really warm?",
+        "a": "The GatoPouch is made of thick 300g/m² sherpa fleece, ultra-soft and very warm. Ideal for autumn, winter, cool spring, and air-conditioned offices. The fabric is breathable: neither you nor your cat will overheat. The sherpa is durable and resistant to claw snags (with a moderate tap, your cat will quickly learn)."
+      },
+      {
+        "q": "Can I pay in installments?",
+        "a": "Yes! 3x interest-free payment is available on orders of €60 or more. The Pack of 2 at €94.98 can be paid in 3x of €31.66, and the Pack of 3 at €129.99 in 3x of €43.33. Ideal for gifting without the full upfront cost. We accept CB, PayPal, Apple Pay and Google Pay via a secure SSL connection. Your banking details are never stored."
+      }
+    ]
+  },
+  "newsletter": {
+    "badge": "Get -10% off when you sign up",
+    "title": "Join the GatoPouch family",
+    "description": "Cat care tips, exclusive offers, new arrivals, and stories of happy cats. Get",
+    "discountHighlight": "-10% off your first order",
+    "descriptionEnd": "now.",
+    "placeholder": "your@email.com",
+    "button": "Get my -10% code",
+    "disclaimer": "No spam. Unsubscribe in 1 click. GDPR friendly.",
+    "toastSuccess": "Thank you!",
+    "toastSuccessDesc": "Your -10% code is on its way to your inbox. Welcome to the GatoPouch family!",
+    "toastError": "Failed to send",
+    "toastErrorDesc": "Please try again or email us at contact@gatopouch.com",
+    "toastInvalid": "Oops, invalid email",
+    "toastInvalidDesc": "Please enter a valid email address.",
+    "loadingText": "Subscribing..."
+  },
+  "footer": {
+    "brandDescription": "The cat hoodie that brings cats and their humans closer together, one hug at a time. Designed with love by cat lovers, for cat lovers.",
+    "partnerSite": "www.gatopouch.com",
+    "address": "Calle Almería 83, 29018 Málaga, España",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "produit": "The GatoPouch",
+          "benefices": "Benefits",
+          "packs": "Packs & pricing",
+          "avis": "Customer reviews",
+          "faq": "FAQ"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "contactEmail": "contact@gatopouch.com",
+        "supportEmail": "support@gatopouch.com",
+        "phone": "+34 670 04 04 47",
+        "whatsapp": "WhatsApp",
+        "formButton": "Contact form"
+      },
+      "follow": {
+        "title": "Follow us",
+        "intro": "Join 18,000 cat lovers on Instagram.",
+        "legalTitle": "Legal pages"
+      }
+    },
+    "copyright": "© 2025 GatoPouch. All rights reserved. Based in Málaga, España."
+  },
+  "contactModal": {
+    "title": "Contact GatoPouch",
+    "description": "A question about the GatoPouch, your order, or a partnership request? Write to us, we'll reply within 24 to 48 business hours.",
+    "formTitle": "Contact Information",
+    "fields": {
+      "name": "Name *",
+      "namePlaceholder": "Camille Dubois",
+      "email": "Email *",
+      "emailPlaceholder": "camille@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+34 670 04 04 47",
+      "subject": "Subject",
+      "subjectPlaceholder": "Order Question / Customer Service / Partnership...",
+      "message": "Message *",
+      "messagePlaceholder": "Hello, I'd like to know if the GatoPouch is suitable for a 7kg cat..."
+    },
+    "submitButton": "Send Message",
+    "loadingText": "Sending...",
+    "contactInfo": {
+      "contactEmailLabel": "contact@gatopouch.com",
+      "contactEmailSub": "Product & Order Questions",
+      "supportEmailLabel": "support@gatopouch.com",
+      "supportEmailSub": "Technical Customer Service",
+      "phoneLabel": "+34 670 04 04 47",
+      "phoneSub": "Mon-Fri, 9am-6pm (CET)",
+      "whatsappLabel": "WhatsApp",
+      "whatsappSub": "+34 670 04 04 47 — quick reply",
+      "addressLabel": "Calle Almería 83",
+      "addressSub": "29018 Málaga, España",
+      "siteLabel": "www.gatopouch.com",
+      "siteSub": "Official Partner Site"
+    },
+    "toastSuccess": "Message sent!",
+    "toastError": "Send error"
+  },
+  "legalModals": {
+    "privacy": {
+      "trigger": "Privacy"
+    },
+    "terms": {
+      "trigger": "Terms and Conditions"
+    },
+    "returns": {
+      "trigger": "Returns Policy"
+    },
+    "shipping": {
+      "trigger": "Shipping Policy"
+    }
+  },
   "Common": {
-    "orderNow": "Order now — 54,99€",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "europeShipping": "All over Europe"
   }
 }

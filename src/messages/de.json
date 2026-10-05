@@ -1,30 +1,440 @@
 {
   "metadata": {
     "title": "GatoPouch — Der Katzen-Hoodie, der deine Katze nah bei dir hält, freihändig",
-    "description": "GatoPouch ist der Fleece-Hoodie mit Bauchtasche, um deine Katze nah bei dir zu tragen, freihändig. Endloses Kuscheln, zu Hause oder unterwegs. Ab 54,99€, empfohlenes 2er-Pack 94,98€, kostenloser Versand ab 69€ (Lieferung 6 bis 12 Tage).",
+    "description": "GatoPouch ist der Kapuzenpulli aus Polarfleece mit Bauchtasche, um deine Katze nah bei dir zu tragen, freihändig. Endloses Kuscheln, zu Hause oder unterwegs. Ab 54,99€, empfohlenes 2er-Pack 94,98€, kostenloser Versand ab 69€ (Lieferung 6 bis 12 Tage).",
     "keywords": [
       "Katzen-Hoodie",
-      "Katze Hoodie",
-      "Katzentasche Hoodie",
-      "Katze tragen",
+      "Hoodie Katze",
+      "Kapuzenpulli Katze",
+      "Katzentasche",
       "tragbare Katze",
       "Katzenkleidung",
       "GatoPouch",
-      "Fleece Katzen-Hoodie",
+      "Polarfleece Katzen-Hoodie",
       "Geschenk für Katzenliebhaber"
     ],
     "ogTitle": "GatoPouch — Der Katzen-Hoodie für freihändiges Kuscheln",
-    "ogDescription": "Fleece-Hoodie mit Bauchtasche, um deine Katze nah bei dir zu tragen. Ab 54,99€, empfohlenes 2er-Pack 94,98€, kostenloser Versand ab 69€."
+    "ogDescription": "Kapuzenpulli aus Polarfleece mit Bauchtasche, um deine Katze nah bei dir zu tragen. Ab 54,99€, empfohlenes 2er-Pack 94,98€, kostenloser Versand ab 69€."
   },
-  "Nav": {
+  "announcement": {
+    "freeShipping": "Kostenloser Versand ab 69€",
+    "promo": "2er-Pack empfohlen — spare 15€"
+  },
+  "nav": {
     "produit": "Der GatoPouch",
     "benefices": "Vorteile",
     "avis": "Bewertungen",
     "faq": "FAQ",
     "contact": "Kontakt"
   },
-  "Common": {
+  "brand": {
+    "name": "GatoPouch",
+    "tagline": "Katzen-Tragehoodie"
+  },
+  "cta": {
     "orderNow": "Jetzt bestellen — 54,99€",
-    "loading": "Laden..."
+    "orderMyGatoPouch": "Mein GatoPouch bestellen",
+    "viewPacks": "Packs & Sparangebote ansehen",
+    "discoverProduct": "Den Sweatshirt entdecken",
+    "viewThreePacks": "Die 3 Packs ansehen"
+  },
+  "hero": {
+    "badge": "Startangebot — begrenzte Stückzahl",
+    "title1": "Der Hoodie, der trägt",
+    "titleHighlight": "deine Katze",
+    "title2": "gegen dich",
+    "subtitle": "Der GatoPouch ist der Fleece-Hoodie mit Bauchtasche für deine Katze. Halte sie ganz nah an dich, Hände frei, zu Hause und unterwegs. Geteiltes Glück, in Bewegung.",
+    "fromPrice": "Ab",
+    "price": "54,99€",
+    "packBadge": "Pack von 2 empfohlen",
+    "packPrice": "94,98€",
+    "packSavings": "spare 15€ + kostenlose Lieferung",
+    "socialProofCats": "1 432 gekuschelte Katzen",
+    "socialProofRating": "4,9/5",
+    "socialProofReviews": "(1 432 Bewertungen)",
+    "floatingBadge15": "-15€",
+    "floatingBadgePack2": "Pack von 2",
+    "floatingBadgeSatisfaction": "Zufriedenheitsgarantie"
+  },
+  "trustBadges": {
+    "shipping": {
+      "label": "Lieferung 6-12T",
+      "sub": "In ganz Europa"
+    },
+    "payment": {
+      "label": "Sichere Bezahlung",
+      "sub": "Kreditkarte, PayPal, Apple Pay"
+    },
+    "refund": {
+      "label": "Zufrieden oder erstattet",
+      "sub": "Innerhalb von 30 Tagen"
+    },
+    "support": {
+      "label": "Kundenservice",
+      "sub": "Mo-Fr, 9-18 Uhr"
+    }
+  },
+  "benefits": {
+    "badge": "Warum Sie es lieben werden",
+    "title1": "Mehr als ein Hoodie, ein",
+    "titleHighlight": "geteiltes Nest",
+    "intro": "Der GatoPouch wurde in Zusammenarbeit mit Katzenverhaltensforschern und Textildesignern entwickelt. Jedes Detail erfüllt einen Zweck: Ihren Katze nah bei Ihnen zu halten, sicher und unter allen Umständen.",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Händefreie Kuschelzeit",
+        "desc": "Tragen Sie Ihre Katze kuschelig am Herzen, wohin Sie auch gehen. Ohne Ihre Hände zu beschäftigen, genießen Sie durchgehende Zärtlichkeit, im Büro wie auf einem Spaziergang."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Premium-Polarfleece-Komfort",
+        "desc": "Dicker Sherpa-Stoff (300g/m²), ultra-weich und schön warm. Sie und Ihre Katze bleiben warm, selbst an eisigen Wintertagen oder bei starker Klimatisierung."
+      },
+      {
+        "icon": "Shield",
+        "title": "Beruhigende Sicherheit",
+        "desc": "Die elastische runde Öffnung hält Ihre Kathe sicher an ihrem Platz, ohne sie einzuschnüren. Der verstellbare Kordelzug passt die Öffnungsgröße an ihre Körperform an."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Büro-Partner fürs Homeoffice",
+        "desc": "Ihre Katze kuschelt an Ihnen, während Sie arbeiten. Schluss mit Katzen auf der Tastatur: Sie schnurrt in ihrem Beutel, ruhig und präsent."
+      },
+      {
+        "icon": "WashingMachine",
+        "title": "Maschinenwaschbar",
+        "desc": "Beständiger Stoff, der bei 30°C in der Maschine gewaschen werden kann. Keine Verformung, kein Ausfransen. Der Fleece behält seine Weichheit nach jedem Waschvorgang."
+      },
+      {
+        "icon": "Gift",
+        "title": "Das perfekte Geschenk",
+        "desc": "Sorgfältige und hochwertige Verpackung. Ideal für Weihnachten, Muttertag, einen Geburtstag oder um einen geliebten Katzenliebhaber zu überraschen. Ein Geschenk, das berührt."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "So funktioniert's",
+    "title1": "Geteilter Kuschel in",
+    "titleHighlight": "4 Schritten",
+    "statTitle": "Hände frei",
+    "statSubtitle": "Homeoffice, Spaziergang, Lesen...",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ziehe den GatoPouch an",
+        "desc": "Wie ein klassischer Kapuzenpullover. Die dicke Fleece-Stoff umhüllt dich mit Weichheit. Passe die Kapuze nach Belieben mit den Kordeln an."
+      },
+      {
+        "number": "02",
+        "title": "Lade deine Katze ein",
+        "desc": "Durch die Bauchtasche. Die große, elastische runde Öffnung erleichtert den Einstieg. Deine Katie schlüpft ganz natürlich hinein, angezogen von deiner Wärme."
+      },
+      {
+        "number": "03",
+        "title": "Passe die Kordel an",
+        "desc": "Unter der Tasche, zieh die verstellbare Kordel, um die Öffnungsgröße an deine Katze anzupassen. Sie wird bequem gehalten, ohne Druck."
+      },
+      {
+        "number": "04",
+        "title": "Genieße den Moment",
+        "desc": "Hände frei! Arbeite, geh spazieren, lies, trink einen Kaffee. Deine Katze schnurrt an dir, präsent und beruhigt. Das Glück in reinster Form."
+      }
+    ]
+  },
+  "productShowcase": {
+    "badge": "Der Sweat im Detail",
+    "title1": "Der Sweat, gedacht für",
+    "titleHighlight": "deine Katze",
+    "intro": "Jedes Detail des GatoPouch wurde ausgewählt für den Komfort deiner Katze und den deinen. Von der dicken Fleece-Bis zur sichernden elastischen Öffnung, alles ist durchdacht für stundenlanges Kuscheln ohne Stress.",
+    "colorisBadge": "7 Farben verfügbar",
+    "taillesBadge": "6 Größen verfügbar",
+    "features": [
+      {
+        "icon": "Shirt",
+        "name": "Dickes Sherpa-Fleece 300g/m²",
+        "desc": "Ultra-weicher, warmer und atmungsaktiver Stoff. Kuschelkomfort für dich und deine Katze."
+      },
+      {
+        "icon": "PawPrint",
+        "name": "Verstärkte Bauchtasche",
+        "desc": "Elastische runde Öffnung für Komfort und Sicherheit. Stützt die Katze, ohne sie einzuschnüren."
+      },
+      {
+        "icon": "Sparkles",
+        "name": "Verstellbarer Kordelzug",
+        "desc": "Unter der Tasche, passe die Öffnungsgröße der Form deiner Katze an."
+      },
+      {
+        "icon": "Shield",
+        "name": "Seitliche Reißverschlusstaschen",
+        "desc": "Für Schlüssel, Handy, Leckerlis. Alles, was du brauchst, griffbereit."
+      },
+      {
+        "icon": "Palette",
+        "name": "Premium verstellbare Kapuze",
+        "desc": "Kordelzüge mit Metallenden. Passe deinem Kopfumfang an. Qualitätsdetail."
+      },
+      {
+        "icon": "Gift",
+        "name": "Signatur-Lederschild",
+        "desc": "Leder-ähnliches Etikett unten links angenäht. Das Detail, das den Unterschied macht."
+      }
+    ],
+    "priceLabel": "Einzelpreis",
+    "priceValue": "54,99€",
+    "packLabel": "Pack zu 2 (empfohlen)",
+    "packValue": "94,98€",
+    "packSavings": "spare 15€ + kostenlose Lieferung"
+  },
+  "packs": {
+    "badge": "Wähle dein Bundle",
+    "title1": "Je mehr GatoPouch du nimmst,",
+    "titleHighlight": "desto mehr sparst du",
+    "intro": "Schenke einen GatoPouch deinem Partner, deiner Schwester oder deiner besten Freundin, die Katzen liebt. Oder behalte mehrere, um die Farben nach Jahreszeit und Laune zu variieren.",
+    "items": [
+      {
+        "name": "1 GatoPouch",
+        "subtitle": "Entdecker-Set",
+        "quantity": "1 Sweat",
+        "price": "54,99€",
+        "perUnit": "54,99€ / Sweat",
+        "features": [
+          "Wähle aus 7 Farben",
+          "Wähle die Größe (S bis 3XL)",
+          "Lieferung in 6-12 Tagen",
+          "30 Tage Geld-zurück-Garantie"
+        ],
+        "cta": "Auswählen"
+      },
+      {
+        "name": "Bundle mit 2 GatoPouch",
+        "subtitle": "Empfohlen",
+        "quantity": "2 Sweat",
+        "price": "94,98€",
+        "oldPrice": "109,98€",
+        "saving": "Spare 15€",
+        "perUnit": "47,49€ / Sweat",
+        "features": [
+          "Jeder Sweat in individueller Farbe und Größe wählbar",
+          "KOSTENLOSE Lieferung",
+          "Am beliebtesten — perfekt als Geschenk",
+          "3x Ratenzahlung ohne Zinsen (3× 31,66€)"
+        ],
+        "cta": "Dieses Bundle wählen",
+        "badge": "Empfohlen"
+      },
+      {
+        "name": "Bundle mit 3 GatoPouch",
+        "subtitle": "Bestes Angebot",
+        "quantity": "3 Sweat",
+        "price": "129,99€",
+        "oldPrice": "164,97€",
+        "saving": "Spare 34,98€",
+        "perUnit": "43,33€ / Sweat",
+        "features": [
+          "Jeder Sweat in individueller Farbe und Größe wählbar",
+          "KOSTENLOSE Lieferung",
+          "Maximale Ersparnis — 21% Rabatt",
+          "3x Ratenzahlung ohne Zinsen (3× 43,33€)"
+        ],
+        "cta": "Auswählen",
+        "badge": "Bestes Angebot"
+      }
+    ],
+    "bottomNote": "Alle Bundle sind personalisierbar: Farbe und Größe für jeden GatoPouch individuell wählbar.",
+    "reassurance": {
+      "securePayment": "100% sichere Zahlung",
+      "fastShipping": "Versandt innerhalb von 24h · Lieferung in 6-12 Tagen",
+      "moneyBack": "Rückzahlung innerhalb von 30 Tagen"
+    }
+  },
+  "testimonials": {
+    "badge": "Sie haben den GatoPouch adoptiert",
+    "title1": "Was Katzenliebhaber",
+    "titleHighlight": "sagen",
+    "rating": "4,9/5",
+    "reviews": "1 432 verifizierte Bewertungen",
+    "verifiedPurchase": "Verifizierter Kauf",
+    "items": [
+      {
+        "name": "Camille D.",
+        "location": "Lyon",
+        "cat": "Mochi, Britisch Kurzhaar, 3 Jahre",
+        "rating": 5,
+        "text": "Im Homeoffice verlangte Mochi ständig meine Aufmerksamkeit oder lief über die Tastatur. Mit dem GatoPouch kuschelt er stundenlang an mir, während ich ungestört arbeiten kann. Es ist sein Lieblingsplatz im ganzen Haus. Die beste Investition für meinen Berufsalltag!"
+      },
+      {
+        "name": "Thomas L.",
+        "location": "Bordeaux",
+        "cat": "Pixel, schwarze Katze, 5 Jahre",
+        "rating": 5,
+        "text": "Pixel ist eine sehr anhängliche, aber aufdringliche Katze. Der GatoPouch hat unsere Beziehung verändert: Ich kann ihn überallhin mitnehmen, er schnurrt, und ich habe beide Hände frei für meine Tätigkeiten. Das Fleece ist unglaublich weich, man spürt die Qualität. Und nach 3 Mal Waschen sieht er aus wie neu."
+      },
+      {
+        "name": "Madeleine R.",
+        "location": "Nantes",
+        "cat": "Gribouille, Calico, 9 Jahre",
+        "rating": 5,
+        "text": "Mit 9 Jahren ist Gribouille extrem anhänglich geworden. Der GatoPouch ermöglicht es mir, sie beim Kochen, Lesen oder Arbeiten nah bei mir zu haben. Sie ist glücklich und ich auch. Mein Enkelsohn hat es mir zu meinem Geburtstag geschenkt, das ist das schönste Geschenk, das ich je bekommen habe."
+      }
+    ]
+  },
+  "flashOffer": {
+    "badge": "Limitierte Startangebot",
+    "title": "3er-Pack GatoPouch — spare 34,98€",
+    "description": "Das beste Angebot: 3 Sweatshirts für 129,99€ statt 164,97€. Ideal, um die ganze Familie auszustatten oder als Geschenk zu verschenken. Kostenlose Lieferung und garantierte Ersparnisse.",
+    "countdownLabel": "Das Angebot endet in",
+    "hoursLabel": "Stunden",
+    "minutesLabel": "Minuten",
+    "secondsLabel": "Sekunden",
+    "badges": {
+      "freeShipping": "Kostenlose Lieferung",
+      "moneyBack": "30 Tage Geld-zurück-Garantie",
+      "payment3x": "Kostenlose Ratenzahlung in 3x"
+    },
+    "cta": "Ich bestelle das 3er-Pack — 129,99€",
+    "urgency": "Nur noch 47 Packs zu diesem Preis verfügbar. Danach zurück zum Normalpreis von 164,97€."
+  },
+  "faq": {
+    "badge": "Häufig gestellte Fragen",
+    "title1": "Alles, was Sie",
+    "titleHighlight": "wissen möchten",
+    "items": [
+      {
+        "q": "Meine Katze mag es nicht, getragen zu werden, gewöhnt sie sich daran?",
+        "a": "Die große Mehrheit der Katze gewöhnt sich an 2 bis 5 kurze Sitzungen (5 Minuten am Anfang). Der Trick: Legen Sie ein Leckerli in die Tasche und lassen Sie sie in ihrem eigenen Tempo erkunden. Der elastische Bund der Öffnung drückt nicht, sie fühlt sich sicher. 92 % unserer Kunden berichten, dass ihre Katze nach einer Woche den GatoPouch verlangt!"
+      },
+      {
+        "q": "Welche Größen sind verfügbar?",
+        "a": "Der GatoPouch ist in 5 Größen erhältlich: S, M, L, XL, 2XL, 3XL. Zur Auswahl nehmen Sie Ihren normalen Brustumfang. Wenn Sie zwischen zwei Größen liegen, wählen Sie die größere für mehr Komfort und Bewegungsfreiheit für Ihre Katze. Eine detaillierte Größenanleitung wird nach der Bestellung versandt."
+      },
+      {
+        "q": "Eignet es sich für alle Katzen, welches Gewicht?",
+        "a": "Der GatoPouch eignet sich für Katzen von 2,5 kg bis 7 kg. Die verstärkte Tasche und der Bund wurden getestet, um bis zu 8 kg ohne Verformung zu halten. Für Katzen über 7 kg (Maine Coon) empfehlen wir die Größe XL oder XXL und kürzere Sitzungen (das Gewicht kann unkomfortabel sein)."
+      },
+      {
+        "q": "Waschbar in der Maschine?",
+        "a": "Ja! Der GatoPouch wird bei 30°C im Schonwaschgewebe gewaschen, max. 600 Umdrehungen Schleudern. Kein Wäschetrockner (das Sherpa kann ausfransen). Liegen Sie zum Trocknen flach an der Luft. Die Fleece-Faser bleibt weich, ihre Farbe und Form nach jedem Waschen. Empfohlen einmal pro Woche."
+      },
+      {
+        "q": "Besteht die Gefahr, dass meine Katze verletzt wird?",
+        "a": "Absolut nicht, vorausgesetzt, Sie halten sich an das maximale Gewicht (7-8 kg) und hören auf Ihre Katze. Der elastische Bund drückt niemals, der Reißverschluss dient nur zum Einstellen der Eingangsgröße. Zwingen Sie niemals eine widerstrebende Katze. Wir empfehlen immer zu beaufsichtigen und am Anfang Sitzungen von maximal 30 Minuten zu machen."
+      },
+      {
+        "q": "Wie lange dauert die Lieferung?",
+        "a": "Ihr GatoPouch wird innerhalb von 24 Werktagen aus unserem Lager versendet. Rechnen Sie dann mit 6 bis 12 Tagen für die Lieferung (je nach Land und Zeit). Eine Sendungsnummer wird Ihnen per E-Mail nach dem Versand zugesandt. Die Lieferung ist ab 69 € Bestellwert kostenlos — wird automatisch beim 2er-Pack für 94,98 € erreicht (also werden die Packe immer kostenlos geliefert!)."
+      },
+      {
+        "q": "Aus welchem Material? Ist es warm genug?",
+        "a": "Der GatoPouch ist aus dickem 300g/m² Sherpa-Fleece, ultra-weich und schön warm. Ideal für Herbst, Winter, kühles Frühjahr und klimatisierte Büros. Das Gewebe ist atmungsaktiv: weder Sie noch Ihre Katze schwitzen. Sherpa ist langlebig, kratzfest mit den Krallen (mit moderatem Krallenstreicheln, Ihre Katze versteht es schnell)."
+      },
+      {
+        "q": "Kann ich in Raten zahlen?",
+        "a": "Ja! Die Zahlung in 3x ohne Aufschläge ist ab 60 € Bestellwert verfügbar. Das 2er-Pack für 94,98 € kann in 3x 31,66 € bezahlt werden, und das 3er-Pack für 129,99 € in 3x 43,33 €. Ideal zum Verschenken, ohne das ganze Budget auf einmal zu zahlen. Wir akzeptieren Kreditkarte, PayPal, Apple Pay und Google Pay über eine sichere SSL-Verbindung. Ihre Bankdaten werden niemals gespeichert."
+      }
+    ]
+  },
+  "newsletter": {
+    "badge": "Code -10% bei der Anmeldung",
+    "title": "Tritt der GatoPouch-Familie bei",
+    "description": "Tipps zur Katzenerziehung, exklusive Angebote, Neuheiten und Geschichten von glücklichen Katzen. Erhalte",
+    "discountHighlight": "-10% auf deine erste Bestellung",
+    "descriptionEnd": "jetzt.",
+    "placeholder": "deine@email.com",
+    "button": "Mein -10% Code erhalten",
+    "disclaimer": "Kein Spam. Ein Klick zum Abmelden. RGPD-konform.",
+    "toastSuccess": "Danke dir!",
+    "toastSuccessDesc": "Dein -10% Code ist unterwegs in dein Postfach. Willkommen in der GatoPouch-Familie!",
+    "toastError": "Fehler beim Senden",
+    "toastErrorDesc": "Bitte versuche es erneut oder schreibe uns an contact@gatopouch.com",
+    "toastInvalid": "Oops, ungültige E-Mail",
+    "toastInvalidDesc": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "loadingText": "Anmeldung läuft..."
+  },
+  "footer": {
+    "brandDescription": "Der Katzenkragenpullover, der Katzen und ihre Menschen näher zusammenbringt, Kuss für Kuss. Mit Liebe von Katzenliebenden für Katzenliebende entworfen.",
+    "partnerSite": "www.gatopouch.com",
+    "address": "Calle Almería 83, 29018 Málaga, España",
+    "columns": {
+      "product": {
+        "title": "Produkt",
+        "links": {
+          "produit": "Der GatoPouch",
+          "benefices": "Vorteile",
+          "packs": "Pakete & Preise",
+          "avis": "Kundenbewertungen",
+          "faq": "FAQ"
+        }
+      },
+      "contact": {
+        "title": "Kontakt",
+        "contactEmail": "contact@gatopouch.com",
+        "supportEmail": "support@gatopouch.com",
+        "phone": "+34 670 04 04 47",
+        "whatsapp": "WhatsApp",
+        "formButton": "Kontaktformular"
+      },
+      "follow": {
+        "title": "Folgen Sie uns",
+        "intro": "Werden Sie Teil von 18.000 Katzenfreunden auf Instagram.",
+        "legalTitle": "Rechtliche Hinweise"
+      }
+    },
+    "copyright": "© 2025 GatoPouch. Alle Rechte vorbehalten. Hauptsitz in Málaga, España."
+  },
+  "contactModal": {
+    "title": "Kontaktieren Sie GatoPouch",
+    "description": "Haben Sie eine Frage zum GatoPouch, Ihrer Bestellung oder eine Partnerschaftsanfrage? Schreiben Sie uns, wir antworten innerhalb von 24 bis 48 Werkstunden.",
+    "formTitle": "Kontaktdaten",
+    "fields": {
+      "name": "Name *",
+      "namePlaceholder": "Camille Dubois",
+      "email": "E-Mail *",
+      "emailPlaceholder": "camille@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+34 670 04 04 47",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Bestellfrage / Kundenservice / Partnerschaft...",
+      "message": "Nachricht *",
+      "messagePlaceholder": "Hallo, ich möchte wissen, ob der GatoPouch für eine Katze von 7 kg geeignet ist..."
+    },
+    "submitButton": "Nachricht senden",
+    "loadingText": "Wird gesendet...",
+    "contactInfo": {
+      "contactEmailLabel": "contact@gatopouch.com",
+      "contactEmailSub": "Produkt- & Bestellfragen",
+      "supportEmailLabel": "support@gatopouch.com",
+      "supportEmailSub": "Technischer Kundenservice",
+      "phoneLabel": "+34 670 04 04 47",
+      "phoneSub": "Mo-Fr, 9-18 Uhr (CET)",
+      "whatsappLabel": "WhatsApp",
+      "whatsappSub": "+34 670 04 04 47 — schnelle Antwort",
+      "addressLabel": "Calle Almería 83",
+      "addressSub": "29018 Málaga, España",
+      "siteLabel": "www.gatopouch.com",
+      "siteSub": "Offizieller Partner-Shop"
+    },
+    "toastSuccess": "Nachricht gesendet!",
+    "toastError": "Fehler beim Senden"
+  },
+  "legalModals": {
+    "legalModals": {
+      "privacy": {
+        "trigger": "Datenschutz"
+      },
+      "terms": {
+        "trigger": "Nutzungsbedingungen"
+      },
+      "returns": {
+        "trigger": "Rückgaberichtlinie"
+      },
+      "shipping": {
+        "trigger": "Versandrichtlinie"
+      }
+    }
+  },
+  "Common": {
+    "loading": "Wird geladen...",
+    "europeShipping": "Versand in ganz Europa"
   }
 }

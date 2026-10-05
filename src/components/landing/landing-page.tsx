@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -118,6 +119,10 @@ function Countdown() {
 function Header({ onOrderClick }: { onOrderClick: () => void }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const tAnnouncement = useTranslations("announcement");
+  const tNav = useTranslations("nav");
+  const tCta = useTranslations("cta");
+  const tBrand = useTranslations("brand");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);
@@ -127,10 +132,10 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
   }, []);
 
   const navLinks = [
-    { href: "#produit", label: "Le GatoPouch" },
-    { href: "#benefices", label: "Bénéfices" },
-    { href: "#avis", label: "Avis" },
-    { href: "#faq", label: "FAQ" },
+    { href: "#produit", label: tNav("produit") },
+    { href: "#benefices", label: tNav("benefices") },
+    { href: "#avis", label: tNav("avis") },
+    { href: "#faq", label: tNav("faq") },
   ];
 
   return (
@@ -139,11 +144,11 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
       <div className="bg-peach-gradient text-cream-50 text-center text-xs md:text-sm font-medium py-2.5 px-4">
         <span className="inline-flex items-center gap-2 flex-wrap justify-center">
           <Truck className="w-3.5 h-3.5" />
-          Livraison offerte dès 69€
+          {tAnnouncement("freeShipping")}
           <span className="opacity-50 hidden sm:inline">•</span>
           <Sparkles className="w-3.5 h-3.5 hidden sm:inline" />
           <span className="hidden sm:inline">
-            Pack de 2 recommandé — économisez 15€
+            {tAnnouncement("promo")}
           </span>
         </span>
       </div>
@@ -165,10 +170,10 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-display font-bold text-lg md:text-xl text-cinnamon-900">
-                  GatoPouch
+                  {tBrand("name")}
                 </span>
                 <span className="text-[10px] md:text-xs text-cinnamon-700 -mt-1 hidden sm:block">
-                  Sweat Porte-Chat
+                  {tBrand("tagline")}
                 </span>
               </div>
             </a>
@@ -186,7 +191,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
               ))}
               <ContactModal>
                 <button className="px-4 py-2 rounded-full text-cinnamon-800 hover:bg-peach-300/30 hover:text-cinnamon-900 transition-colors font-medium text-sm">
-                  Contact
+                  {tNav("contact")}
                 </button>
               </ContactModal>
             </nav>
@@ -198,7 +203,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                 onClick={onOrderClick}
                 className="hidden sm:inline-flex bg-peach-gradient text-cream-50 hover:opacity-90 shadow-md hover:shadow-lg transition-all rounded-full px-5 md:px-6 font-display font-semibold"
               >
-                Je commande — 54,99€
+                {tCta("orderNow")}
               </Button>
               <button
                 onClick={() => setMobileOpen((v) => !v)}
@@ -246,7 +251,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                   }}
                   className="mt-2 bg-peach-gradient text-cream-50 rounded-full font-display font-semibold"
                 >
-                  Je commande — 54,99€
+                  {tCta("orderNow")}
                 </Button>
               </div>
             </motion.div>
@@ -261,6 +266,9 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
    HERO Section
    ========================================================================= */
 function Hero({ onOrderClick }: { onOrderClick: () => void }) {
+  const tHero = useTranslations("hero");
+  const tCta = useTranslations("cta");
+
   return (
     <section className="relative overflow-hidden bg-hero-gradient paw-pattern">
       {/* Decorative blobs */}
@@ -279,14 +287,14 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
             {/* Tag */}
             <Badge className="inline-flex items-center gap-1.5 bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-5 rounded-full text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              Offre de lancement — quantités limitées
+              {tHero("badge")}
             </Badge>
 
             {/* Title */}
             <h1 className="font-display font-extrabold text-cinnamon-900 text-4xl sm:text-5xl lg:text-6xl leading-[1.05] mb-5">
-              Le sweat qui porte{" "}
+              {tHero("title1")}{" "}
               <span className="relative inline-block">
-                <span className="relative z-10 text-peach-500">votre chat</span>
+                <span className="relative z-10 text-peach-500">{tHero("titleHighlight")}</span>
                 <svg
                   className="absolute -bottom-1 left-0 w-full"
                   viewBox="0 0 200 12"
@@ -301,35 +309,33 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   />
                 </svg>
               </span>{" "}
-              contre vous
+              {tHero("title2")}
             </h1>
 
             {/* Subtitle */}
             <p className="text-cinnamon-700 text-lg md:text-xl mb-7 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Le GatoPouch est le sweat à capuche en polaire avec poche ventrale
-              pour votre chat. Gardez-le tout contre vous, mains libres, à la
-              maison comme en balade. Le bonheur partagé, en mouvement.
+              {tHero("subtitle")}
             </p>
 
             {/* Price */}
             <div className="flex flex-col items-center lg:items-start gap-3 mb-7">
               <div className="flex items-center gap-3">
                 <span className="text-cinnamon-700 text-sm font-medium uppercase tracking-wider">
-                  Dès
+                  {tHero("fromPrice")}
                 </span>
                 <span className="font-display font-extrabold text-5xl md:text-6xl text-cinnamon-900">
-                  54,99€
+                  {tHero("price")}
                 </span>
               </div>
               <div className="flex flex-wrap items-center gap-2 text-sm">
                 <Badge className="bg-peach-gradient text-cream-50 hover:bg-peach-gradient px-3 py-1.5 rounded-full text-xs font-bold">
-                  Pack de 2 recommandé
+                  {tHero("packBadge")}
                 </Badge>
                 <span className="text-cinnamon-700">
                   <span className="font-display font-bold text-cinnamon-900">
-                    94,98€
+                    {tHero("packPrice")}
                   </span>{" "}
-                  · économise 15€ + livraison offerte
+                  · {tHero("packSavings")}
                 </span>
               </div>
             </div>
@@ -343,7 +349,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
               >
                 <span className="flex items-center gap-2">
                   <Shirt className="w-5 h-5" />
-                  Je commande mon GatoPouch
+                  {tCta("orderMyGatoPouch")}
                 </span>
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -352,7 +358,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                 className="inline-flex items-center justify-center gap-2 px-6 py-6 rounded-full border border-cinnamon-900/15 text-cinnamon-800 hover:bg-cream-100 hover:border-cinnamon-900/25 transition-all font-medium"
               >
                 <Gift className="w-4 h-4" />
-                Voir les packs & économies
+                {tCta("viewPacks")}
               </a>
             </div>
 
@@ -370,7 +376,7 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                   ))}
                 </div>
                 <span className="text-cinnamon-700 font-medium">
-                  1 432 chats câlinés
+                  {tHero("socialProofCats")}
                 </span>
               </div>
               <span className="hidden sm:inline text-cinnamon-700/40">•</span>
@@ -383,8 +389,8 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
                     />
                   ))}
                 </div>
-                <span className="text-cinnamon-700 font-semibold">4,9/5</span>
-                <span className="text-cinnamon-700/60">(1 432 avis)</span>
+                <span className="text-cinnamon-700 font-semibold">{tHero("socialProofRating")}</span>
+                <span className="text-cinnamon-700/60">{tHero("socialProofReviews")}</span>
               </div>
             </div>
           </motion.div>
