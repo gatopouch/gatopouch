@@ -15,6 +15,8 @@ import { Clock, PawPrint, ArrowLeft, Check } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+const SITE_URL = "https://www.gatopouch.shop";
+
 export function generateStaticParams() {
   return generateArticleStaticParams();
 }
@@ -36,7 +38,7 @@ export async function generateMetadata({
     title: article.frontmatter.title,
     description: article.frontmatter.description,
     alternates: {
-      canonical: `https://www.gatopouch.shop${prefix}/blog/${slug}`,
+      canonical: `${SITE_URL}/${locale}/blog/${slug}`,
     },
     openGraph: {
       title: article.frontmatter.title,
@@ -78,6 +80,73 @@ export default async function BlogArticlePage({
 
   return (
     <main className="min-h-screen bg-cream-50">
+      {/* Schema.org Article + BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Article",
+                "@id": `${SITE_URL}/${locale}/blog/${slug}`,
+                headline: article.frontmatter.title,
+                description: article.frontmatter.description,
+                datePublished: article.frontmatter.date,
+                dateModified: article.frontmatter.date,
+                author: {
+                  "@type": "Organization",
+                  name: article.frontmatter.author || "GatoPouch",
+                  url: SITE_URL,
+                },
+                publisher: {
+                  "@type": "Organization",
+                  name: "GatoPouch",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: `${SITE_URL}/logo.svg`,
+                  },
+                },
+                mainEntityOfPage: {
+                  "@type": "WebPage",
+                  "@id": `${SITE_URL}/${locale}/blog/${slug}`,
+                },
+                inLanguage: locale,
+                keywords: (article.frontmatter.tags || []).join(", "),
+              },
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "GatoPouch",
+                    item: `${SITE_URL}/${locale}`,
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: t("title"),
+                    item: `${SITE_URL}/${locale}/blog`,
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 3,
+                    name: article.category,
+                    item: `${SITE_URL}/${locale}/blog/category/${article.categorySlug}`,
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 4,
+                    name: article.frontmatter.title,
+                    item: `${SITE_URL}/${locale}/blog/${slug}`,
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
       {/* Hero */}
       <section className="bg-hero-gradient paw-pattern py-8 md:py-12">
         <div className="container mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
