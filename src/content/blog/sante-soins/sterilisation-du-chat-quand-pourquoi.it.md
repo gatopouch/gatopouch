@@ -1,6 +1,7 @@
 ---
 title: "Sterilizzazione del gatto: quando, perché e recupero"
 description: "Sterilizzare il proprio gatto: età ideale, benefici per la salute, svolgimento dell'operazione e cure post-operatorie. Guida completa per proprietari."
+image: "/images/blog/sterilisation-du-chat-quand-pourquoi.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["sterilizzazione","operazione","recupero","salute","gatto"]

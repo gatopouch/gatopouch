@@ -1,6 +1,7 @@
 ---
 title: "Signs of Illness in Cats: 10 Symptoms to Watch For"
 description: "Learn to recognize the signs of illness in your cat: loss of appetite, lethargy, behavioral changes. Discover when to see a veterinarian."
+image: "/images/blog/signes-de-maladie-chez-le-chat.png"
 date: "2025-10-03"
 author: "GatoPouch"
 tags: ["health", "illness", "symptoms", "veterinarian", "cat"]

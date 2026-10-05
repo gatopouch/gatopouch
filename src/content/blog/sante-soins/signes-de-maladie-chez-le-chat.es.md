@@ -1,6 +1,7 @@
 ---
 title: "Signos de enfermedad en el gato: 10 síntomas a vigilar"
 description: "Aprende a reconocer los signos de enfermedad en tu gato: pérdida de apetito, letargia, cambios de comportamiento. Descubre cuándo consultar a un veterinario."
+image: "/images/blog/signes-de-maladie-chez-le-chat.png"
 date: "2025-10-03"
 author: "GatoPouch"
 tags: ["salud", "enfermedad", "sintomas", "veterinario", "gato"]

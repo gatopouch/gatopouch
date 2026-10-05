@@ -1,6 +1,7 @@
 ---
 title: "Esterilización del gato: cuándo, por qué y recuperación"
 description: "Esterilizar a tu gato: edad ideal, beneficios para la salud, desarrollo de la operación y cuidados postoperatorios. Guía completa para propietarios."
+image: "/images/blog/sterilisation-du-chat-quand-pourquoi.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["esterilizacion","operacion","recuperacion","salud","gato"]

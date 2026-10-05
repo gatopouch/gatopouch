@@ -1,6 +1,7 @@
 ---
 title: "Vacunas para gatos: calendario completo y recomendaciones"
 description: "Descubre el calendario de vacunación completo para tu gato, las recomendaciones de los veterinarios y los consejos esenciales para proteger la salud de tu felino."
+image: "/images/blog/vaccins-du-chat-calendrier-et-recommandations.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["vacunas","veterinario","prevencion","salud","gato"]

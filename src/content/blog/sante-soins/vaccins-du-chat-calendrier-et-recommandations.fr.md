@@ -1,6 +1,7 @@
 ---
 title: "Vaccins du chat : calendrier complet et recommandations"
 description: "Découvrez le calendrier vaccinal complet pour votre chat, les recommandations des vétérinaires et les conseils essentiels pour protéger la santé de votre félin."
+image: "/images/blog/vaccins-du-chat-calendrier-et-recommandations.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["vaccins","veterinaire","prevention","sante","chat"]

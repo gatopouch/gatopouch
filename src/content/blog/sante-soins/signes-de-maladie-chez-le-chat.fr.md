@@ -1,6 +1,7 @@
 ---
 title: "Signes de maladie chez le chat : 10 symptômes à surveiller"
 description: "Apprenez à reconnaître les signes de maladie chez votre chat : perte d'appétit, léthargie, changements de comportement. Découvrez quand consulter un vétérinaire."
+image: "/images/blog/signes-de-maladie-chez-le-chat.png"
 date: "2025-10-03"
 author: "GatoPouch"
 tags: ["sante", "maladie", "symptomes", "veterinaire", "chat"]

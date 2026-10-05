@@ -1,6 +1,7 @@
 ---
 title: "Stérilisation du chat : quand, pourquoi et récupération"
 description: "Stériliser son chat : âge idéal, bénéfices santé, déroulement de l'opération et soins post-opératoires. Guide complet pour propriétaires."
+image: "/images/blog/sterilisation-du-chat-quand-pourquoi.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["sterilisation","operation","recuperation","sante","chat"]

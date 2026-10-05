@@ -1,6 +1,7 @@
 ---
 title: "Kastration der Katze: Wann, warum und Genesung"
 description: "Kastrieren Sie Ihre Katze: Ideales Alter, Gesundheitsvorteile, Ablauf des Eingriffs und postoperative Pflege. Vollständiger Leitfaden für Besitzer."
+image: "/images/blog/sterilisation-du-chat-quand-pourquoi.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["kastration","operation","genesung","gesundheit","katze"]

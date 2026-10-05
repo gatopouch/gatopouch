@@ -1,6 +1,7 @@
 ---
 title: "Cat Vaccines: Complete Schedule and Recommendations"
 description: "Discover the complete vaccination schedule for your cat, veterinarian recommendations, and essential tips to protect your feline's health."
+image: "/images/blog/vaccins-du-chat-calendrier-et-recommandations.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["vaccines","veterinarian","prevention","health","cat"]

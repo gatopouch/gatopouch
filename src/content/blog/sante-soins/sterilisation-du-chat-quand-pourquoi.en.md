@@ -1,6 +1,7 @@
 ---
 title: "Cat Spaying: When, Why, and Recovery"
 description: "Spaying your cat: ideal age, health benefits, procedure details, and post-operative care. A complete guide for owners."
+image: "/images/blog/sterilisation-du-chat-quand-pourquoi.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["sterilization","surgery","recovery","health","cat"]

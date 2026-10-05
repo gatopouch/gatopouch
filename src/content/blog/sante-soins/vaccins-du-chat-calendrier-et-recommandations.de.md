@@ -1,6 +1,7 @@
 ---
 title: "Katzenimpfungen: Vollständiger Impfplan und Empfehlungen"
 description: "Entdecken Sie den vollständigen Impfplan für Ihre Katze, die Empfehlungen der Tierärzte und die wesentlichen Tipps zum Schutz der Gesundheit Ihres Stubentigers."
+image: "/images/blog/vaccins-du-chat-calendrier-et-recommandations.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["impfungen","tierarzt","pravention","gesundheit","katze"]

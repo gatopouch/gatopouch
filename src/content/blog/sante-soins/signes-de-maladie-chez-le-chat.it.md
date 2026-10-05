@@ -1,6 +1,7 @@
 ---
 title: "Segni di malattia nel gatto: 10 sintomi da monitorare"
 description: "Impara a riconoscere i segni di malattia del tuo gatto: perdita di appetito, letargia, cambiamenti comportamentali. Scopri quando consultare un veterinario."
+image: "/images/blog/signes-de-maladie-chez-le-chat.png"
 date: "2025-10-03"
 author: "GatoPouch"
 tags: ["salute", "malattia", "sintomi", "veterinario", "gatto"]

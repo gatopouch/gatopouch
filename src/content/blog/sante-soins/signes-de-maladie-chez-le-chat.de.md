@@ -1,6 +1,7 @@
 ---
 title: "Krankheitszeichen bei Katzen: 10 Symptome, die Sie beobachten sollten"
 description: "Lernen Sie, die Krankheitszeichen bei Ihrer Katze zu erkennen: Appetitlosigkeit, Lethargie, Verhaltensänderungen. Erfahren Sie, wann Sie einen Tierarzt aufsuchen sollten."
+image: "/images/blog/signes-de-maladie-chez-le-chat.png"
 date: "2025-10-03"
 author: "GatoPouch"
 tags: ["gesundheit", "krankheit", "symptome", "tierarzt", "katze"]
