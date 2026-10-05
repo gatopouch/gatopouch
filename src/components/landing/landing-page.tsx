@@ -46,6 +46,7 @@ import {
   ReturnsModal,
   ShippingModal,
 } from "./modals";
+import { LocaleSwitcher } from "./locale-switcher";
 
 /* =========================================================================
    Countdown component for the flash offer
@@ -192,6 +193,7 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
 
             {/* CTA + mobile menu button */}
             <div className="flex items-center gap-2">
+              <LocaleSwitcher />
               <Button
                 onClick={onOrderClick}
                 className="hidden sm:inline-flex bg-peach-gradient text-cream-50 hover:opacity-90 shadow-md hover:shadow-lg transition-all rounded-full px-5 md:px-6 font-display font-semibold"
