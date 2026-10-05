@@ -1,6 +1,7 @@
 ---
 title: "Perché il mio gatto graffia i mobili? Soluzioni"
 description: "Scopri le ragioni per cui il tuo gatto graffia i mobili e trova soluzioni efficaci per proteggere i tuoi arredi, soddisfando al contempo le sue esigenze naturali."
+image: "/images/blog/pourquoi-mon-chat-griffe-les-meubles.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["graffiata","mobili","comportamento","grattatoio","gatto"]

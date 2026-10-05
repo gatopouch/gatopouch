@@ -1,6 +1,7 @@
 ---
 title: "Perché il mio gatto miagola di notte? Cause e soluzioni"
 description: "Il vostro gatto vi impedisce di dormire con i suoi miagoliti notturni? Scoprite le cause (fame, noia, età, malattia) e le soluzioni per notti tranquille."
+image: "/images/blog/pourquoi-mon-chat-miaule-t-il-la-nuit.png"
 date: "2025-10-02"
 author: "GatoPouch"
 tags: ["comportamento", "miagolio", "notte", "sonno", "gatto"]

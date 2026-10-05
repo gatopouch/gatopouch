@@ -1,6 +1,7 @@
 ---
 title: "Die Vorstellung einer neuen Katze im Haus: Anleitung"
 description: "Wie man eine neue Katze im Haus einführt, ohne Konflikte: schrittweise Isolation, Geruchsaustausch, beaufsichtigte Treffen. Vollständige Methode."
+image: "/images/blog/introduction-nouveau-chat-a-la-maison.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["einfuehrung","neue-katze","zusammenleben","multi-katze","anleitung"]

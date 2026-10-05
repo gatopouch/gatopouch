@@ -1,6 +1,7 @@
 ---
 title: "How to Socialize an Adult Cat: A Practical Guide"
 description: "Discover how to socialize an adult cat with practical advice to reduce stress and foster good relationships."
+image: "/images/blog/socialiser-un-chat-adulte-guide.png"
 date: "2025-09-25"
 author: "GatoPouch"
 tags: ["socialization","behavior","adult-cat","stress","guide"]

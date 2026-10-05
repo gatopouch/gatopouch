@@ -1,6 +1,7 @@
 ---
 title: "First Aid for Cats: What to Do in an Emergency"
 description: "First aid gestures for a cat in an emergency: bleeding, burn, fall, poisoning. What to do before calling the vet."
+image: "/images/blog/premiers-soins-pour-chat-urgence.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["emergency","first-aid","safety","health","cat"]

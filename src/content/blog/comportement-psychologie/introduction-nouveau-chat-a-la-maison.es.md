@@ -1,6 +1,7 @@
 ---
 title: "La introducción de un nuevo gato en casa: guía"
 description: "Cómo introducir un nuevo gato en casa sin conflictos: aislamiento progresivo, intercambio de olores, encuentros supervisados. Método completo."
+image: "/images/blog/introduction-nouveau-chat-a-la-maison.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["introduccion","nuevo-gato","convivencia","multi-gato","guia"]

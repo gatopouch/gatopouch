@@ -1,6 +1,7 @@
 ---
 title: "The Cat's Annual Health Check-up: Recommended Exams"
 description: "Cat's annual health check-up: blood test, dental exam, vaccinations, weighing. Why and how to prepare for the annual veterinary visit."
+image: "/images/blog/bilan-de-sante-annuel-du-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["checkup","veterinary","prevention","exam","cat"]

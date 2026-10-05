@@ -1,6 +1,7 @@
 ---
 title: "Cat dental health: why and how to brush"
 description: "Discover the importance of brushing your cat's teeth and follow our practical tips for optimal oral hygiene."
+image: "/images/blog/sante-dentaire-du-chat-brossage.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["teeth","hygiene","health","brushing","cat"]

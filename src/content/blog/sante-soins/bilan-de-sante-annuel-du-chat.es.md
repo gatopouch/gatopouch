@@ -1,6 +1,7 @@
 ---
 title: "El chequeo anual de salud del gato: exámenes recomendados"
 description: "Chequeo anual de salud del gato: análisis de sangre, examen dental, vacunas, pesaje. Por qué y cómo preparar la visita veterinaria anual."
+image: "/images/blog/bilan-de-sante-annuel-du-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["chequeo","veterinario","prevencion","examen","gato"]

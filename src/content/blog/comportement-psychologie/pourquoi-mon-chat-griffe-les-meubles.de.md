@@ -1,6 +1,7 @@
 ---
 title: "Warum kratzt meine Katze die Möbel? Lösungen"
 description: "Erfahren Sie, warum Ihre Katze die Möbel kratzt, und finden Sie wirksame Lösungen, um Ihr Mobiliar zu schützen und die natürlichen Bedürfnisse Ihrer Katze zu erfüllen."
+image: "/images/blog/pourquoi-mon-chat-griffe-les-meubles.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["kratzverhalten","möbel","verhalten","kratzbrett","katze"]

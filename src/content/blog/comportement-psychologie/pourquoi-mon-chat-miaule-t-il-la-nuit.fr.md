@@ -1,6 +1,7 @@
 ---
 title: "Pourquoi mon chat miaule-t-il la nuit ? Causes et solutions"
 description: "Votre chat vous empêche de dormir avec ses miaulements nocturnes ? Découvrez les causes (faim, ennui, âge, maladie) et les solutions pour des nuits tranquilles."
+image: "/images/blog/pourquoi-mon-chat-miaule-t-il-la-nuit.png"
 date: "2025-10-02"
 author: "GatoPouch"
 tags: ["comportement", "miaulement", "nuit", "sommeil", "chat"]

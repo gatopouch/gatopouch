@@ -1,6 +1,7 @@
 ---
 title: "Perché il mio gatto morde? Comprendere e correggere"
 description: "Il tuo gatto ti morde? Scopri le cause (gioco, paura, stress, dolore) e le soluzioni per correggere questo comportamento senza brutalità."
+image: "/images/blog/pourquoi-mon-chat-mord.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["morso","comportamento","correzione","stress","gatto"]

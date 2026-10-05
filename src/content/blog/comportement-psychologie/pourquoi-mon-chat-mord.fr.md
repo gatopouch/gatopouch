@@ -1,6 +1,7 @@
 ---
 title: "Pourquoi mon chat mord-il ? Comprendre et corriger"
 description: "Votre chat vous mord ? Découvrez les causes (jeu, peur, stress, douleur) et les solutions pour corriger ce comportement sans brutalité."
+image: "/images/blog/pourquoi-mon-chat-mord.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["morsure","comportement","correction","stress","chat"]

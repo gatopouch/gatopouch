@@ -1,6 +1,7 @@
 ---
 title: "Katzenzahngesundheit: Warum und wie man die Zähne putzt"
 description: "Erfahren Sie, wie wichtig das Zähneputzen für Ihre Katze ist und folgen Sie unseren praktischen Tipps für eine optimale Mundhygiene."
+image: "/images/blog/sante-dentaire-du-chat-brossage.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["zähne","hygiene","gesundheit","putzen","katze"]

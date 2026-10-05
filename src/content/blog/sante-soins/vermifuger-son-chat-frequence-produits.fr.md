@@ -1,6 +1,7 @@
 ---
 title: "Vermifuger son chat : fréquence et produits recommandés"
 description: "Tout savoir sur le vermifuge du chat : fréquence selon l'âge, produits efficaces, signes d'infestation et prévention des parasites intestinaux."
+image: "/images/blog/vermifuger-son-chat-frequence-produits.png"
 date: "2025-09-19"
 author: "GatoPouch"
 tags: ["vermifuge","parasites","prevention","sante","chat"]

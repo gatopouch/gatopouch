@@ -1,6 +1,7 @@
 ---
 title: "Why Does My Cat Meow at Night? Causes and Solutions"
 description: "Is your cat keeping you awake with its nighttime meowing? Discover the causes (hunger, boredom, age, illness) and solutions for peaceful nights."
+image: "/images/blog/pourquoi-mon-chat-miaule-t-il-la-nuit.png"
 date: "2025-10-02"
 author: "GatoPouch"
 tags: ["behavior", "meowing", "night", "sleep", "cat"]

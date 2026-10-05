@@ -1,6 +1,7 @@
 ---
 title: "Why Does My Cat Scratch the Furniture? Solutions"
 description: "Discover why your cat scratches furniture and find effective solutions to protect your home while satisfying their natural needs."
+image: "/images/blog/pourquoi-mon-chat-griffe-les-meubles.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["scratching","furniture","behavior","scratching post","cat"]

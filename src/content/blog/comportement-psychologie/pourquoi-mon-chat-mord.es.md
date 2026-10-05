@@ -1,6 +1,7 @@
 ---
 title: "¿Por qué mi gato me muerde? Comprender y corregir"
 description: "¿Tu gato te muerde? Descubre las causas (juego, miedo, estrés, dolor) y las soluciones para corregir este comportamiento sin brutalidad."
+image: "/images/blog/pourquoi-mon-chat-mord.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["mordida","comportamiento","corrección","estrés","gato"]

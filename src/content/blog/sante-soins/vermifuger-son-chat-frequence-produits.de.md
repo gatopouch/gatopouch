@@ -1,6 +1,7 @@
 ---
 title: "Wurmkur für Katzen: Häufigkeit und empfohlene Produkte"
 description: "Alles über die Wurmkur für Katzen: Häufigkeit je nach Alter, wirksame Produkte, Anzeichen einer Befall und Vorbeugung von Darmparasiten."
+image: "/images/blog/vermifuger-son-chat-frequence-produits.png"
 date: "2025-09-19"
 author: "GatoPouch"
 tags: ["wurmkur","parasiten","vorbeugung","gesundheit","katze"]

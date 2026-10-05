@@ -1,6 +1,7 @@
 ---
 title: "Santé dentaire du chat : pourquoi et comment brosser"
 description: "Découvrez l'importance du brossage dentaire pour votre chat et suivez nos conseils pratiques pour une hygiène buccale optimale."
+image: "/images/blog/sante-dentaire-du-chat-brossage.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["dents","hygiene","sante","brossage","chat"]

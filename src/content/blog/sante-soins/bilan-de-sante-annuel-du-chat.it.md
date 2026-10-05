@@ -1,6 +1,7 @@
 ---
 title: "Bilancio annuale di salute del gatto: esami consigliati"
 description: "Bilancio annuale di salute del gatto: prelievo di sangue, esame dentale, vaccinazioni, pesatura. Perché e come preparare la visita veterinaria annuale."
+image: "/images/blog/bilan-de-sante-annuel-du-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["bilancio","veterinario","prevenzione","esame","gatto"]

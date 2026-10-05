@@ -1,6 +1,7 @@
 ---
 title: "Desparasitar a tu gato: frecuencia y productos recomendados"
 description: "Todo lo que necesitas saber sobre la desparasitación del gato: frecuencia según la edad, productos eficaces, signos de infestación y prevención de parásitos intestinales."
+image: "/images/blog/vermifuger-son-chat-frequence-produits.png"
 date: "2025-09-19"
 author: "GatoPouch"
 tags: ["desparasitacion","parasitos","prevencion","salud","gato"]

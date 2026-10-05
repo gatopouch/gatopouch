@@ -1,6 +1,7 @@
 ---
 title: "Pulgas y garrapatas en los gatos: prevención y tratamiento"
 description: "Descubre cómo prevenir y tratar las pulgas y garrapatas en tu gato con consejos prácticos y soluciones eficaces."
+image: "/images/blog/puces-et-tiques-chez-le-chat-prevention.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["pulgas","garrapatas","parasitos","prevencion","gato"]

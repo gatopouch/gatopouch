@@ -1,6 +1,7 @@
 ---
 title: "Le bilan de santé annuel du chat : examens recommandés"
 description: "Bilan de santé annuel du chat : prise de sang, examen dentaire, vaccins, pesée. Pourquoi et comment préparer la visite vétérinaire annuelle."
+image: "/images/blog/bilan-de-sante-annuel-du-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["bilan","veterinaire","prevention","examen","chat"]

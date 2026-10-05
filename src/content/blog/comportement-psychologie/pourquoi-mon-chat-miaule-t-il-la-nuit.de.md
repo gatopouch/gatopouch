@@ -1,6 +1,7 @@
 ---
 title: "Warum miaut meine Katze nachts? Ursachen und Lösungen"
 description: "Ihre Katte hält Sie mit nächtlichen Miaulements wach? Entdecken Sie die Ursachen (Hunger, Langeweile, Alter, Krankheit) und die Lösungen für ruhige Nächte."
+image: "/images/blog/pourquoi-mon-chat-miaule-t-il-la-nuit.png"
 date: "2025-10-02"
 author: "GatoPouch"
 tags: ["verhalten", "miauen", "nacht", "schlaf", "katze"]

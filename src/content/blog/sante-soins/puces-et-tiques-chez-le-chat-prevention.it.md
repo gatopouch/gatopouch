@@ -1,6 +1,7 @@
 ---
 title: "Pulci e zecche nel gatto: prevenzione e trattamento"
 description: "Scopri come prevenire e trattare le pulci e le zecche sul tuo gatto con consigli pratiche e soluzioni efficaci."
+image: "/images/blog/puces-et-tiques-chez-le-chat-prevention.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["pulci","zecche","parassiti","prevenzione","gatto"]

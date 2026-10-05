@@ -1,6 +1,7 @@
 ---
 title: "Salute dentale del gatto: perché e come spazzolare"
 description: "Scoprite l'importanza dello spazzolamento dentale per il vostro gatto e seguite i nostri consigli pratici per un'igiene orale ottimale."
+image: "/images/blog/sante-dentaire-du-chat-brossage.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["denti","igiene","salute","spazzolamento","gatto"]

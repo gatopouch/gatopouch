@@ -1,6 +1,7 @@
 ---
 title: "Why Does My Cat Bite? Understanding and Correcting"
 description: "Your cat biting you? Discover the causes (play, fear, stress, pain) and solutions to correct this behavior without brutality."
+image: "/images/blog/pourquoi-mon-chat-mord.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["bite","behavior","correction","stress","cat"]

@@ -1,6 +1,7 @@
 ---
 title: "¿Por qué mi gato araña los muebles? Soluciones"
 description: "Descubre las razones por las que tu gato araña los muebles y encuentra soluciones eficaces para proteger tu mobiliario mientras satisfaces sus necesidades naturales."
+image: "/images/blog/pourquoi-mon-chat-griffe-les-meubles.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["arañazo","muebles","comportamiento","rascador","gato"]

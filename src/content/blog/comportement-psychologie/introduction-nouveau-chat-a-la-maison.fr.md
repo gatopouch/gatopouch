@@ -1,6 +1,7 @@
 ---
 title: "L'introduction d'un nouveau chat à la maison : guide"
 description: "Comment introduire un nouveau chat à la maison sans conflit : isolation progressive, échanges d'odeurs, rencontres supervisées. Méthode complète."
+image: "/images/blog/introduction-nouveau-chat-a-la-maison.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["introduction","nouveau-chat","cohabitation","multi-chat","guide"]

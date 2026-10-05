@@ -1,6 +1,7 @@
 ---
 title: "Premiers soins pour chat : que faire en cas d'urgence"
 description: "Les gestes de premiers soins pour chat en urgence : saignement, brûlure, chute, intoxication. Ce qu'il faut faire avant d'appeler le vétérinaire."
+image: "/images/blog/premiers-soins-pour-chat-urgence.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["urgence","premiers-soins","securite","sante","chat"]

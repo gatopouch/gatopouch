@@ -1,6 +1,7 @@
 ---
 title: "Pourquoi mon chat griffe-t-il les meubles ? Solutions"
 description: "Découvrez les raisons pour lesquelles votre chat griffe les meubles et trouvez des solutions efficaces pour protéger votre mobilier tout en satisfaisant ses besoins naturels."
+image: "/images/blog/pourquoi-mon-chat-griffe-les-meubles.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["griffade","meubles","comportement","griffoir","chat"]

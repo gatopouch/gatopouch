@@ -1,6 +1,7 @@
 ---
 title: "Warum beißt meine Katze? Verstehen und korrigieren"
 description: "Ihre Katze beißt Sie? Entdecken Sie die Ursachen (Spiel, Angst, Stress, Schmerzen) und die Lösungen, um dieses Verhalten ohne Brutalität zu korrigieren."
+image: "/images/blog/pourquoi-mon-chat-mord.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["biss","verhalten","korrektur","stress","katze"]

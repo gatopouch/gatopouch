@@ -1,6 +1,7 @@
 ---
 title: "Comment socialiser un chat adulte : guide pratique"
 description: "Découvrez comment socialiser un chat adulte avec des conseils pratiques pour réduire le stress et favoriser de bonnes relations."
+image: "/images/blog/socialiser-un-chat-adulte-guide.png"
 date: "2025-09-25"
 author: "GatoPouch"
 tags: ["socialisation","comportement","chat-adulte","stress","guide"]

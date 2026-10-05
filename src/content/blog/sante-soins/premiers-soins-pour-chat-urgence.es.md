@@ -1,6 +1,7 @@
 ---
 title: "Primeros auxilios para gatos: qué hacer en caso de emergencia"
 description: "Los gestos de primeros auxilios para gatos en emergencia: sangrado, quemadura, caída, intoxicación. Lo que hay que hacer antes de llamar al veterinario."
+image: "/images/blog/premiers-soins-pour-chat-urgence.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["emergencia","primeros-auxilios","seguridad","salud","gato"]

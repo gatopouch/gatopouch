@@ -1,6 +1,7 @@
 ---
 title: "¿Por qué mi gato maulla por la noche? Causas y soluciones"
 description: "¿Tu gato te impide dormir con sus maullidos nocturnos? Descubre las causas (hambre, aburrimiento, edad, enfermedad) y las soluciones para tener noches tranquilas."
+image: "/images/blog/pourquoi-mon-chat-miaule-t-il-la-nuit.png"
 date: "2025-10-02"
 author: "GatoPouch"
 tags: ["comportamiento", "maullido", "noche", "sueño", "gato"]

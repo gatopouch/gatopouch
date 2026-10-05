@@ -1,6 +1,7 @@
 ---
 title: "Worming your cat: frequency and recommended products"
 description: "Everything you need to know about cat deworming: frequency by age, effective products, signs of infestation, and prevention of intestinal parasites."
+image: "/images/blog/vermifuger-son-chat-frequence-produits.png"
 date: "2025-09-19"
 author: "GatoPouch"
 tags: ["deworming","parasites","prevention","health","cat"]

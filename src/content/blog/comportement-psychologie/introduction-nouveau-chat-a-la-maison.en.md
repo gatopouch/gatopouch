@@ -1,6 +1,7 @@
 ---
 title: "Introducing a New Cat to the Home: Guide"
 description: "How to introduce a new cat to your home without conflict: gradual isolation, scent swapping, supervised meetings. A complete method."
+image: "/images/blog/introduction-nouveau-chat-a-la-maison.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["introduction","new-cat","cohabitation","multi-cat","guide"]

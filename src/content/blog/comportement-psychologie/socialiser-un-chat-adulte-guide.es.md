@@ -1,6 +1,7 @@
 ---
 title: "Cómo socializar a un gato adulto: guía práctica"
 description: "Descubre cómo socializar a un gato adulto con consejos prácticos para reducir el estrés y fomentar buenas relaciones."
+image: "/images/blog/socialiser-un-chat-adulte-guide.png"
 date: "2025-09-25"
 author: "GatoPouch"
 tags: ["socialización","comportamiento","gato-adulto","estrés","guía"]

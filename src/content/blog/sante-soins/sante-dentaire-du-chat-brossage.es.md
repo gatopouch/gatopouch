@@ -1,6 +1,7 @@
 ---
 title: "Salud dental del gato: por qué y cómo cepillar"
 description: "Descubre la importancia del cepillado dental para tu gato y sigue nuestros consejos prácticos para una higiene bucal óptima."
+image: "/images/blog/sante-dentaire-du-chat-brossage.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["dientes","higiene","salud","cepillado","gato"]

@@ -1,6 +1,7 @@
 ---
 title: "Die jährliche Gesundheitsuntersuchung der Katze: Empfohlene Untersuchungen"
 description: "Jährliche Gesundheitsuntersuchung der Katze: Blutabnahme, Zahnuntersuchung, Impfungen, Wiegen. Warum und wie man den jährlichen Tierarztbesuch vorbereitet."
+image: "/images/blog/bilan-de-sante-annuel-du-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["bilan","veterinaire","prevention","examen","chat"]

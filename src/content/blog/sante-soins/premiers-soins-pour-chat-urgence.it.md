@@ -1,6 +1,7 @@
 ---
 title: "Primo soccorso per gatti: cosa fare in caso di emergenza"
 description: "I gesti di primo soccorso per gatti in emergenza: sanguinamento, ustione, caduta, intossicazione. Cosa fare prima di chiamare il veterinario."
+image: "/images/blog/premiers-soins-pour-chat-urgence.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["emergenza","primo-soccorso","sicurezza","salute","gatto"]

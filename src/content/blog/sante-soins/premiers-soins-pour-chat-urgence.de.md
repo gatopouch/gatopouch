@@ -1,6 +1,7 @@
 ---
 title: "Erste Hilfe für Katzen: Was Sie im Notfall tun sollten"
 description: "Erste-Hilfe-Maßnahmen für Katzen im Notfall: Blutung, Verbrennung, Sturz, Vergiftung. Was Sie tun sollten, bevor Sie den Tierarzt anrufen."
+image: "/images/blog/premiers-soins-pour-chat-urgence.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["notfall","erste-hilfe","sicherheit","gesundheit","katze"]

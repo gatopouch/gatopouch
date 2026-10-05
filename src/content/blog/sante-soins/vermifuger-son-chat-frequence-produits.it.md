@@ -1,6 +1,7 @@
 ---
 title: "Vermifugare il gatto: frequenza e prodotti consigliati"
 description: "Tutto ciò che c'è da sapere sul vermifugo per gatti: frequenza in base all'età, prodotti efficaci, segni di infestazione e prevenzione dei parassiti intestinali."
+image: "/images/blog/vermifuger-son-chat-frequence-produits.png"
 date: "2025-09-19"
 author: "GatoPouch"
 tags: ["vermifugo","parassiti","prevenzione","salute","gatto"]

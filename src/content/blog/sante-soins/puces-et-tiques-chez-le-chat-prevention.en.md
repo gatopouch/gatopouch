@@ -1,6 +1,7 @@
 ---
 title: "Fleas and Ticks in Cats: Prevention and Treatment"
 description: "Discover how to prevent and treat fleas and ticks in your cat with practical advice and effective solutions."
+image: "/images/blog/puces-et-tiques-chez-le-chat-prevention.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["fleas","ticks","parasites","prevention","cat"]

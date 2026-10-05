@@ -1,6 +1,7 @@
 ---
 title: "Wie man einen erwachsenen Katze sozialisieren: praktischer Leitfaden"
 description: "Entdecken Sie, wie Sie eine erwachsene Katze sozialisieren, mit praktischen Tipps zur Stressreduktion und zur Förderung guter Beziehungen."
+image: "/images/blog/socialiser-un-chat-adulte-guide.png"
 date: "2025-09-25"
 author: "GatoPouch"
 tags: ["sozialisierung","verhalten","erwachsene-katze","stress","leitfaden"]

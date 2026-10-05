@@ -1,6 +1,7 @@
 ---
 title: "Puces et tiques chez le chat : prévention et traitement"
 description: "Découvrez comment prévenir et traiter les puces et les tiques chez votre chat avec des conseils pratiques et des solutions efficaces."
+image: "/images/blog/puces-et-tiques-chez-le-chat-prevention.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["puces","tiques","parasites","prevention","chat"]

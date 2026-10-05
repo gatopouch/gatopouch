@@ -1,6 +1,7 @@
 ---
 title: "Flöhe und Zecken bei Katzen: Vorbeugung und Behandlung"
 description: "Entdecken Sie, wie Sie Ihre Katze mit praktischen Tipps und wirksamen Lösungen vor Flöhen und Zecken schützen und behandeln können."
+image: "/images/blog/puces-et-tiques-chez-le-chat-prevention.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["flöhe","zecken","parasiten","vorbeugung","katze"]
