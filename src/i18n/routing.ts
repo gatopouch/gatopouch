@@ -22,4 +22,8 @@ export const routing = defineRouting({
   // Pas de prefix pour la locale par défaut (URLs plus propres)
   // /fr/ sera redirigé vers / pour le français
   localePrefix: "as-needed",
+  // Désactive la détection automatique de langue via Accept-Language
+  // → /blog reste en FR (default), /en/blog reste en EN
+  // → Le changement de langue se fait uniquement via le LocaleSwitcher
+  localeDetection: false,
 });
