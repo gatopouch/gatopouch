@@ -3,11 +3,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
-import { PawPrint, LayoutDashboard, FileText, Mail, Users, LogOut, Menu, X } from "lucide-react";
+import { PawPrint, LayoutDashboard, FileText, Mail, Users, LogOut, Menu, X, BarChart3 } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/articles", label: "Articles", icon: FileText },
+  { href: "/admin/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/admin/contact", label: "Messages", icon: Mail },
   { href: "/admin/newsletter", label: "Newsletter", icon: Users },
 ];
