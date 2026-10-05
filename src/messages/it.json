@@ -488,74 +488,74 @@
       ]
     },
     "terms": {
-      "title": "Términos y Condiciones",
-      "trigger": "Términos y Condiciones",
+      "title": "Termini e Condizioni",
+      "trigger": "Termini e condizioni",
       "blocks": [
         {
           "type": "p",
-          "content": "Estos términos y condiciones (« Términos ») regulan el uso del sitio web gatopouch.com y la compra de productos GatoPouch. Al realizar un pedido, aceptas estos Términos. Esta versión bilingue prevalece en caso de conflicto."
+          "content": "Termini e condizioni (« Termini ») che regolano l'uso del sito web gatopouch.com e l'acquisto di prodotti GatoPouch. Effettuando un ordine, accetti questi Termini. In caso di conflitto, questa versione bilingue prevale."
         },
         {
           "type": "h3",
-          "content": "1. Identidad del vendedor"
+          "content": "1. Identità del venditore"
         },
         {
           "type": "p",
-          "content": "Vendedor : GatoPouch\nDirección : Calle Almería 83, 29018 Málaga, España\nEmail : contact@gatopouch.com\nTeléfono : +34 670 04 04 47"
+          "content": "Venditore : GatoPouch\nIndirizzo : Calle Almería 83, 29018 Málaga, Spagna\nEmail : contact@gatopouch.com\nTelefono : +34 670 04 04 47"
         },
         {
           "type": "h3",
-          "content": "2. Productos y precios"
+          "content": "2. Prodotti e prezzi"
         },
         {
           "type": "p",
-          "content": "Los productos GatoPouch son sudaderas de polar con bolsillo ventral para gatos. Los precios se muestran en euros (€), IVA incluido. Los packs propuestos son : 1 unidad (54,99€), Pack de 2 (94,98€, ahorro 15€), Pack de 3 (129,99€, ahorro 34,98€). Los precios pueden modificarse en cualquier momento, pero el precio facturado es el vigente en el momento de la confirmación del pedido."
+          "content": "I prodotti GatoPouch sono felpe in pile con tasca ventrale per gatti. I prezzi sono espressi in euro (€), IVA inclusa. Le proposte di pack sono : 1 unità (54,99€), Pack di 2 (94,98€, risparmio 15€), Pack di 3 (129,99€, risparmio 34,98€). I prezzi possono essere modificati in qualsiasi momento, ma il prezzo fatturato è quello vigente al momento della conferma dell'ordine."
         },
         {
           "type": "h3",
-          "content": "3. Pedido y confirmación"
+          "content": "3. Ordine e conferma"
         },
         {
           "type": "p",
-          "content": "Al validar tu pedido, recibes un email de confirmación con el resumen, el precio total y la fecha estimada de entrega. El pedido se considera aceptado tras la confirmación del pago. Nos reservamos el derecho de rechazar un pedido (stock insuficiente, sospecha de fraude), en cuyo caso reembolsamos íntegramente."
+          "content": "Convalidando il tuo ordine, ricevi un'email di conferma con il riepilogo, il prezzo totale e la data stimata di consegna. L'ordine è considerato accettato dopo la conferma del pagamento. Ci riserviamo il diritto di rifiutare un ordine (scorte insufficienti, sospetto di frode), nel qual caso effettuiamo un rimborso completo."
         },
         {
           "type": "h3",
-          "content": "4. Pago"
+          "content": "4. Pagamento"
         },
         {
           "type": "p",
-          "content": "Aceptamos tarjeta bancaria (CB, Visa, Mastercard), PayPal, Apple Pay y Google Pay. El pago 3x sin gastos está disponible desde 60€ de compra. Tus datos bancarios son tratados por nuestro proveedor de pago certificado (no los almacenamos)."
+          "content": "Accettiamo carte di credito (CB, Visa, Mastercard), PayPal, Apple Pay e Google Pay. Il pagamento in 3x senza spese è disponibile per acquisti da 60€. I tuoi dati bancari sono gestiti dal nostro fornitore di pagamento certificato (non li memorizziamo)."
         },
         {
           "type": "h3",
-          "content": "5. Disponibilidad y talla"
+          "content": "5. Disponibilità e taglia"
         },
         {
           "type": "p",
-          "content": "Disponibles 7 colores y 6 tallas (S, M, L, XL, 2XL, 3XL). Te recomendamos consultar la guía de tallas antes del pedido. Si una talla/color no está disponible tras tu pedido, te propondremos una alternativa o un reembolso completo."
+          "content": "Disponibili 7 colori e 6 taglie (S, M, L, XL, 2XL, 3XL). Ti consigliamo di consultare la guida alle taglie prima dell'ordine. Se una taglia/colore non è disponibile dopo il tuo ordine, ti proporremo un'alternativa o un rimborso completo."
         },
         {
           "type": "h3",
-          "content": "6. Propiedad intelectual"
+          "content": "6. Proprietà intellettuale"
         },
         {
           "type": "p",
-          "content": "Todos los elementos del sitio (logos, textos, imágenes, diseños) son propiedad de GatoPouch o sus partners. Queda prohibida cualquier reproducción, copia o explotación sin autorización expresa."
+          "content": "Tutti gli elementi del sito (loghi, testi, immagini, design) sono di proprietà di GatoPouch o dei suoi partner. È vietata qualsiasi riproduzione, copia o sfruttamento senza autorizzazione espressa."
         },
         {
           "type": "h3",
-          "content": "7. Legislación aplicable"
+          "content": "7. Legislazione applicabile"
         },
         {
           "type": "p",
-          "content": "Estos Términos se rigen por la legislación española. Cualquier conflicto se resolverá ante los tribunales de Málaga, sin perjuicio de tus derechos como consumidor según la legislación de la UE."
+          "content": "Questi Termini sono regolati dalla legislazione spagnola. Qualsiasi controversia sarà risolta dinanzi ai tribunali di Málaga, senza pregiudizio dei tuoi diritti come consumatore secondo la legislazione UE."
         }
       ]
     },
     "returns": {
       "title": "Politica di Reso",
-      "trigger": "Politica di Reso",
+      "trigger": "Resi",
       "blocks": [
         {
           "type": "p",
@@ -627,7 +627,7 @@
     },
     "shipping": {
       "title": "Politica di Spedizione",
-      "trigger": "Politica di Spedizione",
+      "trigger": "Spedizione",
       "blocks": [
         {
           "type": "p",
@@ -639,14 +639,14 @@
         },
         {
           "type": "p",
-          "content": "Termine standard : 6-12 giorni lavorabili dalla conferma dell'ordine. Il termine può variare a seconda del paese e della stagione (Natale, Black Friday possono prolungare la consegna di 2-3 giorni)."
+          "content": "Tempo standard : 6-12 giorni lavorativi dalla conferma dell'ordine. I tempi possono variare in base al paese e alla stagione (Natale, Black Friday possono prolungare la consegna di 2-3 giorni)."
         },
         {
           "type": "ul",
           "items": [
-            "Preparazione : 24h lavorabili dal pagamento.",
-            "Trasporto : 5-11 giorni lavorabili.",
-            "Totale : 6-12 giorni lavorabili."
+            "Preparazione : 24h lavorative dal pagamento.",
+            "Trasporto : 5-11 giorni lavorativi.",
+            "Totale : 6-12 giorni lavorativi."
           ]
         },
         {
@@ -657,7 +657,7 @@
           "type": "ul",
           "items": [
             "Spedizione gratuita da 69€ di acquisto (raggiunto automaticamente con il Pack da 2 a 94,98€).",
-            "Sotto i 69€ : 6,90€ (ordine singolo a 54,99€ = spese di spedizione aggiuntive).",
+            "Sotto i 69€ : 6,90€ (ordine singolo da 54,99€ = spesa di spedizione aggiuntiva).",
             "Zone specifiche (UK, CH) : 12,90€."
           ]
         },
@@ -675,7 +675,7 @@
         },
         {
           "type": "p",
-          "content": "Ricevi un'email con il numero di tracciamento al momento della spedizione. Puoi seguire il tuo pacco sul sito del corriere (di solito DHL o Correos). Se non ricevi il tuo pacco entro 12 giorni, scrivici e apriremo un'indagine con il corriere (risoluzione in 5-7 giorni)."
+          "content": "Riceverai una e-mail con il tuo numero di tracciamento al momento della spedizione. Puoi seguire il tuo pacco sul sito del corriere (solitamente DHL o Correos). Se non ricevi il tuo pacco entro il massimo di 12 giorni, scrivici e apriremo un'indagine con il corriere (risoluzione in 5-7 giorni)."
         },
         {
           "type": "h3",
@@ -683,15 +683,15 @@
         },
         {
           "type": "p",
-          "content": "Se il corriere non può consegnare (assenza, indirizzo errato), il pacco viene restituito al nostro magazzino di Málaga. Ti contattiamo via email per organizzare una nuova spedizione (con spese aggiuntive) o un rimborso (senza spese di spedizione)."
+          "content": "Se il corriere non può effettuare la consegna (assenza, indirizzo errato), il pacco viene restituito al nostro magazzino di Malaga. Ti contattiamo via e-mail per organizzare una nuova spedizione (con spese aggiuntive) o un rimborso (senza spese di spedizione)."
         },
         {
           "type": "h3",
-          "content": "6. Dogane e imposte"
+          "content": "6. Dogana e imposte"
         },
         {
           "type": "p",
-          "content": "Per spedizioni fuori dall'UE (Regno Unito, Svizzera), il destinatario è responsabile dei dazi doganali e delle imposte locali. GatoPouch non si fa carico di queste spese. Per ordini all'interno dell'UE, non ci sono dazi né imposte aggiuntive."
+          "content": "Per le spedizioni verso l'esterno dell'UE (Regno Unito, Svizzera), il destinatario è responsabile dei dazi doganali e delle imposte locali. GatoPouch non si fa carico di queste spese. Per gli ordini all'interno dell'UE, non ci sono dazi doganali né imposte aggiuntive."
         },
         {
           "type": "h3",
@@ -699,7 +699,7 @@
         },
         {
           "type": "p",
-          "content": "Tutti i nostri ordini vengono spediti in imballaggi riciclabili e discreti (senza menzione del contenuto sull'esterno, ideali per regali). Il Pack da 2 e il Pack da 3 possono essere spediti a indirizzi diversi su richiesta (scrivici dopo l'ordine)."
+          "content": "Tutti i nostri ordini vengono spediti in imballaggi riciclabili e discreti (senza menzione del contenuto sull'esterno, ideali per i regali). Il Pack da 2 e il Pack da 3 possono essere spediti a indirizzi diversi su richiesta (scrivici dopo l'ordine)."
         }
       ]
     }

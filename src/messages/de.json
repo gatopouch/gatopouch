@@ -488,218 +488,218 @@
       ]
     },
     "terms": {
-      "title": "Términos y Condiciones",
-      "trigger": "Términos y Condiciones",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "trigger": "AGB",
       "blocks": [
         {
           "type": "p",
-          "content": "Estos términos y condiciones (« Términos ») regulan el uso del sitio web gatopouch.com y la compra de productos GatoPouch. Al realizar un pedido, aceptas estos Términos. Esta versión bilingue prevalece en caso de conflicto."
+          "content": "Diese Allgemeinen Geschäftsbedingungen («AGB») regeln die Nutzung der Website gatopouch.com und den Kauf von GatoPouch-Produkten. Durch die Aufgabe einer Bestellung stimmen Sie diesen AGB zu. Bei einem Konflikt hat diese zweisprachige Version Vorrang."
         },
         {
           "type": "h3",
-          "content": "1. Identidad del vendedor"
+          "content": "1. Identität des Verkäufers"
         },
         {
           "type": "p",
-          "content": "Vendedor : GatoPouch\nDirección : Calle Almería 83, 29018 Málaga, España\nEmail : contact@gatopouch.com\nTeléfono : +34 670 04 04 47"
+          "content": "Verkäufer : GatoPouch\nAdresse : Calle Almería 83, 29018 Málaga, Spanien\nE-Mail : contact@gatopouch.com\nTelefon : +34 670 04 04 47"
         },
         {
           "type": "h3",
-          "content": "2. Productos y precios"
+          "content": "2. Produkte und Preise"
         },
         {
           "type": "p",
-          "content": "Los productos GatoPouch son sudaderas de polar con bolsillo ventral para gatos. Los precios se muestran en euros (€), IVA incluido. Los packs propuestos son : 1 unidad (54,99€), Pack de 2 (94,98€, ahorro 15€), Pack de 3 (129,99€, ahorro 34,98€). Los precios pueden modificarse en cualquier momento, pero el precio facturado es el vigente en el momento de la confirmación del pedido."
+          "content": "Die GatoPouch-Produkte sind Fleece-Sweatjacken mit Bauchtasche für Katzen. Die Preise sind in Euro (€) angegeben, inklusive Mehrwertsteuer. Die angebotenen Sets sind: 1 Stück (54,99€), Set von 2 (94,98€, sparen 15€), Set von 3 (129,99€, sparen 34,98€). Die Preise können jederzeit geändert werden, aber der in Rechnung gestellte Preis ist der zum Zeitpunkt der Bestellbestätigung gültige."
         },
         {
           "type": "h3",
-          "content": "3. Pedido y confirmación"
+          "content": "3. Bestellung und Bestätigung"
         },
         {
           "type": "p",
-          "content": "Al validar tu pedido, recibes un email de confirmación con el resumen, el precio total y la fecha estimada de entrega. El pedido se considera aceptado tras la confirmación del pago. Nos reservamos el derecho de rechazar un pedido (stock insuficiente, sospecha de fraude), en cuyo caso reembolsamos íntegramente."
+          "content": "Bei Bestätigung Ihrer Bestellung erhalten Sie eine Bestellbestätigungs-E-Mail mit der Zusammenfassung, dem Gesamtpreis und dem geschätzten Lieferdatum. Die Bestellung gilt als angenommen, nachdem die Zahlung bestätigt wurde. Wir behalten uns das Recht vor, eine Bestellung abzulehnen (zu geringer Lagerbestand, Verdacht auf Betrug), in welchem Fall wir eine vollständige Rückerstattung vornehmen."
         },
         {
           "type": "h3",
-          "content": "4. Pago"
+          "content": "4. Zahlung"
         },
         {
           "type": "p",
-          "content": "Aceptamos tarjeta bancaria (CB, Visa, Mastercard), PayPal, Apple Pay y Google Pay. El pago 3x sin gastos está disponible desde 60€ de compra. Tus datos bancarios son tratados por nuestro proveedor de pago certificado (no los almacenamos)."
+          "content": "Wir akzeptieren Kreditkarten (CB, Visa, Mastercard), PayPal, Apple Pay und Google Pay. Die Ratenzahlung ohne zusätzliche Gebühren ist ab einem Bestellwert von 60€ verfügbar. Ihre Bankdaten werden von unserem zertifizierten Zahlungsanbieter verarbeitet (wir speichern sie nicht)."
         },
         {
           "type": "h3",
-          "content": "5. Disponibilidad y talla"
+          "content": "5. Verfügbarkeit und Größe"
         },
         {
           "type": "p",
-          "content": "Disponibles 7 colores y 6 tallas (S, M, L, XL, 2XL, 3XL). Te recomendamos consultar la guía de tallas antes del pedido. Si una talla/color no está disponible tras tu pedido, te propondremos una alternativa o un reembolso completo."
+          "content": "Verfügbar in 7 Farben und 6 Größen (S, M, L, XL, 2XL, 3XL). Wir empfehlen Ihnen, vor der Bestellung die Größentabelle zu konsultieren. Wenn eine Größe/Farbe nach Ihrer Bestellung nicht verfügbar ist, werden wir Ihnen eine Alternative oder eine vollständige Rückerstattung anbieten."
         },
         {
           "type": "h3",
-          "content": "6. Propiedad intelectual"
+          "content": "6. Geistiges Eigentum"
         },
         {
           "type": "p",
-          "content": "Todos los elementos del sitio (logos, textos, imágenes, diseños) son propiedad de GatoPouch o sus partners. Queda prohibida cualquier reproducción, copia o explotación sin autorización expresa."
+          "content": "Alle Elemente der Website (Logos, Texte, Bilder, Designs) sind Eigentum von GatoPouch oder seinen Partnern. Jegliche Reproduktion, Kopie oder Nutzung ohne ausdrückliche Genehmigung ist untersagt."
         },
         {
           "type": "h3",
-          "content": "7. Legislación aplicable"
+          "content": "7. Anwendbares Recht"
         },
         {
           "type": "p",
-          "content": "Estos Términos se rigen por la legislación española. Cualquier conflicto se resolverá ante los tribunales de Málaga, sin perjuicio de tus derechos como consumidor según la legislación de la UE."
+          "content": "Diese AGB unterliegen dem spanischen Recht. Jeder Konflikt wird vor den Gerichten von Málaga beigelegt, ohne Ihre Rechte als Verbraucher gemäß dem EU-Recht zu beeinträchtigen."
         }
       ]
     },
     "returns": {
-      "title": "Política de Devoluciones",
-      "trigger": "Política de Devoluciones",
+      "title": "Rückgabepolitik",
+      "trigger": "Rückgabe",
       "blocks": [
         {
           "type": "p",
-          "content": "En GatoPouch queremos que estés 100% satisfecho. Si tu gato no se adapta al GatoPouch o si el producto no corresponde a tus expectativas, tienes 30 días desde la recepción para solicitar un reembolso o un cambio."
+          "content": "Bei GatoPouch möchten wir, dass Sie 100% zufrieden sind. Wenn sich Ihre Katze nicht an das GatoPouch gewöhnt oder das Produkt nicht Ihren Erwartungen entspricht, haben Sie 30 Tage ab dem Erhalt die Möglichkeit, eine Rückerstattung oder einen Umtausch zu beantragen."
         },
         {
           "type": "h3",
-          "content": "1. Plazo de devolución"
+          "content": "1. Rückgabefrist"
         },
         {
           "type": "p",
-          "content": "30 días desde la fecha de recepción del paquete. La fecha del sello del transportista hace fe. Pasado este plazo, no aceptamos devoluciones salvo defecto de fabricación (ver garantía)."
+          "content": "30 Tage ab dem Datum des Wareneingangs. Das Datum des Transportstempels ist maßgeblich. Nach Ablauf dieser Frist nehmen wir keine Rückgaben an, es sei denn, es handelt sich um einen Herstellungsfehler (siehe Garantie)."
         },
         {
           "type": "h3",
-          "content": "2. Condiciones del producto"
+          "content": "2. Produktzustand"
         },
         {
           "type": "p",
-          "content": "El producto debe :"
+          "content": "Das Produkt muss:"
         },
         {
           "type": "ul",
           "items": [
-            "Estar en su estado original, sin uso prolongado.",
-            "Tener todas las etiquetas y embalaje original.",
-            "No presentar manchas, pelos de animal o olores.",
-            "Una prueba breve del producto con tu gato es aceptable (5-10 min) — sin embargo, una sesión prolongada no permite la devolución por higiene."
+            "Im Originalzustand sein, ohne längeren Gebrauch.",
+            "Alle Etiketten und die Originalverpackung haben.",
+            "Keine Flecken, Tierhaare oder Gerüche aufweisen.",
+            "Eine kurze Prüfung des Produkts mit Ihrer Katze ist akzeptabel (5-10 Min.) — eine längere Nutzung schließt jedoch aus Hygienegründen eine Rückgabe aus."
           ]
         },
         {
           "type": "h3",
-          "content": "3. Procedimiento"
+          "content": "3. Verfahren"
         },
         {
           "type": "ol",
           "items": [
-            "Escríbenos a support@gatopouch.com con tu número de pedido y el motivo.",
-            "Te enviamos una etiqueta de devolución prepagada (PDF) por email en 24h.",
-            "Deposita el paquete en un punto de recogida (Correos, DHL, UPS).",
-            "Recibido y verificado en nuestro almacén de Málaga, procesamos el reembolso en 5-7 días laborables al método de pago original."
+            "Schreiben Sie uns an support@gatopouch.com mit Ihrer Bestellnummer und dem Grund.",
+            "Wir senden Ihnen eine per PDF-Vorformatierte Rücksendeetikett per E-Mail innerhalb von 24 Stunden zu.",
+            "Lassen Sie das Paket in einem Abholpunkt ab (Correos, DHL, UPS).",
+            "Nach Eingang und Prüfung in unserem Lager in Málaga bearbeiten wir die Rückerstattung innerhalb von 5-7 Werktagen auf die ursprüngliche Zahlungsmethode."
           ]
         },
         {
           "type": "h3",
-          "content": "4. Reembolso"
+          "content": "4. Rückerstattung"
         },
         {
           "type": "p",
-          "content": "El reembolso íntegro (precio del producto + gastos de envío originales) se realiza al método de pago utilizado en la compra. Los gastos de devolución corren a cargo de GatoPouch en caso de producto defectuoso o error nuestro. Si la devolución es por decisión personal, los gastos de devolución corren a cargo del cliente (6,90€)."
+          "content": "Die vollständige Rückerstattung (Produktpreis + ursprüngliche Versandkosten) erfolgt auf die bei der Kaufzahlung verwendete Methode. Die Rücksendekosten werden von GatoPouch getragen, wenn das Produkt fehlerhaft oder ein Fehler unsererseits vorliegt. Bei einer Rückgabe aus persönlichen Gründen trägt der Kunde die Rücksendekosten (6,90€)."
         },
         {
           "type": "h3",
-          "content": "5. Excepciones"
+          "content": "5. Ausnahmen"
         },
         {
           "type": "p",
-          "content": "No se aceptan devoluciones de productos personalizados (color estándar, sí; bordado o grabado personalizado, no). Tampoco de productos adquiridos en promociones especiales liquidación (« sin retorno »)."
+          "content": "Rückgaben von personalisierten Produkten werden nicht angenommen (Standardfarbe ja; personalisierter Stickerei- oder Gravurdruck nein). Ebenso nicht bei Produkten, die im Rahmen von Sonderaktionen zum Verkauf standen (« ohne Rückgabe »)."
         },
         {
           "type": "h3",
-          "content": "6. Garantía legal"
+          "content": "6. Gesetzliche Garantie"
         },
         {
           "type": "p",
-          "content": "Conforme a la legislación de la UE, todos nuestros productos están garantizados 2 años contra defectos de fabricación. Si detectas un defecto, escríbenos con fotos a support@gatopouch.com y te enviaremos un reemplazo gratuito o un reembolso completo."
+          "content": "Gemäß der EU-Gesetzgebung sind alle unsere Produkte 2 Jahre gegen Herstellungsfehler garantiert. Wenn Sie einen Mangel feststellen, schreiben Sie uns mit Fotos an support@gatopouch.com und wir senden Ihnen kostenlosen Ersatz oder eine vollständige Rückerstattung zu."
         }
       ]
     },
     "shipping": {
-      "title": "Política de Envíos",
-      "trigger": "Política de Envíos",
+      "title": "Versandpolitik",
+      "trigger": "Versand",
       "blocks": [
         {
           "type": "p",
-          "content": "GatoPouch envía a toda Europa (UE + Royaume-Uni + Suisse). Aquí están nuestras condiciones de envío."
+          "content": "GatoPouch versendet in ganz Europa (EU + Großbritannien + Schweiz). Hier sind unsere Versandbedingungen."
         },
         {
           "type": "h3",
-          "content": "1. Plazos de entrega"
+          "content": "1. Lieferzeiten"
         },
         {
           "type": "p",
-          "content": "Plazo estándar : 6 a 12 días laborables desde la confirmación del pedido. El plazo puede variar según el país y la temporada (Navidad, Black Friday pueden alargar 2-3 días)."
+          "content": "Standardlieferzeit: 6 bis 12 Werktage ab der Bestätigung der Bestellung. Die Lieferzeit kann je nach Land und Saison variieren (Weihnachten, Black Friday können die Lieferzeit um 2-3 Tage verlängern)."
         },
         {
           "type": "ul",
           "items": [
-            "Preparación : 24h laborables desde el pago.",
-            "Transporte : 5-11 días laborables.",
-            "Total : 6-12 días laborables."
+            "Vorbereitung: 24 Werktage ab der Zahlung.",
+            "Versand: 5-11 Werktage.",
+            "Gesamt: 6-12 Werktage."
           ]
         },
         {
           "type": "h3",
-          "content": "2. Tarifas"
+          "content": "2. Versandkosten"
         },
         {
           "type": "ul",
           "items": [
-            "Envío gratuito desde 69€ de compra (alcanzado automáticamente con el Pack de 2 a 94,98€).",
-            "Por debajo de 69€ : 6,90€ (pedido unitario a 54,99€ = envío adicional).",
-            "Zonas específicas (UK, CH) : 12,90€."
+            "Kostenloser Versand ab einem Bestellwert von 69€ (wird automatisch mit dem 2er-Pack für 94,98€ erreicht).",
+            "Unter 69€: 6,90€ (einzelne Bestellung bis 54,99€ = zusätzlicher Versand).",
+            "Bestimmte Zonen (UK, CH): 12,90€."
           ]
         },
         {
           "type": "h3",
-          "content": "3. Zonas cubiertas"
+          "content": "3. Abgedeckte Zonen"
         },
         {
           "type": "p",
-          "content": "Enviamos a toda la Unión Europea (España, Francia, Portugal, Italia, Alemania, Bélgica, Países Bajos, Luxemburgo, Austria, Irlanda, etc.) así como au Reino Unido y Suiza. Para otros destinos, escríbenos a support@gatopouch.com."
+          "content": "Wir versenden in die gesamte Europäische Union (Spanien, Frankreich, Portugal, Italien, Deutschland, Belgien, Niederlande, Luxemburg, Österreich, Irland, etc.) sowie nach Großbritannien und in die Schweiz. Für andere Zonen schreiben Sie uns bitte an support@gatopouch.com."
         },
         {
           "type": "h3",
-          "content": "4. Seguimiento"
+          "content": "4. Sendungsverfolgung"
         },
         {
           "type": "p",
-          "content": "Recibes un email con tu número de seguimiento en el momento del envío. Puedes seguir tu paquete en el sitio del transportista (habitualmente DHL o Correos). Si no recibes tu paquete en el plazo máximo de 12 días, escríbenos y abriremos una investigación con el transportista (resolución en 5-7 días)."
+          "content": "Sie erhalten eine E-Mail mit Ihrer Sendungsnummer zum Zeitpunkt des Versands. Sie können Ihr Paket auf der Website des Spediteurs (in der Regel DHL oder Correos) verfolgen. Wenn Sie Ihr Paket nach maximal 12 Tagen nicht erhalten haben, schreiben Sie uns und wir eröffnen eine Untersuchung beim Spediteur (Lösung in 5-7 Tagen)."
         },
         {
           "type": "h3",
-          "content": "5. Paquetes no entregados"
+          "content": "5. Nicht zugestellte Pakete"
         },
         {
           "type": "p",
-          "content": "Si el transportista no puede entregar (ausencia, dirección incorrecta), el paquete se devuelve a nuestro almacén de Málaga. Te contactamos por email para organizar un reenvío (con gastos adicionales) o un reembolso (sin gastos de envío)."
+          "content": "Wenn der Spediteur nicht zustellen kann (Abwesenheit, falsche Adresse), wird das Paket an unser Lager in Málaga zurückgesandt. Wir kontaktieren Sie per E-Mail, um einen Nachsendung (mit zusätzlichen Kosten) oder eine Rückerstattung (ohne Versandkosten) zu organisieren."
         },
         {
           "type": "h3",
-          "content": "6. Aduana e impuestos"
+          "content": "6. Zoll und Steuern"
         },
         {
           "type": "p",
-          "content": "Para envíos fuera de la UE (Reino Unido, Suiza), el destinatario es responsable de los derechos de aduana e impuestos locales. GatoPouch no se hace cargo de estos gastos. Para pedidos dentro de la UE, no hay aduana ni impuestos adicionales."
+          "content": "Für Sendungen außerhalb der EU (Großbritannien, Schweiz) ist der Empfänger für die Zollgebühren und lokalen Steuern verantwortlich. GatoPusch übernimmt diese Kosten nicht. Für Bestellungen innerhalb der EU gibt es keine zusätzlichen Zoll- oder Steuern."
         },
         {
           "type": "h3",
-          "content": "7. Embalaje"
+          "content": "7. Verpackung"
         },
         {
           "type": "p",
-          "content": "Todos nuestros pedidos se envían en embalaje reciclable y discreto (sin mención del contenido en el exterior, ideal para regalos). El Pack de 2 y el Pack de 3 pueden enviarse a direcciones diferentes bajo demanda (escríbenos tras el pedido)."
+          "content": "Alle unsere Bestellungen werden in recycelbarer und diskreter Verpackung versendet (ohne Nennung des Inhalts auf der Außenseite, ideal für Geschenke). Das 2er-Pack und das 3er-Pack können auf Wunsch an verschiedene Adressen versendet werden (schreiben Sie uns nach der Bestellung)."
         }
       ]
     }

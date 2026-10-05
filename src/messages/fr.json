@@ -489,7 +489,7 @@
     },
     "terms": {
       "title": "Términos y Condiciones",
-      "trigger": "Términos y Condiciones",
+      "trigger": "Conditions générales",
       "blocks": [
         {
           "type": "p",
@@ -555,7 +555,7 @@
     },
     "returns": {
       "title": "Política de Devoluciones",
-      "trigger": "Política de Devoluciones",
+      "trigger": "Politique de retours",
       "blocks": [
         {
           "type": "p",
@@ -627,7 +627,7 @@
     },
     "shipping": {
       "title": "Política de Envíos",
-      "trigger": "Política de Envíos",
+      "trigger": "Politique de livraison",
       "blocks": [
         {
           "type": "p",
