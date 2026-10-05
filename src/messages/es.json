@@ -142,284 +142,284 @@
     ]
   },
   "productShowcase": {
-    "badge": "Le sweat en détail",
-    "title1": "Le sweat pensé pour",
-    "titleHighlight": "votre chat",
-    "intro": "Chaque détail du GatoPouch a été sélectionné pour le confort de votre chat et le vôtre. De la polaire épaisse à l'ouverture élastiquée sécurisante, tout est pensé pour des heures de câlins sans stress.",
-    "colorisBadge": "7 coloris disponibles",
-    "taillesBadge": "6 tailles disponibles",
+    "badge": "El sudadera en detalle",
+    "title1": "La sudadera pensada para",
+    "titleHighlight": "tu gato",
+    "intro": "Cada detalle del GatoPouch ha sido seleccionado para el confort de tu gato y el tuyo. Desde la polar gruesa hasta la apertura elástica de seguridad, todo está pensado para horas de abrazos sin estrés.",
+    "colorisBadge": "7 colores disponibles",
+    "taillesBadge": "6 tallas disponibles",
     "features": [
       {
         "icon": "Shirt",
-        "name": "Polaire sherpa épaisse 300g/m²",
-        "desc": "Tissu ultra-doux, chaud et respirant. Confort cocooning pour vous et votre chat."
+        "name": "Polar sherpa gruesa 300g/m²",
+        "desc": "Tela ultra suave, cálida y transpirable. Confort de nido para ti y tu gato."
       },
       {
         "icon": "PawPrint",
-        "name": "Poche ventrale renforcée",
-        "desc": "Ouverture circulaire élastiquée pour le confort et la sécurité. Soutient le chat sans le comprimer."
+        "name": "Bolsa abdominal reforzada",
+        "desc": "Abertura circular elástica para confort y seguridad. Sujeta al gato sin apretarlo."
       },
       {
         "icon": "Sparkles",
-        "name": "Cordon coulissant ajustable",
-        "desc": "Sous la poche, ajustez la taille d'ouverture selon la morphologie de votre chat."
+        "name": "Cordón ajustable deslizante",
+        "desc": "Debajo de la bolsa, ajusta el tamaño de la apertura según la morfología de tu gato."
       },
       {
         "icon": "Shield",
-        "name": "Poches latérales zippées",
-        "desc": "Pour clés, téléphone, friandises. Tout ce dont vous avez besoin, à portée de main."
+        "name": "Bolsas laterales con cremallera",
+        "desc": "Para llaves, teléfono, golosinas. Todo lo que necesitas, a mano."
       },
       {
         "icon": "Palette",
-        "name": "Capuchon réglable premium",
-        "desc": "Cordons avec embouts métalliques. Ajustez à votre tour de tête. Détail qualité."
+        "name": "Capucha ajustable premium",
+        "desc": "Cordones con terminaciones metálicas. Ajusta a tu circunferencia de cabeza. Detalle de calidad."
       },
       {
         "icon": "Gift",
-        "name": "Patch cuir signature",
-        "desc": "Étiquette en simili-cuir cousue bas-gauche. Le détail qui fait la différence."
+        "name": "Parche de cuero de firma",
+        "desc": "Etiqueta de cuero cosida abajo a la izquierda. El detalle que marca la diferencia."
       }
     ],
-    "priceLabel": "Prix unitaire",
+    "priceLabel": "Precio unitario",
     "priceValue": "54,99€",
-    "packLabel": "Pack de 2 (recommandé)",
+    "packLabel": "Pack de 2 (recomendado)",
     "packValue": "94,98€",
-    "packSavings": "économie 15€ + livraison offerte"
+    "packSavings": "ahorra 15€ + envío gratuito"
   },
   "packs": {
-    "badge": "Choisis ton pack",
-    "title1": "Plus vous prenez de GatoPouch,",
-    "titleHighlight": "plus vous économisez",
-    "intro": "Offrez un GatoPouch à votre moitié, votre sœur ou votre meilleure amie amoureuse de chats. Ou gardez-en plusieurs pour varier les couleurs selon les saisons et vos humeurs.",
+    "badge": "Elige tu pack",
+    "title1": "Cuanto más GatoPouch tomes,",
+    "titleHighlight": "más ahorras",
+    "intro": "Regala un GatoPouch a tu pareja, a tu hermana o a tu mejor amiga amante de los gatos. O guarda varios para variar los colores según las estaciones y tus estados de ánimo.",
     "items": [
       {
         "name": "1 GatoPouch",
-        "subtitle": "Découverte",
-        "quantity": "1 sweat",
+        "subtitle": "Descubrimiento",
+        "quantity": "1 sudadera",
         "price": "54,99€",
-        "perUnit": "54,99€ / sweat",
+        "perUnit": "54,99€ / sudadera",
         "features": [
-          "Choix de la couleur parmi 7 coloris",
-          "Choix de la taille (S à 3XL)",
-          "Livraison en 6 à 12 jours",
-          "Satisfait ou remboursé 30j"
+          "Elección de color entre 7 colores",
+          "Elección de talla (S a 3XL)",
+          "Entrega en 6 a 12 días",
+          "Satisfecho o reembolsado en 30 días"
         ],
-        "cta": "Sélectionner"
+        "cta": "Seleccionar"
       },
       {
         "name": "Pack de 2 GatoPouch",
-        "subtitle": "Recommandé",
-        "quantity": "2 sweats",
+        "subtitle": "Recomendado",
+        "quantity": "2 sudaderas",
         "price": "94,98€",
         "oldPrice": "109,98€",
-        "saving": "Économisez 15€",
-        "perUnit": "47,49€ / sweat",
+        "saving": "Ahorra 15€",
+        "perUnit": "47,49€ / sudadera",
         "features": [
-          "Couleur et taille personnalisables pour chaque sweat",
-          "Livraison OFFERTE",
-          "Le plus populaire — idéal pour cadeau",
-          "Paiement 3x sans frais (3× 31,66€)"
+          "Color y talla personalizables para cada sudadera",
+          "ENVÍO GRATIS",
+          "El más popular — ideal para regalo",
+          "Pago 3x sin intereses (3× 31,66€)"
         ],
-        "cta": "Choisir ce pack",
-        "badge": "Recommandé"
+        "cta": "Elegir este pack",
+        "badge": "Recomendado"
       },
       {
         "name": "Pack de 3 GatoPouch",
-        "subtitle": "Meilleure offre",
-        "quantity": "3 sweats",
+        "subtitle": "Mejor oferta",
+        "quantity": "3 sudaderas",
         "price": "129,99€",
         "oldPrice": "164,97€",
-        "saving": "Économisez 34,98€",
-        "perUnit": "43,33€ / sweat",
+        "saving": "Ahorra 34,98€",
+        "perUnit": "43,33€ / sudadera",
         "features": [
-          "Couleur et taille personnalisables pour chaque sweat",
-          "Livraison OFFERTE",
-          "Économie maximale — 21% de réduction",
-          "Paiement 3x sans frais (3× 43,33€)"
+          "Color y talla personalizables para cada sudadera",
+          "ENVÍO GRATIS",
+          "Ahorro máximo — 21% de descuento",
+          "Pago 3x sin intereses (3× 43,33€)"
         ],
-        "cta": "Sélectionner",
-        "badge": "Meilleure offre"
+        "cta": "Seleccionar",
+        "badge": "Mejor oferta"
       }
     ],
-    "bottomNote": "Tous les packs sont personnalisables : couleur et taille indépendantes pour chaque GatoPouch.",
+    "bottomNote": "Todos los packs son personalizables: color y talla independientes para cada GatoPouch.",
     "reassurance": {
-      "securePayment": "Paiement 100% sécurisé",
-      "fastShipping": "Expédié sous 24h · livré en 6-12j",
-      "moneyBack": "Remboursé sous 30j"
+      "securePayment": "Pago 100% seguro",
+      "fastShipping": "Enviado en 24h · entregado en 6-12 días",
+      "moneyBack": "Reembolsado en 30 días"
     }
   },
   "testimonials": {
-    "badge": "Ils ont adopté le GatoPouch",
-    "title1": "Ce que les amoureux de chats",
-    "titleHighlight": "en disent",
+    "badge": "Ellos adoptaron el GatoPouch",
+    "title1": "Lo que los amantes de los gatos",
+    "titleHighlight": "dicen",
     "rating": "4,9/5",
-    "reviews": "1 432 avis vérifiés",
-    "verifiedPurchase": "Achat vérifié",
+    "reviews": "1 432 reseñas verificadas",
+    "verifiedPurchase": "Compra verificada",
     "items": [
       {
         "name": "Camille D.",
         "location": "Lyon",
-        "cat": "Mochi, British Shorthair, 3 ans",
+        "cat": "Mochi, British Shorthair, 3 años",
         "rating": 5,
-        "text": "En télétravail, Mochi me réclamait sans cesse ou marchait sur le clavier. Avec le GatoPouch, il est blotti contre moi pendant 4h d'affilée, je peux travailler sereinement. C'est devenu son endroit préféré de la maison. Le meilleur achat pour ma vie pro !"
+        "text": "Al teletrabajar, Mochi me reclamaba constantemente o se paseaba por el teclado. Con el GatoPouch, está abrazado a mí durante 4 horas seguidas, puedo trabajar con total tranquilidad. Se ha convertido en su lugar favorito de la casa. ¡La mejor compra para mi vida profesional!"
       },
       {
         "name": "Thomas L.",
-        "location": "Bordeaux",
-        "cat": "Pixel, chat noir, 5 ans",
+        "location": "Burdeos",
+        "cat": "Pixel, gato negro, 5 años",
         "rating": 5,
-        "text": "Pixel est un chat très câlin mais envahissant. Le GatoPouch a changé notre relation : je le porte partout, il ronronne, et j'ai mes deux bras pour mes activités. La polaire est ultra douce, on sent la qualité. Et lavé 3 fois, il est nickel."
+        "text": "Pixel es un gato muy cariñoso pero invasivo. El GatoPouch ha cambiado nuestra relación: lo llevo a todas partes, ronronea, y tengo ambos brazos libres para mis actividades. La polar es ultra suave, se nota la calidad. Y después de 3 lavados, está como nuevo."
       },
       {
         "name": "Madeleine R.",
         "location": "Nantes",
-        "cat": "Gribouille, Calico, 9 ans",
+        "cat": "Gribouille, Calico, 9 años",
         "rating": 5,
-        "text": "À 9 ans, Gribouille est devenue très collante. Le GatoPouch me permet de la garder contre moi quand je cuisine, lis, travaille. Elle est heureuse et moi aussi. Mon petit-fils me l'a offert pour mon anniversaire, c'est le cadeau le plus touchant reçu."
+        "text": "A sus 9 años, Gribouille se ha vuelto muy pegajosa. El GatoPouch me permite tenerla cerca cuando cocino, leo o trabajo. Ella está feliz y yo también. Mi nieto me lo regaló por mi cumpleaños, es el regalo más emotivo que he recibido."
       }
     ]
   },
   "flashOffer": {
-    "badge": "Offre de lancement limitée",
-    "title": "Pack de 3 GatoPouch — économisez 34,98€",
-    "description": "Le meilleur deal : 3 sweats à 129,99€ au lieu de 164,97€. Idéal pour équiper toute la famille ou offrir en cadeau. Livraison offerte et économies garanties.",
-    "countdownLabel": "L'offre se termine dans",
-    "hoursLabel": "Heures",
-    "minutesLabel": "Minutes",
-    "secondsLabel": "Secondes",
+    "badge": "Oferta de lanzamiento limitada",
+    "title": "Pack de 3 GatoPouch — ahorra 34,98€",
+    "description": "La mejor oferta: 3 sudaderas por 129,99€ en lugar de 164,97€. Ideal para equipar a toda la familia o para regalar. Envío gratuito y ahorros garantizados.",
+    "countdownLabel": "La oferta termina en",
+    "hoursLabel": "Horas",
+    "minutesLabel": "Minutos",
+    "secondsLabel": "Segundos",
     "badges": {
-      "freeShipping": "Livraison offerte",
-      "moneyBack": "Satisfait ou remboursé 30j",
-      "payment3x": "Paiement 3x sans frais"
+      "freeShipping": "Envío gratuito",
+      "moneyBack": "Satisfecho o reembolsado 30d",
+      "payment3x": "Pago 3x sin intereses"
     },
-    "cta": "Je commande le Pack de 3 — 129,99€",
-    "urgency": "Plus que 47 packs disponibles à ce prix. Après, retour au tarif normal 164,97€."
+    "cta": "Pido el Pack de 3 — 129,99€",
+    "urgency": "Solo quedan 47 packs disponibles a este precio. Después, vuelve al precio normal de 164,97€."
   },
   "faq": {
-    "badge": "Questions fréquentes",
-    "title1": "Tout ce que vous voulez",
-    "titleHighlight": "savoir",
+    "badge": "Preguntas frecuentes",
+    "title1": "Todo lo que quieres",
+    "titleHighlight": "saber",
     "items": [
       {
-        "q": "Mon chat n'aime pas être porté, s'y habituera-t-il ?",
-        "a": "La grande majorité des chats s'habitue en 2 à 5 séances courtes (5 min au début). L'astuce : placez une friandise dans la poche, laissez-le explorer à son rythme. L'élastique de l'ouverture ne le comprime pas, il se sent en sécurité. 92% de nos clients rapportent que leur chat réclame le GatoPouch après une semaine !"
+        "q": "¡Mi gato no le gusta ser cargado, se acostumbrará?",
+        "a": "La gran mayoría de los gatos se acostumbran en 2 a 5 sesiones cortas (5 min al principio). El truco: coloca un premio en el bolsillo, déjalo explorar a su propio ritmo. El elástico de la apertura no le comprime, se siente seguro. ¡El 92% de nuestros clientes nos dicen que su gato pide el GatoPouch después de una semana!"
       },
       {
-        "q": "Quelles tailles sont disponibles ?",
-        "a": "Le GatoPouch existe en 5 tailles : S, M, L, XL, 2XL, 3XL. Pour choisir, prenez votre tour de poitrine habituel. Si vous êtes entre deux tailles, prenez la plus grande pour plus de confort et de liberté de mouvement pour votre chat. Un guide des tailles détaillé est envoyé après commande."
+        "q": "¿Qué tallas están disponibles?",
+        "a": "El GatoPouch existe en 5 tallas: S, M, L, XL, 2XL, 3XL. Para elegir, toma tu talla de pecho habitual. Si estás entre dos tallas, elige la más grande para más comodidad y libertad de movimiento para tu gato. Una guía de tallas detallada se envía después de la compra."
       },
       {
-        "q": "Convient à tous les chats, quel poids ?",
-        "a": "Le GatoPouch convient aux chats de 2,5 kg à 7 kg. La poche renforcée et l'élastique ont été testés pour soutenir jusqu'à 8 kg sans déformation. Pour les chats au-delà de 7 kg (Maine Coon), nous recommandons la taille XL ou XXL et des sessions plus courtes (le poids peut être inconfortable)."
+        "q": "¿Sirve para todos los gatos, de qué peso?",
+        "a": "El GatoPouch es apto para gatos de 2,5 kg a 7 kg. El bolsillo reforzado y el elástico han sido probados para soportar hasta 8 kg sin deformarse. Para gatos que superen los 7 kg (Maine Coon), recomendamos la talla XL o XXL y sesiones más cortas (el peso puede ser incómodo)."
       },
       {
-        "q": "Lavable en machine ?",
-        "a": "Oui ! Le GatoPouch se lave en machine à 30° cycle doux, essorage 600 tr/min maximum. Pas de sèche-linge (le sherpa peut boulocher). Faites sécher à plat à l'air libre. La polaire garde sa douceur, sa couleur et sa forme lavage après lavage. Recommandé une fois par semaine."
+        "q": "¿Se puede lavar en máquina?",
+        "a": "¡Sí! El GatoPouch se lava en máquina a 30° ciclo delicado, centrifugación máxima a 600 rpm. Sin secadora (el sherpa puede pelar). Sécalo al aire libre, extendido. La polar mantiene su suavidad, su color y su forma lavado tras lavado. Recomendado una vez por semana."
       },
       {
-        "q": "Est-ce que ça ne risque pas de blesser mon chat ?",
-        "a": "Absolument pas, à condition de respecter le poids maximum (7-8 kg) et d'écouter votre chat. L'ouverture élastiquée ne serre jamais, le cordon coulissant ne sert qu'à ajuster la taille d'entrée. Ne forcez jamais un chat réticent. Nous conseillons de toujours superviser et de faire des sessions de 30 min maximum au début."
+        "q": "¿No corre el riesgo de herir a mi gato?",
+        "a": "Absolutamente no, siempre y cuando respetes el peso máximo (7-8 kg) y escuches a tu gato. La apertura elástica nunca aprieta, la cremallera solo sirve para ajustar el tamaño de la entrada. Nunca fuerces a un gato reacio. Recomendamos siempre supervisar y hacer sesiones de 30 minutos como máximo al principio."
       },
       {
-        "q": "Quels sont les délais de livraison ?",
-        "a": "Votre GatoPouch est expédié sous 24h ouvrées depuis notre entrepôt. Comptez ensuite 6 à 12 jours pour la livraison (selon votre pays et la période). Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 69€ d'achat — atteint automatiquement dès le Pack de 2 à 94,98€ (donc les packs sont toujours livrés gratuitement !)."
+        "q": "¿Cuáles son los plazos de envío?",
+        "a": "Tu GatoPouch se envía en 24 horas laborables desde nuestro almacén. Cuenta luego con 6 a 12 días para la entrega (según tu país y la época). Un número de seguimiento te es enviado por email nada más se envía. El envío es gratuito a partir de 69€ de compra — se alcanza automáticamente con el Pack de 2 a 94,98€ (¡por lo tanto, los packs siempre se envían gratis!)."
       },
       {
-        "q": "Quelle matière ? Est-ce bien chaud ?",
-        "a": "Le GatoPouch est en polaire sherpa épaisse 300g/m², ultra-douce et bien chaude. Idéale pour l'automne, l'hiver, le printemps frais et les bureaux climatisés. Le tissu est respirant : ni vous ni votre chat ne transpirez. Le sherpa est durable, résistant aux accrocs des griffes (avec une tape moderate, votre chat comprend vite)."
+        "q": "¿Qué material? ¿Está bien caliente?",
+        "a": "El GatoPouch está hecho de polar sherpa gruesa de 300g/m², ultra suave y muy cálida. Ideal para el otoño, el invierno, la primavera fresca y las oficinas con aire acondicionado. El tejido es transpirable: ni tú ni tu gato sudáis. El sherpa es duradero, resistente a los arañazos de las garras (con un tape moderado, tu gato entiende rápido)."
       },
       {
-        "q": "Puis-je payer en plusieurs fois ?",
-        "a": "Oui ! Le paiement en 3x sans frais est disponible dès 60€ d'achat. Le Pack de 2 à 94,98€ peut être payé en 3x 31,66€, et le Pack de 3 à 129,99€ en 3x 43,33€. Idéal pour offrir en cadeau sans avancer tout le budget. Nous acceptons CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL. Vos données bancaires ne sont jamais stockées."
+        "q": "¿Puedo pagar a plazos?",
+        "a": "¡Sí! El pago en 3x sin intereses está disponible a partir de 60€ de compra. El Pack de 2 a 94,98€ puede pagarse en 3x de 31,66€, y el Pack de 3 a 129,99€ en 3x de 43,33€. Ideal para regalar sin desembolsar todo el presupuesto de golpe. Aceptamos CB, PayPal, Apple Pay y Google Pay a través de una conexión segura SSL. Tus datos bancarios nunca se almacenan."
       }
     ]
   },
   "newsletter": {
-    "badge": "Code -10% à l'inscription",
-    "title": "Rejoignez la famille GatoPouch",
-    "description": "Conseils d'adaption du chat, offres exclusives, nouveautés et histoires de chats comblés. Recevez",
-    "discountHighlight": "-10% sur votre première commande",
-    "descriptionEnd": "dès maintenant.",
-    "placeholder": "votre@email.com",
-    "button": "Recevoir mon code -10%",
-    "disclaimer": "Pas de spam. Désinscription en 1 clic. RGPD friendly.",
-    "toastSuccess": "Merci !",
-    "toastSuccessDesc": "Votre code -10% arrive dans votre boîte mail. Bienvenue dans la famille GatoPouch !",
-    "toastError": "Erreur d'envoi",
-    "toastErrorDesc": "Veuillez réessayer ou nous écrire à contact@gatopouch.com",
-    "toastInvalid": "Oups, email invalide",
-    "toastInvalidDesc": "Veuillez saisir une adresse e-mail valide.",
-    "loadingText": "Inscription en cours..."
+    "badge": "Código -10% al suscribirte",
+    "title": "Únete a la familia GatoPouch",
+    "description": "Consejos para adaptar a tu gato, ofertas exclusivas, novedades e historias de gatos felices. Recibe",
+    "discountHighlight": "-10% en tu primer pedido",
+    "descriptionEnd": "ahora mismo.",
+    "placeholder": "tu@email.com",
+    "button": "Recibir mi código -10%",
+    "disclaimer": "Sin spam. Cancela en 1 clic. Cumplimos RGPD.",
+    "toastSuccess": "¡Gracias!",
+    "toastSuccessDesc": "Tu código -10% está en tu correo. ¡Bienvenido a la familia GatoPouch!",
+    "toastError": "Error de envío",
+    "toastErrorDesc": "Por favor, inténtalo de nuevo o escríbenos a contact@gatopouch.com",
+    "toastInvalid": "Ups, email inválido",
+    "toastInvalidDesc": "Por favor, introduce una dirección de email válida.",
+    "loadingText": "Registrando..."
   },
   "footer": {
-    "brandDescription": "Le sweat porte-chat qui rapproche les chats et leurs humains, un câlin à la fois. Conçu avec amour par des amoureux de chats, pour des amoureux de chats.",
+    "brandDescription": "El sudadera portagato que acerca a los gatos y sus humanos, un abrazo a la vez. Diseñado con amor por amantes de los gatos, para amantes de los gatos.",
     "partnerSite": "www.gatopouch.com",
     "address": "Calle Almería 83, 29018 Málaga, España",
     "columns": {
       "product": {
-        "title": "Produit",
+        "title": "Producto",
         "links": {
-          "produit": "Le GatoPouch",
-          "benefices": "Bénéfices",
-          "packs": "Packs & tarifs",
-          "avis": "Avis clients",
-          "faq": "FAQ"
+          "produit": "El GatoPouch",
+          "benefices": "Beneficios",
+          "packs": "Packs y tarifas",
+          "avis": "Reseñas de clientes",
+          "faq": "Preguntas frecuentes"
         }
       },
       "contact": {
-        "title": "Contact",
+        "title": "Contacto",
         "contactEmail": "contact@gatopouch.com",
         "supportEmail": "support@gatopouch.com",
         "phone": "+34 670 04 04 47",
         "whatsapp": "WhatsApp",
-        "formButton": "Formulaire de contact"
+        "formButton": "Formulario de contacto"
       },
       "follow": {
-        "title": "Suivez-nous",
-        "intro": "Rejoignez 18 000 amoureux de chats sur Instagram.",
-        "legalTitle": "Pages légales"
+        "title": "Síguenos",
+        "intro": "Únete a 18 000 amantes de los gatos en Instagram.",
+        "legalTitle": "Páginas legales"
       }
     },
-    "copyright": "© 2025 GatoPouch. Tous droits réservés. Basé à Málaga, España."
+    "copyright": "© 2025 GatoPouch. Todos los derechos reservados. Basado en Málaga, España."
   },
   "contactModal": {
-    "title": "Contactez GatoPouch",
-    "description": "Une question sur le GatoPouch, votre commande, ou une demande partenariat ? Écrivez-nous, nous répondons sous 24 à 48h ouvrées.",
-    "formTitle": "Coordonnées",
+    "title": "Contacta con GatoPouch",
+    "description": "¿Tienes una pregunta sobre el GatoPouch, tu pedido o una propuesta de colaboración? Escríbenos, te responderemos en 24-48 horas laborables.",
+    "formTitle": "Datos de contacto",
     "fields": {
-      "name": "Nom *",
+      "name": "Nombre *",
       "namePlaceholder": "Camille Dubois",
       "email": "E-mail *",
       "emailPlaceholder": "camille@email.com",
-      "phone": "Téléphone",
+      "phone": "Teléfono",
       "phonePlaceholder": "+34 670 04 04 47",
-      "subject": "Sujet",
-      "subjectPlaceholder": "Question commande / SAV / Partenariat...",
-      "message": "Message *",
-      "messagePlaceholder": "Bonjour, j'aimerais savoir si le GatoPouch convient à un chat de 7 kg..."
+      "subject": "Asunto",
+      "subjectPlaceholder": "Consulta de pedido / SAV / Colaboración...",
+      "message": "Mensaje *",
+      "messagePlaceholder": "Hola, me gustaría saber si el GatoPouch es adecuado para un gato de 7 kg..."
     },
-    "submitButton": "Envoyer le message",
-    "loadingText": "Envoi en cours...",
+    "submitButton": "Enviar mensaje",
+    "loadingText": "Enviando...",
     "contactInfo": {
       "contactEmailLabel": "contact@gatopouch.com",
-      "contactEmailSub": "Question produit & commande",
+      "contactEmailSub": "Consulta de producto y pedido",
       "supportEmailLabel": "support@gatopouch.com",
-      "supportEmailSub": "Support technique SAV",
+      "supportEmailSub": "Soporte técnico SAV",
       "phoneLabel": "+34 670 04 04 47",
-      "phoneSub": "Lun-Ven, 9h-18h (CET)",
+      "phoneSub": "Lun-Vie, 9h-18h (CET)",
       "whatsappLabel": "WhatsApp",
-      "whatsappSub": "+34 670 04 04 47 — réponse rapide",
+      "whatsappSub": "+34 670 04 04 47 — respuesta rápida",
       "addressLabel": "Calle Almería 83",
       "addressSub": "29018 Málaga, España",
       "siteLabel": "www.gatopouch.com",
-      "siteSub": "Site partenaire officiel"
+      "siteSub": "Sitio oficial colaborador"
     },
-    "toastSuccess": "Message envoyé !",
-    "toastError": "Erreur d'envoi"
+    "toastSuccess": "¡Mensaje enviado!",
+    "toastError": "Error al enviar"
   },
   "legalModals": {
     "privacy": {
-      "trigger": "Confidentialité"
+      "trigger": "Privacidad"
     },
     "terms": {
       "trigger": "Términos y Condiciones"
@@ -432,7 +432,7 @@
     }
   },
   "Common": {
-    "loading": "Chargement...",
-    "europeShipping": "Partout en Europe"
+    "loading": "Cargando...",
+    "europeShipping": "En toda Europa"
   }
 }
