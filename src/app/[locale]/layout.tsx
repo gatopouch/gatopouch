@@ -1,22 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
-import "../globals.css";
-import { Toaster } from "@/components/ui/toaster";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
 
 // Pre-render toutes les locales à build time (better SEO)
 export function generateStaticParams() {
@@ -80,13 +66,6 @@ export default async function LocaleLayout({
   await setRequestLocale(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${inter.variable} ${poppins.variable} antialiased bg-cream-50 text-cinnamon-900 font-sans`}
-      >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-        <Toaster />
-      </body>
-    </html>
+    <NextIntlClientProvider>{children}</NextIntlClientProvider>
   );
 }
