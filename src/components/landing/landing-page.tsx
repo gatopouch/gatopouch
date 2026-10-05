@@ -471,12 +471,26 @@ function Hero({ onOrderClick }: { onOrderClick: () => void }) {
 /* =========================================================================
    Trust badges strip
    ========================================================================= */
+/* =========================================================================
+   Icon map — for mapping string icon names from JSON to React components
+   ========================================================================= */
+const ICON_MAP: Record<string, any> = {
+  Heart, Star, Truck, Shield, RefreshCw, Headphones, PawPrint, Sparkles,
+  Gift, Clock, Check, ChevronRight, Menu, X, Mail, Phone, MessageCircle,
+  MapPin, Globe, Loader2, WashingMachine, Ruler, Palette, Shirt, Baby,
+};
+
+/* =========================================================================
+   Trust badges strip
+   ========================================================================= */
 function TrustBadges() {
+  const t = useTranslations("trustBadges");
+  const tCommon = useTranslations("Common");
   const badges = [
-    { icon: Truck, label: "Livraison 6-12j", sub: "Partout en Europe" },
-    { icon: Shield, label: "Paiement sécurisé", sub: "CB, PayPal, Apple Pay" },
-    { icon: RefreshCw, label: "Satisfait ou remboursé", sub: "Sous 30 jours" },
-    { icon: Headphones, label: "Service client", sub: "Lun-Ven, 9h-18h" },
+    { icon: Truck, label: t("shipping.label"), sub: tCommon("europeShipping") },
+    { icon: Shield, label: t("payment.label"), sub: t("payment.sub") },
+    { icon: RefreshCw, label: t("refund.label"), sub: t("refund.sub") },
+    { icon: Headphones, label: t("support.label"), sub: t("support.sub") },
   ];
   return (
     <section className="bg-cream-100 border-y border-cinnamon-900/10 py-6">
@@ -512,53 +526,23 @@ function TrustBadges() {
    Benefits Section
    ========================================================================= */
 function Benefits() {
-  const benefits = [
-    {
-      icon: Heart,
-      title: "Câlins mains libres",
-      desc: "Portez votre chat blotti contre votre cœur, partout où vous allez. Sans occuper vos bras, profitez d'une tendresse continue, au bureau comme en balade.",
-    },
-    {
-      icon: Sparkles,
-      title: "Confort polaire premium",
-      desc: "Tissu sherpa épais (300g/m²), ultra-doux et bien chaud. Vous et votre chat restez au chaud même les jours d'hiver glacial ou de climatisation poussée.",
-    },
-    {
-      icon: Shield,
-      title: "Sécurité rassurante",
-      desc: "L'ouverture circulaire élastiquée maintient votre chat en place sans le serrer. Le cordon coulissant ajuste la taille d'ouverture selon sa morphologie.",
-    },
-    {
-      icon: PawPrint,
-      title: "Télétravail complice",
-      desc: "Votre chat blotti contre vous pendant que vous travaillez. Fini les chats qui marchent sur le clavier : il ronronne dans sa poche, serein et présent.",
-    },
-    {
-      icon: WashingMachine,
-      title: "Lavable en machine",
-      desc: "Matière résistante lavable à 30° en machine. Pas de déformation, pas de boulochage. La polaire garde sa douceur lavage après lavage.",
-    },
-    {
-      icon: Gift,
-      title: "Cadeau parfait",
-      desc: "Emballage soigné et premium. Idéal pour Noël, la fête des mères, un anniversaire ou pour surprendre un proche amoureux de chats. Le cadeau qui émeut.",
-    },
-  ];
+  const t = useTranslations("benefits");
+  const benefits = (t.raw("items") as Array<{ icon: string; title: string; desc: string }>).map(
+    (item) => ({ ...item, icon: ICON_MAP[item.icon] || PawPrint })
+  );
   return (
     <section id="benefices" className="py-16 md:py-24 bg-cream-50 paw-pattern">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Pourquoi vous allez l'adorer
+            {t("badge")}
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-            Plus qu&apos;un sweat, un{" "}
-            <span className="text-peach-500">cocon partagé</span>
+            {t("title1")}{" "}
+            <span className="text-peach-500">{t("titleHighlight")}</span>
           </h2>
           <p className="text-cinnamon-700 text-lg leading-relaxed">
-            Le GatoPouch a été pensé avec des comportementalistes félins et des
-            designers textile. Chaque détail répond à un besoin : rapprocher
-            votre chat de vous, en toute sécurité, en toutes circonstances.
+            {t("intro")}
           </p>
         </div>
 
@@ -593,28 +577,8 @@ function Benefits() {
    How it works section
    ========================================================================= */
 function HowItWorks() {
-  const steps = [
-    {
-      number: "01",
-      title: "Enfilez le GatoPouch",
-      desc: "Comme un sweat à capuche classique. La polaire épaisse vous enveloppe de douceur. Ajustez le capuchon à votre guise avec les cordons.",
-    },
-    {
-      number: "02",
-      title: "Invitez votre chat",
-      desc: "Par la poche ventrale. La grande ouverture circulaire élastiquée facilite l'entrée. Votre chat s'y glisse naturellement, attiré par votre chaleur.",
-    },
-    {
-      number: "03",
-      title: "Ajustez le cordon",
-      desc: "Sous la poche, tirez le cordon coulissant pour adapter la taille d'ouverture à votre chat. Il est maintenu confortablement, sans pression.",
-    },
-    {
-      number: "04",
-      title: "Savourez le moment",
-      desc: "Mains libres ! Travaillez, marchez, lisez, prenez un café. Votre chat ronronne contre vous, présent et apaisé. Le bonheur à l'état pur.",
-    },
-  ];
+  const t = useTranslations("howItWorks");
+  const steps = t.raw("steps") as Array<{ number: string; title: string; desc: string }>;
   return (
     <section className="py-16 md:py-24 bg-cream-100">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -648,10 +612,10 @@ function HowItWorks() {
               </div>
               <div className="leading-tight">
                 <span className="font-display font-extrabold text-2xl text-cinnamon-900">
-                  Mains libres
+                  {t("statTitle")}
                 </span>
                 <p className="text-xs text-cinnamon-700">
-                  télétravail, balade, lecture...
+                  {t("statSubtitle")}
                 </p>
               </div>
             </motion.div>
@@ -660,11 +624,11 @@ function HowItWorks() {
           {/* Right: steps */}
           <div className="order-1 lg:order-2">
             <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-              Comment ça marche
+              {t("badge")}
             </Badge>
             <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-6">
-              Le câlin partagé en{" "}
-              <span className="text-peach-500">4 étapes</span>
+              {t("title1")}{" "}
+              <span className="text-peach-500">{t("titleHighlight")}</span>
             </h2>
             <div className="space-y-5 md:space-y-6">
               {steps.map((s, i) => (
@@ -701,38 +665,11 @@ function HowItWorks() {
    Product showcase
    ========================================================================= */
 function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
-  const features = [
-    {
-      icon: Shirt,
-      name: "Polaire sherpa épaisse 300g/m²",
-      desc: "Tissu ultra-doux, chaud et respirant. Confort cocooning pour vous et votre chat.",
-    },
-    {
-      icon: PawPrint,
-      name: "Poche ventrale renforcée",
-      desc: "Ouverture circulaire élastiquée pour le confort et la sécurité. Soutient le chat sans le comprimer.",
-    },
-    {
-      icon: Sparkles,
-      name: "Cordon coulissant ajustable",
-      desc: "Sous la poche, ajustez la taille d'ouverture selon la morphologie de votre chat.",
-    },
-    {
-      icon: Shield,
-      name: "Poches latérales zippées",
-      desc: "Pour clés, téléphone, friandises. Tout ce dont vous avez besoin, à portée de main.",
-    },
-    {
-      icon: Palette,
-      name: "Capuchon réglable premium",
-      desc: "Cordons avec embouts métalliques. Ajustez à votre tour de tête. Détail qualité.",
-    },
-    {
-      icon: Gift,
-      name: "Patch cuir signature",
-      desc: "Étiquette en simili-cuir cousue bas-gauche. Le détail qui fait la différence.",
-    },
-  ];
+  const t = useTranslations("productShowcase");
+  const tCta = useTranslations("cta");
+  const features = (t.raw("features") as Array<{ icon: string; name: string; desc: string }>).map(
+    (item) => ({ ...item, icon: ICON_MAP[item.icon] || PawPrint })
+  );
   return (
     <section id="produit" className="py-16 md:py-24 bg-cream-50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -765,7 +702,7 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
                 7
               </span>
               <span className="text-[10px] md:text-xs font-medium -mt-1">
-                coloris
+                {t("colorisBadge").split(" ")[0]}
               </span>
             </motion.div>
           </motion.div>
@@ -773,17 +710,14 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
           {/* Right: features list */}
           <div>
             <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-              Le sweat en détail
+              {t("badge")}
             </Badge>
             <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-              Le sweat pensé pour{" "}
-              <span className="text-peach-500">votre chat</span>
+              {t("title1")}{" "}
+              <span className="text-peach-500">{t("titleHighlight")}</span>
             </h2>
             <p className="text-cinnamon-700 text-lg leading-relaxed mb-7">
-              Chaque détail du GatoPouch a été sélectionné pour le confort de votre
-              chat et le vôtre. De la polaire épaisse à l&apos;ouverture
-              élastiquée sécurisante, tout est pensé pour des heures de câlins
-              sans stress.
+              {t("intro")}
             </p>
 
             <div className="space-y-3.5 mb-8">
@@ -852,20 +786,20 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
             {/* Price */}
             <div className="flex flex-wrap items-center gap-4 mb-7 p-5 rounded-2xl bg-cream-100 border border-peach-400/20">
               <div>
-                <span className="text-cinnamon-700 text-sm">Prix unitaire</span>
+                <span className="text-cinnamon-700 text-sm">{t("priceLabel")}</span>
                 <div className="flex items-baseline gap-2">
                   <span className="font-display font-extrabold text-3xl text-cinnamon-900">
-                    54,99€
+                    {t("priceValue")}
                   </span>
                 </div>
               </div>
               <div className="h-12 w-px bg-cinnamon-900/15" />
               <div>
-                <span className="text-cinnamon-700 text-sm">Pack de 2 (recommandé)</span>
+                <span className="text-cinnamon-700 text-sm">{t("packLabel")}</span>
                 <div className="font-display font-bold text-xl text-peach-500">
-                  94,98€
+                  {t("packValue")}
                 </div>
-                <span className="text-xs text-cinnamon-700/70">économie 15€ + livraison offerte</span>
+                <span className="text-xs text-cinnamon-700/70">{t("packSavings")}</span>
               </div>
             </div>
 
@@ -876,14 +810,14 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
                 className="bg-peach-gradient text-cream-50 hover:opacity-90 shadow-xl hover:shadow-2xl hover:shadow-peach-500/30 transition-all rounded-full px-8 py-6 font-display font-bold text-base flex-1"
               >
                 <Shirt className="w-5 h-5 mr-2" />
-                Je commande — 54,99€
+                {tCta("orderNow")}
               </Button>
               <a
                 href="#packs"
                 className="inline-flex items-center justify-center gap-2 px-6 py-6 rounded-full border-2 border-peach-400/40 text-cinnamon-800 hover:bg-peach-300/20 transition-all font-display font-semibold"
               >
                 <Gift className="w-5 h-5" />
-                Voir les 3 packs
+                {tCta("viewThreePacks")}
               </a>
             </div>
           </div>
@@ -897,42 +831,20 @@ function ProductShowcase({ onOrderClick }: { onOrderClick: () => void }) {
    Testimonials
    ========================================================================= */
 function Testimonials() {
-  const testimonials = [
-    {
-      name: "Camille D.",
-      location: "Lyon",
-      cat: "Mochi, British Shorthair, 3 ans",
-      image: "/images/testimonial-1.png",
-      rating: 5,
-      text: "En télétravail, Mochi me réclamait sans cesse ou marchait sur le clavier. Avec le GatoPouch, il est blotti contre moi pendant 4h d'affilée, je peux travailler sereinement. C'est devenu son endroit préféré de la maison. Le meilleur achat pour ma vie pro !",
-    },
-    {
-      name: "Thomas L.",
-      location: "Bordeaux",
-      cat: "Pixel, chat noir, 5 ans",
-      image: "/images/testimonial-2.png",
-      rating: 5,
-      text: "Pixel est un chat très câlin mais envahissant. Le GatoPouch a changé notre relation : je le porte partout, il ronronne, et j'ai mes deux bras pour mes activités. La polaire est ultra douce, on sent la qualité. Et lavé 3 fois, il est nickel.",
-    },
-    {
-      name: "Madeleine R.",
-      location: "Nantes",
-      cat: "Gribouille, Calico, 9 ans",
-      image: "/images/testimonial-3.png",
-      rating: 5,
-      text: "À 9 ans, Gribouille est devenue très collante. Le GatoPouch me permet de la garder contre moi quand je cuisine, lis, travaille. Elle est heureuse et moi aussi. Mon petit-fils me l'a offert pour mon anniversaire, c'est le cadeau le plus touchant reçu.",
-    },
-  ];
+  const t = useTranslations("testimonials");
+  const testimonials = (t.raw("items") as Array<{
+    name: string; location: string; cat: string; rating: number; text: string;
+  }>).map((item, i) => ({ ...item, image: `/images/testimonial-${i + 1}.png` }));
   return (
     <section id="avis" className="py-16 md:py-24 bg-cream-100">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Ils ont adopté le GatoPouch
+            {t("badge")}
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-            Ce que les amoureux de chats{" "}
-            <span className="text-peach-500">en disent</span>
+            {t("title1")}{" "}
+            <span className="text-peach-500">{t("titleHighlight")}</span>
           </h2>
           <div className="flex items-center justify-center gap-3">
             <div className="flex">
@@ -944,16 +856,16 @@ function Testimonials() {
               ))}
             </div>
             <span className="font-display font-bold text-cinnamon-900">
-              4,9/5
+              {t("rating")}
             </span>
-            <span className="text-cinnamon-700">— 1 432 avis vérifiés</span>
+            <span className="text-cinnamon-700">— {t("reviews")}</span>
           </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 md:gap-7">
-          {testimonials.map((t, i) => (
+          {testimonials.map((tm, i) => (
             <motion.div
-              key={t.name}
+              key={tm.name}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -963,29 +875,29 @@ function Testimonials() {
               <div className="relative h-[533px] overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={t.image}
-                  alt={`${t.name} et son chat ${t.cat.split(",")[0]}`}
+                  src={tm.image}
+                  alt={`${tm.name} et son chat ${tm.cat.split(",")[0]}`}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cinnamon-900/80 via-cinnamon-900/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5 text-cream-50">
-                  <div className="font-display font-bold text-lg">{t.name}</div>
+                  <div className="font-display font-bold text-lg">{tm.name}</div>
                   <div className="text-sm opacity-90">
-                    {t.location} • {t.cat}
+                    {tm.location} • {tm.cat}
                   </div>
                 </div>
                 <div className="absolute top-4 right-4 bg-peach-gradient text-cream-50 rounded-full px-3 py-1.5 flex items-center gap-1 text-xs font-semibold">
                   <Star className="w-3.5 h-3.5 fill-cream-50" />
-                  {t.rating}.0
+                  {tm.rating}.0
                 </div>
               </div>
               <div className="p-6 flex flex-col gap-3 flex-1">
                 <p className="text-cinnamon-800 leading-relaxed text-[15px] flex-1">
-                  &ldquo;{t.text}&rdquo;
+                  &ldquo;{tm.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-2 text-xs text-cinnamon-700/70 pt-3 border-t border-cinnamon-900/10">
                   <Check className="w-4 h-4 text-peach-500" />
-                  Achat vérifié
+                  {t("verifiedPurchase")}
                 </div>
               </div>
             </motion.div>
@@ -1000,6 +912,7 @@ function Testimonials() {
    Flash offer with countdown
    ========================================================================= */
 function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
+  const t = useTranslations("flashOffer");
   return (
     <section className="py-16 md:py-24 bg-cream-50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -1017,21 +930,19 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
           <div className="relative p-8 md:p-12 lg:p-16 text-center">
             <Badge className="inline-flex items-center gap-1.5 bg-cream-50/20 text-cream-50 border-cream-50/30 hover:bg-cream-50/30 px-4 py-1.5 mb-5 rounded-full text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              Offre de lancement limitée
+              {t("badge")}
             </Badge>
 
             <h2 className="font-display font-extrabold text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
-              Pack de 3 GatoPouch — économisez 34,98€
+              {t("title")}
             </h2>
             <p className="text-cream-50/90 text-lg md:text-xl max-w-2xl mx-auto mb-8">
-              Le meilleur deal : 3 sweats à 129,99€ au lieu de 164,97€. Idéal
-              pour équiper toute la famille ou offrir en cadeau. Livraison
-              offerte et économies garanties.
+              {t("description")}
             </p>
 
             <div className="mb-8">
               <p className="text-cream-50/80 text-sm font-medium mb-4 uppercase tracking-wider">
-                L&apos;offre se termine dans
+                {t("countdownLabel")}
               </p>
               <Countdown />
             </div>
@@ -1039,15 +950,15 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <Truck className="w-4 h-4" />
-                <span className="font-medium">Livraison offerte</span>
+                <span className="font-medium">{t("badges.freeShipping")}</span>
               </div>
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <RefreshCw className="w-4 h-4" />
-                <span className="font-medium">Satisfait ou remboursé 30j</span>
+                <span className="font-medium">{t("badges.moneyBack")}</span>
               </div>
               <div className="flex items-center gap-2 bg-cream-50/15 backdrop-blur-sm rounded-full px-4 py-2 text-sm">
                 <Shield className="w-4 h-4" />
-                <span className="font-medium">Paiement 3x sans frais</span>
+                <span className="font-medium">{t("badges.payment3x")}</span>
               </div>
             </div>
 
@@ -1058,14 +969,13 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
             >
               <span className="flex items-center gap-2">
                 <Gift className="w-5 h-5 text-peach-500" />
-                Je commande le Pack de 3 — 129,99€
+                {t("cta")}
               </span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
 
             <p className="text-cream-50/70 text-xs mt-5 max-w-md mx-auto">
-              Plus que 47 packs disponibles à ce prix. Après, retour au tarif
-              normal 164,97€.
+              {t("urgency")}
             </p>
           </div>
         </motion.div>
@@ -1078,50 +988,18 @@ function FlashOffer({ onOrderClick }: { onOrderClick: () => void }) {
    FAQ
    ========================================================================= */
 function FAQ() {
-  const faqs = [
-    {
-      q: "Mon chat n'aime pas être porté, s'y habituera-t-il ?",
-      a: "La grande majorité des chats s'habitue en 2 à 5 séances courtes (5 min au début). L'astuce : placez une friandise dans la poche, laissez-le explorer à son rythme. L'élastique de l'ouverture ne le comprime pas, il se sent en sécurité. 92% de nos clients rapportent que leur chat réclame le GatoPouch après une semaine !",
-    },
-    {
-      q: "Quelles tailles sont disponibles ?",
-      a: "Le GatoPouch existe en 5 tailles : S, M, L, XL, XXL. Pour choisir, prenez votre tour de poitrine habituel. Si vous êtes entre deux tailles, prenez la plus grande pour plus de confort et de liberté de mouvement pour votre chat. Un guide des tailles détaillé est envoyé après commande.",
-    },
-    {
-      q: "Convient à tous les chats, quel poids ?",
-      a: "Le GatoPouch convient aux chats de 2,5 kg à 7 kg. La poche renforcée et l'élastique ont été testés pour soutenir jusqu'à 8 kg sans déformation. Pour les chats au-delà de 7 kg (Maine Coon), nous recommandons la taille XL ou XXL et des sessions plus courtes (le poids peut être inconfortable).",
-    },
-    {
-      q: "Lavable en machine ?",
-      a: "Oui ! Le GatoPouch se lave en machine à 30° cycle doux, essorage 600 tr/min maximum. Pas de sèche-linge (le sherpa peut boulocher). Faites sécher à plat à l'air libre. La polaire garde sa douceur, sa couleur et sa forme lavage après lavage. Recommandé une fois par semaine.",
-    },
-    {
-      q: "Est-ce que ça ne risque pas de blesser mon chat ?",
-      a: "Absolument pas, à condition de respecter le poids maximum (7-8 kg) et d'écouter votre chat. L'ouverture élastiquée ne serre jamais, le cordon coulissant ne sert qu'à ajuster la taille d'entrée. Ne forcez jamais un chat réticent. Nous conseillons de toujours superviser et de faire des sessions de 30 min maximum au début.",
-    },
-    {
-      q: "Quels sont les délais de livraison ?",
-      a: "Votre GatoPouch est expédié sous 24h ouvrées depuis notre entrepôt. Comptez ensuite 6 à 12 jours pour la livraison (selon votre pays et la période). Un numéro de suivi vous est envoyé par e-mail dès l'expédition. La livraison est offerte dès 69€ d'achat — atteint automatiquement dès le Pack de 2 à 94,98€ (donc les packs sont toujours livrés gratuitement !).",
-    },
-    {
-      q: "Quelle matière ? Est-ce bien chaud ?",
-      a: "Le GatoPouch est en polaire sherpa épaisse 300g/m², ultra-douce et bien chaude. Idéale pour l'automne, l'hiver, le printemps frais et les bureaux climatisés. Le tissu est respirant : ni vous ni votre chat ne transpirez. Le sherpa est durable, résistant aux accrocs des griffes (avec une tape moderate, votre chat comprend vite).",
-    },
-    {
-      q: "Puis-je payer en plusieurs fois ?",
-      a: "Oui ! Le paiement en 3x sans frais est disponible dès 60€ d'achat. Le Pack de 2 à 94,98€ peut être payé en 3x 31,66€, et le Pack de 3 à 129,99€ en 3x 43,33€. Idéal pour offrir en cadeau sans avancer tout le budget. Nous acceptons CB, PayPal, Apple Pay et Google Pay via une connexion sécurisée SSL. Vos données bancaires ne sont jamais stockées.",
-    },
-  ];
+  const t = useTranslations("faq");
+  const faqs = t.raw("items") as Array<{ q: string; a: string }>;
   return (
     <section id="faq" className="py-16 md:py-24 bg-cream-100">
       <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Questions fréquentes
+            {t("badge")}
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight">
-            Tout ce que vous voulez{" "}
-            <span className="text-peach-500">savoir</span>
+            {t("title1")}{" "}
+            <span className="text-peach-500">{t("titleHighlight")}</span>
           </h2>
         </div>
 
@@ -1160,13 +1038,14 @@ function Newsletter() {
   const { toast } = useToast();
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
+  const t = useTranslations("newsletter");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       toast({
-        title: "Oups, email invalide",
-        description: "Veuillez saisir une adresse e-mail valide.",
+        title: t("toastInvalid"),
+        description: t("toastInvalidDesc"),
         variant: "destructive",
       });
       return;
@@ -1180,20 +1059,17 @@ function Newsletter() {
       });
       const data = await res.json();
       if (!res.ok || !data.ok) {
-        throw new Error(data.error || "Erreur d'envoi");
+        throw new Error(data.error || t("toastError"));
       }
       toast({
-        title: "Merci !",
+        title: t("toastSuccess"),
         description: data.message,
       });
       setEmail("");
     } catch (err) {
       toast({
-        title: "Erreur d'envoi",
-        description:
-          err instanceof Error
-            ? err.message
-            : "Veuillez réessayer ou nous écrire à contact@gatopouch.com",
+        title: t("toastError"),
+        description: err instanceof Error ? err.message : t("toastErrorDesc"),
         variant: "destructive",
       });
     } finally {
@@ -1218,18 +1094,17 @@ function Newsletter() {
             <div>
               <Badge className="inline-flex items-center gap-1.5 bg-peach-400/20 text-peach-300 border-peach-400/30 hover:bg-peach-400/30 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
                 <Gift className="w-3.5 h-3.5" />
-                Code -10% à l&apos;inscription
+                {t("badge")}
               </Badge>
               <h2 className="font-display font-extrabold text-3xl md:text-4xl leading-tight mb-4">
-                Rejoignez la famille GatoPouch
+                {t("title")}
               </h2>
               <p className="text-cream-50/80 text-base md:text-lg leading-relaxed">
-                Conseils d&apos;adaption du chat, offres exclusives,
-                nouveautés et histoires de câlins partagés. Recevez{" "}
+                {t("description")}{" "}
                 <span className="text-peach-300 font-semibold">
-                  -10% sur votre première commande
+                  {t("discountHighlight")}
                 </span>{" "}
-                dès maintenant.
+                {t("descriptionEnd")}
               </p>
             </div>
 
@@ -1238,7 +1113,7 @@ function Newsletter() {
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-cinnamon-700/60" />
                 <Input
                   type="email"
-                  placeholder="votre@email.com"
+                  placeholder={t("placeholder")}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="bg-cream-50 text-cinnamon-900 border-cinnamon-900/15 pl-12 h-14 rounded-full text-base focus-visible:ring-peach-400"
@@ -1252,17 +1127,17 @@ function Newsletter() {
                 {loading ? (
                   <>
                     <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                    Inscription en cours...
+                    {t("loadingText")}
                   </>
                 ) : (
                   <>
                     <Gift className="w-5 h-5 mr-2" />
-                    Recevoir mon code -10%
+                    {t("button")}
                   </>
                 )}
               </Button>
               <p className="text-cream-50/60 text-xs text-center mt-1">
-                Pas de spam. Désinscription en 1 clic. RGPD friendly.
+                {t("disclaimer")}
               </p>
             </form>
           </div>
@@ -1276,6 +1151,9 @@ function Newsletter() {
    Footer
    ========================================================================= */
 function Footer() {
+  const t = useTranslations("footer");
+  const tBrand = useTranslations("brand");
+  const tLegal = useTranslations("legalModals");
   return (
     <footer className="bg-cinnamon-900 text-cream-50/80 py-12 md:py-16 mt-auto">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -1286,18 +1164,16 @@ function Footer() {
                 <PawPrint className="w-5 h-5 text-cream-50" />
               </div>
               <span className="font-display font-bold text-lg text-cream-50">
-                GatoPouch
+                {tBrand("name")}
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              Le sweat porte-chat qui rapproche les chats et leurs humains, un
-              câlin à la fois. Conçu avec amour par des amoureux de chats,
-              pour des amoureux de chats.
+              {t("brandDescription")}
             </p>
             <div className="mt-4 text-xs text-cream-50/60 space-y-1">
               <p className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 mt-0.5 text-peach-400 shrink-0" />
-                <span>Calle Almería 83, 29018 Málaga, España</span>
+                <span>{t("address")}</span>
               </p>
               <p className="flex items-center gap-2">
                 <Globe className="w-3.5 h-3.5 text-peach-400 shrink-0" />
@@ -1307,7 +1183,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-peach-300 transition-colors"
                 >
-                  www.gatopouch.com
+                  {t("partnerSite")}
                 </a>
               </p>
             </div>
@@ -1315,32 +1191,32 @@ function Footer() {
 
           <div>
             <h4 className="font-display font-semibold text-cream-50 mb-4 text-sm uppercase tracking-wider">
-              Produit
+              {t("columns.product.title")}
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <a href="#produit" className="hover:text-peach-300 transition-colors">
-                  Le GatoPouch
+                  {t("columns.product.links.produit")}
                 </a>
               </li>
               <li>
                 <a href="#benefices" className="hover:text-peach-300 transition-colors">
-                  Bénéfices
+                  {t("columns.product.links.benefices")}
                 </a>
               </li>
               <li>
                 <a href="#packs" className="hover:text-peach-300 transition-colors">
-                  Packs & tarifs
+                  {t("columns.product.links.packs")}
                 </a>
               </li>
               <li>
                 <a href="#avis" className="hover:text-peach-300 transition-colors">
-                  Avis clients
+                  {t("columns.product.links.avis")}
                 </a>
               </li>
               <li>
                 <a href="#faq" className="hover:text-peach-300 transition-colors">
-                  FAQ
+                  {t("columns.product.links.faq")}
                 </a>
               </li>
             </ul>
@@ -1348,7 +1224,7 @@ function Footer() {
 
           <div>
             <h4 className="font-display font-semibold text-cream-50 mb-4 text-sm uppercase tracking-wider">
-              Contact
+              {t("columns.contact.title")}
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
@@ -1357,7 +1233,7 @@ function Footer() {
                   className="hover:text-peach-300 transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-3.5 h-3.5 text-peach-400" />
-                  contact@gatopouch.com
+                  {t("columns.contact.contactEmail")}
                 </a>
               </li>
               <li>
@@ -1366,7 +1242,7 @@ function Footer() {
                   className="hover:text-peach-300 transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-3.5 h-3.5 text-peach-400" />
-                  support@gatopouch.com
+                  {t("columns.contact.supportEmail")}
                 </a>
               </li>
               <li>
@@ -1375,7 +1251,7 @@ function Footer() {
                   className="hover:text-peach-300 transition-colors flex items-center gap-2"
                 >
                   <Phone className="w-3.5 h-3.5 text-peach-400" />
-                  +34 670 04 04 47
+                  {t("columns.contact.phone")}
                 </a>
               </li>
               <li>
@@ -1386,14 +1262,14 @@ function Footer() {
                   className="hover:text-peach-300 transition-colors flex items-center gap-2"
                 >
                   <MessageCircle className="w-3.5 h-3.5 text-peach-400" />
-                  WhatsApp
+                  {t("columns.contact.whatsapp")}
                 </a>
               </li>
               <li className="pt-2">
                 <ContactModal>
                   <button className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-peach-gradient text-cream-50 hover:opacity-90 transition-all text-xs font-display font-semibold">
                     <Mail className="w-3.5 h-3.5" />
-                    Formulaire de contact
+                    {t("columns.contact.formButton")}
                   </button>
                 </ContactModal>
               </li>
@@ -1402,10 +1278,10 @@ function Footer() {
 
           <div>
             <h4 className="font-display font-semibold text-cream-50 mb-4 text-sm uppercase tracking-wider">
-              Suivez-nous
+              {t("columns.follow.title")}
             </h4>
             <p className="text-sm mb-4">
-              Rejoignez 18 000 amoureux de chats sur Instagram.
+              {t("columns.follow.intro")}
             </p>
             <div className="flex gap-3 flex-wrap mb-6">
               {["Instagram", "TikTok", "Pinterest"].map((social) => (
@@ -1422,7 +1298,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-cream-50/10 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-cream-50/60">
-          <p>© 2025 GatoPouch. Tous droits réservés. Basé à Málaga, España.</p>
+          <p>{t("copyright")}</p>
           <div className="flex flex-wrap gap-4">
             <PrivacyPolicyModal />
             <TermsModal />
@@ -1439,75 +1315,26 @@ function Footer() {
    Packs Section — Choose your pack
    ========================================================================= */
 function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
-  const packs = [
-    {
-      name: "1 GatoPouch",
-      subtitle: "Découverte",
-      quantity: "1 sweat",
-      price: "54,99€",
-      oldPrice: null,
-      saving: null,
-      perUnit: "54,99€ / sweat",
-      features: [
-        "Choix de la couleur parmi 7 coloris",
-        "Choix de la taille (S à 3XL)",
-        "Livraison en 6 à 12 jours",
-        "Satisfait ou remboursé 30j",
-      ],
-      highlighted: false,
-      badge: null,
-    },
-    {
-      name: "Pack de 2 GatoPouch",
-      subtitle: "Recommandé",
-      quantity: "2 sweats",
-      price: "94,98€",
-      oldPrice: "109,98€",
-      saving: "Économisez 15€",
-      perUnit: "47,49€ / sweat",
-      features: [
-        "Couleur et taille personnalisables pour chaque sweat",
-        "Livraison OFFERTE",
-        "Le plus populaire — idéal pour cadeau",
-        "Paiement 3x sans frais (3× 31,66€)",
-      ],
-      highlighted: true,
-      badge: "Recommandé",
-    },
-    {
-      name: "Pack de 3 GatoPouch",
-      subtitle: "Meilleure offre",
-      quantity: "3 sweats",
-      price: "129,99€",
-      oldPrice: "164,97€",
-      saving: "Économisez 34,98€",
-      perUnit: "43,33€ / sweat",
-      features: [
-        "Couleur et taille personnalisables pour chaque sweat",
-        "Livraison OFFERTE",
-        "Économie maximale — 21% de réduction",
-        "Paiement 3x sans frais (3× 43,33€)",
-      ],
-      highlighted: false,
-      badge: "Meilleure offre",
-    },
-  ];
+  const t = useTranslations("packs");
+  const packs = (t.raw("items") as Array<{
+    name: string; subtitle: string; quantity: string; price: string;
+    oldPrice: string | null; saving: string | null; perUnit: string;
+    features: string[]; highlighted: boolean; badge: string | null; cta: string;
+  }>).map(p => ({ ...p, oldPrice: p.oldPrice ?? null, saving: p.saving ?? null, badge: p.badge ?? null }));
 
   return (
     <section id="packs" className="py-16 md:py-24 bg-cream-100">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <Badge className="bg-peach-300/40 text-cinnamon-800 border-peach-400/30 hover:bg-peach-300/50 px-4 py-1.5 mb-4 rounded-full text-xs font-semibold">
-            Choisis ton pack
+            {t("badge")}
           </Badge>
           <h2 className="font-display font-extrabold text-cinnamon-900 text-3xl md:text-5xl leading-tight mb-4">
-            Plus vous prenez de GatoPouch,{" "}
-            <span className="text-peach-500">plus vous économisez</span>
+            {t("title1")}{" "}
+            <span className="text-peach-500">{t("titleHighlight")}</span>
           </h2>
           <p className="text-cinnamon-700 text-lg leading-relaxed">
-            Offrez un GatoPouch à votre moitié, votre sœur ou votre meilleure amie
-            amoureuse de chats. Ou gardez-en plusieurs pour varier les
-            couleurs selon les saisons et vos humeurs.
+            {t("intro")}
           </p>
         </div>
 
@@ -1627,7 +1454,7 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
                     : "bg-cream-100 text-cinnamon-900 hover:bg-cream-200 border border-cinnamon-900/10"
                 }`}
               >
-                {pack.highlighted ? "Choisir ce pack" : "Sélectionner"}
+                {pack.cta}
                 <ChevronRight className="w-4 h-4 ml-1" />
               </Button>
             </motion.div>
@@ -1637,21 +1464,20 @@ function PacksSection({ onOrderClick }: { onOrderClick: () => void }) {
         {/* Bottom reassurance */}
         <div className="mt-10 md:mt-12 text-center">
           <p className="text-cinnamon-700 text-sm mb-4">
-            Tous les packs sont personnalisables : couleur et taille
-            indépendantes pour chaque GatoPouch.
+            {t("bottomNote")}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
               <Shield className="w-3.5 h-3.5 text-peach-500" />
-              Paiement 100% sécurisé
+              {t("reassurance.securePayment")}
             </div>
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
               <Truck className="w-3.5 h-3.5 text-peach-500" />
-              Expédié sous 24h · livré en 6-12j
+              {t("reassurance.fastShipping")}
             </div>
             <div className="flex items-center gap-2 bg-cream-50 rounded-full px-4 py-2 text-xs text-cinnamon-700 border border-cinnamon-900/5">
               <RefreshCw className="w-3.5 h-3.5 text-peach-500" />
-              Remboursé sous 30j
+              {t("reassurance.moneyBack")}
             </div>
           </div>
         </div>
