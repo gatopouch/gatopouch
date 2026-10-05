@@ -418,17 +418,290 @@
     "toastError": "Error al enviar"
   },
   "legalModals": {
+    "lastUpdate": "Última actualización",
     "privacy": {
-      "trigger": "Privacidad"
+      "title": "Política de Privacidad",
+      "trigger": "Privacidad",
+      "blocks": [
+        {
+          "type": "p",
+          "content": "GatoPouch (« nosotros », « nuestro ») opera el sitio web gatopouch.com y se compromete a proteger la privacidad de sus usuarios (« usted »). Esta política describe qué datos recopilamos, cómo los utilizamos y sus derechos de conformidad con el Reglamento General de Protección de Datos (RGPD UE 2016/679) y la Ley Orgánica española 3/2018 (LOPDGDD)."
+        },
+        {
+          "type": "h3",
+          "content": "1. Responsable del tratamiento"
+        },
+        {
+          "type": "p",
+          "content": "Responsable : GatoPouch\nDirección : Calle Almería 83, 29018 Málaga, España\nE-mail : contact@gatopouch.com\nTeléfono : +34 670 04 04 47"
+        },
+        {
+          "type": "h3",
+          "content": "2. Datos recopilados"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Formulario de contacto : nombre, e-mail, teléfono (opcional), asunto y mensaje.",
+            "Inscripción a la newsletter : solo dirección de e-mail.",
+            "Datos del pedido : nombre, dirección de envío, e-mail, teléfono, datos de pago (procesados por nuestro proveedor de pago seguro, no almacenamos los datos bancarios).",
+            "Datos técnicos : dirección IP, tipo de navegador, páginas visitadas (cookies analíticas anonimizadas)."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "3. Fines del tratamiento"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Atender sus solicitudes de contacto y soporte al cliente.",
+            "Procesar y enviar sus pedidos, gestionar el postventa.",
+            "Enviarle la newsletter y ofertas promocionales (si está suscrito).",
+            "Mejorar nuestro sitio y productos gracias a estadísticas anonimizadas."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "4. Base legal"
+        },
+        {
+          "type": "p",
+          "content": "El tratamiento de sus datos se basa en : su consentimiento (newsletter, contacto), la ejecución del contrato (pedido), el interés legítimo (seguridad, mejora del servicio) y la obligación legal (facturas, contabilidad)."
+        },
+        {
+          "type": "h3",
+          "content": "5. Conservación"
+        },
+        {
+          "type": "p",
+          "content": "Los datos de contacto se conservan 3 años. Los datos del pedido 10 años (obligación contable española). Los suscriptores a la newsletter hasta la baja."
+        },
+        {
+          "type": "h3",
+          "content": "6. Sus derechos"
+        },
+        {
+          "type": "p",
+          "content": "Puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, oposición, portabilidad y limitación escribiendo a contact@gatopouch.com. También puede presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD, www.aepd.es)."
+        }
+      ]
     },
     "terms": {
-      "trigger": "Términos y Condiciones"
+      "title": "Términos y Condiciones",
+      "trigger": "Términos y Condiciones",
+      "blocks": [
+        {
+          "type": "p",
+          "content": "Estos términos y condiciones (« Términos ») rigen el uso del sitio web gatopouch.com y la compra de productos GatoPouch. Al realizar un pedido, acepta estos Términos. Esta versión bilingüe prevalece en caso de conflicto."
+        },
+        {
+          "type": "h3",
+          "content": "1. Identidad del vendedor"
+        },
+        {
+          "type": "p",
+          "content": "Vendedor : GatoPouch\nDirección : Calle Almería 83, 29018 Málaga, España\nEmail : contact@gatopouch.com\nTeléfono : +34 670 04 04 47"
+        },
+        {
+          "type": "h3",
+          "content": "2. Productos y precios"
+        },
+        {
+          "type": "p",
+          "content": "Los productos GatoPouch son sudaderas de polar con bolsillo ventral para gatos. Los precios se muestran en euros (€), IVA incluido. Los packs propuestos son : 1 unidad (54,99€), Pack de 2 (94,98€, ahorro 15€), Pack de 3 (129,99€, ahorro 34,98€). Los precios pueden modificarse en cualquier momento, pero el precio facturado es el vigente en el momento de la confirmación del pedido."
+        },
+        {
+          "type": "h3",
+          "content": "3. Pedido y confirmación"
+        },
+        {
+          "type": "p",
+          "content": "Al validar su pedido, recibe un e-mail de confirmación con el resumen, el precio total y la fecha estimada de entrega. El pedido se considera aceptado tras la confirmación del pago. Nos reservamos el derecho de rechazar un pedido (stock insuficiente, sospecha de fraude), en cuyo caso reembolsamos íntegramente."
+        },
+        {
+          "type": "h3",
+          "content": "4. Pago"
+        },
+        {
+          "type": "p",
+          "content": "Aceptamos tarjeta bancaria (CB, Visa, Mastercard), PayPal, Apple Pay y Google Pay. El pago 3x sin gastos está disponible desde 60€ de compra. Sus datos bancarios son tratados por nuestro proveedor de pago certificado (no los almacenamos)."
+        },
+        {
+          "type": "h3",
+          "content": "5. Disponibilidad y talla"
+        },
+        {
+          "type": "p",
+          "content": "Disponibles 7 colores y 6 tallas (S, M, L, XL, 2XL, 3XL). Le recomendamos consultar la guía de tallas antes del pedido. Si una talla/color no está disponible tras su pedido, le propondremos una alternativa o un reembolso completo."
+        },
+        {
+          "type": "h3",
+          "content": "6. Propiedad intelectual"
+        },
+        {
+          "type": "p",
+          "content": "Todos los elementos del sitio (logos, textos, imágenes, diseños) son propiedad de GatoPouch o sus partners. Queda prohibida cualquier reproducción, copia o explotación sin autorización expresa."
+        },
+        {
+          "type": "h3",
+          "content": "7. Legislación aplicable"
+        },
+        {
+          "type": "p",
+          "content": "Estos Términos se rigen por la legislación española. Cualquier conflicto se resolverá ante los tribunales de Málaga, sin perjuicio de sus derechos como consumidor según la legislación de la UE."
+        }
+      ]
     },
     "returns": {
-      "trigger": "Política de Devoluciones"
+      "title": "Política de Devoluciones",
+      "trigger": "Política de Devoluciones",
+      "blocks": [
+        {
+          "type": "p",
+          "content": "En GatoPouch queremos que esté 100% satisfecho. Si su gato no se adapta al GatoPouch o si el producto no corresponde a sus expectativas, tiene 30 días desde la recepción para solicitar un reembolso o un cambio."
+        },
+        {
+          "type": "h3",
+          "content": "1. Plazo de devolución"
+        },
+        {
+          "type": "p",
+          "content": "30 días desde la fecha de recepción del paquete. La fecha del sello del transportista hace fe. Pasado este plazo, no aceptamos devoluciones salvo defecto de fabricación (ver garantía)."
+        },
+        {
+          "type": "h3",
+          "content": "2. Condiciones del producto"
+        },
+        {
+          "type": "p",
+          "content": "El producto debe :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Estar en su estado original, sin uso prolongado.",
+            "Tener todas las etiquetas y embalaje original.",
+            "No presentar manchas, pelos de animal o olores.",
+            "Una prueba breve del producto con su gato es aceptable (5-10 min) — sin embargo, una sesión prolongada no permite la devolución por higiene."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "3. Procedimiento"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Escríbanos a support@gatopouch.com con su número de pedido y el motivo.",
+            "Le enviamos una etiqueta de devolución prepaga (PDF) por e-mail en 24h.",
+            "Deposite el paquete en un punto de recogida (Correos, DHL, UPS).",
+            "Recibido y verificado en nuestro almacén de Málaga, procesamos el reembolso en 5-7 días laborables al método de pago original."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "4. Reembolso"
+        },
+        {
+          "type": "p",
+          "content": "El reembolso íntegro (precio del producto + gastos de envío originales) se realiza al método de pago utilizado en la compra. Los gastos de devolución corren a cargo de GatoPouch en caso de producto defectuoso o error nuestro. Si la devolución es por decisión personal, los gastos de devolución corren a cargo del cliente (6,90€)."
+        },
+        {
+          "type": "h3",
+          "content": "5. Excepciones"
+        },
+        {
+          "type": "p",
+          "content": "No se aceptan devoluciones de productos personalizados (color estándar, sí; bordado o grabado personalizado, no). Tampoco de productos adquiridos en promociones especiales liquidación (« sin retorno »)."
+        },
+        {
+          "type": "h3",
+          "content": "6. Garantía legal"
+        },
+        {
+          "type": "p",
+          "content": "Conforme a la legislación de la UE, todos nuestros productos están garantizados 2 años contra defectos de fabricación. Si detecta un defecto, escríbanos con fotos a support@gatopouch.com y le enviaremos un reemplazo gratuito o un reembolso completo."
+        }
+      ]
     },
     "shipping": {
-      "trigger": "Política de Envíos"
+      "title": "Política de Envíos",
+      "trigger": "Política de Envíos",
+      "blocks": [
+        {
+          "type": "p",
+          "content": "GatoPouch envía a toda Europa (UE + Reino Unido + Suiza). Aquí están nuestras condiciones de envío."
+        },
+        {
+          "type": "h3",
+          "content": "1. Plazos de entrega"
+        },
+        {
+          "type": "p",
+          "content": "Plazo estándar : 6 a 12 días laborables desde la confirmación del pedido. El plazo puede variar según el país y la temporada (Navidad, Black Friday pueden alargar 2-3 días)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Preparación : 24h laborables desde el pago.",
+            "Transporte : 5-11 días laborables.",
+            "Total : 6-12 días laborables."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "2. Tarifas"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Envío gratuito desde 69€ de compra (alcanzado automáticamente con el Pack de 2 a 94,98€).",
+            "Por debajo de 69€ : 6,90€ (pedido unitario a 54,99€ = envío adicional).",
+            "Zonas específicas (UK, CH) : 12,90€."
+          ]
+        },
+        {
+          "type": "h3",
+          "content": "3. Zonas cubiertas"
+        },
+        {
+          "type": "p",
+          "content": "Enviamos a toda la Unión Europea (España, Francia, Portugal, Italia, Alemania, Bélgica, Países Bajos, Luxemburgo, Austria, Irlanda, etc.) así como al Reino Unido y Suiza. Para otros destinos, escríbanos a support@gatopouch.com."
+        },
+        {
+          "type": "h3",
+          "content": "4. Seguimiento"
+        },
+        {
+          "type": "p",
+          "content": "Recibe un e-mail con su número de seguimiento en el momento del envío. Puede seguir su paquete en el sitio del transportista (habitualmente DHL o Correos). Si no recibe su paquete en el plazo máximo de 12 días, escríbanos y abriremos una investigación con el transportista (resolución en 5-7 días)."
+        },
+        {
+          "type": "h3",
+          "content": "5. Paquetes no entregados"
+        },
+        {
+          "type": "p",
+          "content": "Si el transportista no puede entregar (ausencia, dirección incorrecta), el paquete se devuelve a nuestro almacén de Málaga. Le contactamos por e-mail para organizar un reenvío (con gastos adicionales) o un reembolso (sin gastos de envío)."
+        },
+        {
+          "type": "h3",
+          "content": "6. Aduana e impuestos"
+        },
+        {
+          "type": "p",
+          "content": "Para envíos fuera de la UE (Reino Unido, Suiza), el destinatario es responsable de los derechos de aduana e impuestos locales. GatoPouch no se hace cargo de estos gastos. Para pedidos dentro de la UE, no hay aduana ni impuestos adicionales."
+        },
+        {
+          "type": "h3",
+          "content": "7. Embalaje"
+        },
+        {
+          "type": "p",
+          "content": "Todos nuestros pedidos se envían en embalaje reciclable y discreto (sin mención del contenido en el exterior, ideal para regalos). El Pack de 2 y el Pack de 3 pueden enviarse a direcciones diferentes bajo demanda (escríbanos tras el pedido)."
+        }
+      ]
     }
   },
   "Common": {

@@ -1,0 +1,719 @@
+     1→"use client";
+     2→
+     3→import { useState } from "react";
+     4→import { Button } from "@/components/ui/button";
+     5→import { Input } from "@/components/ui/input";
+     6→import { Textarea } from "@/components/ui/textarea";
+     7→import { Label } from "@/components/ui/label";
+     8→import {
+     9→  Dialog,
+    10→  DialogContent,
+    11→  DialogDescription,
+    12→  DialogHeader,
+    13→  DialogTitle,
+    14→  DialogTrigger,
+    15→} from "@/components/ui/dialog";
+    16→import {
+    17→  Mail,
+    18→  Phone,
+    19→  MessageCircle,
+    20→  MapPin,
+    21→  Globe,
+    22→  Send,
+    23→  Check,
+    24→  Loader2,
+    25→  X,
+    26→} from "lucide-react";
+    27→import { useToast } from "@/hooks/use-toast";
+    28→
+    29→/* =========================================================================
+    30→   Contact modal — form + contact info
+    31→   ========================================================================= */
+    32→export function ContactModal({
+    33→  children,
+    34→}: {
+    35→  children?: React.ReactNode;
+    36→}) {
+    37→  const { toast } = useToast();
+    38→  const [open, setOpen] = useState(false);
+    39→  const [loading, setLoading] = useState(false);
+    40→  const [form, setForm] = useState({
+    41→    name: "",
+    42→    email: "",
+    43→    phone: "",
+    44→    subject: "",
+    45→    message: "",
+    46→  });
+    47→
+    48→  const handleSubmit = async (e: React.FormEvent) => {
+    49→    e.preventDefault();
+    50→    setLoading(true);
+    51→    try {
+    52→      const res = await fetch("/api/contact", {
+    53→        method: "POST",
+    54→        headers: { "Content-Type": "application/json" },
+    55→        body: JSON.stringify(form),
+    56→      });
+    57→      const data = await res.json();
+    58→      if (!res.ok || !data.ok) {
+    59→        throw new Error(data.error || "Erreur d'envoi");
+    60→      }
+    61→      toast({
+    62→        title: "Message envoyé !",
+    63→        description: data.message,
+    64→      });
+    65→      setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+    66→      setOpen(false);
+    67→    } catch (err) {
+    68→      toast({
+    69→        title: "Erreur d'envoi",
+    70→        description:
+    71→          err instanceof Error
+    72→            ? err.message
+    73→            : "Veuillez réessayer ou nous écrire à contact@gatopouch.com",
+    74→        variant: "destructive",
+    75→      });
+    76→    } finally {
+    77→      setLoading(false);
+    78→    }
+    79→  };
+    80→
+    81→  return (
+    82→    <Dialog open={open} onOpenChange={setOpen}>
+    83→      <DialogTrigger asChild>
+    84→        {children || (
+    85→          <button className="hover:text-peach-300 transition-colors">
+    86→            Contact
+    87→          </button>
+    88→        )}
+    89→      </DialogTrigger>
+    90→      <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto bg-cream-50 border-peach-400/30">
+    91→        <DialogHeader>
+    92→          <DialogTitle className="font-display text-2xl md:text-3xl text-cinnamon-900">
+    93→            Contactez GatoPouch
+    94→          </DialogTitle>
+    95→          <DialogDescription className="text-cinnamon-700">
+    96→            Une question sur le GatoPouch, votre commande, ou une demande
+    97→            partenariat ? Écrivez-nous, nous répondons sous 24 à 48h ouvrées.
+    98→          </DialogDescription>
+    99→        </DialogHeader>
+   100→
+   101→        <div className="grid md:grid-cols-5 gap-6 mt-4">
+   102→          {/* Contact form (3/5) */}
+   103→          <form onSubmit={handleSubmit} className="md:col-span-3 space-y-3">
+   104→            <div className="grid sm:grid-cols-2 gap-3">
+   105→              <div className="space-y-1.5">
+   106→                <Label htmlFor="name" className="text-cinnamon-800 text-sm">
+   107→                  Nom *
+   108→                </Label>
+   109→                <Input
+   110→                  id="name"
+   111→                  required
+   112→                  value={form.name}
+   113→                  onChange={(e) => setForm({ ...form, name: e.target.value })}
+   114→                  className="bg-white border-cinnamon-900/15 focus-visible:ring-peach-400"
+   115→                  placeholder="Camille Dubois"
+   116→                />
+   117→              </div>
+   118→              <div className="space-y-1.5">
+   119→                <Label htmlFor="email" className="text-cinnamon-800 text-sm">
+   120→                  E-mail *
+   121→                </Label>
+   122→                <Input
+   123→                  id="email"
+   124→                  type="email"
+   125→                  required
+   126→                  value={form.email}
+   127→                  onChange={(e) => setForm({ ...form, email: e.target.value })}
+   128→                  className="bg-white border-cinnamon-900/15 focus-visible:ring-peach-400"
+   129→                  placeholder="camille@email.com"
+   130→                />
+   131→              </div>
+   132→            </div>
+   133→            <div className="grid sm:grid-cols-2 gap-3">
+   134→              <div className="space-y-1.5">
+   135→                <Label htmlFor="phone" className="text-cinnamon-800 text-sm">
+   136→                  Téléphone
+   137→                </Label>
+   138→                <Input
+   139→                  id="phone"
+   140→                  value={form.phone}
+   141→                  onChange={(e) => setForm({ ...form, phone: e.target.value })}
+   142→                  className="bg-white border-cinnamon-900/15 focus-visible:ring-peach-400"
+   143→                  placeholder="+34 670 04 04 47"
+   144→                />
+   145→              </div>
+   146→              <div className="space-y-1.5">
+   147→                <Label htmlFor="subject" className="text-cinnamon-800 text-sm">
+   148→                  Sujet
+   149→                </Label>
+   150→                <Input
+   151→                  id="subject"
+   152→                  value={form.subject}
+   153→                  onChange={(e) => setForm({ ...form, subject: e.target.value })}
+   154→                  className="bg-white border-cinnamon-900/15 focus-visible:ring-peach-400"
+   155→                  placeholder="Question commande / SAV / Partenariat..."
+   156→                />
+   157→              </div>
+   158→            </div>
+   159→            <div className="space-y-1.5">
+   160→              <Label htmlFor="message" className="text-cinnamon-800 text-sm">
+   161→                Message *
+   162→              </Label>
+   163→              <Textarea
+   164→                id="message"
+   165→                required
+   166→                rows={5}
+   167→                value={form.message}
+   168→                onChange={(e) => setForm({ ...form, message: e.target.value })}
+   169→                className="bg-white border-cinnamon-900/15 focus-visible:ring-peach-400 resize-none"
+   170→                placeholder="Bonjour, j'aimerais savoir si le GatoPouch convient à un chat de 7 kg..."
+   171→              />
+   172→            </div>
+   173→            <Button
+   174→              type="submit"
+   175→              disabled={loading}
+   176→              className="bg-peach-gradient text-cream-50 hover:opacity-90 rounded-full w-full sm:w-auto px-6 py-3 font-display font-semibold"
+   177→            >
+   178→              {loading ? (
+   179→                <>
+   180→                  <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+   181→                  Envoi en cours...
+   182→                </>
+   183→              ) : (
+   184→                <>
+   185→                  <Send className="w-4 h-4 mr-2" />
+   186→                  Envoyer le message
+   187→                </>
+   188→              )}
+   189→            </Button>
+   190→          </form>
+   191→
+   192→          {/* Contact info (2/5) */}
+   193→          <div className="md:col-span-2 space-y-4 bg-cream-100 rounded-2xl p-5">
+   194→            <div>
+   195→              <h4 className="font-display font-bold text-cinnamon-900 text-sm uppercase tracking-wider mb-3">
+   196→                Coordonnées
+   197→              </h4>
+   198→              <div className="space-y-3 text-sm">
+   199→                <a
+   200→                  href="mailto:contact@gatopouch.com"
+   201→                  className="flex items-start gap-3 text-cinnamon-800 hover:text-peach-500 transition-colors"
+   202→                >
+   203→                  <Mail className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   204→                  <div>
+   205→                    <div className="font-medium">contact@gatopouch.com</div>
+   206→                    <div className="text-xs text-cinnamon-700/70">
+   207→                      Question produit & commande
+   208→                    </div>
+   209→                  </div>
+   210→                </a>
+   211→                <a
+   212→                  href="mailto:support@gatopouch.com"
+   213→                  className="flex items-start gap-3 text-cinnamon-800 hover:text-peach-500 transition-colors"
+   214→                >
+   215→                  <Mail className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   216→                  <div>
+   217→                    <div className="font-medium">support@gatopouch.com</div>
+   218→                    <div className="text-xs text-cinnamon-700/70">
+   219→                      Support technique SAV
+   220→                    </div>
+   221→                  </div>
+   222→                </a>
+   223→                <a
+   224→                  href="tel:+34670040447"
+   225→                  className="flex items-start gap-3 text-cinnamon-800 hover:text-peach-500 transition-colors"
+   226→                >
+   227→                  <Phone className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   228→                  <div>
+   229→                    <div className="font-medium">+34 670 04 04 47</div>
+   230→                    <div className="text-xs text-cinnamon-700/70">
+   231→                      Lun-Ven, 9h-18h (CET)
+   232→                    </div>
+   233→                  </div>
+   234→                </a>
+   235→                <a
+   236→                  href="https://wa.me/34670040447"
+   237→                  target="_blank"
+   238→                  rel="noopener noreferrer"
+   239→                  className="flex items-start gap-3 text-cinnamon-800 hover:text-peach-500 transition-colors"
+   240→                >
+   241→                  <MessageCircle className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   242→                  <div>
+   243→                    <div className="font-medium">WhatsApp</div>
+   244→                    <div className="text-xs text-cinnamon-700/70">
+   245→                      +34 670 04 04 47 — réponse rapide
+   246→                    </div>
+   247→                  </div>
+   248→                </a>
+   249→                <div className="flex items-start gap-3 text-cinnamon-800">
+   250→                  <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   251→                  <div>
+   252→                    <div className="font-medium">Calle Almería 83</div>
+   253→                    <div className="text-xs text-cinnamon-700/70">
+   254→                      29018 Málaga, España
+   255→                    </div>
+   256→                  </div>
+   257→                </div>
+   258→                <a
+   259→                  href="https://www.gatopouch.com"
+   260→                  target="_blank"
+   261→                  rel="noopener noreferrer"
+   262→                  className="flex items-start gap-3 text-cinnamon-800 hover:text-peach-500 transition-colors"
+   263→                >
+   264→                  <Globe className="w-4 h-4 mt-0.5 shrink-0 text-peach-500" />
+   265→                  <div>
+   266→                    <div className="font-medium">www.gatopouch.com</div>
+   267→                    <div className="text-xs text-cinnamon-700/70">
+   268→                      Site partenaire officiel
+   269→                    </div>
+   270→                  </div>
+   271→                </a>
+   272→              </div>
+   273→            </div>
+   274→          </div>
+   275→        </div>
+   276→      </DialogContent>
+   277→    </Dialog>
+   278→  );
+   279→}
+   280→
+   281→/* =========================================================================
+   282→   LegalModal — generic reusable modal for legal pages
+   283→   ========================================================================= */
+   284→function LegalModal({
+   285→  title,
+   286→  children,
+   287→  trigger,
+   288→}: {
+   289→  title: string;
+   290→  children: React.ReactNode;
+   291→  trigger: React.ReactNode;
+   292→}) {
+   293→  const [open, setOpen] = useState(false);
+   294→  return (
+   295→    <Dialog open={open} onOpenChange={setOpen}>
+   296→      <DialogTrigger asChild>
+   297→        <button className="hover:text-peach-300 transition-colors text-left">
+   298→          {trigger}
+   299→        </button>
+   300→      </DialogTrigger>
+   301→      <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto bg-cream-50 border-peach-400/30">
+   302→        <DialogHeader>
+   303→          <DialogTitle className="font-display text-2xl md:text-3xl text-cinnamon-900">
+   304→            {title}
+   305→          </DialogTitle>
+   306→          <DialogDescription className="text-cinnamon-700 text-xs">
+   307→            Dernière mise à jour : {new Date().toLocaleDateString("fr-FR", { month: "long", year: "numeric" })}
+   308→          </DialogDescription>
+   309→        </DialogHeader>
+   310→        <div className="prose prose-sm max-w-none text-cinnamon-800 space-y-3 mt-4 text-[15px] leading-relaxed">
+   311→          {children}
+   312→        </div>
+   313→      </DialogContent>
+   314→    </Dialog>
+   315→  );
+   316→}
+   317→
+   318→/* =========================================================================
+   319→   Privacy Policy modal
+   320→   ========================================================================= */
+   321→export function PrivacyPolicyModal() {
+   322→  return (
+   323→    <LegalModal title="Politique de Confidentialité" trigger="Confidentialité">
+   324→      <p>
+   325→        GatoPouch (&quot;nous&quot;, &quot;notre&quot;) exploite le site
+   326→        gatopouch.com et s&apos;engage à protéger la vie privée de ses
+   327→        utilisateurs (&quot;vous&quot;). Cette politique décrit quelles
+   328→        données nous collectons, comment nous les utilisons et vos droits
+   329→        conformément au Règlement Général sur la Protection des Données (RGPD
+   330→        UE 2016/679) et la Loi Organique espagnole 3/2018 (LOPDGDD).
+   331→      </p>
+   332→
+   333→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   334→        1. Responsable du traitement
+   335→      </h3>
+   336→      <p>
+   337→        <strong>Responsable :</strong> GatoPouch<br />
+   338→        <strong>Adresse :</strong> Calle Almería 83, 29018 Málaga, España<br />
+   339→        <strong>E-mail :</strong> contact@gatopouch.com<br />
+   340→        <strong>Téléphone :</strong> +34 670 04 04 47
+   341→      </p>
+   342→
+   343→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   344→        2. Données collectées
+   345→      </h3>
+   346→      <ul className="list-disc pl-5 space-y-1">
+   347→        <li>
+   348→          <strong>Formulaire de contact :</strong> nom, e-mail,
+   349→          téléphone (optionnel), sujet et message.
+   350→        </li>
+   351→        <li>
+   352→          <strong>Inscription newsletter :</strong> adresse e-mail
+   353→          uniquement.
+   354→        </li>
+   355→        <li>
+   356→          <strong>Données de commande :</strong> nom, adresse de
+   357→          livraison, e-mail, téléphone, données de paiement (traitées par
+   358→          notre prestataire de paiement sécurisé, nous ne stockons pas les
+   359→          données bancaires).
+   360→        </li>
+   361→        <li>
+   362→          <strong>Données techniques :</strong> adresse IP, type de
+   363→          navigateur, pages visitées (cookies analytiques anonymisés).
+   364→        </li>
+   365→      </ul>
+   366→
+   367→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   368→        3. Finalités du traitement
+   369→      </h3>
+   370→      <ul className="list-disc pl-5 space-y-1">
+   371→        <li>Répondre à vos demandes de contact et support client.</li>
+   372→        <li>
+   373→          Traiter et expédier vos commandes, gérer le service après-vente.
+   374→        </li>
+   375→        <li>
+   376→          Vous envoyer la newsletter et les offres promotionnelles (si vous
+   377→          y êtes abonné).
+   378→        </li>
+   379→        <li>
+   380→          Améliorer notre site et nos produits grâce à des statistiques
+   381→          anonymisées.
+   382→        </li>
+   383→      </ul>
+   384→
+   385→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   386→        4. Base légale
+   387→      </h3>
+   388→      <p>
+   389→        Le traitement de vos données repose sur : votre consentement
+   390→        (newsletter, contact), l&apos;exécution du contrat (commande),
+   391→        l&apos;intérêt légitime (sécurité, amélioration du service), et
+   392→        l&apos;obligation légale (factures, comptabilité).
+   393→      </p>
+   394→
+   395→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   396→        5. Conservation
+   397→      </h3>
+   398→      <p>
+   399→        Les données de contact sont conservées 3 ans. Les données de
+   400→        commande 10 ans (obligation comptabilité espagnole). Les abonnés
+   401→        newsletter jusqu&apos;à désinscription.
+   402→      </p>
+   403→
+   404→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   405→        6. Vos droits
+   406→      </h3>
+   407→      <p>
+   408→        Vous pouvez exercer à tout moment vos droits d&apos;accès,
+   409→        rectification, suppression, opposition, portabilité et limitation
+   410→        en écrivant à{" "}
+   411→        <a
+   412→          href="mailto:contact@gatopouch.com"
+   413→          className="text-peach-500 underline"
+   414→        >
+   415→          contact@gatopouch.com
+   416→        </a>
+   417→        . Vous pouvez aussi déposer une réclamation auprès de
+   418→        l&apos;Agence Espagnole de Protection des Données (AEPD,
+   419→        www.aepd.es).
+   420→      </p>
+   421→    </LegalModal>
+   422→  );
+   423→}
+   424→
+   425→/* =========================================================================
+   426→   Terms & Conditions modal
+   427→   ========================================================================= */
+   428→export function TermsModal() {
+   429→  return (
+   430→    <LegalModal title="Términos y Condiciones" trigger="Términos y Condiciones">
+   431→      <p>
+   432→        Estos términos y condiciones (&quot;Términos&quot;) regulan el uso
+   433→        del sitio web gatopouch.com y la compra de productos GatoPouch. Al
+   434→        realizar un pedido, aceptas estos Términos. Esta versión bilingue
+   435→        prevalece en caso de conflicto.
+   436→      </p>
+   437→
+   438→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   439→        1. Identidad del vendedor
+   440→      </h3>
+   441→      <p>
+   442→        <strong>Vendedor:</strong> GatoPouch<br />
+   443→        <strong>Dirección:</strong> Calle Almería 83, 29018 Málaga, España<br />
+   444→        <strong>Email:</strong> contact@gatopouch.com<br />
+   445→        <strong>Teléfono:</strong> +34 670 04 04 47
+   446→      </p>
+   447→
+   448→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   449→        2. Productos y precios
+   450→      </h3>
+   451→      <p>
+   452→        Los productos GatoPouch son sudaderas de polar con bolsillo ventral
+   453→        para gatos. Los precios se muestran en euros (€), IVA incluido. Los
+   454→        packs propuestos son: 1 unidad (54,99€), Pack de 2 (94,98€, ahorro
+   455→        15€), Pack de 3 (129,99€, ahorro 34,98€). Los precios pueden
+   456→        modificarse en cualquier momento, pero el precio facturado es el
+   457→        vigente en el momento de la confirmación del pedido.
+   458→      </p>
+   459→
+   460→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   461→        3. Pedido y confirmación
+   462→      </h3>
+   463→      <p>
+   464→        Al validar tu pedido, recibes un email de confirmación con el
+   465→        resumen, el precio total y la fecha estimada de entrega. El pedido
+   466→        se considera aceptado tras la confirmación del pago. Nos reservamos
+   467→        el derecho de rechazar un pedido (stock insuficiente, sospecha de
+   468→        fraude), en cuyo caso reembolsamos íntegramente.
+   469→      </p>
+   470→
+   471→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   472→        4. Pago
+   473→      </h3>
+   474→      <p>
+   475→        Aceptamos tarjeta bancaria (CB, Visa, Mastercard), PayPal, Apple
+   476→        Pay y Google Pay. El pago 3x sin gastos está disponible desde 60€
+   477→        de compra. Tus datos bancarios son tratados por nuestro proveedor
+   478→        de pago certificado (no los almacenamos).
+   479→      </p>
+   480→
+   481→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   482→        5. Disponibilidad y talla
+   483→      </h3>
+   484→      <p>
+   485→        Disponibles 7 colores y 6 tallas (S, M, L, XL, 2XL, 3XL). Te
+   486→        recomendamos consultar la guía de tallas antes del pedido. Si una
+   487→        talla/color no está disponible tras tu pedido, te propondremos una
+   488→        alternativa o un reembolso completo.
+   489→      </p>
+   490→
+   491→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   492→        6. Propiedad intelectual
+   493→      </h3>
+   494→      <p>
+   495→        Todos los elementos del sitio (logos, textos, imágenes, diseños)
+   496→        son propiedad de GatoPouch o sus partners. Queda prohibida
+   497→        cualquier reproducción, copia o explotación sin autorización
+   498→        expresa.
+   499→      </p>
+   500→
+   501→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   502→        7. Legislación aplicable
+   503→      </h3>
+   504→      <p>
+   505→        Estos Términos se rigen por la legislación española. Cualquier
+   506→        conflicto se resolverá ante los tribunales de Málaga, sin perjuicio
+   507→        de tus derechos como consumidor según la legislación de la UE.
+   508→      </p>
+   509→    </LegalModal>
+   510→  );
+   511→}
+   512→
+   513→/* =========================================================================
+   514→   Returns Policy modal
+   515→   ========================================================================= */
+   516→export function ReturnsModal() {
+   517→  return (
+   518→    <LegalModal title="Política de Devoluciones" trigger="Política de Devoluciones">
+   519→      <p>
+   520→        En GatoPouch queremos que estés 100% satisfecho. Si tu gato no se
+   521→        adapta al GatoPouch o si el producto no corresponde a tus
+   522→        expectativas, tienes 30 días desde la recepción para solicitar un
+   523→        reembolso o un cambio.
+   524→      </p>
+   525→
+   526→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   527→        1. Plazo de devolución
+   528→      </h3>
+   529→      <p>
+   530→        <strong>30 días</strong> desde la fecha de recepción del paquete.
+   531→        La fecha del sello del transportista hace fe. Pasado este plazo, no
+   532→        aceptamos devoluciones salvo defecto de fabricación (ver garantía).
+   533→      </p>
+   534→
+   535→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   536→        2. Condiciones del producto
+   537→      </h3>
+   538→      <p>El producto debe:</p>
+   539→      <ul className="list-disc pl-5 space-y-1">
+   540→        <li>Estar en su estado original, sin uso prolongado.</li>
+   541→        <li>Tener todas las etiquetas y embalaje original.</li>
+   542→        <li>No presentar manchas, pelos de animal o olores.</li>
+   543→        <li>
+   544→          Una prueba breve del producto con tu gato es aceptable (5-10
+   545→          min) — sin embargo, una sesión prolongada no permite la
+   546→          devolución por higiene.
+   547→        </li>
+   548→      </ul>
+   549→
+   550→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   551→        3. Procedimiento
+   552→      </h3>
+   553→      <ol className="list-decimal pl-5 space-y-1">
+   554→        <li>
+   555→          Escríbenos a{" "}
+   556→          <a
+   557→            href="mailto:support@gatopouch.com"
+   558→            className="text-peach-500 underline"
+   559→          >
+   560→            support@gatopouch.com
+   561→          </a>{" "}
+   562→          con tu número de pedido y el motivo.
+   563→        </li>
+   564→        <li>
+   565→          Te enviamos una etiqueta de devolución prepagada (PDF) por email
+   566→          en 24h.
+   567→        </li>
+   568→        <li>
+   569→          Deposita el paquete en un punto de recogida (Correos, DHL,
+   570→         UPS).
+   571→        </li>
+   572→        <li>
+   573→          Recibido y verificado en nuestro almacén de Málaga, procesamos
+   574→          el reembolso en 5-7 días laborables al método de pago original.
+   575→        </li>
+   576→      </ol>
+   577→
+   578→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   579→        4. Reembolso
+   580→      </h3>
+   581→      <p>
+   582→        El reembolso íntegro (precio del producto + gastos de envío
+   583→        originales) se realiza al método de pago utilizado en la compra.
+   584→        Los gastos de devolución corren a cargo de GatoPouch en caso de
+   585→        producto defectuoso o error nuestro. Si la devolución es por
+   586→        decisión personal, los gastos de devolución corren a cargo del
+   587→        cliente (6,90€).
+   588→      </p>
+   589→
+   590→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   591→        5. Excepciones
+   592→      </h3>
+   593→      <p>
+   594→        No se aceptan devoluciones de productos personalizados (color
+   595→        estándar, sí; bordado o grabado personalizado, no). Tampoco de
+   596→        productos adquiridos en promociones especiales liquidación (&quot;sin
+   597→        retorno&quot;).
+   598→      </p>
+   599→
+   600→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   601→        6. Garantía legal
+   602→      </h3>
+   603→      <p>
+   604→        Conforme a la legislación de la UE, todos nuestros productos
+   605→        están garantizados 2 años contra defectos de fabricación. Si
+   606→        detectas un defecto, escríbenos con fotos a{" "}
+   607→        <a
+   608→          href="mailto:support@gatopouch.com"
+   609→          className="text-peach-500 underline"
+   610→        >
+   611→          support@gatopouch.com
+   612→        </a>{" "}
+   613→        y te enviaremos un reemplazo gratuito o un reembolso completo.
+   614→      </p>
+   615→    </LegalModal>
+   616→  );
+   617→}
+   618→
+   619→/* =========================================================================
+   620→   Shipping Policy modal
+   621→   ========================================================================= */
+   622→export function ShippingModal() {
+   623→  return (
+   624→    <LegalModal title="Política de Envíos" trigger="Política de Envíos">
+   625→      <p>
+   626→        GatoPouch envía a toda Europa (UE + Royaume-Uni + Suisse). Aquí
+   627→        están nuestras condiciones de envío.
+   628→      </p>
+   629→
+   630→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   631→        1. Plazos de entrega
+   632→      </h3>
+   633→      <p>
+   634→        <strong>Plazo estándar: 6 a 12 días laborables</strong> desde la
+   635→        confirmación del pedido. El plazo puede variar según el país y
+   636→        la temporada (Navidad, Black Friday pueden alargar 2-3 días).
+   637→      </p>
+   638→      <ul className="list-disc pl-5 space-y-1">
+   639→        <li><strong>Preparación:</strong> 24h laborables desde el pago.</li>
+   640→        <li><strong>Transporte:</strong> 5-11 días laborables.</li>
+   641→        <li><strong>Total:</strong> 6-12 días laborables.</li>
+   642→      </ul>
+   643→
+   644→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   645→        2. Tarifas
+   646→      </h3>
+   647→      <ul className="list-disc pl-5 space-y-1">
+   648→        <li>
+   649→          <strong>Envío gratuito</strong> desde 69€ de compra
+   650→          (alcanzado automáticamente con el Pack de 2 a 94,98€).
+   651→        </li>
+   652→        <li>
+   653→          <strong>Por debajo de 69€:</strong> 6,90€ (pedido unitario a
+   654→          54,99€ = envío adicional).
+   655→        </li>
+   656→        <li><strong>Zonas específicas (UK, CH):</strong> 12,90€.</li>
+   657→      </ul>
+   658→
+   659→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   660→        3. Zonas cubiertas
+   661→      </h3>
+   662→      <p>
+   663→        Enviamos a toda la Unión Europea (España, Francia, Portugal,
+   664→        Italia, Alemania, Bélgica, Países Bajos, Luxemburgo, Austria,
+   665→        Irlanda, etc.) así como al Reino Unido y Suiza. Para otros
+   666→        destinos, escríbenos a{" "}
+   667→        <a
+   668→          href="mailto:support@gatopouch.com"
+   669→          className="text-peach-500 underline"
+   670→        >
+   671→          support@gatopouch.com
+   672→        </a>
+   673→        .
+   674→      </p>
+   675→
+   676→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   677→        4. Seguimiento
+   678→      </h3>
+   679→      <p>
+   680→        Recibes un email con tu número de seguimiento en el momento del
+   681→        envío. Puedes seguir tu paquete en el sitio del transportista
+   682→        (habitualmente DHL o Correos). Si no recibes tu paquete en el
+   683→        plazo máximo de 12 días, escríbenos y abriremos una investigación
+   684→        con el transportista (resolución en 5-7 días).
+   685→      </p>
+   686→
+   687→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   688→        5. Paquetes no entregados
+   689→      </h3>
+   690→      <p>
+   691→        Si el transportista no puede entregar (ausencia, dirección
+   692→        incorrecta), el paquete se devuelve a nuestro almacén de Málaga.
+   693→        Te contactamos por email para organizar un reenvío (con gastos
+   694→        adicionales) o un reembolso (sin gastos de envío).
+   695→      </p>
+   696→
+   697→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   698→        6. Aduana e impuestos
+   699→      </h3>
+   700→      <p>
+   701→        Para envíos fuera de la UE (Reino Unido, Suiza), el destinatario
+   702→        es responsable de los derechos de aduana e impuestos locales.
+   703→        GatoPouch no se hace cargo de estos gastos. Para pedidos dentro
+   704→        de la UE, no hay aduana ni impuestos adicionales.
+   705→      </p>
+   706→
+   707→      <h3 className="font-display font-bold text-cinnamon-900 mt-4 mb-2">
+   708→        7. Embalaje
+   709→      </h3>
+   710→      <p>
+   711→        Todos nuestros pedidos se envían en embalaje reciclable y
+   712→        discreto (sin mención del contenido en el exterior, ideal para
+   713→        regalos). El Pack de 2 y el Pack de 3 pueden enviarse a
+   714→        direcciones diferentes bajo demanda (escríbenos tras el pedido).
+   715→      </p>
+   716→    </LegalModal>
+   717→  );
+   718→}
+   719→
