@@ -1,0 +1,18 @@
+{
+  "slug": "sante-soins",
+  "name": {
+    "fr": "Santé & Soins",
+    "en": "Health & Care",
+    "es": "Salud & Cuidados",
+    "de": "Gesundheit & Pflege",
+    "it": "Salute & Cura"
+  },
+  "description": {
+    "fr": "Santé du chat : symptômes, maladies courantes, vaccins, parasites, soins vétérinaires et prévention.",
+    "en": "Cat health: symptoms, common diseases, vaccines, parasites, veterinary care and prevention.",
+    "es": "Salud del gato: síntomas, enfermedades comunes, vacunas, parásitos, cuidados veterinarios y prevención.",
+    "de": "Katchengesundheit: Symptome, häufige Krankheiten, Impfungen, Parasiten, tierärztliche Versorgung und Vorbeugung.",
+    "it": "Salute del gatto: sintomi, malattie comuni, vaccini, parassiti, cure veterinarie e prevenzione."
+  },
+  "icon": "Shield"
+}

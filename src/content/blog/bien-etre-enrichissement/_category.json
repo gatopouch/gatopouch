@@ -1,0 +1,18 @@
+{
+  "slug": "bien-etre-enrichissement",
+  "name": {
+    "fr": "Bien-être & Enrichissement",
+    "en": "Wellness & Enrichment",
+    "es": "Bienestar & Enriquecimiento",
+    "de": "Wohlbefinden & Beschäftigung",
+    "it": "Benessere & Arricchimento"
+  },
+  "description": {
+    "fr": "Le bonheur de votre chat au quotidien : enrichissement, jeux, câlins, environnement, cozy time et bien-être émotionnel.",
+    "en": "Your cat's daily happiness: enrichment, play, cuddles, environment, cozy time and emotional well-being.",
+    "es": "La felicidad diaria de tu gato: enriquecimiento, juegos, mimos, entorno, tiempo acogedor y bienestar emocional.",
+    "de": "Das tägliche Glück Ihrer Katze: Beschäftigung, Spiele, Kuscheln, Umgebung, gemütliche Zeit und emotionales Wohlbefinden.",
+    "it": "La felicità quotidiana del tuo gatto: arricchimento, giochi, coccole, ambiente, momenti accoglienti e benessere emotivo."
+  },
+  "icon": "Heart"
+}

@@ -25,7 +25,8 @@
     "benefices": "Benefici",
     "avis": "Recensioni",
     "faq": "FAQ",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "blog": "Blog"
   },
   "brand": {
     "name": "GatoPouch",
@@ -707,5 +708,23 @@
   "Common": {
     "loading": "Caricamento...",
     "europeShipping": "In tutta Europa"
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog GatoPouch — Consigli benessere gatto",
+      "description": "Articoli di esperti sul benessere dei gatti: alimentazione, salute, comportamento, accessori. Consigli pratici per la felicità del tuo felino."
+    },
+    "title": "Blog",
+    "description": "Consigli di esperti per il benessere del tuo gatto",
+    "badge": "Consigli e Guide",
+    "allArticles": "Tutti gli articoli",
+    "latestArticles": "Ultimi articoli",
+    "noArticles": "Nessun articolo ancora. Torna presto!",
+    "articles": "articoli",
+    "category": "Categoria",
+    "relatedArticles": "Articoli simili",
+    "readMore": "Leggi",
+    "backToBlog": "Torna al blog",
+    "min": "min"
   }
 }

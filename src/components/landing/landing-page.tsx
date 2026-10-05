@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -138,6 +138,9 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
     { href: "#faq", label: tNav("faq") },
   ];
 
+  const locale = useLocale();
+  const blogHref = `/${locale === "fr" ? "" : locale}/blog`;
+
   return (
     <>
       {/* Announcement bar */}
@@ -189,6 +192,12 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                   {link.label}
                 </a>
               ))}
+              <a
+                href={blogHref}
+                className="px-4 py-2 rounded-full text-cinnamon-800 hover:bg-peach-300/30 hover:text-cinnamon-900 transition-colors font-medium text-sm"
+              >
+                {tNav("blog")}
+              </a>
               <ContactModal>
                 <button className="px-4 py-2 rounded-full text-cinnamon-800 hover:bg-peach-300/30 hover:text-cinnamon-900 transition-colors font-medium text-sm">
                   {tNav("contact")}
@@ -236,6 +245,13 @@ function Header({ onOrderClick }: { onOrderClick: () => void }) {
                     {link.label}
                   </a>
                 ))}
+                <a
+                  href={blogHref}
+                  onClick={() => setMobileOpen(false)}
+                  className="px-4 py-3 rounded-xl text-cinnamon-800 hover:bg-peach-300/30 font-medium"
+                >
+                  {tNav("blog")}
+                </a>
                 <ContactModal>
                   <button
                     onClick={() => setMobileOpen(false)}

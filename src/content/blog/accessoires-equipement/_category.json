@@ -1,0 +1,18 @@
+{
+  "slug": "accessoires-equipement",
+  "name": {
+    "fr": "Accessoires & Équipement",
+    "en": "Accessories & Gear",
+    "es": "Accesorios & Equipamiento",
+    "de": "Zubehör & Ausrüstung",
+    "it": "Accessori & Attrezzatura"
+  },
+  "description": {
+    "fr": "Choisir les meilleurs accessoires pour son chat : arbres à chat, litières, gamelles, jouets, transports et équipement.",
+    "en": "Choosing the best accessories for your cat: cat trees, litter boxes, bowls, toys, carriers and equipment.",
+    "es": "Elegir los mejores accesorios para tu gato: árboles, areneros, cuencos, juguetes, transportes y equipamiento.",
+    "de": "Die besten Accessoires für Ihre Katze: Kratzbäume, Katzenstreu, Näpfe, Spielzeug, Transportboxen und Ausrüstung.",
+    "it": "Scegliere i migliori accessori per il tuo gatto: alberi, lettiera, ciotole, giochi, trasportini e attrezzatura."
+  },
+  "icon": "Gift"
+}

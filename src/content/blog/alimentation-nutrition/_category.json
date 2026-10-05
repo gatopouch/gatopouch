@@ -1,0 +1,18 @@
+{
+  "slug": "alimentation-nutrition",
+  "name": {
+    "fr": "Alimentation & Nutrition",
+    "en": "Food & Nutrition",
+    "es": "Alimentación & Nutrición",
+    "de": "Ernährung & Nahrung",
+    "it": "Alimentazione & Nutrizione"
+  },
+  "description": {
+    "fr": "Tout sur l'alimentation du chat : croquettes, pâtée, compléments, besoins nutritionnels par âge et par race.",
+    "en": "Everything about cat food: kibble, wet food, supplements, nutritional needs by age and breed.",
+    "es": "Todo sobre la alimentación del gato: pienso, comida húmeda, suplementos, necesidades nutricionales por edad y raza.",
+    "de": "Alles über Katzenfutter: Trockenfutter, Nassfutter, Ergänzungsmittel, Nährstoffbedarf nach Alter und Rasse.",
+    "it": "Tutto sull'alimentazione del gatto: crocchette, umido, integratori, esigenze nutrizionali per età e razza."
+  },
+  "icon": "Heart"
+}

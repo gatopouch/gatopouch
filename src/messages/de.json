@@ -25,7 +25,8 @@
     "benefices": "Vorteile",
     "avis": "Bewertungen",
     "faq": "FAQ",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "blog": "Blog"
   },
   "brand": {
     "name": "GatoPouch",
@@ -707,5 +708,23 @@
   "Common": {
     "loading": "Wird geladen...",
     "europeShipping": "Versand in ganz Europa"
+  },
+  "blog": {
+    "metadata": {
+      "title": "GatoPouch Blog — Katzen-Wohlbefinden Tipps",
+      "description": "Expertenartikel zum Wohlbefinden von Katzen: Ernährung, Gesundheit, Verhalten, Zubehör. Praktische Tipps für das Glück Ihrer Samtpfote."
+    },
+    "title": "Blog",
+    "description": "Expertentipps für das Wohlbefinden Ihrer Katze",
+    "badge": "Tipps & Leitfäden",
+    "allArticles": "Alle Artikel",
+    "latestArticles": "Neueste Artikel",
+    "noArticles": "Noch keine Artikel. Bald wieder hier!",
+    "articles": "Artikel",
+    "category": "Kategorie",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Lesen",
+    "backToBlog": "Zurück zum Blog",
+    "min": "Min"
   }
 }

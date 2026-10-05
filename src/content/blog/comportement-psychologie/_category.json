@@ -1,0 +1,18 @@
+{
+  "slug": "comportement-psychologie",
+  "name": {
+    "fr": "Comportement & Psychologie",
+    "en": "Behavior & Psychology",
+    "es": "Comportamiento & Psicología",
+    "de": "Verhalten & Psychologie",
+    "it": "Comportamento & Psicologia"
+  },
+  "description": {
+    "fr": "Comprendre le comportement de votre chat : langage corporel, miaulements, griffades, marquage, stress et éducation.",
+    "en": "Understanding your cat's behavior: body language, meowing, scratching, marking, stress and training.",
+    "es": "Entender el comportamiento de tu gato: lenguaje corporal, maullidos, arañazos, marcado, estrés y educación.",
+    "de": "Das Verhalten Ihrer Katze verstehen: Körpersprache, Miauen, Kratzen, Markieren, Stress und Erziehung.",
+    "it": "Capire il comportamento del tuo gatto: linguaggio del corpo, miagolii, graffi, marcatura, stress ed educazione."
+  },
+  "icon": "PawPrint"
+}

@@ -25,7 +25,8 @@
     "benefices": "Benefits",
     "avis": "Reviews",
     "faq": "FAQ",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog"
   },
   "brand": {
     "name": "GatoPouch",
@@ -707,5 +708,23 @@
   "Common": {
     "loading": "Loading...",
     "europeShipping": "All over Europe"
+  },
+  "blog": {
+    "metadata": {
+      "title": "GatoPouch Blog — Cat Wellness Tips",
+      "description": "Expert articles on cat well-being: food, health, behavior, accessories. Practical tips for your feline's happiness."
+    },
+    "title": "Blog",
+    "description": "Expert tips for your cat's well-being",
+    "badge": "Tips & Guides",
+    "allArticles": "All articles",
+    "latestArticles": "Latest articles",
+    "noArticles": "No articles yet. Check back soon!",
+    "articles": "articles",
+    "category": "Category",
+    "relatedArticles": "Related articles",
+    "readMore": "Read",
+    "backToBlog": "Back to blog",
+    "min": "min"
   }
 }

@@ -25,7 +25,8 @@
     "benefices": "Bénéfices",
     "avis": "Avis",
     "faq": "FAQ",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog"
   },
   "brand": {
     "name": "GatoPouch",
@@ -707,5 +708,23 @@
   "Common": {
     "loading": "Chargement...",
     "europeShipping": "Partout en Europe"
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog GatoPouch — Conseils bien-être chat",
+      "description": "Articles d'experts sur le bien-être des chats : alimentation, santé, comportement, accessoires. Conseils pratiques pour le bonheur de votre félin."
+    },
+    "title": "Le Blog",
+    "description": "Conseils d'experts pour le bien-être de votre chat",
+    "badge": "Conseils & Guides",
+    "allArticles": "Tous les articles",
+    "latestArticles": "Derniers articles",
+    "noArticles": "Aucun article pour le moment. Revenez bientôt !",
+    "articles": "articles",
+    "category": "Catégorie",
+    "relatedArticles": "Articles similaires",
+    "readMore": "Lire",
+    "backToBlog": "Retour au blog",
+    "min": "min"
   }
 }
