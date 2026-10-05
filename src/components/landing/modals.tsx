@@ -88,7 +88,7 @@ export function ContactModal({
           </button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto bg-cream-50 border-peach-400/30">
+      <DialogContent className="max-w-5xl w-[90vw] max-h-[90vh] overflow-y-auto bg-cream-50 border-peach-400/30">
         <DialogHeader>
           <DialogTitle className="font-display text-2xl md:text-3xl text-cinnamon-900">
             Contactez GatoPouch
@@ -99,9 +99,9 @@ export function ContactModal({
           </DialogDescription>
         </DialogHeader>
 
-        <div className="grid md:grid-cols-5 gap-6 mt-4">
-          {/* Contact form (3/5) */}
-          <form onSubmit={handleSubmit} className="md:col-span-3 space-y-3">
+        <div className="grid md:grid-cols-2 gap-6 mt-4">
+          {/* Contact form (1/2) */}
+          <form onSubmit={handleSubmit} className="space-y-3">
             <div className="grid sm:grid-cols-2 gap-3">
               <div className="space-y-1.5">
                 <Label htmlFor="name" className="text-cinnamon-800 text-sm">
@@ -190,8 +190,8 @@ export function ContactModal({
             </Button>
           </form>
 
-          {/* Contact info (2/5) */}
-          <div className="md:col-span-2 space-y-4 bg-cream-100 rounded-2xl p-5">
+          {/* Contact info (1/2) */}
+          <div className="space-y-4 bg-cream-100 rounded-2xl p-5">
             <div>
               <h4 className="font-display font-bold text-cinnamon-900 text-sm uppercase tracking-wider mb-3">
                 Coordonnées

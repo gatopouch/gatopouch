@@ -1284,13 +1284,19 @@ function Footer() {
               {t("columns.follow.intro")}
             </p>
             <div className="flex gap-3 flex-wrap mb-6">
-              {["Instagram", "TikTok", "Pinterest"].map((social) => (
+              {[
+                { name: "Facebook", url: "https://www.facebook.com/gatopouch/" },
+                { name: "Instagram", url: "https://www.instagram.com/gatopouch/" },
+                { name: "Pinterest", url: "https://fr.pinterest.com/gatopouch/" },
+              ].map((social) => (
                 <a
-                  key={social}
-                  href="#"
+                  key={social.name}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-4 py-2 rounded-full bg-cream-50/10 hover:bg-cream-50/20 text-xs font-medium transition-colors"
                 >
-                  {social}
+                  {social.name}
                 </a>
               ))}
             </div>
