@@ -28,7 +28,11 @@ export default function AdminLoginPage() {
       }
 
       toast({ title: "✅ Connecté", description: "Bienvenue dans le dashboard" });
-      router.push("/admin/dashboard");
+      // Petit délai pour que le cookie soit traité par le navigateur
+      setTimeout(() => {
+        router.replace("/admin/dashboard");
+        router.refresh();
+      }, 500);
     } catch (err) {
       toast({
         title: "❌ Erreur",
