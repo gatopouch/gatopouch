@@ -1,6 +1,7 @@
 ---
 title: "The Best Cat Foods in 2025: Our Complete Guide"
 description: "Discover our complete guide to the best cat foods in 2025, with expert advice on kibble, wet food, and grain-free options."
+image: "/images/blog/les-meilleurs-aliments-pour-chat-en-2025.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["cat food","kibble","quality","guide","2025"]

@@ -1,6 +1,7 @@
 ---
 title: "Alimentación del gato esterilizado: evitar el aumento de peso"
 description: "Cómo alimentar a un gato esterilizado sin que engorde: necesidades calóricas reducidas, porciones adaptadas y consejos prácticos."
+image: "/images/blog/alimentation-du-chat-sterilise.png"
 date: "2025-09-16"
 author: "GatoPouch"
 tags: ["esterilizacion","peso","alimentacion","obesidad","gato"]

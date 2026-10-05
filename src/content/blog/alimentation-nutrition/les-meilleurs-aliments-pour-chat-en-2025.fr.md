@@ -1,6 +1,7 @@
 ---
 title: "Les meilleurs aliments pour chat en 2025 : notre guide complet"
 description: "Découvrez notre guide complet sur les meilleurs aliments pour chat en 2025, avec des conseils d'experts sur les croquettes, pâtées et options sans céréales."
+image: "/images/blog/les-meilleurs-aliments-pour-chat-en-2025.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["alimentation","croquettes","qualite","guide","2025"]

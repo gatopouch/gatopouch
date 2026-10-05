@@ -1,6 +1,7 @@
 ---
 title: "Die GPS-Halsband für Katzen: Nützlich oder nur ein Gadget?"
 description: "Ist das GPS-Halsband für Katzen wirklich nützlich? Vorteile, Nachteile, Akkulaufzeit, Genauigkeit. Unser umfassender Test, um Ihnen bei der Entscheidung zu helfen."
+image: "/images/blog/collier-gps-pour-chat-utile-ou-gadget.png"
 date: "2025-09-14"
 author: "GatoPouch"
 tags: ["gps","halsband","sicherheit","technologie","katze"]

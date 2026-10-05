@@ -1,6 +1,7 @@
 ---
 title: "How Many Times a Day Should You Feed Your Cat? The Complete Guide"
 description: "Discover how many times to feed your cat based on its age, breed, and weight. Portions, frequencies, and essential nutritional tips for your feline's health."
+image: "/images/blog/combien-de-fois-nourrir-son-chat-par-jour.png"
 date: "2025-10-04"
 author: "GatoPouch"
 tags: ["feeding", "nutrition", "cat", "dry-food", "frequency"]

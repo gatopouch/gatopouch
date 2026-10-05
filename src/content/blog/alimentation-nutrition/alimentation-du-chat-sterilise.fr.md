@@ -1,6 +1,7 @@
 ---
 title: "Alimentation du chat stérilisé : éviter la prise de poids"
 description: "Comment nourrir un chat stérilisé sans qu'il grossisse : besoins caloriques réduits, portions adaptées et conseils pratiques."
+image: "/images/blog/alimentation-du-chat-sterilise.png"
 date: "2025-09-16"
 author: "GatoPouch"
 tags: ["sterilisation","poids","alimentation","obesite","chat"]

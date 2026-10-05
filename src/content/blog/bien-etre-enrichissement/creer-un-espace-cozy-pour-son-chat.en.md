@@ -1,6 +1,7 @@
 ---
 title: "Creating a cozy space for your cat: interior design"
 description: "How to arrange a cozy space for your cat: hiding spots, height, rest areas, window access. A guide to feline interior design."
+image: "/images/blog/creer-un-espace-cozy-pour-son-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["amenagement","cozy","interieur","bien-etre","chat"]

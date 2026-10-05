@@ -1,6 +1,7 @@
 ---
 title: "Transición alimentaria: cambiar de croquettes sin riesgo"
 description: "¿Cómo cambiar las croquettes de tu gato sin trastornos digestivos? La método de transición progresiva en 7-10 días explicada."
+image: "/images/blog/transition-alimentaire-changer-croquettes.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["transición","croquettes","digestión","alimentación","gato"]

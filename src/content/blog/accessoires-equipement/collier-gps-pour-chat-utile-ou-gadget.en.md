@@ -1,6 +1,7 @@
 ---
 title: "The Cat GPS Collar: Useful or Gadget?"
 description: "Is the cat GPS collar really useful? Advantages, disadvantages, battery life, accuracy. Our complete test to help you decide."
+image: "/images/blog/collier-gps-pour-chat-utile-ou-gadget.png"
 date: "2025-09-14"
 author: "GatoPouch"
 tags: ["gps","collar","security","technology","cat"]

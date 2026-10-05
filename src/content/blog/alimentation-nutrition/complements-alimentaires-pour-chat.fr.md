@@ -1,6 +1,7 @@
 ---
 title: "Compléments alimentaires pour chat : sont-ils nécessaires ?"
 description: "Les compléments alimentaires pour chat sont-ils vraiment utiles ? Oméga-3, probiotiques, vitamines : guide d'expert pour faire le bon choix."
+image: "/images/blog/complements-alimentaires-pour-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["complements","vitamines","nutrition","sante","chat"]

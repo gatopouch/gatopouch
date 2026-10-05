@@ -1,6 +1,7 @@
 ---
 title: "Wie oft sollte man seinen Katze pro Tag füttern? Der umfassende Leitfaden"
 description: "Erfahren Sie, wie oft Sie Ihre Katze je nach Alter, Rasse und Gewicht füttern sollten. Portionen, Häufigkeit und essentielle Ernährungstipps für die Gesundheit Ihrer Katze."
+image: "/images/blog/combien-de-fois-nourrir-son-chat-par-jour.png"
 date: "2025-10-04"
 author: "GatoPouch"
 tags: ["ernaehrung", "ernährung", "katze", "trockenfutter", "frequenz"]

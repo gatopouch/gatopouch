@@ -1,6 +1,7 @@
 ---
 title: "Le collier GPS pour chat : utile ou gadget ?"
 description: "Le collier GPS pour chat est-il vraiment utile ? Avantages, inconvénients, autonomie, précision. Notre test complet pour vous aider à décider."
+image: "/images/blog/collier-gps-pour-chat-utile-ou-gadget.png"
 date: "2025-09-14"
 author: "GatoPouch"
 tags: ["gps","collier","securite","technologie","chat"]

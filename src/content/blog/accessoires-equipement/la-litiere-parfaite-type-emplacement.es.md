@@ -1,6 +1,7 @@
 ---
 title: "La arena perfecta: tipo, ubicación y mantenimiento"
 description: "Descubre cómo elegir la mejor arena para tu gato, optimizar su ubicación y mantener una higiene impecable."
+image: "/images/blog/la-litiere-parfaite-type-emplacement.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["arena","higiene","accesorio","gato","mantenimiento"]

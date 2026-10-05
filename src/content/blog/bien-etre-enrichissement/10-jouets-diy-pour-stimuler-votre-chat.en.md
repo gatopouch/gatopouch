@@ -1,6 +1,7 @@
 ---
 title: "10 DIY Toys to Stimulate Your Cat (Homemade)"
 description: "Discover 10 easy-to-make DIY toy ideas to stimulate your cat and enrich its daily life."
+image: "/images/blog/10-jouets-diy-pour-stimuler-votre-chat.png"
 date: "2025-09-22"
 author: "GatoPouch"
 tags: ["toys","diy","enrichment","stimulation","cat"]

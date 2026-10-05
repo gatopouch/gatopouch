@@ -1,6 +1,7 @@
 ---
 title: "Integratori alimentari per gatti: sono necessari?"
 description: "Gli integratori alimentari per gatti sono davvero utili? Omega-3, probiotici, vitamine: guida esperta per fare la scelta giusta."
+image: "/images/blog/complements-alimentaires-pour-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["integratori","vitamine","nutrizione","salute","gatto"]

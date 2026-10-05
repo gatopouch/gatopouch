@@ -1,6 +1,7 @@
 ---
 title: "Il distributore automatico di crocchette: è utile?"
 description: "Scopri se un distributore automatico di crocchette è adatto al tuo gatto e come usarlo correttamente per il suo benessere."
+image: "/images/blog/distributeur-automatique-de-croquettes-utile.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["distributore","automatico","crocchette","attrezzatura","gatto"]

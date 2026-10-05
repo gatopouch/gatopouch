@@ -1,6 +1,7 @@
 ---
 title: "Linguaggio del corpo del gatto: decodifica coda e orecchie"
 description: "Scopri come interpretare il linguaggio del corpo del tuo gatto attraverso la coda e le orecchie per comprendere meglio le sue emozioni e i suoi bisogni."
+image: "/images/blog/langage-corporel-du-chat-decoder.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["linguaggio","corpo","comportamento","comunicazione","gatto"]

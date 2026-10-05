@@ -1,6 +1,7 @@
 ---
 title: "¿Cuántas veces al día alimentar a tu gato? La guía completa"
 description: "Descubre cuántas veces al día debes alimentar a tu gato según su edad, raza y peso. Porciones, frecuencias y consejos nutricionales esenciales para la salud de tu felino."
+image: "/images/blog/combien-de-fois-nourrir-son-chat-par-jour.png"
 date: "2025-10-04"
 author: "GatoPouch"
 tags: ["alimentacion", "nutricion", "gato", "croquetas", "frecuencia"]

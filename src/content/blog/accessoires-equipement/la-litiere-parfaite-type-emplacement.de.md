@@ -1,6 +1,7 @@
 ---
 title: "Die perfekte Katzenstreu: Art, Standort und Pflege"
 description: "Entdecken Sie, wie Sie die beste Katzenstreu für Ihre Katze wählen, den Standort optimieren und ein einwandfreies Hygieneniveau aufrechterhalten."
+image: "/images/blog/la-litiere-parfaite-type-emplacement.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["katzenstreu","hygiene","zubehoer","katze","pflege"]

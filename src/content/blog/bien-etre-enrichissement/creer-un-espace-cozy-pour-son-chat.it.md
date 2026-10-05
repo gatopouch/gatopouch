@@ -1,6 +1,7 @@
 ---
 title: "Creare uno spazio accogliente per il gatto: arredamento"
 description: "Come arredare uno spazio accogliente per il tuo gatto: nascondigli, altezze, aree di riposo, accesso alla finestra. Guida all'arredamento felino."
+image: "/images/blog/creer-un-espace-cozy-pour-son-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["arredamento","accogliente","interno","benessere","gatto"]

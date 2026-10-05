@@ -1,6 +1,7 @@
 ---
 title: "El port afectivo: por qué llevar a tu gato pegado a ti"
 description: "El port afectivo fortalece el vínculo con tu gato y reduce su estrés. Descubre los beneficios del contacto físico y cómo llevar a tu gato de forma segura."
+image: "/images/blog/le-portage-affectif-pourquoi-porter-son-chat.png"
 date: "2025-10-01"
 author: "GatoPouch"
 tags: ["bienestar", "porteo", "vínculo", "estrés", "gato"]

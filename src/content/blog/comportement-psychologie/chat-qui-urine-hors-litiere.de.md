@@ -1,6 +1,7 @@
 ---
 title: "Katze uriniert außerhalb der Katzentoilette: Ursachen und Lösungen"
 description: "Ihre Katze uriniert außerhalb der Katzentoilette? Medizinische Ursachen, Stress, ungeeignete Toilette: Identifizieren Sie das Problem und finden Sie eine nachhaltige Lösung."
+image: "/images/blog/chat-qui-urine-hors-litiere.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["toilette","urin","verhalten","stress","katze"]

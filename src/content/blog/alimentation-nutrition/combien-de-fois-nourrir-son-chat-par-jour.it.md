@@ -1,6 +1,7 @@
 ---
 title: "Quante volte al giorno dare da mangiare al gatto? La guida completa"
 description: "Scoprite quante volte al giorno dare da mangiare al vostro gatto in base alla sua età, razza e peso. Porzioni, frequenze e consigli nutrizionali essenziali per la salute del vostro felino."
+image: "/images/blog/combien-de-fois-nourrir-son-chat-par-jour.png"
 date: "2025-10-04"
 author: "GatoPouch"
 tags: ["alimentazione", "nutrizione", "gatto", "crocchette", "frequenza"]

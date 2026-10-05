@@ -1,6 +1,7 @@
 ---
 title: "Lenguaje corporal del gato: descodificar la cola y las orejas"
 description: "Descubre cómo interpretar el lenguaje corporal de tu gato a través de su cola y orejas para comprender mejor sus emociones y necesidades."
+image: "/images/blog/langage-corporel-du-chat-decoder.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["lenguaje","cuerpo","comportamiento","comunicación","gato"]

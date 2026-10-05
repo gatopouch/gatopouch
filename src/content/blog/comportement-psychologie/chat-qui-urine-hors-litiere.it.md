@@ -2,6 +2,7 @@
 ---
 title: "Gatto che urina fuori dalla lettiera: cause e soluzioni"
 description: "Il tuo gatto urina fuori dalla lettiera? Cause mediche, stress, lettiera inadeguata: identifica il problema e trova una soluzione duratura."
+image: "/images/blog/chat-qui-urine-hors-litiere.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["lettiera","urina","comportamento","stress","gatto"]

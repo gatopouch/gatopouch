@@ -1,6 +1,7 @@
 ---
 title: "Ernährung des kastrierten Katzen: Gewichtszunahme vermeiden"
 description: "Wie man eine kastrierte Katze füttert, ohne dass sie zunimmt: reduzierter Kalorienbedarf, angepasste Portionen und praktische Tipps."
+image: "/images/blog/alimentation-du-chat-sterilise.png"
 date: "2025-09-16"
 author: "GatoPouch"
 tags: ["kastration","gewicht","ernaehrung","adipositas","katze"]

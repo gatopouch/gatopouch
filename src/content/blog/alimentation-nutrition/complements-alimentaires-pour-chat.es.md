@@ -1,6 +1,7 @@
 ---
 title: "Suplementos alimenticios para gatos: ¿son necesarios?"
 description: "¿Son realmente útiles los suplementos alimenticios para gatos? Omega-3, probióticos, vitaminas: guía de experto para hacer la elección correcta."
+image: "/images/blog/complements-alimentaires-pour-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["complementos","vitaminas","nutricion","salud","gato"]

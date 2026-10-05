@@ -1,6 +1,7 @@
 ---
 title: "Gato y niño: crear una convivencia armoniosa"
 description: "Cómo hacer que un gato y un niño convivan de forma segura: educación mutua, reglas, supervisión. Guía para padres de niños pequeños con un gato."
+image: "/images/blog/chat-et-enfant-cohabitation-harmonieuse.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["niño","convivencia","seguridad","educacion","gato"]

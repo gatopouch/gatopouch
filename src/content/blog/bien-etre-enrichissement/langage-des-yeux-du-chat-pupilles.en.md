@@ -1,6 +1,7 @@
 ---
 title: "The Language of a Cat's Eyes: What Do Its Pupils Say?"
 description: "A cat's eyes reveal its emotions: dilated pupils, constricted pupils, slow blinks. Learn to decode your feline's gaze."
+image: "/images/blog/langage-des-yeux-du-chat-pupilles.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["eyes","pupils","communication","emotion","cat"]

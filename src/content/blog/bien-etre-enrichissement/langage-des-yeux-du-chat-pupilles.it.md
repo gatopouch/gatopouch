@@ -1,6 +1,7 @@
 ---
 title: "Il linguaggio degli occhi del gatto: cosa dicono le sue pupille?"
 description: "Gli occhi del gatto rivelano le sue emozioni: pupille dilatate, restringenti, battito d'occhio lento. Impara a decodificare lo sguardo del tuo felino."
+image: "/images/blog/langage-des-yeux-du-chat-pupilles.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["occhi","pupille","comunicazione","emozione","gatto"]

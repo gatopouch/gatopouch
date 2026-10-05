@@ -1,6 +1,7 @@
 ---
 title: "Cómo elegir un árbol para gatos adecuado para tu felino"
 description: "Guía completa para elegir el mejor árbol para gatos: altura, materiales, plataformas, rascadores. Descubre cómo satisfacer la necesidad natural de trepar de tu gato."
+image: "/images/blog/comment-choisir-un-arbre-a-chat.png"
 date: "2025-09-30"
 author: "GatoPouch"
 tags: ["accesorios", "arbol-para-gatos", "rascador", "equipo", "gato"]

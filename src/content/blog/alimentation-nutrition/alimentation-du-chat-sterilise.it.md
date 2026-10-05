@@ -1,6 +1,7 @@
 ---
 title: "Alimentazione del gatto sterilizzato: evitare l'aumento di peso"
 description: "Come nutrire un gatto sterilizzato senza che ingrassi: bisogni calorici ridotti, porzioni adeguate e consigli pratici."
+image: "/images/blog/alimentation-du-chat-sterilise.png"
 date: "2025-09-16"
 author: "GatoPouch"
 tags: ["sterilizzazione","peso","alimentazione","obesità","gatto"]

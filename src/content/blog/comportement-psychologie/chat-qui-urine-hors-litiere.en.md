@@ -1,6 +1,7 @@
 ---
 title: "Cat Peeing Outside the Litter Box: Causes and Solutions"
 description: "Is your cat peeing outside the litter box? Medical issues, stress, unsuitable litter: identify the problem and find a lasting solution."
+image: "/images/blog/chat-qui-urine-hors-litiere.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["litter","urine","behavior","stress","cat"]

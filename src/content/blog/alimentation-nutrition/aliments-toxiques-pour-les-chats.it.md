@@ -1,6 +1,7 @@
 ---
 title: "Alimenti tossici per i gatti: lista completa"
 description: "Scoprite tutti gli alimenti pericolosi per i gatti: cioccolato, cipolla, aglio, uva... La lista completa da conoscere assolutamente."
+image: "/images/blog/aliments-toxiques-pour-les-chats.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["tossico","alimentazione","pericolo","sicurezza","gatto"]

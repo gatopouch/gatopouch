@@ -1,6 +1,7 @@
 ---
 title: "Come scegliere l'albero per gatto adatto al tuo felino"
 description: "Guida completa per scegliere il miglior albero per gatto: altezza, materiali, piattaforme, tiragraffi. Scopri come soddisfare il bisogno naturale di arrampicarsi del tuo gatto."
+image: "/images/blog/comment-choisir-un-arbre-a-chat.png"
 date: "2025-09-30"
 author: "GatoPouch"
 tags: ["accessori", "albero-per-gatto", "tiragraffi", "attrezzatura", "gatto"]

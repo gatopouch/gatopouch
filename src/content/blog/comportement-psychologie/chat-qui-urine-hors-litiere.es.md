@@ -1,6 +1,7 @@
 ---
 title: "Gato que orina fuera de la bandeja: causas y soluciones"
 description: "¿Tu gato orina fuera de su bandeja? Causas médicas, estrés, bandeja inadecuada: identifica el problema y encuentra la solución duradera."
+image: "/images/blog/chat-qui-urine-hors-litiere.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["bandeja","orina","comportamiento","estrés","gato"]

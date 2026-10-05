@@ -1,6 +1,7 @@
 ---
 title: "El ronroneo del gato: por qué y sus beneficios"
 description: "Descubre las razones del ronroneo del gato y sus beneficios para la salud y el bienestar de tu felino."
+image: "/images/blog/ronronnement-du-chat-pourquoi-et-bienfaits.png"
 date: "2025-09-20"
 author: "GatoPouch"
 tags: ["ronroneo","beneficios","salud","estres","gato"]

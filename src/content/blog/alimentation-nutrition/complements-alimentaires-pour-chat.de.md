@@ -1,6 +1,7 @@
 ---
 title: "Nahrungsergänzungsmittel für Katzen: Sind sie notwendig?"
 description: "Sind Nahrungsergänzungsmittel für Katzen wirklich nützlich? Omega-3, Probiotika, Vitamine: Expertenrat für die richtige Wahl."
+image: "/images/blog/complements-alimentaires-pour-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["ergaenzungen","vitamine","ernaehrung","gesundheit","katze"]

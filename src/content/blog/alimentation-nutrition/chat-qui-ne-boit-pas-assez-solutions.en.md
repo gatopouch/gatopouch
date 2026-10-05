@@ -1,6 +1,7 @@
 ---
 title: "Cat Not Drinking Enough: Effective Solutions and Tips"
 description: "Discover why your cat isn't drinking enough and find effective solutions to encourage their hydration and preserve their health."
+image: "/images/blog/chat-qui-ne-boit-pas-assez-solutions.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["hydration","water","health","fountain","cat"]

@@ -1,6 +1,7 @@
 ---
 title: "Futterumstellung: sicher das Futter wechseln"
 description: "Wie wechselt man das Katzenfutter ohne Verdauungsprobleme? Die schrittweise Umstellung über 7-10 Tage erklärt."
+image: "/images/blog/transition-alimentaire-changer-croquettes.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["umstellung","futter","verdauung","ernährung","katze"]

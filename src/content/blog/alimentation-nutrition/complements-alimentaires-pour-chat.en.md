@@ -1,6 +1,7 @@
 ---
 title: "Cat Supplements: Are They Necessary?"
 description: "Are cat supplements really useful? Omega-3s, probiotics, vitamins: an expert guide to making the right choice."
+image: "/images/blog/complements-alimentaires-pour-chat.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["supplements","vitamins","nutrition","health","cat"]

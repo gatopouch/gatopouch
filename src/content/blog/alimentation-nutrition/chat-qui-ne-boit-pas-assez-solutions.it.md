@@ -1,6 +1,7 @@
 ---
 title: "Gatto che non beve abbastanza: soluzioni e trucchi efficaci"
 description: "Scopri perché il tuo gatto non beve abbastanza e trova soluzioni efficaci per incoraggiare la sua idratazione e preservare la sua salute."
+image: "/images/blog/chat-qui-ne-boit-pas-assez-solutions.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["idratazione","acqua","salute","fontana","gatto"]

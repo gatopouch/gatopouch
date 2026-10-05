@@ -1,6 +1,7 @@
 ---
 title: "Cat Body Language: Decoding Tail and Ears"
 description: "Discover how to interpret your cat's body language through its tail and ears to better understand its emotions and needs."
+image: "/images/blog/langage-corporel-du-chat-decoder.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["language","body","behavior","communication","cat"]

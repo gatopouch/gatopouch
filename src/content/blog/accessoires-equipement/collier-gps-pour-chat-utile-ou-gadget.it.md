@@ -1,6 +1,7 @@
 ---
 title: "Il collare GPS per gatti: utile o gadget?"
 description: "Il collare GPS per gatti è davvero utile? Vantaggi, svantaggi, autonomia, precisione. La nostra recensione completa per aiutarti a decidere."
+image: "/images/blog/collier-gps-pour-chat-utile-ou-gadget.png"
 date: "2025-09-14"
 author: "GatoPouch"
 tags: ["gps","collare","sicurezza","tecnologia","gatto"]

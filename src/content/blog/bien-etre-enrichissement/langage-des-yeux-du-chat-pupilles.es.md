@@ -1,6 +1,7 @@
 ---
 title: "El lenguaje de los ojos del gato: ¿qué dicen sus pupilas?"
 description: "Los ojos del gato revelan sus emociones: pupilas dilatadas, contraídas, parpadeo lento. Aprende a descifrar la mirada de tu felino."
+image: "/images/blog/langage-des-yeux-du-chat-pupilles.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["ojos","pupilas","comunicacion","emocion","gato"]

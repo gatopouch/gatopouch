@@ -1,6 +1,7 @@
 ---
 title: "El dispensador automático de croquetas: ¿es útil?"
 description: "Descubre si un dispensador automático de croquetas es adecuado para tu gato y cómo usarlo correctamente para su bienestar."
+image: "/images/blog/distributeur-automatique-de-croquettes-utile.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["dispensador","automático","croquetas","equipo","gato"]

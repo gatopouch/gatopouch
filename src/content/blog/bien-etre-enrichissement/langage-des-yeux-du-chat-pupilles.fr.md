@@ -1,6 +1,7 @@
 ---
 title: "Le langage des yeux du chat : que disent ses pupilles ?"
 description: "Les yeux du chat révèlent ses émotions : pupilles dilatées, rétrécies, clignement lent. Apprenez à décoder le regard de votre félin."
+image: "/images/blog/langage-des-yeux-du-chat-pupilles.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["yeux","pupilles","communication","emotion","chat"]

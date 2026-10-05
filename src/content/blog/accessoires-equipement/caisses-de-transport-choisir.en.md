@@ -1,6 +1,7 @@
 ---
 title: "Pet Carriers: Choosing the Right One for Your Cat"
 description: "How to choose the ideal pet carrier for your cat: size, material, safety, ventilation. Comparison of the best models on the market."
+image: "/images/blog/caisses-de-transport-choisir.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["transport","carrier","travel","accessory","cat"]

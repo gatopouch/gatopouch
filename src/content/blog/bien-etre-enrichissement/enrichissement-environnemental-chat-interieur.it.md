@@ -1,6 +1,7 @@
 ---
 title: "L'enrichimento ambientale per gatti domestici"
 description: "Scoprite come migliorare il benessere del vostro gatto domestico con tecniche di arricchimento ambientale adatte alle sue esigenze naturali."
+image: "/images/blog/enrichissement-environnemental-chat-interieur.png"
 date: "2025-09-29"
 author: "GatoPouch"
 tags: ["arricchimento","interno","ambiente","benessere","gatto"]

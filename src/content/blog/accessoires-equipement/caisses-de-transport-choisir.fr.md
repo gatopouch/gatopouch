@@ -1,6 +1,7 @@
 ---
 title: "Caisses de transport : choisir la bonne pour son chat"
 description: "Comment choisir la caisse de transport idéale pour votre chat : taille, matériau, sécurité, aération. Comparatif des meilleurs modèles du marché."
+image: "/images/blog/caisses-de-transport-choisir.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["transport","caisse","voyage","accessoire","chat"]

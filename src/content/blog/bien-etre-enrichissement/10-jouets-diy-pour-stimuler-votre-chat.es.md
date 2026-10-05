@@ -1,6 +1,7 @@
 ---
 title: "10 juguetes DIY para estimular a tu gato (hechos en casa)"
 description: "Descubre 10 ideas de juguetes fáciles de hacer para estimular a tu gato y enriquecer su día a día."
+image: "/images/blog/10-jouets-diy-pour-stimuler-votre-chat.png"
 date: "2025-09-22"
 author: "GatoPouch"
 tags: ["juguetes","diy","enriquecimiento","estimulación","gato"]

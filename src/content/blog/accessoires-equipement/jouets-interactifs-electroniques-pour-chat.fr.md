@@ -1,6 +1,7 @@
 ---
 title: "Jouets interactifs électroniques pour chat : top 5"
 description: "Top 5 des jouets interactifs électroniques pour chat : distributeurs, lasers, souris robotisées. Sélection testée et recommandée par nos experts."
+image: "/images/blog/jouets-interactifs-electroniques-pour-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["jouets","electronique","interactif","top-5","chat"]

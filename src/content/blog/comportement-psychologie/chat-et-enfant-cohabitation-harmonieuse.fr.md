@@ -2,6 +2,7 @@
 ---
 title: "Chat et enfant : créer une cohabitation harmonieuse"
 description: "Comment faire cohabiter chat et enfant en sécurité : éducation mutuelle, règles, supervision. Guide pour parents de jeunes enfants avec un chat."
+image: "/images/blog/chat-et-enfant-cohabitation-harmonieuse.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["enfant","cohabitation","securite","education","chat"]

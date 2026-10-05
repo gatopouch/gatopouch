@@ -1,6 +1,7 @@
 ---
 title: "Chat qui ne boit pas assez : solutions et astuces efficaces"
 description: "Découvrez pourquoi votre chat ne boit pas assez et trouvez des solutions efficaces pour encourager son hydratation et préserver sa santé."
+image: "/images/blog/chat-qui-ne-boit-pas-assez-solutions.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["hydratation","eau","sante","fontaine","chat"]

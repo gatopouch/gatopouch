@@ -1,6 +1,7 @@
 ---
 title: "Gamelle pour chat : matériau, hauteur et emplacement"
 description: "Choisir la bonne gamelle pour son chat : céramique vs plastique vs inox, hauteur idéale, emplacement. Guide complet pour une alimentation saine."
+image: "/images/blog/gamelle-pour-chat-materiau-hauteur.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["gamelle","materiau","hauteur","accessoire","chat"]

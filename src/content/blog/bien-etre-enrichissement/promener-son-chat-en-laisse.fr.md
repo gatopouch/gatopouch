@@ -1,6 +1,7 @@
 ---
 title: "Promener son chat en laisse : est-ce possible et recommandé ?"
 description: "Promener son chat en laisse : oui c'est possible ! Découvrez comment habituer votre chat au harnais, choisir le bon équipement et les précautions."
+image: "/images/blog/promener-son-chat-en-laisse.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["promenade","laisse","harnais","exterieur","chat"]

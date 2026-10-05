@@ -1,6 +1,7 @@
 ---
 title: "La musicoterapia per gatti: calmare il tuo felino"
 description: "La musica può calmare il tuo gatto? Scoprite le frequenze calmanti, gli stili musicali testati scientificamente e le nostre playlist consigliate."
+image: "/images/blog/musicothérapie-pour-chat-apaiser.png"
 date: "2025-09-11"
 author: "GatoPouch"
 tags: ["musica","calma","stress","benessere","gatto"]

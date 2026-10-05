@@ -2,6 +2,7 @@
 ---
 title: "Chat qui urine hors litière : causes et solutions"
 description: "Votre chat urine hors de sa litière ? Causes médicales, stress, litière inadaptée : identifiez le problème et trouvez la solution durable."
+image: "/images/blog/chat-qui-urine-hors-litiere.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["litiere","urine","comportement","stress","chat"]

@@ -1,6 +1,7 @@
 ---
 title: "Cat Music Therapy: Soothing Your Feline"
 description: "Can music calm your cat? Discover calming frequencies, scientifically tested musical styles, and our recommended playlists."
+image: "/images/blog/musicothérapie-pour-chat-apaiser.png"
 date: "2025-09-11"
 author: "GatoPouch"
 tags: ["music","calming","stress","well-being","cat"]

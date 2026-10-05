@@ -1,6 +1,7 @@
 ---
 title: "The Perfect Litter: Type, Location, and Maintenance"
 description: "Discover how to choose the best litter for your cat, optimize its location, and maintain impeccable hygiene."
+image: "/images/blog/la-litiere-parfaite-type-emplacement.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["litter","hygiene","accessory","cat","maintenance"]

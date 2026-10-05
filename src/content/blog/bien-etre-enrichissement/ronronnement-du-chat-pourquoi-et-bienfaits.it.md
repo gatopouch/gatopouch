@@ -1,6 +1,7 @@
 ---
 title: "Il ronzio del gatto: perché e i suoi benefici"
 description: "Scoprite le ragioni del ronzio del gatto e i suoi benefici per la salute e il benessere del vostro felino."
+image: "/images/blog/ronronnement-du-chat-pourquoi-et-bienfaits.png"
 date: "2025-09-20"
 author: "GatoPouch"
 tags: ["ronzio","benefici","salute","stress","gatto"]

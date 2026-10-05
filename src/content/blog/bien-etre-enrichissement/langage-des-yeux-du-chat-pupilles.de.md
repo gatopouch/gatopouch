@@ -1,6 +1,7 @@
 ---
 title: "Die Sprache der Katzenaugen: Was sagen ihre Pupillen?"
 description: "Die Augen der Katze verraten ihre Emotionen: erweiterte, verengte Pupillen, langsames Blinzeln. Lernen Sie, den Blick Ihrer Katze zu entschlüsseln."
+image: "/images/blog/langage-des-yeux-du-chat-pupilles.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["augen","pupillen","kommunikation","emotion","katze"]

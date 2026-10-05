@@ -1,6 +1,7 @@
 ---
 title: "La litière parfaite : type, emplacement et entretien"
 description: "Découvrez comment choisir la meilleure litière pour votre chat, optimiser son emplacement et maintenir une hygiène irréprochable."
+image: "/images/blog/la-litiere-parfaite-type-emplacement.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["litiere","hygiene","accessoire","chat","entretien"]

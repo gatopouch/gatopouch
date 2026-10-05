@@ -1,6 +1,7 @@
 ---
 title: "Los mejores alimentos para gatos en 2025: nuestra guía completa"
 description: "Descubre nuestra guía completa sobre los mejores alimentos para gatos en 2025, con consejos de expertos sobre croquetas, patés y opciones sin cereales."
+image: "/images/blog/les-meilleurs-aliments-pour-chat-en-2025.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["alimentacion","croquetas","calidad","guia","2025"]

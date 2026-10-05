@@ -1,6 +1,7 @@
 ---
 title: "Transporting Your Cat: Bag, Crate, or GatoPouch?"
 description: "Discover the best options for transporting your cat safely and comfortably. Comparison between bags, crates, and GatoPouch."
+image: "/images/blog/transporter-son-chat-sac-caisse-gatopouch.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["transport","bag","crate","gatopouch","cat"]

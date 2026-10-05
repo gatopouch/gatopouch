@@ -1,6 +1,7 @@
 ---
 title: "Transportar a tu gato: bolso, jaula o GatoPouch ?"
 description: "Descubre las mejores opciones para transportar a tu gato con seguridad y comodidad. Comparación entre bolsos, jaulas y GatoPouch."
+image: "/images/blog/transporter-son-chat-sac-caisse-gatopouch.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["transporte","bolso","jaula","gatopouch","gato"]

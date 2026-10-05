@@ -1,6 +1,7 @@
 ---
 title: "Transizione alimentare: cambiare crocette senza rischi"
 description: "Come cambiare le crocette del tuo gatto senza problemi digestivi? Il metodo di transizione graduale su 7-10 giorni spiegato."
+image: "/images/blog/transition-alimentaire-changer-croquettes.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["transizione","crocette","digestione","alimentazione","gatto"]

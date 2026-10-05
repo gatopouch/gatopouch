@@ -1,6 +1,7 @@
 ---
 title: "Cajas de transporte: elegir la adecuada para tu gato"
 description: "Cómo elegir la caja de transporte ideal para tu gato: tamaño, material, seguridad, ventilación. Comparativa de los mejores modelos del mercado."
+image: "/images/blog/caisses-de-transport-choisir.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["transporte","caja","viaje","accesorio","gato"]

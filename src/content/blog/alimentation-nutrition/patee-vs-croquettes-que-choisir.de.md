@@ -1,6 +1,7 @@
 ---
 title: "Pâtée vs. Croquettes: Was ist die richtige Wahl für Ihre Katze?"
 description: "Entdecken Sie die Unterschiede zwischen Nassfutter und Trockenfutter für Katzen, Vorzüge, Nachteile und Tipps für die beste ernährungsphysiologische Wahl."
+image: "/images/blog/patee-vs-croquettes-que-choisir.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["patee","croquettes","vergleich","ernaehrung","katze"]

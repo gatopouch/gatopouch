@@ -1,6 +1,7 @@
 ---
 title: "Langage corporel du chat : décoder queue et oreilles"
 description: "Découvrez comment interpréter le langage corporel de votre chat à travers sa queue et ses oreilles pour mieux comprendre ses émotions et besoins."
+image: "/images/blog/langage-corporel-du-chat-decoder.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["langage","corps","comportement","communication","chat"]

@@ -1,6 +1,7 @@
 ---
 title: "La musicothérapie pour chat : apaiser son félin"
 description: "La musique peut-elle calmer votre chat ? Découvrez les fréquences apaisantes, les styles musicaux testés scientifiquement et nos playlists recommandées."
+image: "/images/blog/musicothérapie-pour-chat-apaiser.png"
 date: "2025-09-11"
 author: "GatoPouch"
 tags: ["musique","apaisement","stress","bien-etre","chat"]

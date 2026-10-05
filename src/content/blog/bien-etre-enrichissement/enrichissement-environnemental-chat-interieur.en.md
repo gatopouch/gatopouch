@@ -1,6 +1,7 @@
 ---
 title: "Environmental Enrichment for Indoor Cats"
 description: "Discover how to improve your indoor cat's well-being with environmental enrichment techniques tailored to their natural needs."
+image: "/images/blog/enrichissement-environnemental-chat-interieur.png"
 date: "2025-09-29"
 author: "GatoPouch"
 tags: ["enrichment","indoor","environment","well-being","cat"]

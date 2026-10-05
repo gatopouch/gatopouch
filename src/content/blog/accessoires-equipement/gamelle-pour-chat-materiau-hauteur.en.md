@@ -1,6 +1,7 @@
 ---
 title: "Cat Bowl: Material, Height, and Location"
 description: "Choosing the right bowl for your cat: ceramic vs. plastic vs. stainless steel, ideal height, location. A complete guide for healthy nutrition."
+image: "/images/blog/gamelle-pour-chat-materiau-hauteur.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["cat-bowl","material","height","accessory","cat"]

@@ -1,6 +1,7 @@
 ---
 title: "Toxic Foods for Cats: Complete List"
 description: "Discover all the dangerous foods for cats: chocolate, onion, garlic, grapes... The complete list you absolutely need to know."
+image: "/images/blog/aliments-toxiques-pour-les-chats.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["toxic","feeding","danger","safety","cat"]

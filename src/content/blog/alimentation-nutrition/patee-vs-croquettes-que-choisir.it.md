@@ -1,6 +1,7 @@
 ---
 title: "Pâtée vs croquettes: cosa scegliere per il tuo gatto?"
 description: "Scoprite le differenze tra pâtée e crocchette per gatto, vantaggi, svantaggi e consigli per fare la scelta nutrizionale migliore."
+image: "/images/blog/patee-vs-croquettes-que-choisir.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["patee","crochette","comparativo","nutrizione","gatto"]

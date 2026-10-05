@@ -1,6 +1,7 @@
 ---
 title: "Comment choisir un arbre à chat adapté à votre félin"
 description: "Guide complet pour choisir le meilleur arbre à chat : hauteur, matériaux, plateformes, griffoirs. Découvrez comment satisfaire le besoin naturel de grimper de votre chat."
+image: "/images/blog/comment-choisir-un-arbre-a-chat.png"
 date: "2025-09-30"
 author: "GatoPouch"
 tags: ["accessoires", "arbre-a-chat", "griffoir", "equipement", "chat"]

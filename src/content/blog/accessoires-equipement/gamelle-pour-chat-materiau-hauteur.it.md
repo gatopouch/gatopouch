@@ -1,6 +1,7 @@
 ---
 title: "Ciotola per gatto: materiale, altezza e posizione"
 description: "Scegliere la giusta ciotola per il gatto: ceramica vs plastica vs acciaio, altezza ideale, posizione. Guida completa per un'alimentazione sana."
+image: "/images/blog/gamelle-pour-chat-materiau-hauteur.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["ciotola","materiale","altezza","accessorio","gatto"]

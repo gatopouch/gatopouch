@@ -1,6 +1,7 @@
 ---
 title: "Comedero para gato: material, altura y ubicación"
 description: "Cómo elegir el comedero adecuado para tu gato: cerámica vs. plástico vs. acero inoxidable, altura ideal, ubicación. Guía completa para una alimentación saludable."
+image: "/images/blog/gamelle-pour-chat-materiau-hauteur.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["comedero","material","altura","accesorio","gato"]

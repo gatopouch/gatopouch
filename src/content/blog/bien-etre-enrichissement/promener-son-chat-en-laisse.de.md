@@ -1,6 +1,7 @@
 ---
 title: "Den Katze an die Leine führen: Ist das möglich und empfehlenswert?"
 description: "Den Katze an die Leine führen: Ja, das ist möglich! Erfahren Sie, wie Sie Ihre Katze an das Geschirr gewöhnen, die richtige Ausrüstung auswählen und welche Vorsichtsmaßnahmen zu beachten sind."
+image: "/images/blog/promener-son-chat-en-laisse.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["spaziergang","leine","geschirr","draussen","katze"]

@@ -1,6 +1,7 @@
 ---
 title: "Körpersprache der Katze: Schwanz und Ohren entschlüsseln"
 description: "Erfahren Sie, wie Sie die Körpersprache Ihrer Katze anhand ihres Schwanzes und ihrer Ohren interpretieren können, um ihre Emotionen und Bedürfnisse besser zu verstehen."
+image: "/images/blog/langage-corporel-du-chat-decoder.png"
 date: "2025-09-21"
 author: "GatoPouch"
 tags: ["sprache","körper","verhalten","kommunikation","katze"]

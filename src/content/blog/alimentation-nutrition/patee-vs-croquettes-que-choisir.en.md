@@ -1,6 +1,7 @@
 ---
 title: "Wet Food vs Dry Food: What to Choose for Your Cat?"
 description: "Discover the differences between wet and dry cat food, advantages, disadvantages, and tips for making the best nutritional choice."
+image: "/images/blog/patee-vs-croquettes-que-choisir.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["wet-food","dry-food","comparison","nutrition","cat"]

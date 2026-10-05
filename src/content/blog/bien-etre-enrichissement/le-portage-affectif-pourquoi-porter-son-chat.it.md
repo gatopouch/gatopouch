@@ -1,6 +1,7 @@
 ---
 title: "Il portaggio affettivo: perché tenere il gatto addosso"
 description: "Il portaggio affettivo rafforza il legame con il tuo gatto e riduce il suo stress. Scopri i benefici del contatto fisico e come portare il tuo gatto in tutta sicurezza."
+image: "/images/blog/le-portage-affectif-pourquoi-porter-son-chat.png"
 date: "2025-10-01"
 author: "GatoPouch"
 tags: ["benessere", "portaggio", "legame", "stress", "gatto"]

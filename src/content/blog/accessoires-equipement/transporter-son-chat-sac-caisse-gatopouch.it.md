@@ -1,6 +1,7 @@
 ---
 title: "Trasportare il gatto: zaino, trasportino o GatoPouch ?"
 description: "Scoprite le migliori opzioni per trasportare il vostro gatto in sicurezza e comfort. Confronto tra zaini, trasportini e GatoPouch."
+image: "/images/blog/transporter-son-chat-sac-caisse-gatopouch.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["trasporto","zaino","trasportino","gatopouch","gatto"]

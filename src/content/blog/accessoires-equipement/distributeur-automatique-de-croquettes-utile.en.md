@@ -1,6 +1,7 @@
 ---
 title: "The Automatic Cat Feeder: Is It Useful?"
 description: "Discover if an automatic cat feeder is right for your cat and how to use it correctly for their well-being."
+image: "/images/blog/distributeur-automatique-de-croquettes-utile.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["feeder","automatic","dry-food","equipment","cat"]

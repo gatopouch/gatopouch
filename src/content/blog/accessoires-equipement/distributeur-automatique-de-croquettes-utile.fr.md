@@ -1,6 +1,7 @@
 ---
 title: "Le distributeur automatique de croquettes : est-ce utile ?"
 description: "Découvrez si un distributeur automatique de croquettes est adapté à votre chat et comment l'utiliser correctement pour son bien-être."
+image: "/images/blog/distributeur-automatique-de-croquettes-utile.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["distributeur","automatique","croquettes","equipement","chat"]

@@ -1,6 +1,7 @@
 ---
 title: "10 giocattoli fai da te per stimolare il tuo gatto (fatti in casa)"
 description: "Scopri 10 idee di giocattoli fai da te facili da realizzare per stimolare il tuo gatto e arricchire la sua giornata."
+image: "/images/blog/10-jouets-diy-pour-stimuler-votre-chat.png"
 date: "2025-09-22"
 author: "GatoPouch"
 tags: ["giocattoli","fai-da-te","arricchimento","stimolazione","gatto"]

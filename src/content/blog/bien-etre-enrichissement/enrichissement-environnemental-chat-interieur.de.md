@@ -1,6 +1,7 @@
 ---
 title: "Umweltanreicherung für Hauskatzen"
 description: "Entdecken Sie, wie Sie das Wohlbefinden Ihrer Hauskatze mit Umweltanreicherungstechniken verbessern können, die an ihre natürlichen Bedürfnisse angepasst sind."
+image: "/images/blog/enrichissement-environnemental-chat-interieur.png"
 date: "2025-09-29"
 author: "GatoPouch"
 tags: ["anreicherung","innenraum","umwelt","wohlbefinden","katze"]

@@ -1,6 +1,7 @@
 ---
 title: "Crear un espacio acogedor para tu gato: amueblamiento"
 description: "Cómo amueblar un espacio acogedor para tu gato: escondites, altura, zonas de descanso, acceso a la ventana. Guía de amueblamiento interior felino."
+image: "/images/blog/creer-un-espace-cozy-pour-son-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["amenagement","cozy","interieur","bien-etre","chat"]

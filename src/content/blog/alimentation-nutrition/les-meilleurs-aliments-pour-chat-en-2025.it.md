@@ -1,6 +1,7 @@
 ---
 title: "I migliori cibi per gatti nel 2025 : la nostra guida completa"
 description: "Scopri la nostra guida completa sui migliori cibi per gatti nel 2025, con consigli di esperti su crocchette, paté e opzioni senza cereali."
+image: "/images/blog/les-meilleurs-aliments-pour-chat-en-2025.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["alimentazione","crocchette","qualita","guida","2025"]

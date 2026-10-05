@@ -1,6 +1,7 @@
 ---
 title: "Paté vs croquetas: ¿Qué elegir para tu gato?"
 description: "Descubre las diferencias entre paté y croquetas para gato, ventajas, desventajas y consejos para hacer la mejor elección nutricional."
+image: "/images/blog/patee-vs-croquettes-que-choisir.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["pate","croquetas","comparativo","nutricion","gato"]

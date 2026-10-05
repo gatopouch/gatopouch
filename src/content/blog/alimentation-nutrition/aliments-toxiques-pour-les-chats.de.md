@@ -1,6 +1,7 @@
 ---
 title: "Giftige Lebensmittel für Katzen: vollständige Liste"
 description: "Entdecken Sie alle gefährlichen Lebensmittel für Katzen: Schokolade, Zwiebeln, Knoblauch, Rosinen... Die vollständige Liste, die Sie kennen müssen."
+image: "/images/blog/aliments-toxiques-pour-les-chats.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["giftig","ernährung","gefahr","sicherheit","katze"]

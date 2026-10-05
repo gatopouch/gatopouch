@@ -1,6 +1,7 @@
 ---
 title: "10 DIY-Spielzeuge zur Anregung Ihrer Katze (selbstgemacht)"
 description: "Entdecken Sie 10 einfache DIY-Ideen für Spielzeuge, um Ihre Katze zu stimulieren und ihren Alltag zu bereichern."
+image: "/images/blog/10-jouets-diy-pour-stimuler-votre-chat.png"
 date: "2025-09-22"
 author: "GatoPouch"
 tags: ["spielzeuge","diy","anreicherung","stimulation","katze"]

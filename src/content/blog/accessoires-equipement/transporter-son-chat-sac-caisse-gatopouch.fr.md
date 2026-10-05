@@ -1,6 +1,7 @@
 ---
 title: "Transporter son chat : sac, caisse ou GatoPouch ?"
 description: "Découvrez les meilleures options pour transporter votre chat en toute sécurité et confort. Comparaison entre sacs, caisses et GatoPouch."
+image: "/images/blog/transporter-son-chat-sac-caisse-gatopouch.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["transport","sac","caisse","gatopouch","chat"]

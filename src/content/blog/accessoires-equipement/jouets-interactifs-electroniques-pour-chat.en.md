@@ -1,6 +1,7 @@
 ---
 title: "Top 5 Interactive Electronic Cat Toys"
 description: "Top 5 interactive electronic cat toys: treat dispensers, lasers, robotic mice. A selection tested and recommended by our experts."
+image: "/images/blog/jouets-interactifs-electroniques-pour-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["toys","electronic","interactive","top-5","cat"]

@@ -1,6 +1,7 @@
 ---
 title: "L'enrichissement environnemental pour chat d'intérieur"
 description: "Découvrez comment améliorer le bien-être de votre chat d'intérieur avec des techniques d'enrichissement environnemental adaptées à ses besoins naturels."
+image: "/images/blog/enrichissement-environnemental-chat-interieur.png"
 date: "2025-09-29"
 author: "GatoPouch"
 tags: ["enrichissement","interieur","environnement","bien-etre","chat"]

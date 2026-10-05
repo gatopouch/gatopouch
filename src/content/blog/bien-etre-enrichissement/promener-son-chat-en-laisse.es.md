@@ -1,6 +1,7 @@
 ---
 title: "Sacar a tu gato con correa: ¿es posible y recomendado?"
 description: "Sacar a tu gato con correa: ¡sí es posible! Descubre cómo acostumbrar a tu gato al arnés, elegir el buen equipo y las precauciones."
+image: "/images/blog/promener-son-chat-en-laisse.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["paseo","correa","arnés","exterior","gato"]

@@ -1,6 +1,7 @@
 ---
 title: "Portare il gatto a passeggio con guinzaglio: è possibile e raccomandato?"
 description: "Portare il gatto a passeggio con guinzaglio: sì, è possibile! Scopri come abituare il tuo gasto al guinzaglio, scegliere l'attrezzatura giusta e le precauzioni da prendere."
+image: "/images/blog/promener-son-chat-en-laisse.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["passeggio","guinzaglio","harnais","esterno","gatto"]

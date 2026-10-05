@@ -2,6 +2,7 @@
 ---
 title: "Créer un espace cozy pour son chat : aménagement"
 description: "Comment aménager un espace cozy pour votre chat : cachettes, hauteur, zones de repos, accès fenêtre. Guide d'aménagement intérieur félin."
+image: "/images/blog/creer-un-espace-cozy-pour-son-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["amenagement","cozy","interieur","bien-etre","chat"]

@@ -1,6 +1,7 @@
 ---
 title: "Walking Your Cat on a Leash: Is It Possible and Recommended?"
 description: "Walking your cat on a leash: yes, it's possible! Discover how to get your cat used to a harness, choose the right equipment, and the necessary precautions."
+image: "/images/blog/promener-son-chat-en-laisse.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["walk","leash","harness","outdoors","cat"]

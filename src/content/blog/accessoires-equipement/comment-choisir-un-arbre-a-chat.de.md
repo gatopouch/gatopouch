@@ -1,6 +1,7 @@
 ---
 title: "Wie man den richtigen Katzenbaum für Ihre Katze auswählt"
 description: "Vollständiger Leitfaden zur Auswahl des besten Katzenbaums: Höhe, Materialien, Plattformen, Kratzbäume. Erfahren Sie, wie Sie die natürliche Kletterbedürfnisse Ihrer Katze erfüllen."
+image: "/images/blog/comment-choisir-un-arbre-a-chat.png"
 date: "2025-09-30"
 author: "GatoPouch"
 tags: ["zubehoer", "katzenbaum", "kratzbaum", "ausstattung", "katze"]

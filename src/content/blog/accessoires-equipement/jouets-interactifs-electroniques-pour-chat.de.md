@@ -1,6 +1,7 @@
 ---
 title: "Interaktive elektronische Katzenspielzeuge: Top 5"
 description: "Top 5 interaktiver elektronischer Katzenspielzeuge: Futterautomaten, Laser, Roboter-Mäuse. Auswahl getestet und empfohlen von unseren Experten."
+image: "/images/blog/jouets-interactifs-electroniques-pour-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["spielzeug","elektronik","interaktiv","top-5","katze"]

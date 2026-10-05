@@ -1,6 +1,7 @@
 ---
 title: "Alimentos tóxicos para los gatos: lista completa"
 description: "Descubre todos los alimentos peligrosos para los gatos: chocolate, cebolla, ajo, uvas... La lista completa que debes conocer."
+image: "/images/blog/aliments-toxiques-pour-les-chats.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["toxico","alimentacion","peligro","seguridad","gato"]

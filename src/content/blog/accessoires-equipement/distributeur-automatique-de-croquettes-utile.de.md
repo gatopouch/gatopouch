@@ -1,6 +1,7 @@
 ---
 title: "Der Futterautomat: Nützlich oder nicht?"
 description: "Finden Sie heraus, ob ein Futterautomat für Ihre Katze geeignet ist und wie Sie ihn richtig verwenden, um ihr Wohlbefinden zu fördern."
+image: "/images/blog/distributeur-automatique-de-croquettes-utile.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["futterautomat","automatisch","futter","ausstattung","katze"]

@@ -1,6 +1,7 @@
 ---
 title: "Das Schnurren der Katze: Warum und seine Vorteile"
 description: "Erfahren Sie die Gründe für das Schnurren der Katze und seine Vorteile für die Gesundheit und das Wohlbefinden Ihres Stubentigers."
+image: "/images/blog/ronronnement-du-chat-pourquoi-et-bienfaits.png"
 date: "2025-09-20"
 author: "GatoPouch"
 tags: ["schnurren","vorteile","gesundheit","stress","katze"]

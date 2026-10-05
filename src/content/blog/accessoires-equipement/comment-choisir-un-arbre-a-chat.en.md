@@ -1,6 +1,7 @@
 ---
 title: "How to Choose the Right Cat Tree for Your Feline"
 description: "Complete guide to choosing the best cat tree: height, materials, platforms, scratching posts. Discover how to satisfy your cat's natural need to climb."
+image: "/images/blog/comment-choisir-un-arbre-a-chat.png"
 date: "2025-09-30"
 author: "GatoPouch"
 tags: ["accessories", "cat-tree", "scratching-post", "equipment", "cat"]

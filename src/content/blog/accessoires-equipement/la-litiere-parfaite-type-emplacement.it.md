@@ -1,6 +1,7 @@
 ---
 title: "La lettiera perfetta: tipologia, posizione e manutenzione"
 description: "Scopri come scegliere la migliore lettiera per il tuo gatto, ottimizzarne la posizione e mantenere un'igiene impeccabile."
+image: "/images/blog/la-litiere-parfaite-type-emplacement.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["lettiera","igiene","accessorio","gatto","manutenzione"]

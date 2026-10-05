@@ -1,6 +1,7 @@
 ---
 title: "Die besten Katzennahrung im Jahr 2025: Unser umfassender Leitfaden"
 description: "Entdecken Sie unseren umfassenden Leitfaden über die besten Katzennahrung im Jahr 2025, mit Expertentipps zu Trockenfutter, Nassfutter und getreidefreien Optionen."
+image: "/images/blog/les-meilleurs-aliments-pour-chat-en-2025.png"
 date: "2025-09-23"
 author: "GatoPouch"
 tags: ["ernaehrung","trockenfutter","qualitaet","leitfaden","2025"]

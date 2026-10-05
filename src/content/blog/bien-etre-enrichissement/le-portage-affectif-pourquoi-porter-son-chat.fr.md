@@ -1,6 +1,7 @@
 ---
 title: "Le portage affectif : pourquoi porter son chat contre soi"
 description: "Le portage affectif renforce le lien avec votre chat et réduit son stress. Découvrez les bienfaits du contact physique et comment porter son chat en toute sécurité."
+image: "/images/blog/le-portage-affectif-pourquoi-porter-son-chat.png"
 date: "2025-10-01"
 author: "GatoPouch"
 tags: ["bien-etre", "portage", "lien", "stress", "chat"]

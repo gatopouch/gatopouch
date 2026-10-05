@@ -1,6 +1,7 @@
 ---
 title: "Musiktherapie für Katzen: Ihren Stubentiger beruhigen"
 description: "Kann Musik Ihre Katze beruhigen? Entdecken Sie beruhigende Frequenzen, wissenschaftlich getestete Musikstile und unsere empfohlenen Playlists."
+image: "/images/blog/musicothérapie-pour-chat-apaiser.png"
 date: "2025-09-11"
 author: "GatoPouch"
 tags: ["musik","beruhigung","stress","wohlbefinden","katze"]

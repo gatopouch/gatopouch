@@ -1,6 +1,7 @@
 ---
 title: "Giochi interattivi elettronici per gatti: top 5"
 description: "Top 5 dei giochi interattivi elettronici per gatti: distributori, laser, topi robotizzati. Selezione testata e raccomandata dai nostri esperti."
+image: "/images/blog/jouets-interactifs-electroniques-pour-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["giochi","elettronico","interattivo","top-5","gatto"]

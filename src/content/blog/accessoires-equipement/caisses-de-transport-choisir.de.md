@@ -1,6 +1,7 @@
 ---
 title: "Transportboxen: Die richtige für Ihre Katze wählen"
 description: "Wie man die ideale Transportbox für Ihre Katze auswählt: Größe, Material, Sicherheit, Belüftung. Vergleich der besten Modelle auf dem Markt."
+image: "/images/blog/caisses-de-transport-choisir.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["transport","box","reise","zubehör","katze"]

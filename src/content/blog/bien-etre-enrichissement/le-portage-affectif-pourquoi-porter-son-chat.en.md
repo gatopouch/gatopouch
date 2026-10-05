@@ -1,6 +1,7 @@
 ---
 title: "Carrying Your Cat Close: Why Affective Carrying Strengthens Your Bond"
 description: "Affective carrying strengthens the bond with your cat and reduces its stress. Discover the benefits of physical contact and how to carry your cat safely."
+image: "/images/blog/le-portage-affectif-pourquoi-porter-son-chat.png"
 date: "2025-10-01"
 author: "GatoPouch"
 tags: ["well-being", "carrying", "bond", "stress", "cat"]

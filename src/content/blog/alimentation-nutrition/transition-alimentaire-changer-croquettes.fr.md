@@ -1,6 +1,7 @@
 ---
 title: "Transition alimentaire : changer de croquettes sans risque"
 description: "Comment changer les croquettes de votre chat sans troubles digestifs ? La méthode de transition progressive sur 7-10 jours expliquée."
+image: "/images/blog/transition-alimentaire-changer-croquettes.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["transition","croquettes","digestion","alimentation","chat"]

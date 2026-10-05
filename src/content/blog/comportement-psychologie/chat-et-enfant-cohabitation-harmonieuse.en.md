@@ -1,6 +1,7 @@
 ---
 title: "Cat and Child: Creating a Harmonious Cohabitation"
 description: "How to cohabitate with a cat and a child safely: mutual education, rules, supervision. A guide for parents of young children with a cat."
+image: "/images/blog/chat-et-enfant-cohabitation-harmonieuse.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["child","cohabitation","safety","education","cat"]

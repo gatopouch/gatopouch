@@ -1,6 +1,7 @@
 ---
 title: "Dietary Transition: Changing Kibble Safely"
 description: "How to change your cat's kibble without digestive issues? The 7-10 day gradual transition method explained."
+image: "/images/blog/transition-alimentaire-changer-croquettes.png"
 date: "2025-09-15"
 author: "GatoPouch"
 tags: ["transition","kibble","digestion","diet","cat"]

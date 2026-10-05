@@ -1,6 +1,7 @@
 ---
 title: "Seinen Katze transportieren: Tasche, Box oder GatoPouch ?"
 description: "Entdecken Sie die besten Optionen, um Ihre Katze sicher und bequem zu transportieren. Vergleich zwischen Taschen, Boxen und GatoPouch."
+image: "/images/blog/transporter-son-chat-sac-caisse-gatopouch.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["transport","tasche","box","gatopouch","katze"]

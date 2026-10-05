@@ -1,6 +1,7 @@
 ---
 title: "Enriquecimiento ambiental para gatos de interior"
 description: "Descubre cómo mejorar el bienestar de tu gato de interior con técnicas de enriquecimiento ambiental adaptadas a sus necesidades naturales."
+image: "/images/blog/enrichissement-environnemental-chat-interieur.png"
 date: "2025-09-29"
 author: "GatoPouch"
 tags: ["enriquecimiento","interior","ambiente","bienestar","gato"]

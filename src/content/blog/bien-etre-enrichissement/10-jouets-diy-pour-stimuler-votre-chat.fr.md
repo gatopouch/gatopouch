@@ -1,6 +1,7 @@
 ---
 title: "10 jouets DIY pour stimuler votre chat (faits maison)"
 description: "Découvrez 10 idées de jouets DIY faciles à réaliser pour stimuler votre chat et enrichir son quotidien."
+image: "/images/blog/10-jouets-diy-pour-stimuler-votre-chat.png"
 date: "2025-09-22"
 author: "GatoPouch"
 tags: ["jouets","diy","enrichissement","stimulation","chat"]

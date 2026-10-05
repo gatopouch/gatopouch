@@ -1,6 +1,7 @@
 ---
 title: "The Purr of the Cat: Why and Its Benefits"
 description: "Discover the reasons for cat purring and its benefits for your feline's health and well-being."
+image: "/images/blog/ronronnement-du-chat-pourquoi-et-bienfaits.png"
 date: "2025-09-20"
 author: "GatoPouch"
 tags: ["purring","benefits","health","stress","cat"]

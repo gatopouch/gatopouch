@@ -1,6 +1,7 @@
 ---
 title: "Combien de fois nourrir son chat par jour ? Le guide complet"
 description: "Découvrez combien de fois nourrir votre chat selon son âge, sa race et son poids. Portions, fréquences, et conseils nutritionnels essentiels pour la santé de votre félin."
+image: "/images/blog/combien-de-fois-nourrir-son-chat-par-jour.png"
 date: "2025-10-04"
 author: "GatoPouch"
 tags: ["alimentation", "nutrition", "chat", "croquettes", "frequence"]

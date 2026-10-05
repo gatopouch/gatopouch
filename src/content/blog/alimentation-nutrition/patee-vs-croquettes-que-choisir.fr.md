@@ -1,6 +1,7 @@
 ---
 title: "Pâtée vs croquettes : que choisir pour son chat ?"
 description: "Découvrez les différences entre pâtée et croquettes pour chat, avantages, inconvénients et conseils pour faire le meilleur choix nutritionnel."
+image: "/images/blog/patee-vs-croquettes-que-choisir.png"
 date: "2025-09-24"
 author: "GatoPouch"
 tags: ["patee","croquettes","comparatif","nutrition","chat"]

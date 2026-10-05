@@ -1,6 +1,7 @@
 ---
 title: "Katze trinkt nicht genug: Effektive Lösungen und Tipps"
 description: "Erfahren Sie, warum Ihre Katze nicht genug trinkt und finden Sie wirksame Lösungen, um ihre Hydration zu fördern und ihre Gesundheit zu erhalten."
+image: "/images/blog/chat-qui-ne-boit-pas-assez-solutions.png"
 date: "2025-09-28"
 author: "GatoPouch"
 tags: ["hydratation","wasser","gesundheit","brunnen","katze"]

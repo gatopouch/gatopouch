@@ -1,6 +1,7 @@
 ---
 title: "Gatto e bambino: creare una convivenza armoniosa"
 description: "Come far convivere gatto e bambino in sicurezza: educazione reciproca, regole, supervisione. Guida per genitori di bambini piccoli con un gatto."
+image: "/images/blog/chat-et-enfant-cohabitation-harmonieuse.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["bambino","convivenza","sicurezza","educazione","gatto"]

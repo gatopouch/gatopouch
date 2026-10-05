@@ -1,6 +1,7 @@
 ---
 title: "Le ronronnement du chat : pourquoi et ses bienfaits"
 description: "Découvrez les raisons du ronronnement du chat et ses bienfaits sur la santé et le bien-être de votre félin."
+image: "/images/blog/ronronnement-du-chat-pourquoi-et-bienfaits.png"
 date: "2025-09-20"
 author: "GatoPouch"
 tags: ["ronronnement","bienfaits","sante","stress","chat"]

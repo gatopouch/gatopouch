@@ -1,6 +1,7 @@
 ---
 title: "Emotionales Tragen: Warum Sie Ihren Katzen auf den Arm nehmen sollten"
 description: "Emotionales Tragen stärkt die Bindung zu Ihrer Katze und reduziert ihren Stress. Entdecken Sie die Vorteile des körperlichen Kontakts und wie Sie Ihre Katze sicher tragen."
+image: "/images/blog/le-portage-affectif-pourquoi-porter-son-chat.png"
 date: "2025-10-01"
 author: "GatoPouch"
 tags: ["tierwohl", "tragen", "bindung", "stress", "katze"]

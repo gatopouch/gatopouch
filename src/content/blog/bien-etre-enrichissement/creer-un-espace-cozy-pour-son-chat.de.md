@@ -1,6 +1,7 @@
 ---
 title: "Einen gemütlichen Platz für die Katze schaffen: Einrichtung"
 description: "Wie man einen gemütlichen Platz für seine Katze einrichtet: Verstecke, Höhe, Ruheplätze, Fensterzugang. Leitfaden für die innere Einrichtung von Katzen."
+image: "/images/blog/creer-un-espace-cozy-pour-son-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["einrichtung","gemuetlich","innenraum","wohlfuehlen","katze"]

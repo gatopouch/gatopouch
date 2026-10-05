@@ -1,6 +1,7 @@
 ---
 title: "Katze und Kind: eine harmonische Zusammenleben schaffen"
 description: "Wie Katze und Kind sicher zusammenleben: gegenseitige Erziehung, Regeln, Aufsicht. Ein Leitfaden für Eltern von Kleinkindern mit einer Katze."
+image: "/images/blog/chat-et-enfant-cohabitation-harmonieuse.png"
 date: "2025-09-17"
 author: "GatoPouch"
 tags: ["kind","zusammenleben","sicherheit","erziehung","katze"]

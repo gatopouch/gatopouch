@@ -1,6 +1,7 @@
 ---
 title: "Les aliments toxiques pour les chats : liste complète"
 description: "Découvrez tous les aliments dangereux pour les chats : chocolat, oignon, ail, raisin... La liste complète à connaître absolument."
+image: "/images/blog/aliments-toxiques-pour-les-chats.png"
 date: "2025-09-18"
 author: "GatoPouch"
 tags: ["toxique","alimentation","danger","securite","chat"]

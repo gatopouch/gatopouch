@@ -1,6 +1,7 @@
 ---
 title: "Futterstelle für Katzen: Material, Höhe und Standort"
 description: "Die richtige Futterstelle für die Katze wählen: Keramik vs. Kunststoff vs. Edelstahl, ideale Höhe, Standort. Vollständiger Leitfaden für eine gesunde Ernährung."
+image: "/images/blog/gamelle-pour-chat-materiau-hauteur.png"
 date: "2025-09-10"
 author: "GatoPouch"
 tags: ["futterstelle","material","höhe","zubehör","katze"]

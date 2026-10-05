@@ -1,6 +1,7 @@
 ---
 title: "Juguetes electrónicos interactivos para gatos: top 5"
 description: "Top 5 de juguetes electrónicos interactivos para gatos: dispensadores, láseres, ratones robóticos. Selección probada y recomendada por nuestros expertos."
+image: "/images/blog/jouets-interactifs-electroniques-pour-chat.png"
 date: "2025-09-13"
 author: "GatoPouch"
 tags: ["juguetes","electronico","interactivo","top-5","gato"]

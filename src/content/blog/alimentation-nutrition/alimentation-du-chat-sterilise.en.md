@@ -1,6 +1,7 @@
 ---
 title: "Feeding a Sterilized Cat: Avoiding Weight Gain"
 description: "How to feed a sterilized cat without it gaining weight: reduced calorie needs, appropriate portions, and practical advice."
+image: "/images/blog/alimentation-du-chat-sterilise.png"
 date: "2025-09-16"
 author: "GatoPouch"
 tags: ["sterilisation","weight","feeding","obesity","cat"]
